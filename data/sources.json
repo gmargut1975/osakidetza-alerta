@@ -1,0 +1,148 @@
+{
+  "sources": [
+    {
+      "key": "profesionales",
+      "url": "https://www.osakidetza.euskadi.eus/portada-profesionales/",
+      "label": "Portada Profesionales",
+      "process": "Vigilancia profesionales"
+    },
+    {
+      "key": "empleoPublico",
+      "url": "https://www.osakidetza.euskadi.eus/oferta-de-empleo-publico/webosk00-procon/es/",
+      "label": "Empleo Público",
+      "process": "Empleo público"
+    },
+    {
+      "key": "ope2325",
+      "url": "https://www.osakidetza.euskadi.eus/ope-2023-2024-2025/webosk00-procon/es/",
+      "label": "OPE 2023-2024-2025",
+      "process": "OPE 2023-2024-2025"
+    },
+    {
+      "key": "ope2022",
+      "url": "https://www.osakidetza.euskadi.eus/oferta-publica-de-empleo-ope-2020-21-22-estabilizacion/webosk00-procon/es/",
+      "label": "OPE 2020-2021-2022 / estabilización",
+      "process": "OPE 2020-2021-2022"
+    },
+    {
+      "key": "opeEstabilizacion",
+      "url": "https://www.osakidetza.euskadi.eus/ope-estabilizacion/webosk00-procon/es/",
+      "label": "OPE Estabilización",
+      "process": "OPE Estabilización"
+    },
+    {
+      "key": "temporal",
+      "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+      "label": "Contratación temporal",
+      "process": "Listas de contratación temporal"
+    },
+    {
+      "key": "listasTemporal",
+      "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+      "label": "Listas de contratación temporal",
+      "process": "Listas de contratación temporal"
+    },
+    {
+      "key": "comisionesGeneral",
+      "url": "https://www.osakidetza.euskadi.eus/profesionales-comisiones-servicios/webosk00-procon/es/",
+      "label": "Comisiones de servicios",
+      "process": "Comisiones de servicios"
+    },
+    {
+      "key": "comisiones",
+      "url": "https://www.osakidetza.euskadi.eus/comisiones-servicios-2026/webosk00-procon/es/",
+      "label": "Comisiones de servicios 2026",
+      "process": "Comisiones de servicios"
+    },
+    {
+      "key": "comisiones2025",
+      "url": "https://www.osakidetza.euskadi.eus/comisiones-servicios-2025/webosk00-procon/es/",
+      "label": "Comisiones de servicios 2025",
+      "process": "Comisiones de servicios"
+    },
+    {
+      "key": "comisiones2024",
+      "url": "https://www.osakidetza.euskadi.eus/comisiones-servicios-2024/webosk00-procon/es/",
+      "label": "Comisiones de servicios 2024",
+      "process": "Comisiones de servicios"
+    },
+    {
+      "key": "jefaturas2026",
+      "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/",
+      "label": "Convocatorias jefaturas 2026",
+      "process": "Jefaturas y méritos"
+    },
+    {
+      "key": "jefaturas2025",
+      "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2025/webosk00-procon/es/",
+      "label": "Convocatorias jefaturas 2025",
+      "process": "Jefaturas y méritos"
+    },
+    {
+      "key": "convocatoriaPuestos",
+      "url": "https://www.osakidetza.euskadi.eus/convocatoria-de-puestos/webosk00-oskcon/es/",
+      "label": "Convocatoria de puestos",
+      "process": "Convocatoria de puestos"
+    },
+    {
+      "key": "desarrollo",
+      "url": "https://www.osakidetza.euskadi.eus/desarrollo-profesional-convocatoria-ordinaria-2025-reapertura-2022-2023-2024/webosk00-procon/es/",
+      "label": "Desarrollo profesional",
+      "process": "Desarrollo profesional"
+    },
+    {
+      "key": "traslados",
+      "url": "https://www.osakidetza.euskadi.eus/el-concurso-de-traslados-abierto-y-permanente/webosk00-procon/es/",
+      "label": "Concurso de traslados abierto y permanente",
+      "process": "Traslados"
+    },
+    {
+      "key": "trasladosBopvMayo2026",
+      "url": "https://www.euskadi.eus/web01-bopv/es/p43aBOPVWebWar/VerParalelo.do?cs2026000123=",
+      "label": "BOPV traslados ciclo mayo 2026",
+      "process": "Traslados"
+    },
+    {
+      "key": "trasladosBopvMayo2026Julio14",
+      "url": "https://www.euskadi.eus/web01-bopv/es/p43aBOPVWebWar/VerParalelo.do?cs2026000132=",
+      "label": "BOPV traslados ciclo mayo 2026 - 14 julio",
+      "process": "Traslados"
+    },
+    {
+      "key": "trasladosBopvMayo2026Enfermeria",
+      "url": "https://www.euskadi.eus/web01-bopv/es/p43aBOPVWebWar/VerParalelo.do?cd2026003183=",
+      "label": "BOPV traslados ciclo mayo 2026 - Enfermero/a",
+      "process": "Traslados"
+    },
+    {
+      "key": "trasladosBopvMayo2026Correcciones",
+      "url": "https://www.euskadi.eus/web01-bopv/es/p43aBOPVWebWar/VerParalelo.do?cs2026000126=",
+      "label": "BOPV traslados ciclo mayo 2026 - modificaciones",
+      "process": "Traslados"
+    },
+    {
+      "key": "trasladosBopvMayo2026CorreccionJulio31",
+      "url": "https://www.euskadi.eus/bopv2/datos/2026/07/2603426a.shtml",
+      "label": "BOPV traslados ciclo mayo 2026 - corrección 31 julio",
+      "process": "Traslados"
+    },
+    {
+      "key": "trasladosBopvMayo2026Agosto20",
+      "url": "https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2026/08/s26_0158.shtml",
+      "label": "BOPV traslados ciclo mayo 2026 - 20 de agosto (boletín nº158)",
+      "process": "Traslados"
+    },
+    {
+      "key": "noticiasProfesionales",
+      "url": "https://www.osakidetza.euskadi.eus/noticias-para-profesionales/",
+      "label": "Noticias para profesionales",
+      "process": "Noticias profesionales"
+    },
+    {
+      "key": "bopvBusquedaOsakidetza",
+      "url": "https://www.euskadi.eus/web01-bopv/es/p43aBOPVWebWar/buscarAvanzada.do?idioma=es&tipoBusqueda=2",
+      "label": "BOPV - Consulta avanzada (buscar Osakidetza en todo el boletín)",
+      "process": "Vigilancia profesionales"
+    }
+  ]
+}
