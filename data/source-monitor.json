@@ -1,0 +1,269 @@
+{
+  "checkedAt": "2026-08-21T21:21:05.607Z",
+  "sources": [
+    {
+      "key": "profesionales",
+      "url": "https://www.osakidetza.euskadi.eus/portada-profesionales/",
+      "label": "Portada Profesionales",
+      "process": "Vigilancia profesionales",
+      "officialItems": [],
+      "ok": true,
+      "status": 200,
+      "hash": "c82fde3ccb60756688987ee1e438f4d29f963c77d3b85a3df19cc21ec76558da",
+      "error": ""
+    },
+    {
+      "key": "empleoPublico",
+      "url": "https://www.osakidetza.euskadi.eus/oferta-de-empleo-publico/webosk00-procon/es/",
+      "label": "Empleo Público",
+      "process": "Empleo público",
+      "officialItems": [],
+      "ok": true,
+      "status": 200,
+      "hash": "30067e38a71a2c175c248361652454b261dc590a7b36b68542c1b7ccc3f692dd",
+      "error": ""
+    },
+    {
+      "key": "ope2325",
+      "url": "https://www.osakidetza.euskadi.eus/ope-2023-2024-2025/webosk00-procon/es/",
+      "label": "OPE 2023-2024-2025",
+      "process": "OPE 2023-2024-2025",
+      "officialItems": [],
+      "ok": true,
+      "status": 200,
+      "hash": "2c7e6c40454a7159d16221c2dc6d9815560fd65e3c072b17172523cd16288c20",
+      "error": ""
+    },
+    {
+      "key": "ope2022",
+      "url": "https://www.osakidetza.euskadi.eus/oferta-publica-de-empleo-ope-2020-21-22-estabilizacion/webosk00-procon/es/",
+      "label": "OPE 2020-2021-2022 / estabilización",
+      "process": "OPE 2020-2021-2022",
+      "officialItems": [],
+      "ok": true,
+      "status": 200,
+      "hash": "30189a1ca8101e0a405224a198d5c15054961d06f666b314ad1a2ca81a0c144f",
+      "error": ""
+    },
+    {
+      "key": "opeEstabilizacion",
+      "url": "https://www.osakidetza.euskadi.eus/ope-estabilizacion/webosk00-procon/es/",
+      "label": "OPE Estabilización",
+      "process": "OPE Estabilización",
+      "officialItems": [],
+      "ok": true,
+      "status": 200,
+      "hash": "c6b17f8048edebe53900e7dd443d9c085b58a034fafe0cfdb64a704d1a4bc3a1",
+      "error": ""
+    },
+    {
+      "key": "temporal",
+      "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+      "label": "Contratación temporal",
+      "process": "Listas de contratación temporal",
+      "officialItems": [],
+      "ok": true,
+      "status": 200,
+      "hash": "9f68ffce7134ee2c240ca2875eeeb742cc1b23fc2d56bf2ddd6c267043728c85",
+      "error": ""
+    },
+    {
+      "key": "listasTemporal",
+      "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+      "label": "Listas de contratación temporal",
+      "process": "Listas de contratación temporal",
+      "officialItems": [],
+      "ok": true,
+      "status": 200,
+      "hash": "9f68ffce7134ee2c240ca2875eeeb742cc1b23fc2d56bf2ddd6c267043728c85",
+      "error": ""
+    },
+    {
+      "key": "comisionesGeneral",
+      "url": "https://www.osakidetza.euskadi.eus/profesionales-comisiones-servicios/webosk00-procon/es/",
+      "label": "Comisiones de servicios",
+      "process": "Comisiones de servicios",
+      "officialItems": [],
+      "ok": true,
+      "status": 200,
+      "hash": "6b3817926c8684ad968e3d72fd746d9349022795e9a5f8ac475a60645ac20afc",
+      "error": ""
+    },
+    {
+      "key": "comisiones",
+      "url": "https://www.osakidetza.euskadi.eus/comisiones-servicios-2026/webosk00-procon/es/",
+      "label": "Comisiones de servicios 2026",
+      "process": "Comisiones de servicios",
+      "officialItems": [],
+      "ok": true,
+      "status": 200,
+      "hash": "3a6938715a606aadbbf75a716cb83220c7f639ae26e775648e01b9d5a27e3982",
+      "error": ""
+    },
+    {
+      "key": "comisiones2025",
+      "url": "https://www.osakidetza.euskadi.eus/comisiones-servicios-2025/webosk00-procon/es/",
+      "label": "Comisiones de servicios 2025",
+      "process": "Comisiones de servicios",
+      "officialItems": [],
+      "ok": true,
+      "status": 200,
+      "hash": "412acc3a3bedc2f84ca0b27f36c48caad1a9d56862a037ac600677687a463824",
+      "error": ""
+    },
+    {
+      "key": "comisiones2024",
+      "url": "https://www.osakidetza.euskadi.eus/comisiones-servicios-2024/webosk00-procon/es/",
+      "label": "Comisiones de servicios 2024",
+      "process": "Comisiones de servicios",
+      "officialItems": [],
+      "ok": true,
+      "status": 200,
+      "hash": "f11497ab012aee844464128e661db2b198d0c792c4fb7e8ba0b9fa9c0b5e0c84",
+      "error": ""
+    },
+    {
+      "key": "jefaturas2026",
+      "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/",
+      "label": "Convocatorias jefaturas 2026",
+      "process": "Jefaturas y méritos",
+      "officialItems": [],
+      "ok": true,
+      "status": 200,
+      "hash": "67c6a921a96cc4b0697657b4277a757c8c48a2e622cf09aff20d77bdfc3b687b",
+      "error": ""
+    },
+    {
+      "key": "jefaturas2025",
+      "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2025/webosk00-procon/es/",
+      "label": "Convocatorias jefaturas 2025",
+      "process": "Jefaturas y méritos",
+      "officialItems": [],
+      "ok": true,
+      "status": 200,
+      "hash": "36db00786e33a07c682ac089022f5024327b8a1c7826576f394b87e2df91b02b",
+      "error": ""
+    },
+    {
+      "key": "convocatoriaPuestos",
+      "url": "https://www.osakidetza.euskadi.eus/convocatoria-de-puestos/webosk00-oskcon/es/",
+      "label": "Convocatoria de puestos",
+      "process": "Convocatoria de puestos",
+      "officialItems": [],
+      "ok": true,
+      "status": 200,
+      "hash": "9a92625b89140967853505a138e09316cb19499eaaa9a6a694eed03ad22f44bd",
+      "error": ""
+    },
+    {
+      "key": "desarrollo",
+      "url": "https://www.osakidetza.euskadi.eus/desarrollo-profesional-convocatoria-ordinaria-2025-reapertura-2022-2023-2024/webosk00-procon/es/",
+      "label": "Desarrollo profesional",
+      "process": "Desarrollo profesional",
+      "officialItems": [],
+      "ok": true,
+      "status": 200,
+      "hash": "60aaf497757264e766b530a8ec6686c748fe174b6328fd4471cecd3e320c154a",
+      "error": ""
+    },
+    {
+      "key": "traslados",
+      "url": "https://www.osakidetza.euskadi.eus/el-concurso-de-traslados-abierto-y-permanente/webosk00-procon/es/",
+      "label": "Concurso de traslados abierto y permanente",
+      "process": "Traslados",
+      "officialItems": [],
+      "ok": true,
+      "status": 200,
+      "hash": "f184ea8ba8f78f35f0fc5fcb8bad1d62db6949432a2db3f8640af4087d453749",
+      "error": ""
+    },
+    {
+      "key": "trasladosBopvMayo2026",
+      "url": "https://www.euskadi.eus/web01-bopv/es/p43aBOPVWebWar/VerParalelo.do?cs2026000123=",
+      "label": "BOPV traslados ciclo mayo 2026",
+      "process": "Traslados",
+      "officialItems": [],
+      "ok": true,
+      "status": 200,
+      "hash": "7089eed29e0f00e1c2c9f2a681894d53814e3592ca4b61715d2d80a629507dd7",
+      "error": ""
+    },
+    {
+      "key": "trasladosBopvMayo2026Julio14",
+      "url": "https://www.euskadi.eus/web01-bopv/es/p43aBOPVWebWar/VerParalelo.do?cs2026000132=",
+      "label": "BOPV traslados ciclo mayo 2026 - 14 julio",
+      "process": "Traslados",
+      "officialItems": [],
+      "ok": true,
+      "status": 200,
+      "hash": "323dfda4c6e618289715c29029fe27b4ebeaf78ea2a3280517e26edc20c62ca6",
+      "error": ""
+    },
+    {
+      "key": "trasladosBopvMayo2026Enfermeria",
+      "url": "https://www.euskadi.eus/web01-bopv/es/p43aBOPVWebWar/VerParalelo.do?cd2026003183=",
+      "label": "BOPV traslados ciclo mayo 2026 - Enfermero/a",
+      "process": "Traslados",
+      "officialItems": [],
+      "ok": true,
+      "status": 200,
+      "hash": "eb0e54ca1c85259fb5662aa8e8b6f28f3a80418cd789fc5e8cac216842c2fd99",
+      "error": ""
+    },
+    {
+      "key": "trasladosBopvMayo2026Correcciones",
+      "url": "https://www.euskadi.eus/web01-bopv/es/p43aBOPVWebWar/VerParalelo.do?cs2026000126=",
+      "label": "BOPV traslados ciclo mayo 2026 - modificaciones",
+      "process": "Traslados",
+      "officialItems": [],
+      "ok": true,
+      "status": 200,
+      "hash": "a0e330d95b100bf7d023bda4c2e2cf18a28d86f88e8dbe7b9cd30379229a073d",
+      "error": ""
+    },
+    {
+      "key": "trasladosBopvMayo2026CorreccionJulio31",
+      "url": "https://www.euskadi.eus/bopv2/datos/2026/07/2603426a.shtml",
+      "label": "BOPV traslados ciclo mayo 2026 - corrección 31 julio",
+      "process": "Traslados",
+      "officialItems": [],
+      "ok": true,
+      "status": 200,
+      "hash": "6dc8cefb9d70b50e7a4be99bda9311da93a6f9de2ba3fedda01051503962f4a9",
+      "error": ""
+    },
+    {
+      "key": "trasladosBopvMayo2026Agosto20",
+      "url": "https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2026/08/s26_0158.shtml",
+      "label": "BOPV traslados ciclo mayo 2026 - 20 de agosto (boletín nº158)",
+      "process": "Traslados",
+      "officialItems": [],
+      "ok": true,
+      "status": 200,
+      "hash": "31b9211e22230649fde282f391e2825b035abbab876c0a27426e386497fbca01",
+      "error": ""
+    },
+    {
+      "key": "noticiasProfesionales",
+      "url": "https://www.osakidetza.euskadi.eus/noticias-para-profesionales/",
+      "label": "Noticias para profesionales",
+      "process": "Noticias profesionales",
+      "officialItems": [],
+      "ok": true,
+      "status": 200,
+      "hash": "fb99eaaf84e1d365d65dc4a618f74a96efeac913c7d78127813376dd91724d54",
+      "error": ""
+    },
+    {
+      "key": "bopvBusquedaOsakidetza",
+      "url": "https://www.euskadi.eus/web01-bopv/es/p43aBOPVWebWar/buscarAvanzada.do?idioma=es&tipoBusqueda=2",
+      "label": "BOPV - Consulta avanzada (buscar Osakidetza en todo el boletín)",
+      "process": "Vigilancia profesionales",
+      "officialItems": [],
+      "ok": true,
+      "status": 200,
+      "hash": "71e8c240b52bed318f9655b0450a51dc3d826a99dd01a32d50cb1fd50b0e95a4",
+      "error": ""
+    }
+  ]
+}
