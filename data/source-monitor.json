@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-21T22:14:04.113Z",
+  "checkedAt": "2026-08-21T22:47:54.095Z",
   "sources": [
     {
       "key": "profesionales",
@@ -84,10 +84,10 @@
       "label": "Comisiones de servicios",
       "process": "Comisiones de servicios",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "24e29d1c5e5310b8c79576bb4a32eaa2909cbd7b03b7c77e25ae627c903b0056",
-      "error": ""
+      "ok": false,
+      "status": 503,
+      "hash": "",
+      "error": "HTTP 503"
     },
     {
       "key": "comisiones",
@@ -262,7 +262,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "1ac9c27ad7ee8995a61bf5e43d46d7624b62b794b4a0dc6eb4c477b5d92b9f7f",
+      "hash": "166720e09d84dbf6c458ffbfb44d1027cb9242f6e39aa77e17c0ac238b16ce18",
       "error": ""
     }
   ]
