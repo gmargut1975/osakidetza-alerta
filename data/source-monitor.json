@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-23T21:28:46.972Z",
+  "checkedAt": "2026-08-23T21:43:09.979Z",
   "sources": [
     {
       "key": "profesionales",
@@ -18,10 +18,10 @@
       "label": "Empleo Público",
       "process": "Empleo público",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "terminated"
+      "ok": true,
+      "status": 200,
+      "hash": "af88217e4fb309b1d6bddba2844319090da4c0ea0528cd43c24d8734ff35a93a",
+      "error": ""
     },
     {
       "key": "ope2325",
@@ -40,10 +40,10 @@
       "label": "OPE 2020-2021-2022 / estabilización",
       "process": "OPE 2020-2021-2022",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "terminated"
+      "ok": true,
+      "status": 200,
+      "hash": "7fab583b1e19ffe66bd1976ab033f2fdd40bfef9d9c936bd0f50f82e0e36dd2d",
+      "error": ""
     },
     {
       "key": "opeEstabilizacion",
@@ -51,10 +51,10 @@
       "label": "OPE Estabilización",
       "process": "OPE Estabilización",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "fetch failed"
+      "ok": true,
+      "status": 200,
+      "hash": "36df826a8a7cf9a49ba9d5af31743591fe25941e3edbf43ffbbdb31e3a6348be",
+      "error": ""
     },
     {
       "key": "temporal",
@@ -62,10 +62,10 @@
       "label": "Contratación temporal",
       "process": "Listas de contratación temporal",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "fetch failed"
+      "ok": true,
+      "status": 200,
+      "hash": "e3e799bd33b12f9e4e7ae9afe471cc69341e3e2580889ecfce4a28b6df75392b",
+      "error": ""
     },
     {
       "key": "listasTemporal",
@@ -84,10 +84,10 @@
       "label": "Comisiones de servicios",
       "process": "Comisiones de servicios",
       "officialItems": [],
-      "ok": false,
-      "status": 503,
-      "hash": "",
-      "error": "HTTP 503"
+      "ok": true,
+      "status": 200,
+      "hash": "dd77bdbd845bcc5e0ffc0e98ebd6fb8ca2f392643988f124845f8ee030bbee6e",
+      "error": ""
     },
     {
       "key": "comisiones",
@@ -139,10 +139,10 @@
       "label": "Convocatorias jefaturas 2025",
       "process": "Jefaturas y méritos",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "terminated"
+      "ok": true,
+      "status": 200,
+      "hash": "def055e737163967ac931b004f06042b4178821dd624eaa9f956eb3c6e4a3a7e",
+      "error": ""
     },
     {
       "key": "convocatoriaPuestos",
@@ -150,10 +150,10 @@
       "label": "Convocatoria de puestos",
       "process": "Convocatoria de puestos",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "fetch failed"
+      "ok": true,
+      "status": 200,
+      "hash": "21351c310d49296d1a64aa09e68a9408425f4fd0331c3db82fb8343e8cbda7c2",
+      "error": ""
     },
     {
       "key": "desarrollo",
@@ -161,10 +161,10 @@
       "label": "Desarrollo profesional",
       "process": "Desarrollo profesional",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "fetch failed"
+      "ok": true,
+      "status": 200,
+      "hash": "e4cc75c0fa8c09bed0c3fd7b3d2aa56fbd70745cf20efab7af5be2d194b46a0d",
+      "error": ""
     },
     {
       "key": "traslados",
@@ -172,10 +172,10 @@
       "label": "Concurso de traslados abierto y permanente",
       "process": "Traslados",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "fetch failed"
+      "ok": true,
+      "status": 200,
+      "hash": "1d2b0adbbc2a546c31a6c745ce21a3e515b088acbce04cfeae2be475342cde29",
+      "error": ""
     },
     {
       "key": "trasladosBopvMayo2026",
@@ -183,10 +183,10 @@
       "label": "BOPV traslados ciclo mayo 2026",
       "process": "Traslados",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "fetch failed"
+      "ok": true,
+      "status": 200,
+      "hash": "7089eed29e0f00e1c2c9f2a681894d53814e3592ca4b61715d2d80a629507dd7",
+      "error": ""
     },
     {
       "key": "trasladosBopvMayo2026Julio14",
@@ -194,10 +194,10 @@
       "label": "BOPV traslados ciclo mayo 2026 - 14 julio",
       "process": "Traslados",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "fetch failed"
+      "ok": true,
+      "status": 200,
+      "hash": "323dfda4c6e618289715c29029fe27b4ebeaf78ea2a3280517e26edc20c62ca6",
+      "error": ""
     },
     {
       "key": "trasladosBopvMayo2026Enfermeria",
@@ -205,10 +205,10 @@
       "label": "BOPV traslados ciclo mayo 2026 - Enfermero/a",
       "process": "Traslados",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "fetch failed"
+      "ok": true,
+      "status": 200,
+      "hash": "eb0e54ca1c85259fb5662aa8e8b6f28f3a80418cd789fc5e8cac216842c2fd99",
+      "error": ""
     },
     {
       "key": "trasladosBopvMayo2026Correcciones",
@@ -216,10 +216,10 @@
       "label": "BOPV traslados ciclo mayo 2026 - modificaciones",
       "process": "Traslados",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "fetch failed"
+      "ok": true,
+      "status": 200,
+      "hash": "a0e330d95b100bf7d023bda4c2e2cf18a28d86f88e8dbe7b9cd30379229a073d",
+      "error": ""
     },
     {
       "key": "trasladosBopvMayo2026CorreccionJulio31",
@@ -227,10 +227,10 @@
       "label": "BOPV traslados ciclo mayo 2026 - corrección 31 julio",
       "process": "Traslados",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "fetch failed"
+      "ok": true,
+      "status": 200,
+      "hash": "6dc8cefb9d70b50e7a4be99bda9311da93a6f9de2ba3fedda01051503962f4a9",
+      "error": ""
     },
     {
       "key": "trasladosBopvMayo2026Agosto20",
@@ -238,10 +238,10 @@
       "label": "BOPV traslados ciclo mayo 2026 - 20 de agosto (boletín nº158)",
       "process": "Traslados",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "fetch failed"
+      "ok": true,
+      "status": 200,
+      "hash": "d9a3c1038652cb88693227088b94f8e768fd382f3d2aeb29f9e91c1b30cdc0cd",
+      "error": ""
     },
     {
       "key": "noticiasProfesionales",
@@ -249,10 +249,10 @@
       "label": "Noticias para profesionales",
       "process": "Noticias profesionales",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "fetch failed"
+      "ok": true,
+      "status": 200,
+      "hash": "2a509c56e5d1c41785a1439b573f8d4c461af1ca62f759c372bfd308e0af4016",
+      "error": ""
     },
     {
       "key": "bopvBusquedaOsakidetza",
@@ -260,10 +260,10 @@
       "label": "BOPV - Consulta avanzada (buscar Osakidetza en todo el boletín)",
       "process": "Vigilancia profesionales",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "fetch failed"
+      "ok": true,
+      "status": 200,
+      "hash": "59c1c44a43ab0017f9676fbe2eff4034bf1e112380240b5217dc3f75653f428e",
+      "error": ""
     }
   ]
 }
