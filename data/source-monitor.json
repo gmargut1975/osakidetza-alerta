@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-23T19:16:22.722Z",
+  "checkedAt": "2026-08-23T19:43:45.366Z",
   "sources": [
     {
       "key": "profesionales",
@@ -7,10 +7,10 @@
       "label": "Portada Profesionales",
       "process": "Vigilancia profesionales",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "c82fde3ccb60756688987ee1e438f4d29f963c77d3b85a3df19cc21ec76558da",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "This operation was aborted"
     },
     {
       "key": "empleoPublico",
@@ -262,7 +262,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "95bf4e9cf7699389266d25a6367a542eef6b1ca4e936f8feac11cf76d1745c67",
+      "hash": "a54dfcf2ad0a4f958032ed25c16027ed33fda2f98c13a2d1190c0c6023d22d9b",
       "error": ""
     }
   ]
