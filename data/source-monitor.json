@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-23T19:43:45.366Z",
+  "checkedAt": "2026-08-23T20:14:28.875Z",
   "sources": [
     {
       "key": "profesionales",
@@ -10,7 +10,7 @@
       "ok": false,
       "status": 0,
       "hash": "",
-      "error": "This operation was aborted"
+      "error": "fetch failed"
     },
     {
       "key": "empleoPublico",
@@ -18,10 +18,10 @@
       "label": "Empleo Público",
       "process": "Empleo público",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "af88217e4fb309b1d6bddba2844319090da4c0ea0528cd43c24d8734ff35a93a",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "fetch failed"
     },
     {
       "key": "ope2325",
@@ -29,10 +29,10 @@
       "label": "OPE 2023-2024-2025",
       "process": "OPE 2023-2024-2025",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "764bf44c44353b268fb8e09e7b50778d76158543c0f54c63371f11f587a32ae9",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "This operation was aborted"
     },
     {
       "key": "ope2022",
@@ -40,10 +40,10 @@
       "label": "OPE 2020-2021-2022 / estabilización",
       "process": "OPE 2020-2021-2022",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "7fab583b1e19ffe66bd1976ab033f2fdd40bfef9d9c936bd0f50f82e0e36dd2d",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "fetch failed"
     },
     {
       "key": "opeEstabilizacion",
@@ -62,10 +62,10 @@
       "label": "Contratación temporal",
       "process": "Listas de contratación temporal",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "e3e799bd33b12f9e4e7ae9afe471cc69341e3e2580889ecfce4a28b6df75392b",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "fetch failed"
     },
     {
       "key": "listasTemporal",
@@ -262,7 +262,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "a54dfcf2ad0a4f958032ed25c16027ed33fda2f98c13a2d1190c0c6023d22d9b",
+      "hash": "bfa8f4d8d01ace8daf927355c9263d23520a967dcf94a1c16ab6d2b5bfc88d29",
       "error": ""
     }
   ]
