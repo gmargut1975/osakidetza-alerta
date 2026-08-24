@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-24T21:22:38.910Z",
+  "checkedAt": "2026-08-24T21:55:41.075Z",
   "sources": [
     {
       "key": "profesionales",
@@ -73,10 +73,10 @@
       "label": "Listas de contratación temporal",
       "process": "Listas de contratación temporal",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "d49fea5f830001bb8efa06945517e40fdf9595607550d32ca2c95c17127f1d73",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "fetch failed"
     },
     {
       "key": "comisionesGeneral",
@@ -249,10 +249,10 @@
       "label": "Noticias para profesionales",
       "process": "Noticias profesionales",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "5b827a148318f8cdd71b570be6481f6f608fb300ab352d54ea0509ae3ba5efa7",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "fetch failed"
     },
     {
       "key": "bopvBusquedaOsakidetza",
@@ -262,7 +262,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "7ed49df722b194181ae365a6b50e3eb80d97a118ec9ba73bbcb1ede06d3f817e",
+      "hash": "1b168ad936feab5f704ad4b820e6650880879d6bd647e48e9ef4b0446c621231",
       "error": ""
     }
   ]
