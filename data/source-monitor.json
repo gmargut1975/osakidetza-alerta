@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-24T21:02:09.591Z",
+  "checkedAt": "2026-08-24T21:22:38.910Z",
   "sources": [
     {
       "key": "profesionales",
@@ -51,10 +51,10 @@
       "label": "OPE Estabilización",
       "process": "OPE Estabilización",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "This operation was aborted"
+      "ok": true,
+      "status": 200,
+      "hash": "56ea53220aaa0dc25ed89c5723e805d387f979e5cf527de1d2cd0e6faca1be1e",
+      "error": ""
     },
     {
       "key": "temporal",
@@ -62,10 +62,10 @@
       "label": "Contratación temporal",
       "process": "Listas de contratación temporal",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "This operation was aborted"
+      "ok": true,
+      "status": 200,
+      "hash": "d49fea5f830001bb8efa06945517e40fdf9595607550d32ca2c95c17127f1d73",
+      "error": ""
     },
     {
       "key": "listasTemporal",
@@ -262,7 +262,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "3b3fd766e13684f6fa8b2cd2b38b75ee27cd4a3308b25abfeeac12075cc25562",
+      "hash": "7ed49df722b194181ae365a6b50e3eb80d97a118ec9ba73bbcb1ede06d3f817e",
       "error": ""
     }
   ]
