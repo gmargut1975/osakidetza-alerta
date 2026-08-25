@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-25T15:12:33.073Z",
+  "checkedAt": "2026-08-25T16:07:42.743Z",
   "sources": [
     {
       "key": "profesionales",
@@ -7,10 +7,10 @@
       "label": "Portada Profesionales",
       "process": "Vigilancia profesionales",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "c82fde3ccb60756688987ee1e438f4d29f963c77d3b85a3df19cc21ec76558da",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "fetch failed"
     },
     {
       "key": "empleoPublico",
@@ -18,10 +18,10 @@
       "label": "Empleo Público",
       "process": "Empleo público",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "bd2ad19cef7bd6ff5c02962097c2fd27c1da881d69acd04e20d5b79a303325a4",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "This operation was aborted"
     },
     {
       "key": "ope2325",
@@ -29,10 +29,10 @@
       "label": "OPE 2023-2024-2025",
       "process": "OPE 2023-2024-2025",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "9cc0cb54b69cef308ef5cb013b3d6baf67152d54f58f5f29f5af224d4d70a714",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "This operation was aborted"
     },
     {
       "key": "ope2022",
@@ -40,10 +40,10 @@
       "label": "OPE 2020-2021-2022 / estabilización",
       "process": "OPE 2020-2021-2022",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "993994d1608db80f3818db2d125473a81487b3bcaf776483191d829032093076",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "fetch failed"
     },
     {
       "key": "opeEstabilizacion",
@@ -51,10 +51,10 @@
       "label": "OPE Estabilización",
       "process": "OPE Estabilización",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "fa1f8ad3ed54978d134a89cd62c4ef77c7b66ceaaef0adb4be1492065707c48e",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "This operation was aborted"
     },
     {
       "key": "temporal",
@@ -62,10 +62,10 @@
       "label": "Contratación temporal",
       "process": "Listas de contratación temporal",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "c1000ac76b0047524bfe0315d44844e0457559e213049c769ad6859300b9ba64",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "fetch failed"
     },
     {
       "key": "listasTemporal",
@@ -73,10 +73,10 @@
       "label": "Listas de contratación temporal",
       "process": "Listas de contratación temporal",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "c1000ac76b0047524bfe0315d44844e0457559e213049c769ad6859300b9ba64",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "fetch failed"
     },
     {
       "key": "comisionesGeneral",
@@ -84,10 +84,10 @@
       "label": "Comisiones de servicios",
       "process": "Comisiones de servicios",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "cfe0e877579d89af559195c889649523e1a843d934c0b671938508a3a2d8836a",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "fetch failed"
     },
     {
       "key": "comisiones",
@@ -95,10 +95,10 @@
       "label": "Comisiones de servicios 2026",
       "process": "Comisiones de servicios",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "4d9d3828624a98fe6ec1f1e79feb4b4f5aef7d8ac11f928ee1824483336d14de",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "This operation was aborted"
     },
     {
       "key": "comisiones2025",
@@ -106,10 +106,10 @@
       "label": "Comisiones de servicios 2025",
       "process": "Comisiones de servicios",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "63f4812574f5ffbea04d52b6b1d6acfeb0a8661b4a41cb06c7863e722ac8a669",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "fetch failed"
     },
     {
       "key": "comisiones2024",
@@ -117,10 +117,10 @@
       "label": "Comisiones de servicios 2024",
       "process": "Comisiones de servicios",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "1459db4093da478684ce619a2c6f9c7599a9ac23e3afed51cb27058bb3c14ab8",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "fetch failed"
     },
     {
       "key": "jefaturas2026",
@@ -128,10 +128,10 @@
       "label": "Convocatorias jefaturas 2026",
       "process": "Jefaturas y méritos",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "8f644ffdbdbd6da4d0b16cabe15260e4cd149d8c9cbf22f2c70849f48ecc875d",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "This operation was aborted"
     },
     {
       "key": "jefaturas2025",
@@ -172,10 +172,10 @@
       "label": "Concurso de traslados abierto y permanente",
       "process": "Traslados",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "d2b65e3f6a8c00ea0c4efabd5be6a2c08c4922a93d46433d4dc416f3cb89be73",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "fetch failed"
     },
     {
       "key": "trasladosBopvMayo2026",
@@ -262,7 +262,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "a7bff5baf774294478c3cb9da2fce9d5a5d205ec36091f9e25728b5b6fae35b2",
+      "hash": "98770f6b1c12cadd284d56c9bbbeeb3c968344d2b0bd3f91e5662babe4a43b7c",
       "error": ""
     }
   ]
