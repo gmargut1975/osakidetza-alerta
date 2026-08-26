@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-26T04:30:50.254Z",
+  "checkedAt": "2026-08-26T05:25:16.146Z",
   "sources": [
     {
       "key": "profesionales",
@@ -262,7 +262,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "deadc345534d4b5ab2b0da18233a9d6866599faf61a4c647024e4ada4b801cad",
+      "hash": "543bbd654bd58b023a7803fef21344d3583ce25945e31ae867a970ef21293775",
       "error": ""
     }
   ]
