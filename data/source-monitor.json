@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-01T21:31:17.456Z",
+  "checkedAt": "2026-09-01T23:41:33.994Z",
   "sources": [
     {
       "key": "profesionales",
@@ -7,10 +7,10 @@
       "label": "Portada Profesionales",
       "process": "Vigilancia profesionales",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "fetch failed"
+      "ok": true,
+      "status": 200,
+      "hash": "c82fde3ccb60756688987ee1e438f4d29f963c77d3b85a3df19cc21ec76558da",
+      "error": ""
     },
     {
       "key": "empleoPublico",
@@ -18,10 +18,10 @@
       "label": "Empleo Público",
       "process": "Empleo público",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "fetch failed"
+      "ok": true,
+      "status": 200,
+      "hash": "717d5234ca0414380c75a63bf9a7e1e1e5ab82f0a46fb368ef983f396b08f588",
+      "error": ""
     },
     {
       "key": "ope2325",
@@ -29,10 +29,10 @@
       "label": "OPE 2023-2024-2025",
       "process": "OPE 2023-2024-2025",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "fetch failed"
+      "ok": true,
+      "status": 200,
+      "hash": "983e4269a99a82f0070884ad9ed0a365de4996b4b781d096b43002a8f38a641e",
+      "error": ""
     },
     {
       "key": "ope2022",
@@ -40,10 +40,10 @@
       "label": "OPE 2020-2021-2022 / estabilización",
       "process": "OPE 2020-2021-2022",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "fetch failed"
+      "ok": true,
+      "status": 200,
+      "hash": "633fd0b77d418ec44c5ba81d3a0f2c34c11793a1f615723ea52168491098368e",
+      "error": ""
     },
     {
       "key": "opeEstabilizacion",
@@ -51,10 +51,10 @@
       "label": "OPE Estabilización",
       "process": "OPE Estabilización",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "fetch failed"
+      "ok": true,
+      "status": 200,
+      "hash": "9b364f467344b9165439538a69af86ff64d97b1d3894c6da738ab29c95467a53",
+      "error": ""
     },
     {
       "key": "temporal",
@@ -62,10 +62,10 @@
       "label": "Contratación temporal",
       "process": "Listas de contratación temporal",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "fetch failed"
+      "ok": true,
+      "status": 200,
+      "hash": "59bf435e4dc134cad3789e1b71ab3f20e523ba1bc69cf899cd74384aacafa4ad",
+      "error": ""
     },
     {
       "key": "listasTemporal",
@@ -73,10 +73,10 @@
       "label": "Listas de contratación temporal",
       "process": "Listas de contratación temporal",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "fetch failed"
+      "ok": true,
+      "status": 200,
+      "hash": "59bf435e4dc134cad3789e1b71ab3f20e523ba1bc69cf899cd74384aacafa4ad",
+      "error": ""
     },
     {
       "key": "comisionesGeneral",
@@ -84,10 +84,10 @@
       "label": "Comisiones de servicios",
       "process": "Comisiones de servicios",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "fetch failed"
+      "ok": true,
+      "status": 200,
+      "hash": "8f5d7446bd9a3ba3c7235fe31cc960f7fa1bae932e86e5d9f9b611bfe2bdcfdf",
+      "error": ""
     },
     {
       "key": "comisiones",
@@ -95,10 +95,10 @@
       "label": "Comisiones de servicios 2026",
       "process": "Comisiones de servicios",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "fetch failed"
+      "ok": true,
+      "status": 200,
+      "hash": "f5e0018be4b8e67924e552912073caf9947ed1c57bbce3caa76f56a2e151361a",
+      "error": ""
     },
     {
       "key": "comisiones2025",
@@ -106,10 +106,10 @@
       "label": "Comisiones de servicios 2025",
       "process": "Comisiones de servicios",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "fetch failed"
+      "ok": true,
+      "status": 200,
+      "hash": "316350d280baabf49b2a01151f5bd1bd087078c6be505587adeeadef8c78f7d5",
+      "error": ""
     },
     {
       "key": "comisiones2024",
@@ -117,10 +117,10 @@
       "label": "Comisiones de servicios 2024",
       "process": "Comisiones de servicios",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "fetch failed"
+      "ok": true,
+      "status": 200,
+      "hash": "751fe76e254f8f92264b91a03cddbf4edd4965a9e39ad15a2ed5f190b0c6a98a",
+      "error": ""
     },
     {
       "key": "jefaturas2026",
@@ -128,10 +128,10 @@
       "label": "Convocatorias jefaturas 2026",
       "process": "Jefaturas y méritos",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "fetch failed"
+      "ok": true,
+      "status": 200,
+      "hash": "2853980b8db52b5cbd0238cd36e0e098636417022dae12838aa43296677c63d8",
+      "error": ""
     },
     {
       "key": "jefaturas2025",
@@ -139,10 +139,10 @@
       "label": "Convocatorias jefaturas 2025",
       "process": "Jefaturas y méritos",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "fetch failed"
+      "ok": true,
+      "status": 200,
+      "hash": "8d2d5030b35e584ab1d3de1ca4776fd44148b2cb3323fd0acad378a5cdd417ea",
+      "error": ""
     },
     {
       "key": "convocatoriaPuestos",
@@ -153,7 +153,7 @@
       "ok": false,
       "status": 0,
       "hash": "",
-      "error": "fetch failed"
+      "error": "This operation was aborted"
     },
     {
       "key": "desarrollo",
@@ -161,10 +161,10 @@
       "label": "Desarrollo profesional",
       "process": "Desarrollo profesional",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "fetch failed"
+      "ok": true,
+      "status": 200,
+      "hash": "1ccb81ad7ecc092f185c2cb3bad977888e4ef8b1bb533cea21afb9baaec1448e",
+      "error": ""
     },
     {
       "key": "traslados",
@@ -172,10 +172,10 @@
       "label": "Concurso de traslados abierto y permanente",
       "process": "Traslados",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "fetch failed"
+      "ok": true,
+      "status": 200,
+      "hash": "819a0d8fd5987b7b2810e559b8dfa6bd8f25612f714dbf8eae51f88714cc24fd",
+      "error": ""
     },
     {
       "key": "trasladosBopvMayo2026",
@@ -183,10 +183,10 @@
       "label": "BOPV traslados ciclo mayo 2026",
       "process": "Traslados",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "fetch failed"
+      "ok": true,
+      "status": 200,
+      "hash": "7089eed29e0f00e1c2c9f2a681894d53814e3592ca4b61715d2d80a629507dd7",
+      "error": ""
     },
     {
       "key": "trasladosBopvMayo2026Julio14",
@@ -194,10 +194,10 @@
       "label": "BOPV traslados ciclo mayo 2026 - 14 julio",
       "process": "Traslados",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "fetch failed"
+      "ok": true,
+      "status": 200,
+      "hash": "323dfda4c6e618289715c29029fe27b4ebeaf78ea2a3280517e26edc20c62ca6",
+      "error": ""
     },
     {
       "key": "trasladosBopvMayo2026Enfermeria",
@@ -205,10 +205,10 @@
       "label": "BOPV traslados ciclo mayo 2026 - Enfermero/a",
       "process": "Traslados",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "fetch failed"
+      "ok": true,
+      "status": 200,
+      "hash": "eb0e54ca1c85259fb5662aa8e8b6f28f3a80418cd789fc5e8cac216842c2fd99",
+      "error": ""
     },
     {
       "key": "trasladosBopvMayo2026Correcciones",
@@ -216,10 +216,10 @@
       "label": "BOPV traslados ciclo mayo 2026 - modificaciones",
       "process": "Traslados",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "fetch failed"
+      "ok": true,
+      "status": 200,
+      "hash": "a0e330d95b100bf7d023bda4c2e2cf18a28d86f88e8dbe7b9cd30379229a073d",
+      "error": ""
     },
     {
       "key": "trasladosBopvMayo2026CorreccionJulio31",
@@ -227,10 +227,10 @@
       "label": "BOPV traslados ciclo mayo 2026 - corrección 31 julio",
       "process": "Traslados",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "fetch failed"
+      "ok": true,
+      "status": 200,
+      "hash": "6dc8cefb9d70b50e7a4be99bda9311da93a6f9de2ba3fedda01051503962f4a9",
+      "error": ""
     },
     {
       "key": "trasladosBopvMayo2026Agosto20",
@@ -238,10 +238,10 @@
       "label": "BOPV traslados ciclo mayo 2026 - 20 de agosto (boletín nº158)",
       "process": "Traslados",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "fetch failed"
+      "ok": true,
+      "status": 200,
+      "hash": "9f4d20bbd3b3dc2a886ffa4eddb87c569246fc0b533e3ad992c64635622319d6",
+      "error": ""
     },
     {
       "key": "noticiasProfesionales",
@@ -249,10 +249,10 @@
       "label": "Noticias para profesionales",
       "process": "Noticias profesionales",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "fetch failed"
+      "ok": true,
+      "status": 200,
+      "hash": "f10017e6da8f9b5af8b4702e4f8a0d8321995f78dbd22c73c4aa68e6739c32c3",
+      "error": ""
     },
     {
       "key": "bopvBusquedaOsakidetza",
@@ -260,10 +260,10 @@
       "label": "BOPV - Consulta avanzada (buscar Osakidetza en todo el boletín)",
       "process": "Vigilancia profesionales",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "fetch failed"
+      "ok": true,
+      "status": 200,
+      "hash": "4576764c7ffe8cefb67c7c0c4035deed89d56efa5b7f77ea75dbb275c93b3ac4",
+      "error": ""
     }
   ]
 }
