@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-04T21:57:32.065Z",
+  "checkedAt": "2026-09-04T23:42:09.646Z",
   "sources": [
     {
       "key": "profesionales",
@@ -20,7 +20,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "e73e4b838df4ba9c9ffbdcf6c2b16bc15c016e1d38945394a18d268874886cb7",
+      "hash": "5fe812b9924165399d998ed920c1de09b17561a51307342d6a4e6b2a809f0405",
       "error": ""
     },
     {
@@ -31,7 +31,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "d8024040571ba5b85dc6df3bed02f3dbfe4b559860cabd5eb334f9afd6b601a4",
+      "hash": "6cac9aa8ca0d65231c4718ca46a235d9e4e0a18bc8445b02ed1f71134b0088e0",
       "error": ""
     },
     {
@@ -42,7 +42,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "c7e3a9a6801b2e47736bdfd68070735a4aab56a037852f3583d9bbbba396a0e5",
+      "hash": "e5bbe34a5da0ea9251f9b77f85876648629b279cd74306f1aa07ffea6dc0e758",
       "error": ""
     },
     {
@@ -53,7 +53,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "f3b795f50e9b86834d3838b0e5945755bb43b8d7761af325c17f72e5433cc397",
+      "hash": "9d0324fabebd91ccf1a7e1bb1acb3ce528fc6edd0a1529ebd0e60577c775043b",
       "error": ""
     },
     {
@@ -64,7 +64,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "ddb6e0eb2f00ef3b0fb2d2f2c40f6fe7e579fd0eb6c6ab13934a3188bfa9f382",
+      "hash": "81e6a7daa18eca2940d4252246b9c4d9871fe63906a5b8797e3156826eedb02d",
       "error": ""
     },
     {
@@ -75,7 +75,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "ddb6e0eb2f00ef3b0fb2d2f2c40f6fe7e579fd0eb6c6ab13934a3188bfa9f382",
+      "hash": "81e6a7daa18eca2940d4252246b9c4d9871fe63906a5b8797e3156826eedb02d",
       "error": ""
     },
     {
@@ -86,7 +86,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "38d9d7e5e6280d4ea929167e1a38d553739f7258c6c0108316a602d401d379fc",
+      "hash": "13993eb064624c9d9f075ea95b2e8066c26fb1adad4669c3622e991e0eea5152",
       "error": ""
     },
     {
@@ -97,7 +97,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "39ef58d82a5e59d1d8c25ab51e3af79c7821f9bb591c2ed30ba96c1be877f791",
+      "hash": "f0af6258390d1b350a602b35bf3f5294128b42e8c2ed3f424a59f3f7566cd903",
       "error": ""
     },
     {
@@ -108,7 +108,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "61f14f9276f4da290e66d62023babb685c5ffadab30470c92b77905363d88182",
+      "hash": "582ace4190e3679a68286b903aeb2987bbb5f7c8dbd1c16460b83e82c82de6d0",
       "error": ""
     },
     {
@@ -119,7 +119,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "a87f6ab1a807242a0e8155777b04516b008223c40c6bb527817cefcdf3ed8624",
+      "hash": "0ae9adf14538bf1e86f1c2db8c110c12f2f61d68adc695eee32645faedebcb02",
       "error": ""
     },
     {
@@ -130,7 +130,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "58e6d519feaddca57bab5c6e2e254b3168d42cfea567ed3f77c2e93999301e08",
+      "hash": "11f866309dbdd726884d2e4ea5a5092aa810f08a49333f8e0f328b99d5a6904a",
       "error": ""
     },
     {
@@ -141,7 +141,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "bf2557343c63b7f3ccc9e769e4feb89ea3be2dd9753e76fc9a7d2ed4547ecdba",
+      "hash": "dc4db0eeeda6daa5b8e9d68747712b7a975923e3152dc2f0a52cb4bded1279c3",
       "error": ""
     },
     {
@@ -152,7 +152,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "f8395bde5c0173cf318639015133ca2c50ed50fc5681800c6fbcbd72a6c90e10",
+      "hash": "ed66afecffa57b037bccc097917addb09cbc492dcd88dd00781cff9fc70f2d9f",
       "error": ""
     },
     {
@@ -163,7 +163,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "12454a1430fbd96c688e5eb92626de6ff144f005a869fa847ba5e50c8f9b5651",
+      "hash": "bcba83ad24c4737e5e9e13acdf898720aceba4e38d615437ce3047da4e7bccef",
       "error": ""
     },
     {
@@ -174,7 +174,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "d62daf147946805c3c61000877a1e41c2f90ddb3f148c146032a83f36b3660cf",
+      "hash": "42ca11f98cad2d223de3eede9e34802d90737103f3e04af3cf42a07bf93322f3",
       "error": ""
     },
     {
@@ -240,7 +240,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "b956d090b292968d5bdff386a6582d16ada6eb11561b8f7559bba5b8648b7323",
+      "hash": "46ad4f464bdad4c4abd012f5ddab665cffeeef309df627bd78c796fbb7a0c2d4",
       "error": ""
     },
     {
@@ -251,7 +251,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "53f00a9fc81d9a1a799ef03b8a351e50ca55c6e05629b9e7fdbe10b3a2c6398b",
+      "hash": "bce53f70e40e63c071c68ab8eb63dc61083947694bb9178fc4c4bce091ab6124",
       "error": ""
     },
     {
@@ -262,7 +262,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "19d3e9a11450bc7f362b20c787df7851b2a2ef2927a9473b2cc8ebbac312ca70",
+      "hash": "7d3ff8a75869b67b00604698a44d62c9159cb5f326edc063d14913fb73b7abdd",
       "error": ""
     }
   ]
