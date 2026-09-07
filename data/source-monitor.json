@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-07T20:03:23.247Z",
+  "checkedAt": "2026-09-07T22:56:08.650Z",
   "sources": [
     {
       "key": "profesionales",
@@ -18,10 +18,10 @@
       "label": "Empleo Público",
       "process": "Empleo público",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "f549f22c979ab659dd93d0ba61206862ae77967a7f38d5f232f373f337e15239",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "This operation was aborted"
     },
     {
       "key": "ope2325",
@@ -31,7 +31,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "49ad5cbbcc4f69282a301a62c1aadcf0f2a049a439c4352f26eae722181619a4",
+      "hash": "8809cc998f4a3d978bc188bbfcdae90b4f6b1e978d0b3ab96c94009f858e0bd3",
       "error": ""
     },
     {
@@ -42,7 +42,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "cae108fdf8c416a9cdff2b17090cf73b98a3324051fcf8c79eaac567ea2deeb3",
+      "hash": "4def66e63c2ec99e4093562601bf0165723c1d596bfc059fc61229d27abbffda",
       "error": ""
     },
     {
@@ -53,7 +53,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "bfa4f40adbfee68f297462d978242ece59599d995423efe15cb4623693115eff",
+      "hash": "3d35ca3bc93a61a86942b2136137325211647462aa3bd3cfdfc904241f05e31f",
       "error": ""
     },
     {
@@ -64,7 +64,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "de52c2bfe669b5303fdee6e5cd8884b87925525ca5ba9c32e28c0d96b4019951",
+      "hash": "8b3f46b300704e8e636b10dd206f1de1f64ba699911bf221f4effdc4f9a0303c",
       "error": ""
     },
     {
@@ -75,7 +75,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "de52c2bfe669b5303fdee6e5cd8884b87925525ca5ba9c32e28c0d96b4019951",
+      "hash": "8b3f46b300704e8e636b10dd206f1de1f64ba699911bf221f4effdc4f9a0303c",
       "error": ""
     },
     {
@@ -86,7 +86,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "463cb045656a2335bd085127be05a1c657a6fccb3bb517486731bf3c4a1901bc",
+      "hash": "be22cc104e12e87fae2b472321f89f60656d414fb66bf211648f7ed98b08079c",
       "error": ""
     },
     {
@@ -97,7 +97,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "0cdbf2cab6119c7e9b711bc7d1b8e9c101c476ae8f556bdcf5e3c7b4ad81fb44",
+      "hash": "b5a343ffe566ec5e58156e3d7e9222e12ac4cb60834c6fd6493b86a305675467",
       "error": ""
     },
     {
@@ -108,7 +108,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "b7ac8120ac91fcd36728855ac7671393127ac00c8ddc7107407c83ad91a119a1",
+      "hash": "e9e6710d9915ee75ddc479405ce521e1d734315e99b29e3986622674cd018b56",
       "error": ""
     },
     {
@@ -119,7 +119,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "ada8870879f9cda9f981d68637ee12230751cabcbe931e7d2cae99dc22c6be1b",
+      "hash": "7093b110ee5d7ae0562ec7a6a86310bb12496afaf5090c1c136e51247e0df6bc",
       "error": ""
     },
     {
@@ -130,7 +130,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "8e510ec865815e58a3319ce27a99645199b1892bdfd470a218a561def63ae764",
+      "hash": "3695bc37c3f0195945b37c6f17112aa16316e912a6abbb7f77599908c79b4973",
       "error": ""
     },
     {
@@ -141,7 +141,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "3b908eb506fd3d838378a0ae805ebebdc4cc79710cdb13036dab01b190647eba",
+      "hash": "ddd83d75a0021290bcad13790bf91fcbe5e4ead08712a06de4eb7c8d50c30f41",
       "error": ""
     },
     {
@@ -150,10 +150,10 @@
       "label": "Convocatoria de puestos",
       "process": "Convocatoria de puestos",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "c7559401207e8769ed8ed008b00ecb71c813dd1e0ae45b6f43fcb9e6a49e32f3",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "This operation was aborted"
     },
     {
       "key": "desarrollo",
@@ -163,7 +163,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "eee8d8feb1a9354133df96b3e32711c5a4a93a6ca56e0095e49548e709fce308",
+      "hash": "437342ccd839a55bd63176da811382ef626f0e6dbde8a31435793539d1926b17",
       "error": ""
     },
     {
@@ -174,7 +174,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "1c6167407f7635e349722b5ecbcdd3fcb96e094b4d5b2be3bc3a274e5fb55752",
+      "hash": "bdf8c319e98ae9348145427c4aaff6a2013631df00b3e3825b93c6efea60cb8e",
       "error": ""
     },
     {
@@ -183,10 +183,10 @@
       "label": "BOPV traslados ciclo mayo 2026",
       "process": "Traslados",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "7089eed29e0f00e1c2c9f2a681894d53814e3592ca4b61715d2d80a629507dd7",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "This operation was aborted"
     },
     {
       "key": "trasladosBopvMayo2026Julio14",
@@ -240,7 +240,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "d95689f46094e7d2d4629836c4e788d84ca5ee662c09527ef158d01a275101da",
+      "hash": "793b458fb3f671fd8388e0a3833b6778aa81b6045b234d887ef2935767636793",
       "error": ""
     },
     {
@@ -251,7 +251,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "1c1538cfffc658096ecc4fc7346dba50e4bc74df371ae1325cf7205c2df64d7d",
+      "hash": "396effa49512d28a55cba15bf7edf9212d786e0637ac5c821344ff502a86bd0c",
       "error": ""
     },
     {
@@ -260,10 +260,10 @@
       "label": "BOPV - Consulta avanzada (buscar Osakidetza en todo el boletín)",
       "process": "Vigilancia profesionales",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "ae6d01fe15de488e136cacb6e23805e91c69b8cba0229facdf92d0f4fc505de0",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "This operation was aborted"
     }
   ]
 }
