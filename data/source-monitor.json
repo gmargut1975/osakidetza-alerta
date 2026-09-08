@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-07T22:56:08.650Z",
+  "checkedAt": "2026-09-08T00:50:37.150Z",
   "sources": [
     {
       "key": "profesionales",
@@ -18,10 +18,10 @@
       "label": "Empleo Público",
       "process": "Empleo público",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "This operation was aborted"
+      "ok": true,
+      "status": 200,
+      "hash": "ffc8def76caa37410081c28418d944232b10ec0cd47eb7290e9fdf6d57a6660f",
+      "error": ""
     },
     {
       "key": "ope2325",
@@ -51,10 +51,10 @@
       "label": "OPE Estabilización",
       "process": "OPE Estabilización",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "3d35ca3bc93a61a86942b2136137325211647462aa3bd3cfdfc904241f05e31f",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "This operation was aborted"
     },
     {
       "key": "temporal",
@@ -95,10 +95,10 @@
       "label": "Comisiones de servicios 2026",
       "process": "Comisiones de servicios",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "b5a343ffe566ec5e58156e3d7e9222e12ac4cb60834c6fd6493b86a305675467",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "This operation was aborted"
     },
     {
       "key": "comisiones2025",
@@ -150,10 +150,10 @@
       "label": "Convocatoria de puestos",
       "process": "Convocatoria de puestos",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "This operation was aborted"
+      "ok": true,
+      "status": 200,
+      "hash": "0db678b37107b9f7710095f6568e8abe5cd7b2d726201d88a5fb67372b1f656a",
+      "error": ""
     },
     {
       "key": "desarrollo",
@@ -194,10 +194,10 @@
       "label": "BOPV traslados ciclo mayo 2026 - 14 julio",
       "process": "Traslados",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "323dfda4c6e618289715c29029fe27b4ebeaf78ea2a3280517e26edc20c62ca6",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "This operation was aborted"
     },
     {
       "key": "trasladosBopvMayo2026Enfermeria",
@@ -205,10 +205,10 @@
       "label": "BOPV traslados ciclo mayo 2026 - Enfermero/a",
       "process": "Traslados",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "eb0e54ca1c85259fb5662aa8e8b6f28f3a80418cd789fc5e8cac216842c2fd99",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "This operation was aborted"
     },
     {
       "key": "trasladosBopvMayo2026Correcciones",
@@ -238,10 +238,10 @@
       "label": "BOPV traslados ciclo mayo 2026 - 20 de agosto (boletín nº158)",
       "process": "Traslados",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "793b458fb3f671fd8388e0a3833b6778aa81b6045b234d887ef2935767636793",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "This operation was aborted"
     },
     {
       "key": "noticiasProfesionales",
@@ -260,10 +260,10 @@
       "label": "BOPV - Consulta avanzada (buscar Osakidetza en todo el boletín)",
       "process": "Vigilancia profesionales",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "This operation was aborted"
+      "ok": true,
+      "status": 200,
+      "hash": "a0f0ff3a31a9d1583fc32153b5dfe97bbb1736824fa3e26a3b1ed8cbd6a34f36",
+      "error": ""
     }
   ]
 }
