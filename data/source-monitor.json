@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-08T00:50:37.150Z",
+  "checkedAt": "2026-09-08T05:30:12.107Z",
   "sources": [
     {
       "key": "profesionales",
@@ -7,10 +7,10 @@
       "label": "Portada Profesionales",
       "process": "Vigilancia profesionales",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "bf3e47953a9a31b8992142bad731234496d69ff679489e09a007721bd8b440c6",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "This operation was aborted"
     },
     {
       "key": "empleoPublico",
@@ -18,10 +18,10 @@
       "label": "Empleo Público",
       "process": "Empleo público",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "ffc8def76caa37410081c28418d944232b10ec0cd47eb7290e9fdf6d57a6660f",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "This operation was aborted"
     },
     {
       "key": "ope2325",
@@ -29,10 +29,10 @@
       "label": "OPE 2023-2024-2025",
       "process": "OPE 2023-2024-2025",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "8809cc998f4a3d978bc188bbfcdae90b4f6b1e978d0b3ab96c94009f858e0bd3",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "This operation was aborted"
     },
     {
       "key": "ope2022",
@@ -40,10 +40,10 @@
       "label": "OPE 2020-2021-2022 / estabilización",
       "process": "OPE 2020-2021-2022",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "4def66e63c2ec99e4093562601bf0165723c1d596bfc059fc61229d27abbffda",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "This operation was aborted"
     },
     {
       "key": "opeEstabilizacion",
@@ -62,10 +62,10 @@
       "label": "Contratación temporal",
       "process": "Listas de contratación temporal",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "8b3f46b300704e8e636b10dd206f1de1f64ba699911bf221f4effdc4f9a0303c",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "This operation was aborted"
     },
     {
       "key": "listasTemporal",
@@ -73,10 +73,10 @@
       "label": "Listas de contratación temporal",
       "process": "Listas de contratación temporal",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "8b3f46b300704e8e636b10dd206f1de1f64ba699911bf221f4effdc4f9a0303c",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "This operation was aborted"
     },
     {
       "key": "comisionesGeneral",
@@ -84,10 +84,10 @@
       "label": "Comisiones de servicios",
       "process": "Comisiones de servicios",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "be22cc104e12e87fae2b472321f89f60656d414fb66bf211648f7ed98b08079c",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "This operation was aborted"
     },
     {
       "key": "comisiones",
@@ -106,10 +106,10 @@
       "label": "Comisiones de servicios 2025",
       "process": "Comisiones de servicios",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "e9e6710d9915ee75ddc479405ce521e1d734315e99b29e3986622674cd018b56",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "This operation was aborted"
     },
     {
       "key": "comisiones2024",
@@ -117,10 +117,10 @@
       "label": "Comisiones de servicios 2024",
       "process": "Comisiones de servicios",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "7093b110ee5d7ae0562ec7a6a86310bb12496afaf5090c1c136e51247e0df6bc",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "This operation was aborted"
     },
     {
       "key": "jefaturas2026",
@@ -128,10 +128,10 @@
       "label": "Convocatorias jefaturas 2026",
       "process": "Jefaturas y méritos",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "3695bc37c3f0195945b37c6f17112aa16316e912a6abbb7f77599908c79b4973",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "This operation was aborted"
     },
     {
       "key": "jefaturas2025",
@@ -139,10 +139,10 @@
       "label": "Convocatorias jefaturas 2025",
       "process": "Jefaturas y méritos",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "ddd83d75a0021290bcad13790bf91fcbe5e4ead08712a06de4eb7c8d50c30f41",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "This operation was aborted"
     },
     {
       "key": "convocatoriaPuestos",
@@ -150,10 +150,10 @@
       "label": "Convocatoria de puestos",
       "process": "Convocatoria de puestos",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "0db678b37107b9f7710095f6568e8abe5cd7b2d726201d88a5fb67372b1f656a",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "This operation was aborted"
     },
     {
       "key": "desarrollo",
@@ -161,10 +161,10 @@
       "label": "Desarrollo profesional",
       "process": "Desarrollo profesional",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "437342ccd839a55bd63176da811382ef626f0e6dbde8a31435793539d1926b17",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "This operation was aborted"
     },
     {
       "key": "traslados",
@@ -172,10 +172,10 @@
       "label": "Concurso de traslados abierto y permanente",
       "process": "Traslados",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "bdf8c319e98ae9348145427c4aaff6a2013631df00b3e3825b93c6efea60cb8e",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "This operation was aborted"
     },
     {
       "key": "trasladosBopvMayo2026",
@@ -216,10 +216,10 @@
       "label": "BOPV traslados ciclo mayo 2026 - modificaciones",
       "process": "Traslados",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "a0e330d95b100bf7d023bda4c2e2cf18a28d86f88e8dbe7b9cd30379229a073d",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "This operation was aborted"
     },
     {
       "key": "trasladosBopvMayo2026CorreccionJulio31",
@@ -227,10 +227,10 @@
       "label": "BOPV traslados ciclo mayo 2026 - corrección 31 julio",
       "process": "Traslados",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "6dc8cefb9d70b50e7a4be99bda9311da93a6f9de2ba3fedda01051503962f4a9",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "This operation was aborted"
     },
     {
       "key": "trasladosBopvMayo2026Agosto20",
@@ -249,10 +249,10 @@
       "label": "Noticias para profesionales",
       "process": "Noticias profesionales",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "396effa49512d28a55cba15bf7edf9212d786e0637ac5c821344ff502a86bd0c",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "This operation was aborted"
     },
     {
       "key": "bopvBusquedaOsakidetza",
@@ -260,10 +260,10 @@
       "label": "BOPV - Consulta avanzada (buscar Osakidetza en todo el boletín)",
       "process": "Vigilancia profesionales",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "a0f0ff3a31a9d1583fc32153b5dfe97bbb1736824fa3e26a3b1ed8cbd6a34f36",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "This operation was aborted"
     }
   ]
 }
