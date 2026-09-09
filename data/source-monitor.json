@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-09T11:38:26.808Z",
+  "checkedAt": "2026-09-09T15:36:03.723Z",
   "sources": [
     {
       "key": "profesionales",
@@ -29,10 +29,10 @@
       "label": "OPE 2023-2024-2025",
       "process": "OPE 2023-2024-2025",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "This operation was aborted"
+      "ok": true,
+      "status": 200,
+      "hash": "f4de26f56da124aa9e4b5dff6bd20625f6931b36a1b9699b460a0f8b47a2ebae",
+      "error": ""
     },
     {
       "key": "ope2022",
@@ -51,10 +51,10 @@
       "label": "OPE Estabilización",
       "process": "OPE Estabilización",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "This operation was aborted"
+      "ok": true,
+      "status": 200,
+      "hash": "892fb63d8c712103d169f25fab6140fe6ce93306699f921e04230b6f1ad37b46",
+      "error": ""
     },
     {
       "key": "temporal",
@@ -73,10 +73,10 @@
       "label": "Listas de contratación temporal",
       "process": "Listas de contratación temporal",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "This operation was aborted"
+      "ok": true,
+      "status": 200,
+      "hash": "8956f2a8f128ed47d67277c4b7ff51fe11d8859140c7f5eb98a47b42ff52c519",
+      "error": ""
     },
     {
       "key": "comisionesGeneral",
@@ -139,10 +139,10 @@
       "label": "Convocatorias jefaturas 2025",
       "process": "Jefaturas y méritos",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "This operation was aborted"
+      "ok": true,
+      "status": 200,
+      "hash": "8e0f78879382ef8428c1740ab48511b2868c897dba0cc46785bdde76841b51e9",
+      "error": ""
     },
     {
       "key": "convocatoriaPuestos",
@@ -150,10 +150,10 @@
       "label": "Convocatoria de puestos",
       "process": "Convocatoria de puestos",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "This operation was aborted"
+      "ok": true,
+      "status": 200,
+      "hash": "8fb96589274084e2555ba907ca5fda1052d8ddac8bab678b1231d13aac01c7d9",
+      "error": ""
     },
     {
       "key": "desarrollo",
@@ -262,7 +262,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "2006b00d6d75cf36ab7d10c2229a41817ae622827722e7aa6ba19fcb60e95757",
+      "hash": "644c6302bccbeaeb4280116660d14d0799c4a441e7ac18d8e4430216102b12b2",
       "error": ""
     }
   ]
