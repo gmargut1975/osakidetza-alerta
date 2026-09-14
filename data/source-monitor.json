@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-14T02:29:53.433Z",
+  "checkedAt": "2026-09-14T08:03:22.641Z",
   "sources": [
     {
       "key": "profesionales",
@@ -95,10 +95,10 @@
       "label": "Comisiones de servicios 2026",
       "process": "Comisiones de servicios",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "This operation was aborted"
+      "ok": true,
+      "status": 200,
+      "hash": "1a83cf92e224b653c1ca6b9579ab4e8a79a1c1c2a7cfe9c4b28f2287bc760136",
+      "error": ""
     },
     {
       "key": "comisiones2025",
@@ -106,10 +106,10 @@
       "label": "Comisiones de servicios 2025",
       "process": "Comisiones de servicios",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "This operation was aborted"
+      "ok": true,
+      "status": 200,
+      "hash": "4fbb9fa4b39bb0e35caabac1716904918cbe1402ed513a82726adeda37a23220",
+      "error": ""
     },
     {
       "key": "comisiones2024",
@@ -163,7 +163,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "552228280524752c857420374fafebc060236950ff9f3c21d5d88993a7e12c1e",
+      "hash": "c82cf6777528e70e602cac42589c705c66afbbd50146802c30b0572c691719d5",
       "error": ""
     },
     {
@@ -262,7 +262,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "cd07ffae66bb2955bffb5b73d1b41e431a5c4f0ad782e305b29705b6ca6abd6f",
+      "hash": "b3d15844a592b4f5df91ea8cdaa49a39132e09462ee6127cf0d6e1fee7b14e72",
       "error": ""
     }
   ]
