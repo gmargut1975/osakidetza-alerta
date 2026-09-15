@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-15T06:18:18.685Z",
+  "checkedAt": "2026-09-15T11:56:42.500Z",
   "sources": [
     {
       "key": "profesionales",
@@ -9,7 +9,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "bf3e47953a9a31b8992142bad731234496d69ff679489e09a007721bd8b440c6",
+      "hash": "80df8946bbb1609302c7489a3dbd75a3c7eb28dca09f28d348842430bbc00feb",
       "error": ""
     },
     {
@@ -262,7 +262,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "93736fb009879d6d2db88abb0417bd5685c3b77db57f2b19cb6fbc646e032da3",
+      "hash": "e95c313a4fdcab020602d3b665b0ccb067d0868f2bdfc152a836a38827865c87",
       "error": ""
     }
   ]
