@@ -2354,6 +2354,9 @@ const KNOWN_NOTICE_IDS_KEY = "osakidetzaAlertas.knownNoticeIds";
 const DETECTED_NOTICE_IDS_KEY = "osakidetzaAlertas.detectedNoticeIds";
 const DISMISSED_NEW_NOTICE_IDS_KEY = "osakidetzaAlertas.dismissedNewNoticeIds";
 const DISMISSED_COVERAGE_WARNING_IDS_KEY = "osakidetzaAlertas.dismissedCoverageWarningIds";
+const POPUP_TRACKING_VERSION_KEY = "osakidetzaAlertas.popupTrackingVersion";
+const POPUP_TRACKING_VERSION = "2026-09-stable-ids";
+const NOTIFIED_SOURCE_CHANGE_KEY = "osakidetzaAlertas.notifiedSourceChanges";
 // Comprobación de fuentes oficiales servida por una GitHub Action programada
 // (scripts/check-sources.mjs + .github/workflows/check-sources.yml), que
 // escribe data/source-monitor.json en el propio repositorio. Así la app no
@@ -3263,12 +3266,78 @@ const notices = [
     deadlineLiteral: "La fuente oficial indica que dos veces al año se convocará un ciclo mediante Resolución publicada en el BOPV, otorgando plazo para poder realizar o modificar la solicitud. No consta en esta ficha un ciclo concreto con fecha literal de inicio y fin.",
     url: SOURCES.traslados,
   },
+  {
+    id: "interinidades-listas-contratacion-temporal",
+    process: "Interinidades",
+    type: "Vigilancia de convocatorias de listas",
+    title: "Interinidades: convocatorias y aperturas de listas de contratación temporal",
+    body: "Las interinidades (junto con sustituciones y refuerzos) se cubren desde las listas de contratación temporal de Osakidetza. Se vigilan las disposiciones que autorizan la convocatoria y abren plazo de inscripción en dichas listas por categoría/puesto, así como sus actualizaciones, publicadas en Osakidetza y en el BOPV.",
+    categories: ["Categorías/puestos funcionales con lista de contratación temporal abierta"],
+    published: "2026-01-15",
+    start: "",
+    end: "",
+    deadlineLiteral: "Proceso de vigilancia permanente. Cada convocatoria de apertura o actualización de listas fija su propio plazo de inscripción; consulta la fuente oficial para el plazo literal de cada categoría.",
+    url: SOURCES.temporal,
+  },
+  {
+    id: "interinidades-listas-2026-10-08-ing-tecnico-mantenimiento",
+    process: "Interinidades",
+    type: "Republicación de listas · recurso de alzada",
+    title: "Listas contratación temporal: Ingeniero/a Técnico/a (Técnico/a Medio Mantenimiento e Instalaciones)",
+    body: "Republicación de las Listas de Contratación Temporal de Ingeniero/a Técnico/a (Técnico/a Medio Mantenimiento e Instalaciones) tras la rectificación de los errores detectados (publicación prevista el 8 de septiembre de 2026). De estas listas salen los nombramientos de interinidad de la categoría.",
+    categories: ["Ingeniero/a Técnico/a (Técnico/a Medio Mantenimiento e Instalaciones)"],
+    published: "2026-09-08",
+    start: "2026-09-08",
+    end: "2026-10-08",
+    deadlineLiteral: "Plazo para interponer recurso de alzada hasta el 8 de octubre de 2026, inclusive.",
+    url: SOURCES.temporal,
+  },
+  {
+    id: "interinidades-listas-2026-10-01-integracion-varios",
+    process: "Interinidades",
+    type: "Integración y actualización de listas · recurso de alzada",
+    title: "Listas contratación temporal: Bibliotecario, Conductores y Oficial Costura (integración)",
+    body: "Integración y actualización a fecha 27 de febrero de 2026 de las listas de contratación temporal (OPE 2020-21-22-Estabilización) de Bibliotecario, Conductor de Vehículos de Emergencias, Conductor de Transporte Sanitario, Conductor de Servicios Generales y Oficial Costura; también republicación de Auxiliar de Farmacia. Publicación prevista el 31 de agosto de 2026.",
+    categories: ["Bibliotecario/a", "Conductor/a Vehículos de Emergencias", "Conductor/a Transporte Sanitario", "Conductor/a Servicios Generales", "Oficial Costura", "Auxiliar de Farmacia"],
+    published: "2026-08-31",
+    start: "2026-08-31",
+    end: "2026-10-01",
+    deadlineLiteral: "Plazo para interponer recurso de alzada hasta el 1 de octubre de 2026, inclusive.",
+    url: SOURCES.temporal,
+  },
+  {
+    id: "interinidades-listas-2026-09-24-integracion-varios",
+    process: "Interinidades",
+    type: "Integración y actualización de listas · recurso de alzada",
+    title: "Listas contratación temporal: Auxiliar de Farmacia, Trabajador/a Social y Oficial Costura",
+    body: "Integración y actualización a fecha 27 de febrero de 2026 de las listas de contratación temporal (OPE 2020-21-22-Estabilización) de Auxiliar de Farmacia, Trabajador/a Social y Oficial Costura. Publicación prevista el 21 de agosto de 2026.",
+    categories: ["Auxiliar de Farmacia", "Trabajador/a Social", "Oficial Costura"],
+    published: "2026-08-21",
+    start: "2026-08-21",
+    end: "2026-09-24",
+    deadlineLiteral: "Plazo para interponer recurso de alzada hasta el 24 de septiembre de 2026, inclusive.",
+    url: SOURCES.temporal,
+  },
+  {
+    id: "interinidades-listas-2026-09-21-integracion-varios",
+    process: "Interinidades",
+    type: "Integración y actualización de listas · recurso de alzada",
+    title: "Listas contratación temporal: Técnico Especialista Laboratorio, Cocinero/a y Técnicos/as Medios",
+    body: "Integración y actualización a fecha 27 de febrero de 2026 de las listas de contratación temporal (OPE 2020-21-22-Estabilización) de Técnico/a Especialista Laboratorio, Cocinero/a, Técnico/a Medio Administración y Gestión y Técnico/a Medio Prevención Seguridad e Higiene. Publicación prevista el 18-19 de agosto de 2026.",
+    categories: ["Técnico/a Especialista Laboratorio", "Cocinero/a", "Técnico/a Medio Administración y Gestión", "Técnico/a Medio Prevención Seguridad e Higiene"],
+    published: "2026-08-18",
+    start: "2026-08-18",
+    end: "2026-09-21",
+    deadlineLiteral: "Plazo para interponer recurso de alzada hasta el 21 de septiembre de 2026, inclusive.",
+    url: SOURCES.temporal,
+  },
 ];
 
 const processNames = ["Todos", ...new Set([
   ...notices.map((notice) => notice.process),
   ...Object.values(SOURCE_PROCESS_LABELS),
   "Movilidad interna",
+  "Interinidades",
   "Proceso propio",
 ])];
 const appOpenedAt = new Date();
@@ -3328,6 +3397,7 @@ const customProcessList = document.querySelector("#customProcessList");
 
 function init() {
   enrichNotices();
+  migrateNoticeIdTracking();
   fillProcessSelectors();
   fillOsiSelectors();
   fillCategorySelector();
@@ -3691,6 +3761,28 @@ function bindCalendarToastButtons() {
   });
 }
 
+// Migración de una sola vez al pasar a identificadores estables. Siembra lo que ya
+// existe (avisos oficiales y detectados actuales) como "ya visto", de modo que el
+// cambio de versión NO dispare un aviso de novedades. A partir de aquí solo saltará
+// el pop-up con lo verdaderamente nuevo, y una única vez por aviso.
+function migrateNoticeIdTracking() {
+  if (localStorage.getItem(POPUP_TRACKING_VERSION_KEY) === POPUP_TRACKING_VERSION) return;
+  try {
+    const officialIds = notices.filter((notice) => !notice.isCustom).map((notice) => notice.id);
+    localStorage.setItem(KNOWN_NOTICE_IDS_KEY, JSON.stringify(officialIds));
+    const detectedIds = dynamicSourceNotices().filter((notice) => notice.isDetected).map((notice) => notice.id);
+    if (detectedIds.length) {
+      localStorage.setItem(DETECTED_NOTICE_IDS_KEY, JSON.stringify(detectedIds));
+    } else {
+      // Sin snapshot previo: dejamos que la primera comprobación siembre en silencio.
+      localStorage.removeItem(DETECTED_NOTICE_IDS_KEY);
+    }
+    localStorage.setItem(POPUP_TRACKING_VERSION_KEY, POPUP_TRACKING_VERSION);
+  } catch (error) {
+    console.warn("No se pudo migrar el seguimiento de novedades:", error);
+  }
+}
+
 function notifyNewProcessesOnOpen() {
   const officialNotices = notices.filter((notice) => !notice.isCustom);
   const currentIds = officialNotices.map((notice) => notice.id);
@@ -3931,7 +4023,7 @@ function isNoticeRelevantToSelectedOsi(notice) {
 }
 
 function isGeneralOsiNotice(notice) {
-  return ["OPE", "Listas de contratación temporal", "Contratación temporal", "Traslados", "Comisiones de servicios", "Movilidad interna", "Desarrollo profesional"].some((scope) => notice.process.includes(scope));
+  return ["OPE", "Listas de contratación temporal", "Contratación temporal", "Interinidades", "Traslados", "Comisiones de servicios", "Movilidad interna", "Desarrollo profesional"].some((scope) => notice.process.includes(scope));
 }
 
 function generalOsiNotices() {
@@ -4263,8 +4355,12 @@ function officialItemToNotice(source, item, index) {
   const categories = categoriesForDetectedItem(item, body);
   const categoryTitle = categories.slice(0, 3).join(", ");
   const process = processLabelForOfficialItem(source, item, body);
+  // Identidad ESTABLE del aviso: no depende de la posición en la lista (index) ni
+  // del texto del resumen (que la fuente puede retocar). Así, un mismo aviso real
+  // conserva el mismo id entre comprobaciones y solo se avisa una vez cuando aparece.
+  const stableIdentity = `${source.key}|${baseSourceUrl(item.url || item.sourceUrl || source.url)}|${item.published}|${item.deadline || "sin-fin"}|${categories.join(",")}`;
   const notice = {
-    id: `detected-${source.key}-${item.published}-${item.deadline || "sin-fin"}-${stableHash(body)}-${index}`,
+    id: `detected-${stableHash(stableIdentity)}`,
     process,
     type: item.deadline ? "Detectado: plazo oficial" : "Detectado: publicación oficial",
     title: categoryTitle
@@ -4294,7 +4390,22 @@ function processLabelForOfficialItem(source, item, body) {
   if (text.includes("concurso de traslados") || text.includes("traslado abierto") || text.includes("traslados")) return "Traslados";
   if (text.includes("movilidad interna") || text.includes("movilidades internas") || text.includes("movilidad")) return "Movilidad interna";
   if (text.includes("comision de servicios") || text.includes("comisiones de servicios")) return "Comisiones de servicios";
+  if (isInterinidadText(text)) return "Interinidades";
   return SOURCE_PROCESS_LABELS[source.key] || SOURCE_LABELS[source.key] || "Fuente oficial";
+}
+
+// Reconoce si un aviso oficial corresponde a interinidades: bien porque lo dice
+// expresamente, bien porque es una convocatoria de apertura de plazo de inscripción
+// en las listas de contratación temporal (de donde salen los nombramientos de
+// interinidad). Recibe el texto ya normalizado (sin acentos y en minúsculas).
+function isInterinidadText(normalizedText) {
+  const t = normalizedText || "";
+  if (t.includes("interinidad") || t.includes("interinidades") || t.includes("interino") || t.includes("interina")) return true;
+  const abrePlazoListas =
+    (t.includes("convocatoria") || t.includes("abre plazo") || t.includes("apertura") || t.includes("autoriza la convocatoria")) &&
+    (t.includes("inscripcion") || t.includes("plazo")) &&
+    (t.includes("listas de contratacion temporal") || t.includes("lista de contratacion temporal"));
+  return abrePlazoListas;
 }
 
 function cleanDetectedNoticeBody(value) {
@@ -4781,7 +4892,14 @@ async function checkSources({ manual = false, reason = "manual" } = {}) {
     const coverageWarnings = auditSourceCoverage(next.sources || []);
     if (newDetected.length) return;
     if (coverageWarnings.length) notifySourceCoverageWarnings(coverageWarnings, next.checkedAt);
-    else if (changed.length) notifySourceChanges(changed, next.checkedAt);
+    else if (changed.length) {
+      // Estas páginas oficiales cambian su huella con mucha frecuencia (fechas,
+      // tokens, banners), así que solo avisamos de un cambio UNA vez. Si ya lo
+      // mostramos antes, no repetimos el pop-up al abrir de nuevo.
+      const unseen = filterUnseenSourceChanges(changed);
+      if (unseen.length) notifySourceChanges(unseen, next.checkedAt);
+      else if (manual) showSourcePopup("Fuentes comprobadas", "Sin novedades nuevas desde la última vez.");
+    }
     else if (manual) showSourcePopup("Fuentes comprobadas", "No se han detectado cambios respecto a la última consulta guardada.");
   } catch (error) {
     const previous = readSourceMonitor();
@@ -4857,6 +4975,37 @@ function renderSourceMonitor() {
       <small>${source.checkedAt ? htmlEscape(formatDateTime(source.checkedAt)) : "Sin comprobación local guardada"}</small>
     </article>
   `).join("");
+}
+
+// Devuelve solo los cambios de fuente que aún no se han avisado, y registra
+// todos los cambios actuales como "ya vistos". La primera vez (tras actualizar)
+// siembra en silencio: no dispara ningún pop-up por la propia actualización.
+function filterUnseenSourceChanges(changed) {
+  const currentSigs = (changed || []).filter((source) => source.hash).map((source) => `${source.key}:${source.hash}`);
+  let stored;
+  try {
+    stored = localStorage.getItem(NOTIFIED_SOURCE_CHANGE_KEY);
+  } catch (error) {
+    stored = null;
+  }
+  if (stored === null) {
+    try {
+      localStorage.setItem(NOTIFIED_SOURCE_CHANGE_KEY, JSON.stringify(currentSigs.slice(-300)));
+    } catch (error) { /* almacenamiento no disponible */ }
+    return [];
+  }
+  let notified;
+  try {
+    notified = new Set(JSON.parse(stored || "[]"));
+  } catch (error) {
+    notified = new Set();
+  }
+  const unseen = (changed || []).filter((source) => source.hash && !notified.has(`${source.key}:${source.hash}`));
+  currentSigs.forEach((sig) => notified.add(sig));
+  try {
+    localStorage.setItem(NOTIFIED_SOURCE_CHANGE_KEY, JSON.stringify(Array.from(notified).slice(-300)));
+  } catch (error) { /* almacenamiento no disponible */ }
+  return unseen;
 }
 
 function notifySourceChanges(changed, checkedAt) {
@@ -5155,6 +5304,7 @@ function normalizeCategories(categories) {
 function fallbackCategoriesForNotice(notice) {
   if (notice.process === "Traslados") return ["Categorías/puestos funcionales incluidos en el ciclo de traslados"];
   if (notice.process === "Listas de contratación temporal") return ["Categorías/puestos funcionales indicados en el aviso oficial de listas temporales"];
+  if (notice.process === "Interinidades") return ["Categorías/puestos funcionales de la convocatoria de listas de contratación temporal (interinidades)"];
   if (notice.process === "OPE 2020-2021-2022") return ["Categorías/puestos funcionales de la convocatoria OPE afectada"];
   if (notice.process === "Comisiones de servicios") return ["Categoría o puesto funcional indicado en la convocatoria de comisión de servicios"];
   if (notice.process === "Movilidad interna") return ["Categoría o puesto funcional indicado en la convocatoria de movilidad interna"];
