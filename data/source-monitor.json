@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-18T19:19:35.590Z",
+  "checkedAt": "2026-09-18T21:45:30.818Z",
   "sources": [
     {
       "key": "profesionales",
@@ -9,7 +9,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "f4d8296e43c3597db3e23776fa02a56d0c109d8a106e1063cb84be44336605c8",
+      "hash": "4b6c70d385098f9fda6f45c98d921303c7c5f4912f924d20e48afdbf5c775895",
       "error": ""
     },
     {
@@ -20,7 +20,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "3dfc347de7cde2c0ceb7d024ebc31df3dab2d50a8938ee2c7ee568927c8ea5fb",
+      "hash": "dbeb89970672f7b22aebf8cabb0bba0f368e8323459917f90c4289971fed35f7",
       "error": ""
     },
     {
@@ -31,7 +31,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "c304cff077a481907d4c76c7eea332cf34ccbc2acc33a4f53e4edb4590263065",
+      "hash": "d32c5bcb170ea6bfcb56fded7dca74df8cfb1b378133d5c503a467b647bb90c8",
       "error": ""
     },
     {
@@ -42,7 +42,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "dcd22d53baa08fc833da1bba8b1eb5ff35e4fe7730b838af62c6f8b05fb46e14",
+      "hash": "ca14ebd679ab0940c4c8f3106283539c08926e640e382c006613122573840b17",
       "error": ""
     },
     {
@@ -53,7 +53,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "a24ed071c1955cea4a820f8c8fc669db66974135c1a3a6204eff6baf51173333",
+      "hash": "4d64588de3c6e804f53519bc1b3bd531a5a41df13c2af9632bf514a59c6b0ba2",
       "error": ""
     },
     {
@@ -61,10 +61,629 @@
       "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
       "label": "Contratación temporal",
       "process": "Listas de contratación temporal",
-      "officialItems": [],
+      "officialItems": [
+        {
+          "published": "2026-09-18",
+          "deadline": "2026-10-19",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 19 de octubre de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 18 de septiembre de 2026 , está prevista la publicación de las listas de contratación de la siguiente categoría/puesto funcional convocada en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia profe",
+          "categories": [
+            "OFICIAL MANTENIMIENTO INSTALACIONES"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-09-08",
+          "deadline": "2026-10-08",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 8 de octubre de 2026, inclusive.",
+          "summary": "Republicación de listas. REPUBLICACIÓN LISTAS ACTUALIZADAS Hoy, 8 de septiembre , está prevista la publicación de nuevo de las Listas de Contratación Temporal de la siguiente categoría/puesto funcional actualizadas tras la rectificación de los errores detectados: INGENIERO/A TÉCNICO/A (TÉCNICO/A MEDIO MANTENIMIENTO E INSTALACIONES) Plazo para interponer recurso de alzada hasta el 8 de octubre de 2026 , inclusive.",
+          "categories": [
+            "INGENIERO/A TÉCNICO/A (TÉCNICO/A MEDIO MANTENIMIENTO E INSTALACIONES)"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-08-31",
+          "deadline": "2026-10-01",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 1 de octubre de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 31 de agosto de 2026 , está prevista la publicación de las listas de contratación de la siguiente categoría/puesto funcional convocada en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia profesion",
+          "categories": [
+            "BIBLIOTECARIO",
+            "CONDUCTOR VEHÍCULOS EMERGENCIAS",
+            "CONDUCTOR TRANSPORTE SANITARIO",
+            "CONDUCTOR SERVICIOS GENERALES",
+            "OFICIAL COSTURA"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-08-31",
+          "deadline": "2026-10-01",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 1 de octubre de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 31 de agosto de 2026 , está prevista la publicación de las listas de contratación de la siguiente categoría/puesto funcional convocada en la OPE 2020-21-22-Estabilización, tras la rectificación de los errores detectados, con la puntuación correspondiente a la fase de oposición de la misma, la experiencia profesional y el perfil lingüístico d",
+          "categories": [
+            "AUXILIAR DE FARMACIA"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-08-21",
+          "deadline": "2026-09-24",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 24 de septiembre de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 21 de agosto de 2026 , está prevista la publicación de las listas de contratación de la siguiente categoría/puesto funcional convocada en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia profesion",
+          "categories": [
+            "AUXILIAR DE FARMACIA",
+            "TRABAJADOR/A SOCIAL",
+            "OFICIAL COSTURA"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-08-19",
+          "deadline": "2026-09-21",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 21 de septiembre de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 19 de agosto de 2026 , está prevista la publicación de las listas de contratación de la siguiente categoría/puesto funcional convocada en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia profesion",
+          "categories": [
+            "TÉCNICO ESPECIALISTA LABORATORIO"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-08-18",
+          "deadline": "2026-09-21",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 21 de septiembre de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 18 de agosto de 2026 , está prevista la publicación de las listas de contratación de la siguiente categoría/puesto funcional convocada en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia profesion",
+          "categories": [
+            "COCINERO/A",
+            "TÉCNICO/A MEDIO ADMINISTRACIÓN Y GESTIÓN",
+            "TÉCNICO/A MEDIO PREVENCIÓN SEGURIDAD E HIGIENE"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-08-14",
+          "deadline": "2026-09-14",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 14 de septiembre de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 14 de agosto de 2026 , está prevista la publicación de las listas de contratación de las siguientes categorías/puestos funcionales convocadas en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia pr",
+          "categories": [
+            "FAC. TÉCNICO/A FARMACÉUTICO/A",
+            "F.E.M. &ndash; TÉCNICO/A UNIDAD INVESTIGACIÓN",
+            "F.E.M. UNIDAD DOCENTE MEDICINA FAMILIAR Y COMUNITARIA"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-08-12",
+          "deadline": "2026-09-14",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 14 de septiembre de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 12 de agosto de 2026 , está prevista la publicación de las listas de contratación de las siguientes categorías/puestos funcionales convocadas en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia pr",
+          "categories": [
+            "TÉCNICO/A SUPERIOR JURÍDICO/A-LETRADO/A",
+            "TÉCNICO/A ESPECIALISTA DOCUMENTACIÓN SANITARIA"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-08-10",
+          "deadline": "2026-09-10",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 10 de septiembre de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 10 de agosto de 2026 , está prevista la publicación de las listas de contratación de la siguiente categoría/puesto funcional convocada en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia profesion",
+          "categories": [
+            "TITULADO/A SUPERIOR - TÉCNICO/A SUPERIOR ECONÓMICO/A",
+            "TÉCNICO/A ESPECIALISTA INFORMÁTICA",
+            "TÉCNICO/A ESPECIALISTA INSTALACIONES ELECTROMEDICINA",
+            "TÉCNICO/A ESPECIALISTA RADIODIAGNÓSTICO",
+            "TÉCNICO/A ESPECIALISTA RADIOTERAPIA",
+            "TÉCNICO/A SUPERIOR HIGIENE BUCODENTAL"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-07-29",
+          "deadline": "2026-08-31",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 31 de agosto de 2026, inclusive.",
+          "summary": "Republicación de listas. REPUBLICACIÓN LISTAS ACTUALIZADAS Hoy, 29 de julio de 2026 , está prevista la publicación de nuevo de las Listas de Contratación Temporal de las siguientes categorías/puestos funcionales actualizadas tras la rectificación de los errores detectados: TECNICO/A SUPERIOR DE ORGANIZACIÓN TECNICO/A ESPECIALISTA AUDIOPROTESIS Plazo para interponer recurso de alzada hasta el 31 de agosto de 2026, inclusiv",
+          "categories": [
+            "TECNICO/A SUPERIOR DE ORGANIZACIÓN",
+            "TECNICO/A ESPECIALISTA AUDIOPROTESIS"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-07-22",
+          "deadline": "2026-08-24",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 24 de agosto de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 22 de julio de 2026 , está prevista la publicación de las listas de contratación de la siguiente categoría/puesto funcional convocada en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia profesiona",
+          "categories": [
+            "TÉCNICO/A DE PREVENCIÓN DE ERGONOMÍA Y PSICOSOCIOLOGÍA",
+            "TÉCNICO/A ESPECIALISTA DOCUMENTACIÓN SANITARIA",
+            "TÉCNICO/A ESPECIALISTA DIETÉTICA"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-07-16",
+          "deadline": "2026-08-17",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 17 de agosto de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 16 de julio de 2026 , está prevista la publicación de las listas de contratación de la siguiente categoría/puesto funcional convocada en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia profesiona",
+          "categories": [
+            "TÉCNICO/A ESPECIALISTA ANATOMÍA PATOLÓGICA Y CITOLOGÍA",
+            "TÉCNICO/A ESPECIALISTA AUDIOPRÓTESIS"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-07-15",
+          "deadline": "2026-08-17",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 17 de agosto de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 15 de julio de 2026 , está prevista la publicación de las listas de contratación de la siguiente categoría/puesto funcional convocada en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia profesiona",
+          "categories": [
+            "TÉCNICO/A SUPERIOR ORGANIZACIÓN",
+            "TÉCNICO/A SUPERIOR NORMALIZACIÓN EUSKERA"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-07-14",
+          "deadline": "2026-07-27",
+          "deadlineLiteral": "Fecha de corte para la integración de inscripciones: 27 de julio de 2026.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS DE CONTRATACIÓN Hoy, 14 de julio de 2026, mediante la Resolución 1148/2026, de la Directora de Personas y Talento de Osakidetza, se procede a establecer el 27 de julio de 2026 como fecha de corte para la integración de nuevas inscripciones en las Listas de contratación temporal de las categorías/puestos funcionales FEM Farmacología Clínica , Técnico/a Especialist",
+          "categories": [],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-07-13",
+          "deadline": "2026-08-13",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 13 de agosto de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 13 de julio de 2026 , está prevista la publicación de las listas de contratación de la siguiente categoría/puesto funcional convocada en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia profesiona",
+          "categories": [
+            "OPERARIO/A DE SERVICIOS",
+            "TÉCNICO/A SUPERIOR PREVENCIÓN, SEGURIDAD E HIGIENE"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-07-08",
+          "deadline": "2026-08-10",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 10 de agosto de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 8 de julio de 2026 , está prevista la publicación de las listas de contratación de la siguiente categoría/puesto funcional convocada en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia profesional",
+          "categories": [
+            "AUXILIAR ADMINISTRATIVO/A"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-07-06",
+          "deadline": "2026-07-27",
+          "deadlineLiteral": "Plazo de inscripción hasta el 27 de julio de 2026.",
+          "summary": "Apertura de plazo de inscripción. APERTURA PLAZO INSCRIPCIÓN ENFERMERÍA PEDIATRICA Hoy, día 6 de julio de 2026 , mediante la Resolución 1059/2026, de la Directora de Personas y Talento de Osakidetza-Svs, se procede a abrir el plazo de inscripción en las Listas de contratación temporal 2021 para las personas interesadas que estén en posesión de la titulación de Enfermería Pediátrica. Plazo de inscripción hasta el 27 de julio de 202",
+          "categories": [],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-06-29",
+          "deadline": "2026-07-29",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 29 de julio de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN LISTAS AUXILIAR DE ENFERMERÍA Hoy, 29 de junio de 2026 , está prevista la publicación de las Listas de Contratación Temporal de Auxiliar de Enfermería actualizadas tras la rectificación de los errores detectados. Plazo para interponer recurso de alzada hasta el 29 de julio de 2026 , inclusive.",
+          "categories": [],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-06-29",
+          "deadline": "2026-07-29",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 29 de julio de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 29 de junio de 2026 , está prevista la publicación de las listas de contratación de la siguiente categoría/puesto funcional convocada en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia profesiona",
+          "categories": [
+            "INGENIERO/A SUPERIOR (TÉCNICO/A SUPERIOR MANTENIMIENTO E INSTALACIONES)"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-06-25",
+          "deadline": "2026-07-27",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 27 de julio de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 25 de junio de 2026 , está prevista la publicación de las listas de contratación de la siguiente categoría/puesto funcional convocada en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia profesiona",
+          "categories": [
+            "CELADOR/A"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-06-24",
+          "deadline": "2026-07-24",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 24 de julio de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 24 de junio de 2026 , está prevista la publicación de las listas de contratación de la siguiente categoría/puesto funcional convocada en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia profesiona",
+          "categories": [
+            "F.E.M. HOSPITALIZACIÓN A DOMICILIO"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-06-17",
+          "deadline": "2026-07-17",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 17 de julio de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 17 de junio de 2026 , está prevista la publicación de las listas de contratación de las siguientes categorías/puestos funcionales convocadas en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia pro",
+          "categories": [
+            "AUXILIAR DE ENFERMERÍA",
+            "TÉCNICO/A SUPERIOR ADMINISTRACIÓN Y GESTIÓN"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-06-16",
+          "deadline": "2026-07-16",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 16 de julio de 2026, inclusive.",
+          "summary": "Republicación de listas. REPUBLICACIÓN LISTAS ACTUALIZADAS Hoy, 16 de junio de 2026 , está prevista la publicación de nuevo de las Listas de Contratación Temporal de las siguientes categorías/puestos funcionales actualizadas tras la rectificación de los errores detectados: ENFERMERO/A FAMILIAR Y COMUNITARIA ENFERMERO/A SALUD LABORAL ENFERMERO/A SALUD MENTAL Plazo para interponer recurso de alzada hasta el 16 de julio de 2",
+          "categories": [
+            "ENFERMERO/A FAMILIAR Y COMUNITARIA",
+            "ENFERMERO/A SALUD LABORAL",
+            "ENFERMERO/A SALUD MENTAL"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-06-10",
+          "deadline": "2026-07-10",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 10 de julio de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 10 de junio de 2026 , está prevista la publicación de las listas de contratación de las siguientes categorías/puestos funcionales convocadas en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia pro",
+          "categories": [
+            "MATRÓN/A",
+            "CIRUGÍA PLÁSTICA, ESTÉTICA Y REPARADORA"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-06-04",
+          "deadline": "2026-07-06",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 6 de julio de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 4 de junio de 2026 , está prevista la publicación de las listas de contratación de las siguientes categorías/puestos funcionales convocadas en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia prof",
+          "categories": [
+            "ADMINISTRATIVO/A",
+            "ENFERMERO/A FAMILIAR Y COMUNITARIA*",
+            "ENFERMERO/A SALUD MENTAL",
+            "ENFERMERO/A SALUD LABORAL",
+            "FISIOTERAPEUTA",
+            "TERAPEUTA OCUPACIONAL",
+            "DIPLOMADO/A LOGOPEDIA",
+            "DIPLOMADO/A ÓPTICA Y OPTOMETRÍA",
+            "INGENIERO/A TÉCNICO/A (TÉCNICO/A MEDIO MANTENIMIENTO E INSTALACIONES)"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-06-02",
+          "deadline": "2026-07-02",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 2 de julio de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 2 de junio de 2026 , está prevista la publicación de las listas de contratación de las siguientes categorías/puestos funcionales convocadas en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia prof",
+          "categories": [
+            "F.E.M. PEDIATRÍA HOSPITALARIA"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-05-28",
+          "deadline": "2026-06-29",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 29 de junio de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 28 de mayo de 2026 , está prevista la publicación de las listas de contratación de las siguientes categorías/puestos funcionales convocadas en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia prof",
+          "categories": [
+            "F.E.M DERMATOLOGÍA, MEDICINA QUIRÚRGICA Y VENEREOLOGÍA",
+            "F.E.M.-T. RADIOFÍSICA HOSPITALARIA",
+            "F.E.T. FARMACIA HOSPITALARIA",
+            "TÉCNICO/A SUPERIOR INFORMÁTICO/A",
+            "F.E.M. NEUMOLOGÍA",
+            "F.E.M. MEDICINA INTENSIVA",
+            "F.E.T. ODONTOLOGÍA"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-05-18",
+          "deadline": "2026-06-18",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 18 de junio de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 18 de mayo de 2026 , está prevista la publicación de las listas de contratación de las siguientes categorías/puestos funcionales convocadas en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia prof",
+          "categories": [
+            "F.E.M. OTORRINOLARINGOLOGÍA",
+            "F.E.M.-T. MICROBIOLOGÍA Y PARASITOLOGÍA",
+            "F.T. ODONTÓLOGO/A"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-05-15",
+          "deadline": "2026-06-15",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 15 de junio de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 15 de mayo de 2026 , está prevista la publicación de las listas de contratación de las siguientes categorías/puestos funcionales convocadas en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia prof",
+          "categories": [
+            "FAC. ESP. TEC. PSICOLOGO/A CLINICO",
+            "FAC. TEC. BIOLOGO/A"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-05-13",
+          "deadline": "2026-06-15",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 15 de junio de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 13 de mayo de 2026 , está prevista la publicación de las listas de contratación de las siguientes categorías/puestos funcionales convocadas en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia prof",
+          "categories": [
+            "F.E.M. UGS",
+            "F.E.M. UROLOGÍA"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-05-11",
+          "deadline": "2026-06-11",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 11 de junio de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 11 de mayo de 2026 , está prevista la publicación de las listas de contratación de las siguientes categorías/puestos funcionales convocadas en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia prof",
+          "categories": [
+            "F.E.M. RADIODIAGNÓSTICO",
+            "F.E.M. URGENCIAS HOSPITALARIAS",
+            "F.E.M. TÉCNICO/A INMUNOLOGÍA"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-05-05",
+          "deadline": "2026-06-05",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 5 de junio de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 5 de mayo de 2026 , está prevista la publicación de las listas de contratación de las siguientes categorías/puestos funcionales convocadas en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia profe",
+          "categories": [
+            "F.E.M. MEDICINA INTERNA",
+            "F.E.M. ONCOLOGÍA MÉDICA",
+            "F.E.M. PSIQUIATRÍA"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-05-04",
+          "deadline": "2026-06-04",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 4 de junio de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 4 de mayo de 2026 , está prevista la publicación de las listas de contratación de las siguientes categorías/puestos funcionales convocadas en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia profe",
+          "categories": [
+            "F.E.M. ANATOMÍA PATOLÓGICA",
+            "F.E.M. ANGIOLOGÍA Y CIRUGÍA VASCULAR",
+            "F.E.M. NEUROFISIOLOGÍA CLÍNICA",
+            "F.E.M. F.E.M. NEUROFISIOLOGÍA CLÍNICA",
+            "F.E.M. OBSTETRICIA Y GINECOLOGÍA",
+            "F.E.M. OFTALMOLOGÍA"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-04-30",
+          "deadline": "2026-06-01",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 1 de junio de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 30 de abril de 2026 , está prevista la publicación de las listas de contratación de las siguientes categorías/puestos funcionales convocadas en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia pro",
+          "categories": [
+            "F.E.M. NEUROCIRUGÍA",
+            "F.E.M. CIRUGÍA ORTOPÉDICA Y TRAUMATOLOGÍA",
+            "F.E.M. MEDICINA PREVENTIVA Y SALUD PÚBLICA",
+            "F.E.M. NEUMOLOGÍA",
+            "F.E.M. NEUROLOGIA"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-04-27",
+          "deadline": "2026-05-27",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 27 de mayo de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 27 de abril de 2026 , está prevista la publicación de las listas de contratación de las siguientes categorías/puestos funcionales convocadas en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia pro",
+          "categories": [
+            "F.E.M. MEDICINA INTENSIVA",
+            "F.E.M. NEFROLOGÍA"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-04-24",
+          "deadline": "2026-05-25",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 25 de mayo de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 24 de abril de 2026 , está prevista la publicación de las listas de contratación de las siguientes categorías/puestos funcionales convocadas en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia pro",
+          "categories": [
+            "F.E.M. MEDICINA DEL TRABAJO",
+            "F.E.M. MEDICINA NUCLEAR",
+            "F.E.M. MEDICINA FÍSICA Y REHABILITACIÓN",
+            "F.E.M. REUMATOLOGIA",
+            "F.E.M. ONCOLOGÍA RADIOTERAPICA",
+            "F.E.M. PSIQUIATRÍA INFANTIL"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-04-23",
+          "deadline": "2026-05-25",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 25 de mayo de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 23 de abril de 2026 , está prevista la publicación de las listas de contratación de las siguientes categorías/puestos funcionales convocadas en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia pro",
+          "categories": [
+            "F.E.M. CIR. PLASTICA, ESTETICA Y REPARADORA",
+            "F.E.M. EMERGENCIAS"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-04-22",
+          "deadline": "2026-05-22",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 22 de mayo de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 22 de abril de 2026 , está prevista la publicación de las listas de contratación de las siguientes categorías/puestos funcionales convocadas en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia pro",
+          "categories": [
+            "F.E.M. CIR. PEDIATRICA",
+            "F.E.M. CIR. TORACICA",
+            "F.E.M. CUIDADOS PALIATIVOS",
+            "F.E.M. ENDOCRINOLOGIA Y NUTRICION",
+            "F.E.M. ENFERMEDADES INFECCIOSAS",
+            "F.E.M. EPIDEMIOLOGIA CLINICA",
+            "F.E.M. HEMATOLOGIA Y HEMOTERAPIA"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-04-16",
+          "deadline": "2026-05-18",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 18 de mayo de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 16 de abril de 2026 , está prevista la publicación de las listas de contratación de las siguientes categorías/puestos funcionales convocadas en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia pro",
+          "categories": [
+            "F.E.M. ALERGOLOGÍA",
+            "F.E.M. ANESTESIOLOGÍA Y REANIMACIÓN",
+            "F.E.M. APARATO DIGESTIVO",
+            "F.E.M. CARDIOLOGÍA",
+            "F.E.M. CIR. GENERAL Y APARATO DIGESTIVO",
+            "F.E.M. CIR. CARDIOVASCULAR",
+            "F.E.M. CIR. ORAL Y MAXILOFACIAL"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-04-13",
+          "deadline": "2026-05-13",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 13 de mayo de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 13 de abril de 2026, está prevista la publicación de las listas de contratación de las siguientes categorías/puestos funcionales convocadas en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026, con la puntuación correspondiente a la fase de oposición de la misma, la experiencia profe",
+          "categories": [
+            "FAC. ESP. MÉDICO/A DE FAMILIA - EAP",
+            "FAC. ESP. MÉDICO/A PEDIATRA &ndash; EAP"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-04-07",
+          "deadline": "2026-05-07",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 7 de mayo de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN LISTAS ENFERMERO/A Hoy, 7 de abril de 2026 , está prevista la publicación de las Listas de Contratación Temporal de Enfermero/a actualizadas tras la rectificación de los errores detectados. Entre estos errores, se ha corregido el cómputo del tiempo de servicios prestados (0,25 por mes) conforme a lo establecido en las bases específicas de la OPE 2020‑21‑22‑Estabilización, las listas ",
+          "categories": [],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-03-23",
+          "deadline": "2026-02-27",
+          "deadlineLiteral": "Fecha de corte para la integración de inscripciones: 27 de febrero de 2026.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Desde hoy, 23 de marzo, hasta el día 29 de marzo, inclusive, se habilita un plazo para revisar la elección de preferencias en las categorías de Titulados/as Superiores del Grupo profesional A2 . En el caso de hacerse modificaciones en el orden de preferencias elegido, se tendrá en cuenta la última solicitud realizada. La elección de preferencias real",
+          "categories": [],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-03-20",
+          "deadline": "2026-04-20",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 20 de abril de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 20 de marzo de 2026 , está prevista la publicación de las listas de contratación de las siguientes categorías/puestos funcionales convocadas en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026, con la puntuación correspondiente a la fase de oposición de la misma, la experiencia prof",
+          "categories": [
+            "ENFERMERO/A"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-05-09",
+          "deadline": "2026-05-16",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 16 de mayo de 2026, inclusive.",
+          "summary": "Apertura de plazo de inscripción. APERTURA PLAZO INSCRIPCIÓN LISTAS TITULADO/A SUPERIOR &ndash; TECNICO/A SUPERIOR PSICOLOGÍA Del 19 de noviembre al 2 de diciembre de 2025, ambos inclusive, se abre plazo de inscripción en las listas de contratación temporal para las personas interesadas que estén en posesión de la titulación de licenciatura/grado en Psicología con el Master Oficial en Psicología General Sanitaria o habilitación co",
+          "categories": [
+            "OPERARIO/A DE SERVICIOS",
+            "OFICIAL/A MANTENIMIENTO",
+            "LETRADO/A-TÉCNICO/A SUPERIOR JURÍDICO/A",
+            "TÉCNICO/A MEDIO ADMINISTRACIÓN Y GESTIÓN",
+            "TÉCNICO/A MEDIO NORMALIZACIÓN DE EUSKERA",
+            "TÉCNICO/A MEDIO PREVENCIÓN SEGURIDAD E HIGIENE",
+            "TRABAJADOR/A SOCIAL",
+            "TÉCNICO/A INFORMÁTICA",
+            "OFICIAL/A CONDUCTOR/A SERVICIOS GENERALES",
+            "OFICIAL/A CONDUCTOR/A TRANSPORTE SANITARIO",
+            "OFICIAL/A CONDUCTOR/A VEHÍCULOS EMERGENCIAS",
+            "AUXILIAR DE ENFERMERÍA"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        }
+      ],
       "ok": true,
       "status": 200,
-      "hash": "2aee4c31c1c3fe9a142e8943107e84646b9a8116f023b6d3519ae2cc9e86fb8d",
+      "hash": "581fa02dfdde67fc7eb699f68af1133482fde85f754036e78a13b36c03de5634",
       "error": ""
     },
     {
@@ -72,10 +691,629 @@
       "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
       "label": "Listas de contratación temporal",
       "process": "Listas de contratación temporal",
-      "officialItems": [],
+      "officialItems": [
+        {
+          "published": "2026-09-18",
+          "deadline": "2026-10-19",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 19 de octubre de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 18 de septiembre de 2026 , está prevista la publicación de las listas de contratación de la siguiente categoría/puesto funcional convocada en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia profe",
+          "categories": [
+            "OFICIAL MANTENIMIENTO INSTALACIONES"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-09-08",
+          "deadline": "2026-10-08",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 8 de octubre de 2026, inclusive.",
+          "summary": "Republicación de listas. REPUBLICACIÓN LISTAS ACTUALIZADAS Hoy, 8 de septiembre , está prevista la publicación de nuevo de las Listas de Contratación Temporal de la siguiente categoría/puesto funcional actualizadas tras la rectificación de los errores detectados: INGENIERO/A TÉCNICO/A (TÉCNICO/A MEDIO MANTENIMIENTO E INSTALACIONES) Plazo para interponer recurso de alzada hasta el 8 de octubre de 2026 , inclusive.",
+          "categories": [
+            "INGENIERO/A TÉCNICO/A (TÉCNICO/A MEDIO MANTENIMIENTO E INSTALACIONES)"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-08-31",
+          "deadline": "2026-10-01",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 1 de octubre de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 31 de agosto de 2026 , está prevista la publicación de las listas de contratación de la siguiente categoría/puesto funcional convocada en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia profesion",
+          "categories": [
+            "BIBLIOTECARIO",
+            "CONDUCTOR VEHÍCULOS EMERGENCIAS",
+            "CONDUCTOR TRANSPORTE SANITARIO",
+            "CONDUCTOR SERVICIOS GENERALES",
+            "OFICIAL COSTURA"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-08-31",
+          "deadline": "2026-10-01",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 1 de octubre de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 31 de agosto de 2026 , está prevista la publicación de las listas de contratación de la siguiente categoría/puesto funcional convocada en la OPE 2020-21-22-Estabilización, tras la rectificación de los errores detectados, con la puntuación correspondiente a la fase de oposición de la misma, la experiencia profesional y el perfil lingüístico d",
+          "categories": [
+            "AUXILIAR DE FARMACIA"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-08-21",
+          "deadline": "2026-09-24",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 24 de septiembre de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 21 de agosto de 2026 , está prevista la publicación de las listas de contratación de la siguiente categoría/puesto funcional convocada en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia profesion",
+          "categories": [
+            "AUXILIAR DE FARMACIA",
+            "TRABAJADOR/A SOCIAL",
+            "OFICIAL COSTURA"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-08-19",
+          "deadline": "2026-09-21",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 21 de septiembre de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 19 de agosto de 2026 , está prevista la publicación de las listas de contratación de la siguiente categoría/puesto funcional convocada en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia profesion",
+          "categories": [
+            "TÉCNICO ESPECIALISTA LABORATORIO"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-08-18",
+          "deadline": "2026-09-21",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 21 de septiembre de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 18 de agosto de 2026 , está prevista la publicación de las listas de contratación de la siguiente categoría/puesto funcional convocada en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia profesion",
+          "categories": [
+            "COCINERO/A",
+            "TÉCNICO/A MEDIO ADMINISTRACIÓN Y GESTIÓN",
+            "TÉCNICO/A MEDIO PREVENCIÓN SEGURIDAD E HIGIENE"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-08-14",
+          "deadline": "2026-09-14",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 14 de septiembre de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 14 de agosto de 2026 , está prevista la publicación de las listas de contratación de las siguientes categorías/puestos funcionales convocadas en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia pr",
+          "categories": [
+            "FAC. TÉCNICO/A FARMACÉUTICO/A",
+            "F.E.M. &ndash; TÉCNICO/A UNIDAD INVESTIGACIÓN",
+            "F.E.M. UNIDAD DOCENTE MEDICINA FAMILIAR Y COMUNITARIA"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-08-12",
+          "deadline": "2026-09-14",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 14 de septiembre de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 12 de agosto de 2026 , está prevista la publicación de las listas de contratación de las siguientes categorías/puestos funcionales convocadas en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia pr",
+          "categories": [
+            "TÉCNICO/A SUPERIOR JURÍDICO/A-LETRADO/A",
+            "TÉCNICO/A ESPECIALISTA DOCUMENTACIÓN SANITARIA"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-08-10",
+          "deadline": "2026-09-10",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 10 de septiembre de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 10 de agosto de 2026 , está prevista la publicación de las listas de contratación de la siguiente categoría/puesto funcional convocada en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia profesion",
+          "categories": [
+            "TITULADO/A SUPERIOR - TÉCNICO/A SUPERIOR ECONÓMICO/A",
+            "TÉCNICO/A ESPECIALISTA INFORMÁTICA",
+            "TÉCNICO/A ESPECIALISTA INSTALACIONES ELECTROMEDICINA",
+            "TÉCNICO/A ESPECIALISTA RADIODIAGNÓSTICO",
+            "TÉCNICO/A ESPECIALISTA RADIOTERAPIA",
+            "TÉCNICO/A SUPERIOR HIGIENE BUCODENTAL"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-07-29",
+          "deadline": "2026-08-31",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 31 de agosto de 2026, inclusive.",
+          "summary": "Republicación de listas. REPUBLICACIÓN LISTAS ACTUALIZADAS Hoy, 29 de julio de 2026 , está prevista la publicación de nuevo de las Listas de Contratación Temporal de las siguientes categorías/puestos funcionales actualizadas tras la rectificación de los errores detectados: TECNICO/A SUPERIOR DE ORGANIZACIÓN TECNICO/A ESPECIALISTA AUDIOPROTESIS Plazo para interponer recurso de alzada hasta el 31 de agosto de 2026, inclusiv",
+          "categories": [
+            "TECNICO/A SUPERIOR DE ORGANIZACIÓN",
+            "TECNICO/A ESPECIALISTA AUDIOPROTESIS"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-07-22",
+          "deadline": "2026-08-24",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 24 de agosto de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 22 de julio de 2026 , está prevista la publicación de las listas de contratación de la siguiente categoría/puesto funcional convocada en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia profesiona",
+          "categories": [
+            "TÉCNICO/A DE PREVENCIÓN DE ERGONOMÍA Y PSICOSOCIOLOGÍA",
+            "TÉCNICO/A ESPECIALISTA DOCUMENTACIÓN SANITARIA",
+            "TÉCNICO/A ESPECIALISTA DIETÉTICA"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-07-16",
+          "deadline": "2026-08-17",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 17 de agosto de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 16 de julio de 2026 , está prevista la publicación de las listas de contratación de la siguiente categoría/puesto funcional convocada en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia profesiona",
+          "categories": [
+            "TÉCNICO/A ESPECIALISTA ANATOMÍA PATOLÓGICA Y CITOLOGÍA",
+            "TÉCNICO/A ESPECIALISTA AUDIOPRÓTESIS"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-07-15",
+          "deadline": "2026-08-17",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 17 de agosto de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 15 de julio de 2026 , está prevista la publicación de las listas de contratación de la siguiente categoría/puesto funcional convocada en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia profesiona",
+          "categories": [
+            "TÉCNICO/A SUPERIOR ORGANIZACIÓN",
+            "TÉCNICO/A SUPERIOR NORMALIZACIÓN EUSKERA"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-07-14",
+          "deadline": "2026-07-27",
+          "deadlineLiteral": "Fecha de corte para la integración de inscripciones: 27 de julio de 2026.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS DE CONTRATACIÓN Hoy, 14 de julio de 2026, mediante la Resolución 1148/2026, de la Directora de Personas y Talento de Osakidetza, se procede a establecer el 27 de julio de 2026 como fecha de corte para la integración de nuevas inscripciones en las Listas de contratación temporal de las categorías/puestos funcionales FEM Farmacología Clínica , Técnico/a Especialist",
+          "categories": [],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-07-13",
+          "deadline": "2026-08-13",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 13 de agosto de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 13 de julio de 2026 , está prevista la publicación de las listas de contratación de la siguiente categoría/puesto funcional convocada en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia profesiona",
+          "categories": [
+            "OPERARIO/A DE SERVICIOS",
+            "TÉCNICO/A SUPERIOR PREVENCIÓN, SEGURIDAD E HIGIENE"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-07-08",
+          "deadline": "2026-08-10",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 10 de agosto de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 8 de julio de 2026 , está prevista la publicación de las listas de contratación de la siguiente categoría/puesto funcional convocada en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia profesional",
+          "categories": [
+            "AUXILIAR ADMINISTRATIVO/A"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-07-06",
+          "deadline": "2026-07-27",
+          "deadlineLiteral": "Plazo de inscripción hasta el 27 de julio de 2026.",
+          "summary": "Apertura de plazo de inscripción. APERTURA PLAZO INSCRIPCIÓN ENFERMERÍA PEDIATRICA Hoy, día 6 de julio de 2026 , mediante la Resolución 1059/2026, de la Directora de Personas y Talento de Osakidetza-Svs, se procede a abrir el plazo de inscripción en las Listas de contratación temporal 2021 para las personas interesadas que estén en posesión de la titulación de Enfermería Pediátrica. Plazo de inscripción hasta el 27 de julio de 202",
+          "categories": [],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-06-29",
+          "deadline": "2026-07-29",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 29 de julio de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN LISTAS AUXILIAR DE ENFERMERÍA Hoy, 29 de junio de 2026 , está prevista la publicación de las Listas de Contratación Temporal de Auxiliar de Enfermería actualizadas tras la rectificación de los errores detectados. Plazo para interponer recurso de alzada hasta el 29 de julio de 2026 , inclusive.",
+          "categories": [],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-06-29",
+          "deadline": "2026-07-29",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 29 de julio de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 29 de junio de 2026 , está prevista la publicación de las listas de contratación de la siguiente categoría/puesto funcional convocada en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia profesiona",
+          "categories": [
+            "INGENIERO/A SUPERIOR (TÉCNICO/A SUPERIOR MANTENIMIENTO E INSTALACIONES)"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-06-25",
+          "deadline": "2026-07-27",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 27 de julio de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 25 de junio de 2026 , está prevista la publicación de las listas de contratación de la siguiente categoría/puesto funcional convocada en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia profesiona",
+          "categories": [
+            "CELADOR/A"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-06-24",
+          "deadline": "2026-07-24",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 24 de julio de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 24 de junio de 2026 , está prevista la publicación de las listas de contratación de la siguiente categoría/puesto funcional convocada en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia profesiona",
+          "categories": [
+            "F.E.M. HOSPITALIZACIÓN A DOMICILIO"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-06-17",
+          "deadline": "2026-07-17",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 17 de julio de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 17 de junio de 2026 , está prevista la publicación de las listas de contratación de las siguientes categorías/puestos funcionales convocadas en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia pro",
+          "categories": [
+            "AUXILIAR DE ENFERMERÍA",
+            "TÉCNICO/A SUPERIOR ADMINISTRACIÓN Y GESTIÓN"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-06-16",
+          "deadline": "2026-07-16",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 16 de julio de 2026, inclusive.",
+          "summary": "Republicación de listas. REPUBLICACIÓN LISTAS ACTUALIZADAS Hoy, 16 de junio de 2026 , está prevista la publicación de nuevo de las Listas de Contratación Temporal de las siguientes categorías/puestos funcionales actualizadas tras la rectificación de los errores detectados: ENFERMERO/A FAMILIAR Y COMUNITARIA ENFERMERO/A SALUD LABORAL ENFERMERO/A SALUD MENTAL Plazo para interponer recurso de alzada hasta el 16 de julio de 2",
+          "categories": [
+            "ENFERMERO/A FAMILIAR Y COMUNITARIA",
+            "ENFERMERO/A SALUD LABORAL",
+            "ENFERMERO/A SALUD MENTAL"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-06-10",
+          "deadline": "2026-07-10",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 10 de julio de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 10 de junio de 2026 , está prevista la publicación de las listas de contratación de las siguientes categorías/puestos funcionales convocadas en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia pro",
+          "categories": [
+            "MATRÓN/A",
+            "CIRUGÍA PLÁSTICA, ESTÉTICA Y REPARADORA"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-06-04",
+          "deadline": "2026-07-06",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 6 de julio de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 4 de junio de 2026 , está prevista la publicación de las listas de contratación de las siguientes categorías/puestos funcionales convocadas en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia prof",
+          "categories": [
+            "ADMINISTRATIVO/A",
+            "ENFERMERO/A FAMILIAR Y COMUNITARIA*",
+            "ENFERMERO/A SALUD MENTAL",
+            "ENFERMERO/A SALUD LABORAL",
+            "FISIOTERAPEUTA",
+            "TERAPEUTA OCUPACIONAL",
+            "DIPLOMADO/A LOGOPEDIA",
+            "DIPLOMADO/A ÓPTICA Y OPTOMETRÍA",
+            "INGENIERO/A TÉCNICO/A (TÉCNICO/A MEDIO MANTENIMIENTO E INSTALACIONES)"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-06-02",
+          "deadline": "2026-07-02",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 2 de julio de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 2 de junio de 2026 , está prevista la publicación de las listas de contratación de las siguientes categorías/puestos funcionales convocadas en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia prof",
+          "categories": [
+            "F.E.M. PEDIATRÍA HOSPITALARIA"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-05-28",
+          "deadline": "2026-06-29",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 29 de junio de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 28 de mayo de 2026 , está prevista la publicación de las listas de contratación de las siguientes categorías/puestos funcionales convocadas en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia prof",
+          "categories": [
+            "F.E.M DERMATOLOGÍA, MEDICINA QUIRÚRGICA Y VENEREOLOGÍA",
+            "F.E.M.-T. RADIOFÍSICA HOSPITALARIA",
+            "F.E.T. FARMACIA HOSPITALARIA",
+            "TÉCNICO/A SUPERIOR INFORMÁTICO/A",
+            "F.E.M. NEUMOLOGÍA",
+            "F.E.M. MEDICINA INTENSIVA",
+            "F.E.T. ODONTOLOGÍA"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-05-18",
+          "deadline": "2026-06-18",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 18 de junio de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 18 de mayo de 2026 , está prevista la publicación de las listas de contratación de las siguientes categorías/puestos funcionales convocadas en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia prof",
+          "categories": [
+            "F.E.M. OTORRINOLARINGOLOGÍA",
+            "F.E.M.-T. MICROBIOLOGÍA Y PARASITOLOGÍA",
+            "F.T. ODONTÓLOGO/A"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-05-15",
+          "deadline": "2026-06-15",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 15 de junio de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 15 de mayo de 2026 , está prevista la publicación de las listas de contratación de las siguientes categorías/puestos funcionales convocadas en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia prof",
+          "categories": [
+            "FAC. ESP. TEC. PSICOLOGO/A CLINICO",
+            "FAC. TEC. BIOLOGO/A"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-05-13",
+          "deadline": "2026-06-15",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 15 de junio de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 13 de mayo de 2026 , está prevista la publicación de las listas de contratación de las siguientes categorías/puestos funcionales convocadas en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia prof",
+          "categories": [
+            "F.E.M. UGS",
+            "F.E.M. UROLOGÍA"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-05-11",
+          "deadline": "2026-06-11",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 11 de junio de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 11 de mayo de 2026 , está prevista la publicación de las listas de contratación de las siguientes categorías/puestos funcionales convocadas en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia prof",
+          "categories": [
+            "F.E.M. RADIODIAGNÓSTICO",
+            "F.E.M. URGENCIAS HOSPITALARIAS",
+            "F.E.M. TÉCNICO/A INMUNOLOGÍA"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-05-05",
+          "deadline": "2026-06-05",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 5 de junio de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 5 de mayo de 2026 , está prevista la publicación de las listas de contratación de las siguientes categorías/puestos funcionales convocadas en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia profe",
+          "categories": [
+            "F.E.M. MEDICINA INTERNA",
+            "F.E.M. ONCOLOGÍA MÉDICA",
+            "F.E.M. PSIQUIATRÍA"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-05-04",
+          "deadline": "2026-06-04",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 4 de junio de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 4 de mayo de 2026 , está prevista la publicación de las listas de contratación de las siguientes categorías/puestos funcionales convocadas en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia profe",
+          "categories": [
+            "F.E.M. ANATOMÍA PATOLÓGICA",
+            "F.E.M. ANGIOLOGÍA Y CIRUGÍA VASCULAR",
+            "F.E.M. NEUROFISIOLOGÍA CLÍNICA",
+            "F.E.M. F.E.M. NEUROFISIOLOGÍA CLÍNICA",
+            "F.E.M. OBSTETRICIA Y GINECOLOGÍA",
+            "F.E.M. OFTALMOLOGÍA"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-04-30",
+          "deadline": "2026-06-01",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 1 de junio de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 30 de abril de 2026 , está prevista la publicación de las listas de contratación de las siguientes categorías/puestos funcionales convocadas en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia pro",
+          "categories": [
+            "F.E.M. NEUROCIRUGÍA",
+            "F.E.M. CIRUGÍA ORTOPÉDICA Y TRAUMATOLOGÍA",
+            "F.E.M. MEDICINA PREVENTIVA Y SALUD PÚBLICA",
+            "F.E.M. NEUMOLOGÍA",
+            "F.E.M. NEUROLOGIA"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-04-27",
+          "deadline": "2026-05-27",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 27 de mayo de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 27 de abril de 2026 , está prevista la publicación de las listas de contratación de las siguientes categorías/puestos funcionales convocadas en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia pro",
+          "categories": [
+            "F.E.M. MEDICINA INTENSIVA",
+            "F.E.M. NEFROLOGÍA"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-04-24",
+          "deadline": "2026-05-25",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 25 de mayo de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 24 de abril de 2026 , está prevista la publicación de las listas de contratación de las siguientes categorías/puestos funcionales convocadas en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia pro",
+          "categories": [
+            "F.E.M. MEDICINA DEL TRABAJO",
+            "F.E.M. MEDICINA NUCLEAR",
+            "F.E.M. MEDICINA FÍSICA Y REHABILITACIÓN",
+            "F.E.M. REUMATOLOGIA",
+            "F.E.M. ONCOLOGÍA RADIOTERAPICA",
+            "F.E.M. PSIQUIATRÍA INFANTIL"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-04-23",
+          "deadline": "2026-05-25",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 25 de mayo de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 23 de abril de 2026 , está prevista la publicación de las listas de contratación de las siguientes categorías/puestos funcionales convocadas en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia pro",
+          "categories": [
+            "F.E.M. CIR. PLASTICA, ESTETICA Y REPARADORA",
+            "F.E.M. EMERGENCIAS"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-04-22",
+          "deadline": "2026-05-22",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 22 de mayo de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 22 de abril de 2026 , está prevista la publicación de las listas de contratación de las siguientes categorías/puestos funcionales convocadas en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia pro",
+          "categories": [
+            "F.E.M. CIR. PEDIATRICA",
+            "F.E.M. CIR. TORACICA",
+            "F.E.M. CUIDADOS PALIATIVOS",
+            "F.E.M. ENDOCRINOLOGIA Y NUTRICION",
+            "F.E.M. ENFERMEDADES INFECCIOSAS",
+            "F.E.M. EPIDEMIOLOGIA CLINICA",
+            "F.E.M. HEMATOLOGIA Y HEMOTERAPIA"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-04-16",
+          "deadline": "2026-05-18",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 18 de mayo de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 16 de abril de 2026 , está prevista la publicación de las listas de contratación de las siguientes categorías/puestos funcionales convocadas en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026 , con la puntuación correspondiente a la fase de oposición de la misma, la experiencia pro",
+          "categories": [
+            "F.E.M. ALERGOLOGÍA",
+            "F.E.M. ANESTESIOLOGÍA Y REANIMACIÓN",
+            "F.E.M. APARATO DIGESTIVO",
+            "F.E.M. CARDIOLOGÍA",
+            "F.E.M. CIR. GENERAL Y APARATO DIGESTIVO",
+            "F.E.M. CIR. CARDIOVASCULAR",
+            "F.E.M. CIR. ORAL Y MAXILOFACIAL"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-04-13",
+          "deadline": "2026-05-13",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 13 de mayo de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 13 de abril de 2026, está prevista la publicación de las listas de contratación de las siguientes categorías/puestos funcionales convocadas en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026, con la puntuación correspondiente a la fase de oposición de la misma, la experiencia profe",
+          "categories": [
+            "FAC. ESP. MÉDICO/A DE FAMILIA - EAP",
+            "FAC. ESP. MÉDICO/A PEDIATRA &ndash; EAP"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-04-07",
+          "deadline": "2026-05-07",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 7 de mayo de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN LISTAS ENFERMERO/A Hoy, 7 de abril de 2026 , está prevista la publicación de las Listas de Contratación Temporal de Enfermero/a actualizadas tras la rectificación de los errores detectados. Entre estos errores, se ha corregido el cómputo del tiempo de servicios prestados (0,25 por mes) conforme a lo establecido en las bases específicas de la OPE 2020‑21‑22‑Estabilización, las listas ",
+          "categories": [],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-03-23",
+          "deadline": "2026-02-27",
+          "deadlineLiteral": "Fecha de corte para la integración de inscripciones: 27 de febrero de 2026.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Desde hoy, 23 de marzo, hasta el día 29 de marzo, inclusive, se habilita un plazo para revisar la elección de preferencias en las categorías de Titulados/as Superiores del Grupo profesional A2 . En el caso de hacerse modificaciones en el orden de preferencias elegido, se tendrá en cuenta la última solicitud realizada. La elección de preferencias real",
+          "categories": [],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-03-20",
+          "deadline": "2026-04-20",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 20 de abril de 2026, inclusive.",
+          "summary": "Actualización de listas. ACTUALIZACIÓN E INTEGRACIÓN LISTAS CONTRATACIÓN Hoy, día 20 de marzo de 2026 , está prevista la publicación de las listas de contratación de las siguientes categorías/puestos funcionales convocadas en la OPE 2020-21-22-Estabilización, procediendo a la integración y actualización a fecha 27 de febrero de 2026, con la puntuación correspondiente a la fase de oposición de la misma, la experiencia prof",
+          "categories": [
+            "ENFERMERO/A"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        },
+        {
+          "published": "2026-05-09",
+          "deadline": "2026-05-16",
+          "deadlineLiteral": "Plazo para interponer recurso de alzada hasta el 16 de mayo de 2026, inclusive.",
+          "summary": "Apertura de plazo de inscripción. APERTURA PLAZO INSCRIPCIÓN LISTAS TITULADO/A SUPERIOR &ndash; TECNICO/A SUPERIOR PSICOLOGÍA Del 19 de noviembre al 2 de diciembre de 2025, ambos inclusive, se abre plazo de inscripción en las listas de contratación temporal para las personas interesadas que estén en posesión de la titulación de licenciatura/grado en Psicología con el Master Oficial en Psicología General Sanitaria o habilitación co",
+          "categories": [
+            "OPERARIO/A DE SERVICIOS",
+            "OFICIAL/A MANTENIMIENTO",
+            "LETRADO/A-TÉCNICO/A SUPERIOR JURÍDICO/A",
+            "TÉCNICO/A MEDIO ADMINISTRACIÓN Y GESTIÓN",
+            "TÉCNICO/A MEDIO NORMALIZACIÓN DE EUSKERA",
+            "TÉCNICO/A MEDIO PREVENCIÓN SEGURIDAD E HIGIENE",
+            "TRABAJADOR/A SOCIAL",
+            "TÉCNICO/A INFORMÁTICA",
+            "OFICIAL/A CONDUCTOR/A SERVICIOS GENERALES",
+            "OFICIAL/A CONDUCTOR/A TRANSPORTE SANITARIO",
+            "OFICIAL/A CONDUCTOR/A VEHÍCULOS EMERGENCIAS",
+            "AUXILIAR DE ENFERMERÍA"
+          ],
+          "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "sourceUrl": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
+          "linkConfidence": "extraído automáticamente de la web oficial"
+        }
+      ],
       "ok": true,
       "status": 200,
-      "hash": "2aee4c31c1c3fe9a142e8943107e84646b9a8116f023b6d3519ae2cc9e86fb8d",
+      "hash": "581fa02dfdde67fc7eb699f68af1133482fde85f754036e78a13b36c03de5634",
       "error": ""
     },
     {
@@ -97,7 +1335,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "f8bbe802446f96ed886eb880da48b3ffe532bbd3e1c026e1fc53dc79f80ebd2a",
+      "hash": "2afe949361205d0b3cbf4766c70c7e936f1ac4f5d4c588c3e89ebc51a1fcbe9b",
       "error": ""
     },
     {
@@ -108,7 +1346,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "bd00740a570f740a3508d33e6baab6dee97a62f719a04f0a4eb100f29fc1e183",
+      "hash": "171fb16f70c72791b573576f3e29f5e98ad4db0b7ce687beba40eca9c2478eff",
       "error": ""
     },
     {
@@ -119,7 +1357,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "73584519f4cdc24637979cc52662d824e4403819f8b3071a5a2b2ffe01a05ce7",
+      "hash": "6d164f4d467f73a3a01e18325fd77890a1c6ea07b9fc115e86d3120022bbce1d",
       "error": ""
     },
     {
@@ -130,7 +1368,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "ba74ef1a145760807e6fb2e13afa6183bee3446c829eca8ca22057899b12585f",
+      "hash": "a49fe5110c14d32b41528622798576f618b4893840d88b43d27a5f03489aa3b9",
       "error": ""
     },
     {
@@ -141,7 +1379,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "e5fbfe699e39eaca810a26e5b5b469de5c040100ab30cada12c7e26d8e50b6ad",
+      "hash": "2f82d26906e9e2b70d3ac70ebd21dea6c1884b90b9cc20553e5251217574fea2",
       "error": ""
     },
     {
@@ -152,7 +1390,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "34828850936a41ffe56d0681531f68f9f91c86bcece78e67322c04184644e2ac",
+      "hash": "61b5ca79d9930c86ba521b760129df2325a8e2fb603886c08ed61de296031804",
       "error": ""
     },
     {
@@ -163,7 +1401,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "e93b0f581302acef18ccee854fad2b5de128e8fd6ceee98fd5ab3a655b281c9b",
+      "hash": "cec9251b8ea4e7f9dfbfb88141beb98c3db52f06b7302da1a5d0bcd3ed95ea6a",
       "error": ""
     },
     {
@@ -174,7 +1412,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "207641ed9d2164ece54193d724e48abde11c8cc66fa6fcce6e89dc1b830ef942",
+      "hash": "c8a40935d8e15355f9a21c9c3e88dc3144a71eb33f877e42f64bb3d83962c967",
       "error": ""
     },
     {
@@ -185,7 +1423,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "7089eed29e0f00e1c2c9f2a681894d53814e3592ca4b61715d2d80a629507dd7",
+      "hash": "c4fa3a2a67f1fd3d6e46ec084efcd9138c69489dc966167b6eb97366298f4f8d",
       "error": ""
     },
     {
@@ -196,7 +1434,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "323dfda4c6e618289715c29029fe27b4ebeaf78ea2a3280517e26edc20c62ca6",
+      "hash": "ef064f44fd335962c656f2732fe0cf264b3fc2ec657ac970ae13d7420b8c8ccb",
       "error": ""
     },
     {
@@ -207,7 +1445,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "eb0e54ca1c85259fb5662aa8e8b6f28f3a80418cd789fc5e8cac216842c2fd99",
+      "hash": "b1ac309edf2e5707b9207fd6f63e7cb1739eab3cd6f59bbb42c68c52ef8a20dd",
       "error": ""
     },
     {
@@ -218,7 +1456,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "a0e330d95b100bf7d023bda4c2e2cf18a28d86f88e8dbe7b9cd30379229a073d",
+      "hash": "34ecf2fb9eb9c0e89d610119fc2b6210d2f9c377b01405c8f07d0241f6232fa2",
       "error": ""
     },
     {
@@ -229,7 +1467,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "6dc8cefb9d70b50e7a4be99bda9311da93a6f9de2ba3fedda01051503962f4a9",
+      "hash": "745904da159590d2d6dc2396210ba5448ae3dfd8b59f2687eb318e59e84180ea",
       "error": ""
     },
     {
@@ -240,7 +1478,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "2e70f088daac728579cab32887287266bc4f9b0c034de97dd88b875590a8819d",
+      "hash": "724fee3e4bac6e386efc587d01525c1c271e66d543b1fabc5bea67dd3956169f",
       "error": ""
     },
     {
@@ -262,7 +1500,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "681cfb66953be364f6a6e2224636aec9d01637567b98ea2f3d769be60e068113",
+      "hash": "327073370cb317ff1fdcec6a84c0c55194bfd533537b688987c362926a5d080d",
       "error": ""
     }
   ]
