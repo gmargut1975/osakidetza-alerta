@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-18T07:30:38.621Z",
+  "checkedAt": "2026-09-18T12:30:44.846Z",
   "sources": [
     {
       "key": "profesionales",
@@ -31,7 +31,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "ea158500f76ca65a8fc0a8f38400d7033b1376c8829691654fc0f1e6551bc9eb",
+      "hash": "c304cff077a481907d4c76c7eea332cf34ccbc2acc33a4f53e4edb4590263065",
       "error": ""
     },
     {
@@ -64,7 +64,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "506bf9c5892696735516da2382b70e47d35942574355ce6ad22e0287680cc318",
+      "hash": "2aee4c31c1c3fe9a142e8943107e84646b9a8116f023b6d3519ae2cc9e86fb8d",
       "error": ""
     },
     {
@@ -75,7 +75,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "506bf9c5892696735516da2382b70e47d35942574355ce6ad22e0287680cc318",
+      "hash": "2aee4c31c1c3fe9a142e8943107e84646b9a8116f023b6d3519ae2cc9e86fb8d",
       "error": ""
     },
     {
@@ -97,7 +97,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "bbbe9db353c53074657072ba9d35706f905f011d4c9f93110844a8cf26ab7d3c",
+      "hash": "f8bbe802446f96ed886eb880da48b3ffe532bbd3e1c026e1fc53dc79f80ebd2a",
       "error": ""
     },
     {
@@ -262,7 +262,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "7003f08f9fe036f07caad42bee442b6a33aecf2335da2a8671080d8396a4ba6c",
+      "hash": "08ae6173e617b26df062a5718d80401bfdf92a51ca0977fa22d01990adee23c3",
       "error": ""
     }
   ]
