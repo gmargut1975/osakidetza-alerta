@@ -492,6 +492,29 @@ p {
   background: linear-gradient(90deg, var(--red), #ff4b55);
 }
 
+/* Avisos de lan poltsa (ofertas de interinidad): fondo lila distintivo. */
+.notice-card.is-lanpoltsa,
+.detail-item.is-lanpoltsa,
+.toast-detail-item.is-lanpoltsa {
+  background: linear-gradient(145deg, #f6f0ff, #ebdcfb);
+  border-color: rgba(124, 58, 189, 0.36);
+  box-shadow: inset 5px 0 0 rgba(124, 58, 189, 0.6);
+}
+
+.notice-card.is-lanpoltsa .notice-accent {
+  height: 8px;
+  background: linear-gradient(90deg, #7c3abd, #a86ede);
+}
+
+.lanpoltsa-note {
+  margin: 10px 0 0 !important;
+  padding: 8px 12px;
+  border-radius: 8px;
+  background: rgba(124, 58, 189, 0.12);
+  color: #4a2072 !important;
+  font-weight: 600;
+}
+
 .notice-body {
   padding: 15px;
 }
@@ -3279,6 +3302,21 @@ const notices = [
     deadlineLiteral: "Proceso de vigilancia permanente. Cada convocatoria de apertura o actualización de listas fija su propio plazo de inscripción; consulta la fuente oficial para el plazo literal de cada categoría.",
     url: SOURCES.temporal,
   },
+  {
+    id: "lanpoltsa-oferta-interinidades-fisioterapeuta-2026-09-19",
+    process: "Interinidades",
+    type: "Oferta de interinidades (lan poltsa)",
+    title: "Oferta de interinidades – Fisioterapeuta",
+    body: "Oferta de interinidades a través de la página web de Osakidetza (lan poltsa), dirigida a las personas integrantes de las listas largas de contratación 2021 que se encuentren en situación de disponibles, de la categoría de Fisioterapeuta. Más información en el área privada.",
+    categories: ["Fisioterapeuta"],
+    published: "2026-09-19",
+    start: "2026-09-19",
+    end: "2026-09-19",
+    deadlineLiteral: "Necesario entrar en convocatoria para conocer plazos.",
+    note: "Necesario entrar en convocatoria para conocer plazos.",
+    url: "https://lanpoltsa.osakidetza.eus/c28/avisos-generales",
+    isLanpoltsa: true,
+  },
 ];
 
 const processNames = ["Todos", ...new Set([
@@ -4024,7 +4062,7 @@ function noticeCard(notice, compact = false) {
   const watched = state.watched.has(notice.id);
   const alarm = state.noticeAlarms[notice.id];
   return `
-    <article class="notice-card ${risk} ${tone} ${notice.important ? "is-important" : ""} ${done ? "is-done" : ""} ${watched ? "is-watched" : ""}">
+    <article class="notice-card ${risk} ${tone} ${notice.important ? "is-important" : ""} ${done ? "is-done" : ""} ${watched ? "is-watched" : ""} ${notice.isLanpoltsa ? "is-lanpoltsa" : ""}">
       <div class="notice-accent"></div>
       <div class="notice-body">
         <div class="notice-top">
@@ -4036,6 +4074,7 @@ function noticeCard(notice, compact = false) {
         </div>
         <h3>${htmlEscape(notice.title)}</h3>
         <p>${htmlEscape(notice.body)}</p>
+        ${notice.isLanpoltsa ? `<p class="lanpoltsa-note">${htmlEscape(notice.note || "Necesario entrar en convocatoria para conocer plazos.")}</p>` : ""}
         ${compact ? "" : `<p><strong>A quién afecta:</strong> ${htmlEscape(notice.audience)}</p>`}
         <p><strong>Categorías afectadas:</strong> ${htmlEscape(categoriesText(notice))}</p>
         <p><strong>Qué hacer:</strong> ${htmlEscape(notice.action)}</p>
