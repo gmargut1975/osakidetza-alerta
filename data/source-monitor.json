@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-24T01:33:44.629Z",
+  "checkedAt": "2026-09-24T06:57:38.173Z",
   "sources": [
     {
       "key": "profesionales",
@@ -18,10 +18,10 @@
       "label": "Empleo Público",
       "process": "Empleo público",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "This operation was aborted"
+      "ok": true,
+      "status": 200,
+      "hash": "cb31a86feaae5303fdafbda2dda215e40b73ac9a2b95254cf372ff3053a1ac43",
+      "error": ""
     },
     {
       "key": "ope2325",
@@ -1344,10 +1344,10 @@
       "label": "Comisiones de servicios 2025",
       "process": "Comisiones de servicios",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "This operation was aborted"
+      "ok": true,
+      "status": 200,
+      "hash": "856b95b9f4be3f6d425637353449f87adf0329db21a672b2a5492006911ae9f6",
+      "error": ""
     },
     {
       "key": "comisiones2024",
@@ -1368,7 +1368,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "9c94db1646e098ba049b542bbeea0200daf9e8546d3a7786282c083d1941b8db",
+      "hash": "d13f8e9c081e083541d419340475a2392345fd553d2a10b6f780292605cfd281",
       "error": ""
     },
     {
@@ -1432,10 +1432,10 @@
       "label": "BOPV traslados ciclo mayo 2026 - 14 julio",
       "process": "Traslados",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "This operation was aborted"
+      "ok": true,
+      "status": 200,
+      "hash": "ef064f44fd335962c656f2732fe0cf264b3fc2ec657ac970ae13d7420b8c8ccb",
+      "error": ""
     },
     {
       "key": "trasladosBopvMayo2026Enfermeria",
@@ -1443,10 +1443,10 @@
       "label": "BOPV traslados ciclo mayo 2026 - Enfermero/a",
       "process": "Traslados",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "This operation was aborted"
+      "ok": true,
+      "status": 200,
+      "hash": "b1ac309edf2e5707b9207fd6f63e7cb1739eab3cd6f59bbb42c68c52ef8a20dd",
+      "error": ""
     },
     {
       "key": "trasladosBopvMayo2026Correcciones",
@@ -1454,10 +1454,10 @@
       "label": "BOPV traslados ciclo mayo 2026 - modificaciones",
       "process": "Traslados",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "This operation was aborted"
+      "ok": true,
+      "status": 200,
+      "hash": "34ecf2fb9eb9c0e89d610119fc2b6210d2f9c377b01405c8f07d0241f6232fa2",
+      "error": ""
     },
     {
       "key": "trasladosBopvMayo2026CorreccionJulio31",
@@ -1465,10 +1465,10 @@
       "label": "BOPV traslados ciclo mayo 2026 - corrección 31 julio",
       "process": "Traslados",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "This operation was aborted"
+      "ok": true,
+      "status": 200,
+      "hash": "745904da159590d2d6dc2396210ba5448ae3dfd8b59f2687eb318e59e84180ea",
+      "error": ""
     },
     {
       "key": "trasladosBopvMayo2026Agosto20",
@@ -1476,10 +1476,10 @@
       "label": "BOPV traslados ciclo mayo 2026 - 20 de agosto (boletín nº158)",
       "process": "Traslados",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "This operation was aborted"
+      "ok": true,
+      "status": 200,
+      "hash": "7a78c02234ffb8b96fd0d872e4283a0b557d61d1dfa74899d0d63cd2e1a2dad0",
+      "error": ""
     },
     {
       "key": "noticiasProfesionales",
@@ -1487,10 +1487,10 @@
       "label": "Noticias para profesionales",
       "process": "Noticias profesionales",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "This operation was aborted"
+      "ok": true,
+      "status": 200,
+      "hash": "491cea038aa71522d1c2676d10af53429be43ae0e10c1ed5ae4618504cc748a4",
+      "error": ""
     },
     {
       "key": "bopvBusquedaOsakidetza",
@@ -1500,7 +1500,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "733fe595dde648bb3ca6f4aec22bb7874f9b90157fae22230bb7b88fd9358065",
+      "hash": "f580afd389aa349ce4f66d59a8341a5782eae1c43cc4cf3dcdbe9f49a034c7a6",
       "error": ""
     }
   ]
