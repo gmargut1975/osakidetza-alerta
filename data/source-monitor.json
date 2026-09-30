@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-30T03:05:44.700Z",
+  "checkedAt": "2026-09-30T09:53:08.374Z",
   "sources": [
     {
       "key": "profesionales",
@@ -29,10 +29,10 @@
       "label": "OPE 2023-2024-2025",
       "process": "OPE 2023-2024-2025",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "7d392957cee86d24190a27795ec779b817a990c34401a0248e949183970b5d18",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "This operation was aborted"
     },
     {
       "key": "ope2022",
@@ -40,10 +40,10 @@
       "label": "OPE 2020-2021-2022 / estabilización",
       "process": "OPE 2020-2021-2022",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "e8579e936060a8a7076d623d40bc269c0dde7e9c261b2db0ce5d8b6c98b0b6c2",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "This operation was aborted"
     },
     {
       "key": "opeEstabilizacion",
@@ -1335,7 +1335,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "6804d26b649ac171261772460cd6d7bebd84ebeb52985da24081f4f1c7934dd5",
+      "hash": "6847f91cbf7f73b79e2fa5022642b581306c58c45b1bb65d18fe194105800e2f",
       "error": ""
     },
     {
@@ -1368,7 +1368,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "a1ad01cc709de3747c12afa518370dbefb957dcb9105847d33b0ec182b9e8fdf",
+      "hash": "503034bdcf72cf6b1296ea760215ed7c97fd799281c92f0bef6f075a43b5bb19",
       "error": ""
     },
     {
@@ -1500,7 +1500,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "4c8ea81ed36ebd6817432c9fa1c8d0e6ac62c9c02af6118da07b29fd7ee874fb",
+      "hash": "d7bfc7935cd5c7fdbebdb0a9886912a8f44b7b5d74099dffca0231781bf91627",
       "error": ""
     }
   ]
