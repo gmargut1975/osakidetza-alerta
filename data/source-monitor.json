@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-01T00:16:33.924Z",
+  "checkedAt": "2026-10-01T06:15:00.277Z",
   "sources": [
     {
       "key": "profesionales",
@@ -1344,10 +1344,10 @@
       "label": "Comisiones de servicios 2025",
       "process": "Comisiones de servicios",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "This operation was aborted"
+      "ok": true,
+      "status": 200,
+      "hash": "9524bee5f132d11181ffa1623f2bc6c3bf9a4bffe75135159db14bea17f2284a",
+      "error": ""
     },
     {
       "key": "comisiones2024",
@@ -1355,10 +1355,10 @@
       "label": "Comisiones de servicios 2024",
       "process": "Comisiones de servicios",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "This operation was aborted"
+      "ok": true,
+      "status": 200,
+      "hash": "b98cca8ccd2e083aeff6b82c08f6fffcdb4a3f867f38c42009a168deab6dd001",
+      "error": ""
     },
     {
       "key": "jefaturas2026",
@@ -1465,10 +1465,10 @@
       "label": "BOPV traslados ciclo mayo 2026 - corrección 31 julio",
       "process": "Traslados",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "745904da159590d2d6dc2396210ba5448ae3dfd8b59f2687eb318e59e84180ea",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "This operation was aborted"
     },
     {
       "key": "trasladosBopvMayo2026Agosto20",
@@ -1487,10 +1487,10 @@
       "label": "Noticias para profesionales",
       "process": "Noticias profesionales",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "418e637bf3d6433efa251e6746bc4e21370605fb0e35a830e3a090969bdcb8b3",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "This operation was aborted"
     },
     {
       "key": "bopvBusquedaOsakidetza",
@@ -1500,7 +1500,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "1c1413abbfb5a5336de8c977e1067c5a12ef978fd68083e29f916d1c51f278ef",
+      "hash": "02e4abbf0a01a68907261aa0bd05bd82e9526ded4f92f454eb159b6c8d34eac8",
       "error": ""
     }
   ]
