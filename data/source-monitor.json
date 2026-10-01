@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-01T06:15:00.277Z",
+  "checkedAt": "2026-10-01T13:37:58.463Z",
   "sources": [
     {
       "key": "profesionales",
@@ -1368,7 +1368,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "50a66309467f9f8c4b4594c0bc0ee34c3bf8b2205c5ec548040bd6401af5b625",
+      "hash": "0dbfc211b9bef6ef16a878faebb649748177b2636f64022546344129ca6549b0",
       "error": ""
     },
     {
@@ -1465,10 +1465,10 @@
       "label": "BOPV traslados ciclo mayo 2026 - corrección 31 julio",
       "process": "Traslados",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "This operation was aborted"
+      "ok": true,
+      "status": 200,
+      "hash": "745904da159590d2d6dc2396210ba5448ae3dfd8b59f2687eb318e59e84180ea",
+      "error": ""
     },
     {
       "key": "trasladosBopvMayo2026Agosto20",
@@ -1487,10 +1487,10 @@
       "label": "Noticias para profesionales",
       "process": "Noticias profesionales",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "This operation was aborted"
+      "ok": true,
+      "status": 200,
+      "hash": "418e637bf3d6433efa251e6746bc4e21370605fb0e35a830e3a090969bdcb8b3",
+      "error": ""
     },
     {
       "key": "bopvBusquedaOsakidetza",
@@ -1500,7 +1500,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "02e4abbf0a01a68907261aa0bd05bd82e9526ded4f92f454eb159b6c8d34eac8",
+      "hash": "5e4cb9437f22bb103aa1e54769e2cefdf01749383dfa3ee22ec1eb22bd643589",
       "error": ""
     }
   ]
