@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-01T13:37:58.463Z",
+  "checkedAt": "2026-10-01T19:10:00.568Z",
   "sources": [
     {
       "key": "profesionales",
@@ -1388,10 +1388,10 @@
       "label": "Convocatoria de puestos",
       "process": "Convocatoria de puestos",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "40aaed440ed8e7fde121ef238da293ffebbc169d20730e97ae174f62505851e1",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "This operation was aborted"
     },
     {
       "key": "desarrollo",
@@ -1399,10 +1399,10 @@
       "label": "Desarrollo profesional",
       "process": "Desarrollo profesional",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "55f83dd5f8e8cb5b432ed883fef9b0e938f8d705ab729a39a675657f5e3ddd95",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "This operation was aborted"
     },
     {
       "key": "traslados",
@@ -1500,7 +1500,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "5e4cb9437f22bb103aa1e54769e2cefdf01749383dfa3ee22ec1eb22bd643589",
+      "hash": "f3740b2672fd89e4d194fda4bdad3080be4c97d0945f52954372626749a9fa11",
       "error": ""
     }
   ]
