@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-03T08:57:51.945Z",
+  "checkedAt": "2026-10-03T14:07:49.578Z",
   "sources": [
     {
       "key": "profesionales",
@@ -1355,10 +1355,10 @@
       "label": "Comisiones de servicios 2024",
       "process": "Comisiones de servicios",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "This operation was aborted"
+      "ok": true,
+      "status": 200,
+      "hash": "0aa288600dc61bd78af17fd682aeada9f8de2a70f6a5d79d9028a4a8f6c07cb3",
+      "error": ""
     },
     {
       "key": "jefaturas2026",
@@ -1500,7 +1500,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "6d98dbd1c6ce5846cacfbbb1ca347533d5b725d6c718a50fe7db2cd5ea5ba01a",
+      "hash": "b24c42f76a1c194d99e54155e1162af4960b718516d6cb14a8fee8447a25e31a",
       "error": ""
     }
   ]
