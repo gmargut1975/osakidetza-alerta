@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-04T23:22:22.330Z",
+  "checkedAt": "2026-10-05T02:11:00.395Z",
   "sources": [
     {
       "key": "profesionales",
@@ -29,10 +29,10 @@
       "label": "OPE 2023-2024-2025",
       "process": "OPE 2023-2024-2025",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "b4ed520817dd055d85b8cc12adb01097d963edc9fc9c7df1b57c1c536adfc6d9",
-      "error": ""
+      "ok": false,
+      "status": 503,
+      "hash": "",
+      "error": "HTTP 503"
     },
     {
       "key": "ope2022",
@@ -1355,10 +1355,10 @@
       "label": "Comisiones de servicios 2024",
       "process": "Comisiones de servicios",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "f88fbb7a3d897770e18afb4773e567547505558283ae3c7bdd017af06da174ba",
-      "error": ""
+      "ok": false,
+      "status": 503,
+      "hash": "",
+      "error": "HTTP 503"
     },
     {
       "key": "jefaturas2026",
@@ -1500,7 +1500,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "e82c30fbe6ae004d2b820fc5183c4d14ba8fad2d66952c088e7fad415fed6f13",
+      "hash": "5b9daead84c28ded7d85401025cfcb586945c84b947354d782f2d7df13882fb4",
       "error": ""
     }
   ]
