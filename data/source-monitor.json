@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-05T02:11:00.395Z",
+  "checkedAt": "2026-10-05T09:19:16.314Z",
   "sources": [
     {
       "key": "profesionales",
@@ -29,10 +29,10 @@
       "label": "OPE 2023-2024-2025",
       "process": "OPE 2023-2024-2025",
       "officialItems": [],
-      "ok": false,
-      "status": 503,
-      "hash": "",
-      "error": "HTTP 503"
+      "ok": true,
+      "status": 200,
+      "hash": "b4ed520817dd055d85b8cc12adb01097d963edc9fc9c7df1b57c1c536adfc6d9",
+      "error": ""
     },
     {
       "key": "ope2022",
@@ -1335,7 +1335,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "4e425b05c5ca5da2e5843c3b2315c13d73cee6faf9ba303f6fe4984fd005b9eb",
+      "hash": "11ad10b07c6bca5044739ed7a70d333207b1ecff7548506b2c60cfe701b11888",
       "error": ""
     },
     {
@@ -1355,10 +1355,10 @@
       "label": "Comisiones de servicios 2024",
       "process": "Comisiones de servicios",
       "officialItems": [],
-      "ok": false,
-      "status": 503,
-      "hash": "",
-      "error": "HTTP 503"
+      "ok": true,
+      "status": 200,
+      "hash": "f88fbb7a3d897770e18afb4773e567547505558283ae3c7bdd017af06da174ba",
+      "error": ""
     },
     {
       "key": "jefaturas2026",
@@ -1500,7 +1500,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "5b9daead84c28ded7d85401025cfcb586945c84b947354d782f2d7df13882fb4",
+      "hash": "aa38930ff81bfef8c202c61313b0c7f4d455e48b4000f90e6de9b0acf4ade1e6",
       "error": ""
     }
   ]
