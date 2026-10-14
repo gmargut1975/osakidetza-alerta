@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-14T01:17:55.625Z",
+  "checkedAt": "2026-10-14T06:22:02.719Z",
   "sources": [
     {
       "key": "profesionales",
@@ -1366,10 +1366,10 @@
       "label": "Convocatorias jefaturas 2026",
       "process": "Jefaturas y méritos",
       "officialItems": [],
-      "ok": true,
-      "status": 200,
-      "hash": "085ea5ab50c79bcd0a6e6ac8ea7506967a6800871c095d893aaeb6af6cd7a6a1",
-      "error": ""
+      "ok": false,
+      "status": 0,
+      "hash": "",
+      "error": "This operation was aborted"
     },
     {
       "key": "jefaturas2025",
@@ -1500,7 +1500,7 @@
       "officialItems": [],
       "ok": true,
       "status": 200,
-      "hash": "5d04c27c099a64ca4b1f1eeb2be7eb83cfcd963fedfb79500df7b3cd6f43ebfd",
+      "hash": "aeac2178b32f1f656b13bbb36dfeeaaf3e785aa4cda752511db8e866cb224500",
       "error": ""
     }
   ]
