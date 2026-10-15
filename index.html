@@ -54,7 +54,7 @@ main{min-width:0}
 .checks label{min-width:0;overflow-wrap:anywhere}
 .checks label{display:flex;align-items:center;gap:8px;padding:4px 2px;cursor:pointer;border-radius:6px}
 .checks label:hover{background:var(--surface-2)}
-.checks .n{margin-left:auto;color:var(--muted);font-size:12px}
+.checks .n{margin-left:auto;color:var(--muted);font-size:12px;flex:none;white-space:nowrap;padding-left:6px}
 input[type=search],input[type=text],input[type=date],input[type=url],select,textarea{width:100%;min-height:40px;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--surface)}
 input[type=checkbox]{width:18px;height:18px;accent-color:var(--accent)}
 .row2{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:8px}
@@ -83,6 +83,9 @@ input[type=checkbox]{width:18px;height:18px;accent-color:var(--accent)}
 .pill.new{background:var(--brand);color:var(--brand-ink)}
 .pill.est{background:#fff3d6;color:#6b4100}
 .pill.mine{background:var(--accent);color:#fff}
+.pill.org{background:var(--text);color:var(--bg);font-size:13px;padding:2px 10px}
+.pill.org.all{background:var(--chip);color:var(--text)}
+.pill.org::before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--brand);margin-right:6px;vertical-align:1px}
 .when{font-size:13px}
 .when strong{font-variant-numeric:tabular-nums}
 .left.soon{color:var(--danger);font-weight:700}.left.open{color:var(--ok);font-weight:600}
@@ -328,13 +331,57 @@ function buildItems() {
   state.manual.forEach((it) => map.set(it.id, it));
   ITEMS = [...map.values()].map((it) => ({ ...it, url: safeUrl(it.url), altUrl: safeUrl(it.altUrl) })).map(decorate);
 }
+/* Organización (OSI, red, hospital...) donde tiene lugar el plazo: nombre
+   canónico para el filtro y la tarjeta; si la fuente no la da, se deduce del
+   texto cuando este menciona una única organización. */
+const ORGS = [
+  ["OSI Araba", /\bosi araba\b|hospital universitario araba/],
+  ["OSI Rioja Alavesa", /rioja alavesa/],
+  ["OSI Debagoiena", /debagoiena|alto deba/],
+  ["OSI Debabarrena", /debabarrena|bajo deba/],
+  ["OSI Bidasoa", /bidasoa/],
+  ["OSI Donostialdea", /donostialdea/],
+  ["OSI Goierri-Urola Garaia", /goierri/],
+  ["OSI Tolosaldea", /tolosaldea/],
+  ["OSI Barakaldo-Sestao", /barakaldo/],
+  ["OSI Barrualde-Galdakao", /barrualde|galdakao/],
+  ["OSI Bilbao-Basurto", /bilbao.basurto/],
+  ["OSI Ezkerraldea-Enkarterri-Cruces", /ezkerraldea|enkarterri/],
+  ["OSI Uribe", /\buribe\b/],
+  ["Red de Salud Mental de Araba", /salud mental (de )?araba|\brsma\b/],
+  ["Red de Salud Mental de Bizkaia", /salud mental (de )?bizkaia|\brsmb\b/],
+  ["Red de Salud Mental de Gipuzkoa", /salud mental (de )?gipuzkoa|\brsmg\b/],
+  ["Hospital Gorliz", /gorliz/],
+  ["Hospital Santa Marina", /santa marina/],
+  ["Emergencias", /^emergencias/],
+  ["CVTTH (Transfusión y Tejidos)", /cvtth|transfusion y tejidos/],
+  ["Organización Central (Dirección General)", /^direccion general|organizacion central/],
+];
+const CENTRAL = "Organización Central (Dirección General)";
+const ALL_ORGS = "Toda Osakidetza";
+function canonicalOrg(raw) {
+  const t = fold(raw).trim();
+  if (!t) return "";
+  const hit = ORGS.find(([, re]) => re.test(t));
+  return hit ? hit[0] : raw;
+}
+function deriveOrg(it) {
+  const t = fold(`${it.title} ${(it.categories || []).join(" ")} ${it.summary || ""}`);
+  const hits = ORGS.filter(([name, re]) => name !== CENTRAL && name !== "Emergencias" && re.test(t)).map(([name]) => name);
+  return hits.length === 1 ? hits[0] : "";
+}
+const shortOrg = (o) => o.replace(/^OSI /, "").replace(/^Red de Salud Mental de /, "RSM ").replace(/^Hospital /, "H. ").replace(/^Organización Central.*/, "Org. Central").replace(/ \(.*\)$/, "");
 function decorate(it) {
   const t = todayIso();
   let status = "sinplazo";
   if (it.end) status = it.end < t ? "cerrado" : it.start && it.start > t ? "proximo" : "abierto";
   const left = it.end ? diffDays(t, it.end) : null;
-  const hay = fold([it.title, it.process, it.kind, it.org, (it.categories || []).join(" "), it.literal, it.summary].join(" "));
-  return { ...it, categories: it.categories || [], status, left, soon: status === "abierto" && left <= SOON_DAYS, hay };
+  // Los puestos convocados por Dirección General para una OSI concreta
+  // (p. ej. «Director/a Gerente (OSI Uribe)») se muestran en esa OSI.
+  const given = canonicalOrg(it.org || "");
+  const org = given && given !== CENTRAL ? given : deriveOrg(it) || given;
+  const hay = fold([it.title, it.process, it.kind, org, it.org, (it.categories || []).join(" "), it.literal, it.summary].join(" "));
+  return { ...it, org, categories: it.categories || [], status, left, soon: status === "abierto" && left <= SOON_DAYS, hay };
 }
 
 async function fetchMonitor(manual) {
@@ -398,9 +445,9 @@ function dueReminders() {
 async function notifySystem() {
   if (!state.settings.systemNotifications || !("Notification" in window) || Notification.permission !== "granted") return;
   const pending = [];
-  dueReminders().forEach((r) => { const k = `sys|${r.key}`; if (!state.notified[k]) { pending.push([k, `${r.label}: ${r.left === 0 ? "hoy" : `en ${plural(r.left, "día", "días")}`}`, r.it.title]); } });
+  dueReminders().forEach((r) => { const k = `sys|${r.key}`; if (!state.notified[k]) { pending.push([k, `${r.label}: ${r.left === 0 ? "hoy" : `en ${plural(r.left, "día", "días")}`}`, `${r.it.org ? `${r.it.org} · ` : ""}${r.it.title}`]); } });
   const fresh = relevantNew().filter((it) => !state.notified[`sys|new|${it.id}`]);
-  if (fresh.length) pending.push([fresh.map((it) => `sys|new|${it.id}`), plural(fresh.length, "novedad", "novedades") + " en Plazos Osakidetza", fresh.slice(0, 3).map((it) => it.title).join(" · ")]);
+  if (fresh.length) pending.push([fresh.map((it) => `sys|new|${it.id}`), plural(fresh.length, "novedad", "novedades") + " en Plazos Osakidetza", fresh.slice(0, 3).map((it) => `${it.org ? `${shortOrg(it.org)}: ` : ""}${it.title}`).join(" · ")]);
   if (!pending.length) return;
   const reg = navigator.serviceWorker ? await navigator.serviceWorker.getRegistration().catch(() => null) : null;
   pending.forEach(([keys, title, body]) => {
@@ -432,7 +479,7 @@ function filtered(ignore) {
     if (ignore !== "process" && f.processes.length && !f.processes.includes(it.process)) return false;
     if (ignore !== "kind" && f.kinds.length && !f.kinds.includes(it.kind)) return false;
     if (cats.length && !cats.some((c) => matchesAll(fold(`${it.categories.join(" | ")} ${it.title}`), c))) return false;
-    if (f.org && it.org !== f.org) return false;
+    if (f.org && (f.org === ALL_ORGS ? it.org : it.org !== f.org)) return false;
     if (f.src && it.src !== f.src) return false;
     if (f.from && (!it.end || it.end < f.from)) return false;
     if (f.to && (!it.end || it.end > f.to)) return false;
@@ -465,7 +512,7 @@ function renderFilters() {
   const cats = [...new Set(ITEMS.flatMap((i) => i.categories))].sort((a, b) => a.localeCompare(b, "es"));
   $("#categoryList").innerHTML = cats.map((c) => `<option value="${esc(c)}">`).join("");
   const orgs = [...new Set(ITEMS.map((i) => i.org).filter(Boolean))].sort((a, b) => a.localeCompare(b, "es"));
-  $("#fOrg").innerHTML = `<option value="">Todas</option>` + orgs.map((o) => `<option ${o === f.org ? "selected" : ""}>${esc(o)}</option>`).join("");
+  $("#fOrg").innerHTML = `<option value="">Todas</option><option value="${ALL_ORGS}" ${f.org === ALL_ORGS ? "selected" : ""}>${ALL_ORGS} (procesos corporativos)</option>` + orgs.map((o) => `<option ${o === f.org ? "selected" : ""}>${esc(o)}</option>`).join("");
   const srcs = [...new Set(ITEMS.map((i) => i.src))].sort();
   $("#fSource").innerHTML = `<option value="">Todas</option>` + srcs.map((s) => `<option value="${esc(s)}" ${s === f.src ? "selected" : ""}>${esc(sourceLabel(s))}</option>`).join("");
   $("#fFrom").value = f.from; $("#fTo").value = f.to; $("#fPublished").value = f.published;
@@ -511,9 +558,10 @@ function whenText(it) {
 function card(it) {
   const fol = state.follow[it.id];
   const st = it.soon ? "st-soon" : it.status === "abierto" ? "st-open" : it.status === "proximo" ? "st-next" : it.status === "sinplazo" ? "st-none" : "";
-  const cats = it.categories.length ? `<div class="cats">${esc(it.categories.slice(0, 3).join(" · "))}${it.categories.length > 3 ? ` · +${it.categories.length - 3}` : ""}</div>` : "";
+  const redundant = it.categories.length === 1 && fold(it.title).startsWith(fold(it.categories[0]));
+  const cats = it.categories.length && !redundant ? `<div class="cats">${esc(it.categories.slice(0, 3).join(" · "))}${it.categories.length > 3 ? ` · +${it.categories.length - 3}` : ""}</div>` : "";
   return `<article class="card ${st}" data-id="${esc(it.id)}">
-    <div class="meta"><span class="pill">${esc(it.process)}</span><span>${esc(it.kind)}</span>${it.org ? `<span>· ${esc(it.org)}</span>` : ""}${isNew(it) ? `<span class="pill new">Nuevo</span>` : ""}${it.estimated ? `<span class="pill est" title="Fin de plazo calculado a partir de la resolución">Fecha calculada</span>` : ""}${fol ? `<span class="pill mine">${FSTATUS[fol.status]}</span>` : ""}</div>
+    <div class="meta">${it.org ? `<span class="pill org" title="Organización">${esc(it.org)}</span>` : `<span class="pill org all" title="Proceso corporativo: afecta a toda Osakidetza">${ALL_ORGS}</span>`}<span class="pill">${esc(it.process)}</span><span>${esc(it.kind)}</span>${isNew(it) ? `<span class="pill new">Nuevo</span>` : ""}${it.estimated ? `<span class="pill est" title="Fin de plazo calculado a partir de la resolución">Fecha calculada</span>` : ""}${fol ? `<span class="pill mine">${FSTATUS[fol.status]}</span>` : ""}</div>
     <h3><button type="button" data-open="${esc(it.id)}">${esc(it.title)}</button></h3>
     ${cats}
     <div>${whenText(it)}</div>
@@ -564,7 +612,9 @@ function renderCalendar(list) {
     if (i === 35 && day.slice(0, 7) !== month) break;
     const e = (ends.get(day) || []).sort((a, b) => Boolean(state.follow[b.id]) - Boolean(state.follow[a.id]));
     const s = starts.get(day) || [];
-    const evs = [...e.map((it) => `<span class="ev${state.follow[it.id] ? " f" : ""}" title="${esc(`${it.kind} · ${it.title}`)}">${esc(shortTitle(it))}</span>`), ...s.map((it) => `<span class="ev s" title="${esc(`${it.kind} · ${it.title}`)}">Empieza: ${esc(shortTitle(it))}</span>`)];
+    const chip = (it) => `${it.org ? `${shortOrg(it.org)} · ` : ""}${shortTitle(it)}`;
+    const tip = (it) => `${it.org ? `${it.org} · ` : ""}${it.kind} · ${it.title}`;
+    const evs = [...e.map((it) => `<span class="ev${state.follow[it.id] ? " f" : ""}" title="${esc(tip(it))}">${esc(chip(it))}</span>`), ...s.map((it) => `<span class="ev s" title="${esc(tip(it))}">Empieza: ${esc(chip(it))}</span>`)];
     const label = `${Number(day.slice(8))} de ${MONTHS[Number(day.slice(5, 7)) - 1]}: ${e.length ? plural(e.length, "fin de plazo", "fines de plazo") : "sin fines de plazo"}${s.length ? `, ${plural(s.length, "inicio", "inicios")} de plazos seguidos` : ""}`;
     cells += `<button type="button" class="day${day.slice(0, 7) !== month ? " out" : ""}${day === t ? " today" : ""}" data-day="${day}" aria-pressed="${day === selectedDay}" aria-label="${label}"><span class="num">${Number(day.slice(8))}</span>${evs.slice(0, 3).join("")}${evs.length > 3 ? `<span class="more">+${evs.length - 3} más</span>` : ""}<span class="dots">${e.slice(0, 8).map((it) => `<i class="${state.follow[it.id] ? "f" : ""}"></i>`).join("")}</span></button>`;
   }
@@ -640,9 +690,9 @@ function openDetail(id) {
     ${it.literal ? `<blockquote>${esc(it.literal)}</blockquote>` : ""}
     ${it.estimated ? `<p class="status-line warn">La fecha final se ha calculado a partir del texto de la resolución (días hábiles o un mes desde la publicación). Compruébala en el documento oficial.</p>` : ""}
     <dl class="dl">
+      ${it.org ? `<dt>Organización</dt><dd><strong>${esc(it.org)}</strong></dd>` : ""}
       <dt>Proceso</dt><dd>${esc(it.process)}</dd>
       <dt>Trámite</dt><dd>${esc(it.kind)}</dd>
-      ${it.org ? `<dt>Organización</dt><dd>${esc(it.org)}</dd>` : ""}
       ${it.categories.length ? `<dt>Categorías / puestos</dt><dd>${esc(it.categories.join(" · "))}</dd>` : ""}
       <dt>Publicado</dt><dd>${fmt(it.published)}</dd>
       <dt>Fuente</dt><dd>${esc(sourceLabel(it.src))}</dd>
@@ -704,7 +754,7 @@ function openNotices() {
   d.innerHTML = `<div class="dlg-head"><h2 id="noticesTitle">Avisos</h2><button class="btn ghost" data-close aria-label="Cerrar">✕</button></div>
   <div class="dlg-body">
     <section><h3 style="margin:0 0 6px">Recordatorios de lo que sigues (${reminders.length})</h3>
-      ${reminders.length ? `<div class="notice-list">${reminders.map((r) => `<div class="card ${r.left <= 1 ? "st-soon" : "st-open"}"><div class="meta"><span class="pill">${esc(r.label)}</span><span>${r.left === 0 ? "hoy" : `en ${plural(r.left, "día", "días")}`} (${fmt(r.date)})</span></div><h3><button type="button" data-open="${esc(r.it.id)}">${esc(r.it.title)}</button></h3></div>`).join("")}</div>` : `<p class="status-line">Ningún plazo que sigas termina pronto.</p>`}
+      ${reminders.length ? `<div class="notice-list">${reminders.map((r) => `<div class="card ${r.left <= 1 ? "st-soon" : "st-open"}"><div class="meta">${r.it.org ? `<span class="pill org">${esc(r.it.org)}</span>` : ""}<span class="pill">${esc(r.label)}</span><span>${r.left === 0 ? "hoy" : `en ${plural(r.left, "día", "días")}`} (${fmt(r.date)})</span></div><h3><button type="button" data-open="${esc(r.it.id)}">${esc(r.it.title)}</button></h3></div>`).join("")}</div>` : `<p class="status-line">Ningún plazo que sigas termina pronto.</p>`}
     </section>
     <section><h3 style="margin:0 0 6px">Novedades sin ver (${fresh.length})</h3>
       <p class="status-line">${interests ? "Solo se muestran las de tus intereses (Ajustes)." : "Consejo: elige tus procesos y categorías en Ajustes para recibir solo lo que te afecta."} Cada novedad se avisa una única vez: al marcarla como vista no vuelve a aparecer.</p>
@@ -798,7 +848,7 @@ function ics(items) {
   items.filter((it) => it.end).forEach((it) => {
     const f = state.follow[it.id] || {};
     const desc = [it.literal, it.categories.join(" · "), f.note ? `Mis notas: ${f.note}` : "", it.url].filter(Boolean).join("\n");
-    lines.push("BEGIN:VEVENT", `UID:${it.id}@plazos-osakidetza`, `DTSTAMP:${stamp}`, `DTSTART;VALUE=DATE:${it.end.replace(/-/g, "")}`, `DTEND;VALUE=DATE:${addDays(it.end, 1).replace(/-/g, "")}`, `SUMMARY:${icsEscape(`Fin de plazo · ${it.kind}: ${it.title}`)}`, `DESCRIPTION:${icsEscape(desc)}`);
+    lines.push("BEGIN:VEVENT", `UID:${it.id}@plazos-osakidetza`, `DTSTAMP:${stamp}`, `DTSTART;VALUE=DATE:${it.end.replace(/-/g, "")}`, `DTEND;VALUE=DATE:${addDays(it.end, 1).replace(/-/g, "")}`, `SUMMARY:${icsEscape(`Fin de plazo · ${it.org ? `${shortOrg(it.org)} · ` : ""}${it.kind}: ${it.title}`)}`, `DESCRIPTION:${icsEscape(desc)}`);
     if (it.url) lines.push(`URL:${it.url}`);
     (f.remind || state.settings.remind).forEach((d) => lines.push("BEGIN:VALARM", "ACTION:DISPLAY", `DESCRIPTION:${icsEscape(it.title)}`, `TRIGGER:-P${d}DT0H`, "END:VALARM"));
     lines.push("END:VEVENT");
@@ -815,7 +865,7 @@ function download(name, text, type) {
 }
 async function share(id) {
   const it = ITEMS.find((i) => i.id === id);
-  const text = `${it.kind} · ${it.title}${it.end ? ` · Fin de plazo: ${fmt(it.end)}` : ""}`;
+  const text = `${it.org ? `${it.org} · ` : ""}${it.kind} · ${it.title}${it.end ? ` · Fin de plazo: ${fmt(it.end)}` : ""}`;
   try {
     if (navigator.share) { await navigator.share({ title: "Plazo Osakidetza", text, url: it.url || undefined }); return; }
     await navigator.clipboard.writeText(`${text}\n${it.url || ""}`.trim());
