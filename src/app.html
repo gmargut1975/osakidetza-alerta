@@ -46,17 +46,19 @@ nav.tabs button{border:0;background:none;padding:10px 14px;border-bottom:3px sol
 nav.tabs button[aria-selected="true"]{color:var(--text);border-bottom-color:var(--brand)}
 /* estructura */
 .layout{display:grid;grid-template-columns:300px 1fr;gap:var(--gap);max-width:1280px;margin:16px auto;padding:0 16px}
-aside.filters{position:sticky;top:120px;align-self:start;max-height:calc(100vh - 136px);overflow:auto;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px}
+aside.filters{position:sticky;top:120px;align-self:start;max-height:calc(100vh - 136px);overflow-y:auto;overflow-x:hidden;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px}
 main{min-width:0}
 .fgroup{border:0;margin:0 0 14px;padding:0}
 .fgroup legend,.flabel{font-weight:700;font-size:13px;text-transform:uppercase;letter-spacing:.03em;color:var(--muted);margin-bottom:6px;padding:0}
-.checks{display:flex;flex-direction:column;gap:2px;max-height:220px;overflow:auto}
+.checks{display:flex;flex-direction:column;gap:2px}
+.checks label{min-width:0;overflow-wrap:anywhere}
 .checks label{display:flex;align-items:center;gap:8px;padding:4px 2px;cursor:pointer;border-radius:6px}
 .checks label:hover{background:var(--surface-2)}
 .checks .n{margin-left:auto;color:var(--muted);font-size:12px}
 input[type=search],input[type=text],input[type=date],input[type=url],select,textarea{width:100%;min-height:40px;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--surface)}
 input[type=checkbox]{width:18px;height:18px;accent-color:var(--accent)}
-.row2{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.row2{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:8px}
+.row2 input{min-width:0}
 .segmented{display:flex;flex-wrap:wrap;gap:6px}
 .segmented button{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:6px 12px;cursor:pointer;min-height:34px}
 .segmented button[aria-pressed="true"]{background:var(--text);color:var(--bg);border-color:var(--text)}
@@ -130,7 +132,7 @@ blockquote{margin:0;padding:10px 12px;background:var(--surface-2);border-left:4p
 footer{max-width:1280px;margin:24px auto;padding:0 16px 24px;color:var(--muted);font-size:12px}
 @media (max-width:900px){
   .layout{grid-template-columns:1fr}
-  aside.filters{position:fixed;inset:0 0 0 auto;width:min(360px,92vw);max-height:none;top:0;border-radius:0;z-index:40;transform:translateX(105%);transition:transform .2s;padding-top:calc(14px + env(safe-area-inset-top))}
+  aside.filters{position:fixed;inset:0 0 0 auto;width:min(360px,92vw);max-height:none;top:0;align-self:stretch;height:100vh;height:100dvh;border-radius:0;z-index:40;transform:translateX(105%);transition:transform .2s;padding-top:calc(14px + env(safe-area-inset-top))}
   aside.filters.open{transform:none;box-shadow:-10px 0 40px rgba(0,0,0,.3)}
   .filters-toggle{display:inline-flex}
   .scrim{position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:39}
@@ -253,6 +255,11 @@ const diffDays = (a, b) => Math.round((toDate(b) - toDate(a)) / 86400000);
 const fmt = (iso) => (iso ? `${iso.slice(8, 10)}/${iso.slice(5, 7)}/${iso.slice(0, 4)}` : "");
 const fmtShort = (iso) => (iso ? `${Number(iso.slice(8, 10))} ${MONTHS[Number(iso.slice(5, 7)) - 1].slice(0, 3)}` : "");
 const safeUrl = (u) => (/^https?:\/\//i.test(String(u || "")) ? u : "");
+// Búsqueda tolerante al género y al plural: «enfermera», «enfermeras» y
+// «Enfermero/a» comparten raíz («enfermer»); también «médica» y «Médico/a».
+const stem = (w) => (w.length > 4 ? w.replace(/(as|os|es|a|o|s)$/, "") : w);
+const terms = (text) => fold(text).split(/[\s,;]+/).filter(Boolean).map(stem);
+const matchesAll = (hay, text) => terms(text).every((t) => hay.includes(t));
 const plural = (n, one, many) => `${n} ${n === 1 ? one : many}`;
 
 /* ============================================================ estado persistente */
@@ -361,8 +368,7 @@ function matchesInterests(it) {
   const { processes, categories } = state.interests;
   if (!processes.length && !categories.length) return true;
   const okP = !processes.length || processes.includes(it.process);
-  const cats = categories.map(fold);
-  const okC = !cats.length || cats.some((c) => it.hay.includes(c));
+  const okC = !categories.length || categories.some((c) => matchesAll(it.hay, c));
   return okP && okC;
 }
 // Novedad avisable: no vista, de mis intereses, con un plazo vigente o una
@@ -418,15 +424,14 @@ const FSTATUS = { pendiente: "Pendiente", presentado: "Presentado", hecho: "Hech
 function filtered(ignore) {
   const f = state.filters;
   const t = todayIso();
-  const words = fold(f.text).split(/\s+/).filter(Boolean);
-  const cats = f.categories.map(fold);
+  const cats = f.categories;
   const pubLimit = f.published ? addDays(t, -Number(f.published)) : "";
   return ITEMS.filter((it) => {
     const fol = state.follow[it.id];
     if (ignore !== "status" && f.status.length && !f.status.includes(it.status)) return false;
     if (ignore !== "process" && f.processes.length && !f.processes.includes(it.process)) return false;
     if (ignore !== "kind" && f.kinds.length && !f.kinds.includes(it.kind)) return false;
-    if (cats.length && !cats.some((c) => fold(it.categories.join(" | ") + " " + it.title).includes(c))) return false;
+    if (cats.length && !cats.some((c) => matchesAll(fold(`${it.categories.join(" | ")} ${it.title}`), c))) return false;
     if (f.org && it.org !== f.org) return false;
     if (f.src && it.src !== f.src) return false;
     if (f.from && (!it.end || it.end < f.from)) return false;
@@ -436,7 +441,7 @@ function filtered(ignore) {
     if (f.onlyNew && !isNew(it)) return false;
     if (f.mine && !matchesInterests(it)) return false;
     if (f.hideDiscarded && fol && fol.status === "descartado") return false;
-    return words.every((w) => it.hay.includes(w));
+    return !f.text || matchesAll(it.hay, f.text);
   });
 }
 const SOURCE_LABELS = { bopv: "BOPV", lanpoltsa: "Lan poltsa (listas)", manual: "Plazos propios" };
@@ -535,7 +540,10 @@ function renderAgenda(list) {
   return html || emptyState();
 }
 function emptyState() {
-  return `<div class="empty"><p><strong>No hay plazos con estos filtros.</strong></p><p>Prueba a incluir los plazos cerrados o a quitar algún filtro.</p><button class="btn" id="emptyClear">Quitar todos los filtros</button></div>`;
+  const tags = activeFilterTags().map(([, l]) => l);
+  const f = state.filters;
+  if (f.status.length && f.status.length < STATUS.length) tags.push(`Situación: ${f.status.map((k) => STATUS_LABEL[k]).join(", ")}`);
+  return `<div class="empty" role="status"><p><strong>Ningún plazo coincide con los filtros que tienes puestos.</strong></p>${tags.length ? `<p>Filtros activos: ${tags.map((t) => `<span class="tag">${esc(t)}</span>`).join(" ")}</p>` : ""}<p><button class="btn primary" id="emptyClear">Quitar todos los filtros</button></p></div>`;
 }
 let selectedDay = "";
 function renderCalendar(list) {
@@ -568,7 +576,7 @@ function renderCalendar(list) {
   } else {
     below = `<p class="status-line">Pulsa un día para ver sus plazos. ${plural(inMonth.length, "plazo termina", "plazos terminan")} en ${MONTHS[m - 1]}.</p>`;
   }
-  return `<div class="cal-head"><button class="btn" data-month="-1" aria-label="Mes anterior">‹</button><h2>${MONTHS[m - 1]} ${y}</h2><button class="btn" data-month="0">Hoy</button><button class="btn" data-month="1" aria-label="Mes siguiente">›</button></div>
+  return `${list.length ? "" : emptyState()}<div class="cal-head"><button class="btn" data-month="-1" aria-label="Mes anterior">‹</button><h2>${MONTHS[m - 1]} ${y}</h2><button class="btn" data-month="0">Hoy</button><button class="btn" data-month="1" aria-label="Mes siguiente">›</button></div>
     <div class="cal">${cells}</div>
     <div class="legend"><span>Fin de plazo</span><span class="lf">Fin de plazo que sigues</span><span class="ls">Inicio de un plazo que sigues</span></div>${below}`;
 }
