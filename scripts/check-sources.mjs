@@ -1,313 +1,173 @@
 // scripts/check-sources.mjs
 //
-// Comprueba las fuentes oficiales listadas en data/sources.json y escribe
-// data/source-monitor.json con el mismo formato que espera index.html.
+// Lo ejecuta GitHub Actions cada 30 minutos. Descarga las fuentes oficiales
+// de data/sources.json, extrae los avisos con plazo (scripts/extractors.mjs)
+// y escribe data/source-monitor.json, que index.html lee al abrirse:
 //
-// NOVEDAD (extracción de avisos): además de comprobar si cada fuente ha
-// cambiado (hash del contenido), para la página de CONTRATACIÓN TEMPORAL de
-// Osakidetza este script ahora EXTRAE los avisos concretos (categoría/puesto
-// + fecha de publicación + fecha de plazo) y los devuelve en `officialItems`,
-// de modo que la app los marca automáticamente en el calendario.
+//   { version: 2, checkedAt, sources: [{key,label,process,type,url,ok,status,
+//     error,count,hash,checkedAt}], bopv: {lastNumber, lastDate}, items: [...] }
 //
-// La extracción es conservadora: solo emite un aviso cuando puede identificar
-// a la vez una fecha de publicación y una fecha de plazo. Para el resto de
-// fuentes se mantiene el comportamiento anterior (solo detección de cambio).
-// Si Osakidetza rediseña la web, la extracción puede dejar de encontrar
-// avisos; en ese caso `officialItems` quedará vacío y no se inventará nada.
+// Reglas de robustez:
+//  - Los avisos se ACUMULAN: si una página retira un aviso, se conserva su
+//    histórico; si una fuente falla, se mantienen sus avisos anteriores.
+//  - Se descartan los avisos cuyo plazo (o publicación) tiene más de 24 meses.
+//  - El BOPV se recorre boletín a boletín desde el último procesado.
+//
+// Uso: node scripts/check-sources.mjs   (FETCH_IMPL permite inyectar un fetch
+// simulado en las pruebas: ver tests/check-sources.test.mjs)
 
 import { readFile, writeFile } from "node:fs/promises";
 import { createHash } from "node:crypto";
+import {
+  extractLinkList, extractAnnouncements, extractLanpoltsa, bopvBulletinDate, bopvSummaryEntries,
+  bopvItem, mergeItems, inlineText, stripNoise, editorRegion, addDays,
+} from "./extractors.mjs";
 
-const SOURCES_PATH = new URL("../data/sources.json", import.meta.url);
-const OUTPUT_PATH = new URL("../data/source-monitor.json", import.meta.url);
+const TIMEOUT_MS = 45000;
+const RETRIES = 2;
+const KEEP_DAYS = 730;
+const BOPV_BACKFILL = 45;     // boletines a revisar en la primera ejecución
+const BOPV_MAX_PER_RUN = 60;
+const UA = "Mozilla/5.0 (compatible; PlazosOsakidetzaMonitor/2.0; +https://github.com/gmargut1975/osakidetza-alerta)";
 
-const FETCH_TIMEOUT_MS = 20000;
-const USER_AGENT =
-  "Mozilla/5.0 (compatible; OsakidetzaAlertasMonitor/1.0; +https://github.com/)";
-
-function sha256(buffer) {
-  return createHash("sha256").update(buffer).digest("hex");
+export function decodeBody(buffer, contentType) {
+  const bytes = new Uint8Array(buffer);
+  let charset = (/charset=([^;]+)/i.exec(contentType || "") || [])[1] || "";
+  if (!charset) charset = (/charset=["']?([\w-]+)/i.exec(new TextDecoder("latin1").decode(bytes.slice(0, 2048))) || [])[1] || "utf-8";
+  const label = /(iso-?8859-1|latin1|windows-1252)/i.test(charset) ? "windows-1252" : charset.trim().toLowerCase();
+  try { return new TextDecoder(label).decode(bytes); } catch { return new TextDecoder("utf-8").decode(bytes); }
 }
 
-async function fetchWithTimeout(url, timeoutMs) {
-  const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), timeoutMs);
-  try {
-    return await fetch(url, {
-      signal: controller.signal,
-      headers: { "User-Agent": USER_AGENT, "Accept-Language": "es-ES,es;q=0.9" },
-      redirect: "follow",
-    });
-  } finally {
-    clearTimeout(timer);
-  }
-}
-
-// --- Descodificación de charset -------------------------------------------
-// Las webs de euskadi.eus se sirven en ISO-8859-1. fetch().text() asume UTF-8
-// y rompería los acentos, así que descodificamos según el charset real.
-function decodeBody(arrayBuffer, contentType) {
-  const bytes = new Uint8Array(arrayBuffer);
-  let charset = "";
-  const m = /charset=([^;]+)/i.exec(contentType || "");
-  if (m) charset = m[1].trim().toLowerCase();
-  if (!charset) {
-    // Sniff de <meta charset=...> en los primeros bytes.
-    const head = new TextDecoder("latin1").decode(bytes.slice(0, 2048)).toLowerCase();
-    const meta = /charset=["']?([\w-]+)/.exec(head);
-    if (meta) charset = meta[1];
-  }
-  let label = "utf-8";
-  if (/(iso-8859-1|latin1|windows-1252|iso8859-1)/.test(charset)) label = "windows-1252";
-  else if (charset) label = charset;
-  try {
-    return new TextDecoder(label).decode(bytes);
-  } catch {
-    return new TextDecoder("utf-8").decode(bytes);
-  }
-}
-
-// --- HTML -> texto ---------------------------------------------------------
-function decodeEntities(text) {
-  return text
-    .replace(/&nbsp;/gi, " ")
-    .replace(/&amp;/gi, "&")
-    .replace(/&lt;/gi, "<")
-    .replace(/&gt;/gi, ">")
-    .replace(/&quot;/gi, '"')
-    .replace(/&#39;|&apos;/gi, "'")
-    .replace(/&middot;/gi, "·")
-    .replace(/&ordf;/gi, "ª")
-    .replace(/&ordm;/gi, "º")
-    .replace(/&laquo;/gi, "«")
-    .replace(/&raquo;/gi, "»")
-    // Mayúsculas primero (sin flag i) para no convertirlas en minúsculas.
-    .replace(/&Aacute;/g, "Á").replace(/&Eacute;/g, "É").replace(/&Iacute;/g, "Í")
-    .replace(/&Oacute;/g, "Ó").replace(/&Uacute;/g, "Ú").replace(/&Ntilde;/g, "Ñ")
-    .replace(/&Uuml;/g, "Ü")
-    .replace(/&aacute;/g, "á").replace(/&eacute;/g, "é").replace(/&iacute;/g, "í")
-    .replace(/&oacute;/g, "ó").replace(/&uacute;/g, "ú").replace(/&ntilde;/g, "ñ")
-    .replace(/&uuml;/g, "ü")
-    .replace(/&#x([0-9a-f]+);/gi, (_, h) => safeCodePoint(parseInt(h, 16)))
-    .replace(/&#(\d+);/g, (_, d) => safeCodePoint(parseInt(d, 10)));
-}
-
-function safeCodePoint(cp) {
-  try { return String.fromCodePoint(cp); } catch { return ""; }
-}
-
-function htmlToText(html) {
-  let t = html
-    .replace(/<script[\s\S]*?<\/script>/gi, " ")
-    .replace(/<style[\s\S]*?<\/style>/gi, " ")
-    .replace(/<!--[\s\S]*?-->/g, " ");
-  // Insertar saltos de línea en los cierres/aperturas de bloque para conservar
-  // la separación entre líneas (categorías, encabezados, párrafos).
-  t = t.replace(/<\s*(br|\/p|\/li|\/div|\/tr|\/h[1-6]|\/strong|\/b|\/span|p|li|h[1-6]|tr)\b[^>]*>/gi, "\n");
-  t = t.replace(/<[^>]+>/g, " ");
-  t = decodeEntities(t);
-  // Normalizar espacios por línea y comprimir líneas en blanco.
-  t = t.split("\n").map((line) => line.replace(/[ \t\u00a0]+/g, " ").trim()).join("\n");
-  t = t.replace(/\n{3,}/g, "\n\n");
-  return t;
-}
-
-// --- Extractor de la página de Contratación temporal -----------------------
-const MESES = {
-  enero: "01", febrero: "02", marzo: "03", abril: "04", mayo: "05", junio: "06",
-  julio: "07", agosto: "08", septiembre: "09", setiembre: "09", octubre: "10",
-  noviembre: "11", diciembre: "12",
-};
-function fold(text) {
-  return String(text || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
-}
-function toISO(dayStr, monthStr, yearStr, defaultYear) {
-  const day = String(parseInt(dayStr, 10)).padStart(2, "0");
-  const month = MESES[fold(monthStr)];
-  if (!month || day === "NaN") return "";
-  const year = yearStr ? yearStr : (defaultYear || "");
-  if (!year) return "";
-  return `${year}-${month}-${day}`;
-}
-function findDate(text, labels, defaultYear) {
-  for (const label of labels) {
-    const re = new RegExp(label + "\\s*(\\d{1,2})\\s+de\\s+([a-zA-Zñáéíóú]+)(?:\\s+de\\s+(20\\d{2}))?", "i");
-    const m = text.match(re);
-    if (m) {
-      const iso = toISO(m[1], m[2], m[3], defaultYear);
-      if (iso) return iso;
+export function makeGetter(fetchImpl = globalThis.fetch) {
+  return async function get(url, { json = false } = {}) {
+    let lastError;
+    for (let attempt = 0; attempt <= RETRIES; attempt += 1) {
+      const controller = new AbortController();
+      const timer = setTimeout(() => controller.abort(), TIMEOUT_MS);
+      try {
+        const res = await fetchImpl(url, { signal: controller.signal, redirect: "follow", headers: { "User-Agent": UA, "Accept-Language": "es-ES,es;q=0.9", Accept: json ? "application/json" : "text/html,*/*" } });
+        if (!res.ok) throw Object.assign(new Error(`HTTP ${res.status}`), { status: res.status });
+        const body = decodeBody(await res.arrayBuffer(), res.headers.get("content-type"));
+        return { status: res.status, body: json ? JSON.parse(body) : body };
+      } catch (error) {
+        lastError = error;
+        if (error.status === 404) break;
+        await new Promise((r) => setTimeout(r, 1500 * (attempt + 1)));
+      } finally {
+        clearTimeout(timer);
+      }
     }
-  }
-  return "";
-}
-function matchDateBefore(text, labelRe, defaultYear) {
-  const m = text.match(labelRe);
-  if (!m) return "";
-  const before = text.slice(0, m.index);
-  const dateRe = /(\d{1,2})\s+de\s+([a-zA-Zñáéíóú]+)(?:\s+de\s+(20\d{2}))?/gi;
-  let last = null, d;
-  while ((d = dateRe.exec(before)) !== null) last = d;
-  if (!last) return "";
-  return toISO(last[1], last[2], last[3], defaultYear);
-}
-const CATEGORY_STOPWORDS = [
-  "actualizacion", "integracion", "republicacion", "listas", "lista", "contratacion",
-  "temporal", "aviso", "importante", "apertura", "plazo", "inscripcion", "ope",
-  "estabilizacion", "categoria", "categorias", "puesto", "puestos", "funcional",
-  "funcionales", "recurso", "alzada", "hoy", "dia", "fecha", "corte", "resolucion",
-  "preferencias", "organizaciones", "servicios", "centros", "web", "app", "email",
-  "correo", "electronico", "error", "errores", "material", "aritmetico",
-];
-function extractCategories(block) {
-  const lines = block.split("\n").map((l) => l.trim()).filter(Boolean);
-  const cats = [];
-  for (const line of lines) {
-    if (line.length < 3 || line.length > 90) continue;
-    const letters = line.replace(/[^A-Za-zÑñÁÉÍÓÚáéíóúÜü]/g, "");
-    if (letters.length < 3) continue;
-    const upper = letters.replace(/[^A-ZÑÁÉÍÓÚÜ]/g, "").length;
-    if (upper / letters.length < 0.7) continue;
-    const words = fold(line).split(/[^a-zñ]+/).filter((w) => w.length >= 3);
-    const meaningful = words.filter((w) => !CATEGORY_STOPWORDS.includes(w));
-    if (!meaningful.length) continue;
-    const clean = line.replace(/\s+/g, " ").trim();
-    if (!cats.includes(clean)) cats.push(clean);
-  }
-  return cats.slice(0, 12);
-}
-function sliceNoticesRegion(text) {
-  const start = text.search(/Listas de contrataci[oó]n temporal 2021/i);
-  const rest = text.slice(start >= 0 ? start : 0);
-  const endMarkers = [
-    /Para m[aá]s informaci[oó]n,\s*acceda a la aplicaci[oó]n/i,
-    /ACUERDO de 31 de octubre de 2023/i,
-    /DOCUMENTOS DE INTER[EÉ]S/i,
-    /CONTACTO:/i,
-  ];
-  let end = rest.length;
-  for (const re of endMarkers) {
-    const idx = rest.search(re);
-    if (idx >= 0 && idx < end) end = idx;
-  }
-  return rest.slice(0, end);
-}
-const HEADER_RE = /(ACTUALIZACI[OÓ]N\s+E\s+INTEGRACI[OÓ]N\s+LISTAS(?:\s+DE\s+CONTRATACI[OÓ]N)?|REPUBLICACI[OÓ]N\s+LISTAS[^\n]*|APERTURA\s+PLAZO\s+INSCRIPCI[OÓ]N[^\n]*|ACTUALIZACI[OÓ]N\s+LISTAS[^\n]*|AVISO\s+IMPORTANTE|AVISO\s+EXCLUSIVO[^\n]*|AVISO\s+PARA[^\n]*|AVISO\s+RESTO[^\n]*)/gi;
-
-function humanDate(iso) {
-  const [y, m, d] = iso.split("-");
-  const nombres = ["", "enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
-  return `${parseInt(d, 10)} de ${nombres[parseInt(m, 10)]} de ${y}`;
-}
-
-function extractContratacionTemporalItems(pageText, sourceUrl, today = new Date()) {
-  const currentYear = String(today.getFullYear());
-  const region = sliceNoticesRegion(pageText);
-  const parts = region.split(HEADER_RE);
-  const blocks = [];
-  for (let i = 1; i < parts.length; i += 2) {
-    const header = (parts[i] || "").trim();
-    const body = parts[i + 1] || "";
-    blocks.push({ header, body, block: header + "\n" + body });
-  }
-  const items = [];
-  for (const { header, body, block } of blocks) {
-    const foldedHeader = fold(header);
-    if (/^aviso\b/.test(foldedHeader)) continue;
-    const published =
-      findDate(block, ["Hoy,?\\s*(?:d[ií]a\\s*)?", "d[ií]a\\s+", "Con fecha\\s+", "Hoy,?\\s+"], currentYear) || "";
-    const year = published ? published.slice(0, 4) : currentYear;
-    let deadline = "", deadlineLiteral = "";
-    const recurso = findDate(block, ["recurso de alzada hasta el\\s+", "reclamaci[oó]n hasta el\\s+"], year);
-    const inscripcion = findDate(block, ["plazo de inscripci[oó]n hasta el\\s+", "inscripci[oó]n hasta el\\s+"], year);
-    const corte = findDate(block, ["fecha de corte[^0-9]{0,40}"], year) || matchDateBefore(block, /como\s+fecha de corte/i, year);
-    if (recurso) { deadline = recurso; deadlineLiteral = `Plazo para interponer recurso de alzada hasta el ${humanDate(recurso)}, inclusive.`; }
-    else if (inscripcion) { deadline = inscripcion; deadlineLiteral = `Plazo de inscripción hasta el ${humanDate(inscripcion)}.`; }
-    else if (corte) { deadline = corte; deadlineLiteral = `Fecha de corte para la integración de inscripciones: ${humanDate(corte)}.`; }
-    if (!published || !deadline) continue;
-    const categories = extractCategories(body);
-    const summary = block.replace(/\s+/g, " ").trim().slice(0, 400);
-    let kind = "Actualización de listas";
-    if (/apertura\s+plazo\s+inscripci/i.test(foldedHeader)) kind = "Apertura de plazo de inscripción";
-    else if (/republicaci/i.test(foldedHeader)) kind = "Republicación de listas";
-    items.push({
-      published, deadline, deadlineLiteral,
-      summary: `${kind}. ${summary}`,
-      categories, url: sourceUrl, sourceUrl,
-      linkConfidence: "extraído automáticamente de la web oficial",
-    });
-  }
-  const seen = new Set();
-  return items.filter((it) => {
-    const key = `${it.published}|${it.deadline}|${it.categories.join(",")}`;
-    if (seen.has(key)) return false;
-    seen.add(key);
-    return true;
-  });
-}
-
-// Decide si una fuente admite extracción de avisos (por ahora, Contratación
-// temporal). Devuelve la lista de officialItems (vacía si no aplica o falla).
-function extractOfficialItems(source, decodedBody) {
-  try {
-    if (/contratacion-temporal/i.test(source.url) || /contratacion temporal/i.test(fold(source.label || ""))) {
-      const text = htmlToText(decodedBody);
-      return extractContratacionTemporalItems(text, source.url);
-    }
-  } catch (error) {
-    console.log(`  ! No se pudieron extraer avisos de ${source.key}: ${error?.message || error}`);
-  }
-  return [];
-}
-
-async function checkOneSource(source) {
-  const base = {
-    key: source.key,
-    url: source.url,
-    label: source.label,
-    process: source.process || "",
-    officialItems: [],
+    throw lastError;
   };
-  try {
-    const response = await fetchWithTimeout(source.url, FETCH_TIMEOUT_MS);
-    const status = response.status;
-    if (!response.ok) {
-      return { ...base, ok: false, status, hash: "", error: `HTTP ${status}` };
+}
+
+const hash = (text) => createHash("sha256").update(text).digest("hex").slice(0, 16);
+
+function madridToday() {
+  return new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Madrid", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date());
+}
+
+async function checkSource(source, get, today) {
+  if (source.type === "lanpoltsa") {
+    const { status, body } = await get(source.url, { json: true });
+    const list = Array.isArray(body) ? body : body.avisos || body.content || [];
+    return { status, items: extractLanpoltsa(list, source, today), hash: hash(JSON.stringify(list)) };
+  }
+  const { status, body } = await get(source.url);
+  const items = source.type === "links" ? extractLinkList(body, source, today)
+    : source.type === "announcements" ? extractAnnouncements(body, source, today) : [];
+  return { status, items, hash: hash(inlineText(stripNoise(editorRegion(body)))) };
+}
+
+// Recorre los boletines del BOPV posteriores al último procesado.
+export async function checkBopv(source, get, previous, today) {
+  const latest = await get(source.url);
+  const m = /s(\d{2})_(\d{4})\.(?:pdf|shtml|epub)/.exec(latest.body);
+  if (!m) throw new Error("No se encuentra el número del último boletín");
+  const yy = m[1];
+  const lastNumber = Number(m[2]);
+  const prevYear = previous.lastNumber && String(previous.lastDate || "").slice(2, 4) === yy ? previous.lastNumber : 0;
+  const from = prevYear ? prevYear + 1 : Math.max(1, lastNumber - BOPV_BACKFILL);
+  const items = [];
+  let processed = { lastNumber: prevYear, lastDate: previous.lastDate || "" };
+  const numbers = [];
+  for (let n = from; n <= lastNumber && numbers.length < BOPV_MAX_PER_RUN; n += 1) numbers.push(n);
+  let month = (previous.lastDate || today).slice(0, 7);
+  for (const n of numbers) {
+    const name = `s${yy}_${String(n).padStart(4, "0")}.shtml`;
+    let page = null;
+    // El boletín está en la carpeta de su mes: probamos el mes del anterior y los dos siguientes.
+    const candidates = [month, addDays(`${month}-15`, 31).slice(0, 7), addDays(`${month}-15`, -31).slice(0, 7)];
+    for (const ym of candidates) {
+      const url = `https://www.euskadi.eus/web01-bopv/es/bopv2/datos/${ym.slice(0, 4)}/${ym.slice(5, 7)}/${name}`;
+      try {
+        const res = await get(url);
+        const date = bopvBulletinDate(res.body);
+        if (date) { page = { url, body: res.body, date }; break; }
+      } catch { /* probar la carpeta siguiente */ }
     }
-    const buffer = await response.arrayBuffer();
-    const decoded = decodeBody(buffer, response.headers.get("content-type"));
-    const officialItems = extractOfficialItems(source, decoded);
-    return { ...base, officialItems, ok: true, status, hash: sha256(Buffer.from(buffer)), error: "" };
-  } catch (error) {
-    return { ...base, ok: false, status: 0, hash: "", error: error?.message || "Error de red al comprobar la fuente" };
+    if (!page) continue;
+    month = page.date.slice(0, 7);
+    for (const entry of bopvSummaryEntries(page.body, page.url)) {
+      let text = "";
+      try { text = inlineText(stripNoise((await get(entry.url)).body)); } catch { /* sin cuerpo: se registra sin plazo */ }
+      const item = bopvItem(entry, page.date, text, source.key);
+      if (item) items.push(item);
+    }
+    processed = { lastNumber: n, lastDate: page.date };
   }
+  return { status: latest.status, items, hash: hash(String(lastNumber)), bopv: processed };
 }
 
-async function main() {
-  const raw = await readFile(SOURCES_PATH, "utf8");
-  const { sources } = JSON.parse(raw);
-
-  const results = [];
-  const BATCH_SIZE = 4;
-  for (let i = 0; i < sources.length; i += BATCH_SIZE) {
-    const batch = sources.slice(i, i + BATCH_SIZE);
-    const batchResults = await Promise.all(batch.map(checkOneSource));
-    results.push(...batchResults);
+export async function run({ fetchImpl, sourcesPath, outputPath, today = madridToday() } = {}) {
+  const sp = sourcesPath || new URL("../data/sources.json", import.meta.url);
+  const op = outputPath || new URL("../data/source-monitor.json", import.meta.url);
+  const { sources } = JSON.parse(await readFile(sp, "utf8"));
+  let previous = {};
+  try { previous = JSON.parse(await readFile(op, "utf8")); } catch { /* primera ejecución */ }
+  const prevItems = Array.isArray(previous.items) ? previous.items : [];
+  if (!prevItems.length) {
+    // Primera ejecución: partimos de la instantánea incluida en la aplicación.
+    try { prevItems.push(...JSON.parse(await readFile(new URL("../data/snapshot.json", import.meta.url), "utf8")).items); } catch { /* opcional */ }
   }
-
+  const get = makeGetter(fetchImpl);
   const checkedAt = new Date().toISOString();
-  const payload = { checkedAt, sources: results };
-  await writeFile(OUTPUT_PATH, JSON.stringify(payload, null, 2) + "\n");
-
-  const ok = results.filter((r) => r.ok).length;
-  const failed = results.length - ok;
-  const detected = results.reduce((n, r) => n + (r.officialItems?.length || 0), 0);
-  console.log(`Comprobadas ${results.length} fuentes: ${ok} ok, ${failed} con error. Avisos extraídos: ${detected}.`);
-  if (failed) {
-    for (const r of results.filter((r) => !r.ok)) console.log(`  ✗ ${r.key}: ${r.error}`);
+  const report = [];
+  const fresh = [];
+  let bopvState = previous.bopv || {};
+  for (const source of sources) {
+    const row = { key: source.key, label: source.label, process: source.process, type: source.type, url: source.publicUrl || source.url, ok: false, status: 0, error: "", count: 0, hash: "", checkedAt };
+    try {
+      const result = source.type === "bopv" ? await checkBopv(source, get, bopvState, today) : await checkSource(source, get, today);
+      if (result.bopv) bopvState = result.bopv;
+      Object.assign(row, { ok: true, status: result.status, count: result.items.length, hash: result.hash });
+      const prevRow = (previous.sources || []).find((s) => s.key === source.key);
+      row.changedAt = prevRow && prevRow.hash === row.hash ? prevRow.changedAt || checkedAt : checkedAt;
+      fresh.push(...result.items);
+    } catch (error) {
+      row.error = String(error.name === "AbortError" ? "tiempo de espera agotado" : error.message || error).slice(0, 160);
+      row.status = error.status || 0;
+    }
+    report.push(row);
   }
+  // Lo recién extraído manda; después, el histórico. Osakidetza antes que BOPV.
+  const rank = (it) => (it.src === "bopv" ? 2 : it.src === "lanpoltsa" ? 1 : 0);
+  const limit = addDays(today, -KEEP_DAYS);
+  const items = mergeItems([[...fresh].sort((a, b) => rank(a) - rank(b)), prevItems])
+    .filter((it) => (it.end || it.published) >= limit)
+    .sort((a, b) => (b.published || "").localeCompare(a.published || "") || a.id.localeCompare(b.id));
+  const output = { version: 2, checkedAt, sources: report, bopv: bopvState, items };
+  // Solo reescribimos si cambia algo más que la hora (evita commits vacíos).
+  const strip = (o) => JSON.stringify({ ...o, checkedAt: "", sources: (o.sources || []).map((s) => ({ ...s, checkedAt: "" })) });
+  const changed = strip(output) !== strip(previous);
+  const stale = !previous.checkedAt || Date.now() - Date.parse(previous.checkedAt) > 6 * 3600 * 1000;
+  if (changed || stale) await writeFile(op, `${JSON.stringify(output, null, 1)}\n`);
+  return { output, changed };
 }
 
-main().catch((error) => {
-  console.error("Fallo al comprobar fuentes:", error);
-  process.exitCode = 1;
-});
+if (import.meta.url === `file://${process.argv[1]}`) {
+  const { output, changed } = await run();
+  const ok = output.sources.filter((s) => s.ok).length;
+  console.log(`${ok}/${output.sources.length} fuentes correctas · ${output.items.length} avisos · ${changed ? "con cambios" : "sin cambios"}`);
+  output.sources.filter((s) => !s.ok).forEach((s) => console.log(`  ✗ ${s.key}: ${s.error}`));
+}
