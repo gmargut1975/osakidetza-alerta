@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-15T02:27:58.973Z",
+  "checkedAt": "2026-10-15T07:37:38.348Z",
   "sources": [
     {
       "key": "profesionales",
@@ -1366,10 +1366,10 @@
       "label": "Convocatorias jefaturas 2026",
       "process": "Jefaturas y méritos",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "This operation was aborted"
+      "ok": true,
+      "status": 200,
+      "hash": "a8d215a34f15eadc46168a4a22b01e6bf608dea608bdae879db26177156e2315",
+      "error": ""
     },
     {
       "key": "jefaturas2025",
@@ -1377,10 +1377,10 @@
       "label": "Convocatorias jefaturas 2025",
       "process": "Jefaturas y méritos",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "This operation was aborted"
+      "ok": true,
+      "status": 200,
+      "hash": "3ac1e2e64d5a04ff62040a2eb53f57b65b8b4103508e6d2fb0845408c08882dc",
+      "error": ""
     },
     {
       "key": "convocatoriaPuestos",
@@ -1388,10 +1388,10 @@
       "label": "Convocatoria de puestos",
       "process": "Convocatoria de puestos",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "This operation was aborted"
+      "ok": true,
+      "status": 200,
+      "hash": "14276acfce8aba7cfcc346596a8f737453f81b30cc0eed2c8191a0063ff2ff0d",
+      "error": ""
     },
     {
       "key": "desarrollo",
@@ -1410,10 +1410,10 @@
       "label": "Concurso de traslados abierto y permanente",
       "process": "Traslados",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "This operation was aborted"
+      "ok": true,
+      "status": 200,
+      "hash": "66a3e56496f183ddb4f08eebd8cd7f25981dbc30ffd220a7f153510c4b920ada",
+      "error": ""
     },
     {
       "key": "trasladosBopvMayo2026",
@@ -1421,10 +1421,10 @@
       "label": "BOPV traslados ciclo mayo 2026",
       "process": "Traslados",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "This operation was aborted"
+      "ok": true,
+      "status": 200,
+      "hash": "c4fa3a2a67f1fd3d6e46ec084efcd9138c69489dc966167b6eb97366298f4f8d",
+      "error": ""
     },
     {
       "key": "trasladosBopvMayo2026Julio14",
@@ -1432,10 +1432,10 @@
       "label": "BOPV traslados ciclo mayo 2026 - 14 julio",
       "process": "Traslados",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "This operation was aborted"
+      "ok": true,
+      "status": 200,
+      "hash": "ef064f44fd335962c656f2732fe0cf264b3fc2ec657ac970ae13d7420b8c8ccb",
+      "error": ""
     },
     {
       "key": "trasladosBopvMayo2026Enfermeria",
@@ -1443,10 +1443,10 @@
       "label": "BOPV traslados ciclo mayo 2026 - Enfermero/a",
       "process": "Traslados",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "This operation was aborted"
+      "ok": true,
+      "status": 200,
+      "hash": "b1ac309edf2e5707b9207fd6f63e7cb1739eab3cd6f59bbb42c68c52ef8a20dd",
+      "error": ""
     },
     {
       "key": "trasladosBopvMayo2026Correcciones",
@@ -1454,10 +1454,10 @@
       "label": "BOPV traslados ciclo mayo 2026 - modificaciones",
       "process": "Traslados",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "This operation was aborted"
+      "ok": true,
+      "status": 200,
+      "hash": "34ecf2fb9eb9c0e89d610119fc2b6210d2f9c377b01405c8f07d0241f6232fa2",
+      "error": ""
     },
     {
       "key": "trasladosBopvMayo2026CorreccionJulio31",
@@ -1465,10 +1465,10 @@
       "label": "BOPV traslados ciclo mayo 2026 - corrección 31 julio",
       "process": "Traslados",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "This operation was aborted"
+      "ok": true,
+      "status": 200,
+      "hash": "745904da159590d2d6dc2396210ba5448ae3dfd8b59f2687eb318e59e84180ea",
+      "error": ""
     },
     {
       "key": "trasladosBopvMayo2026Agosto20",
@@ -1476,10 +1476,10 @@
       "label": "BOPV traslados ciclo mayo 2026 - 20 de agosto (boletín nº158)",
       "process": "Traslados",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "This operation was aborted"
+      "ok": true,
+      "status": 200,
+      "hash": "f0c31a46e0cc77d01412200d5f6716f4548efd8c860f887de1bb9802e4d02f5b",
+      "error": ""
     },
     {
       "key": "noticiasProfesionales",
@@ -1498,10 +1498,10 @@
       "label": "BOPV - Consulta avanzada (buscar Osakidetza en todo el boletín)",
       "process": "Vigilancia profesionales",
       "officialItems": [],
-      "ok": false,
-      "status": 0,
-      "hash": "",
-      "error": "This operation was aborted"
+      "ok": true,
+      "status": 200,
+      "hash": "d045ff082cf640feed5d25c71067ce6b29608e1280cdccbc0608da273c41b486",
+      "error": ""
     }
   ]
 }
