@@ -205,7 +205,7 @@ footer{max-width:1280px;margin:24px auto;padding:0 16px 24px;color:var(--muted);
     <fieldset class="fgroup"><legend>Fin de plazo entre</legend>
       <div class="row2"><label><span class="sr-only">Desde</span><input type="date" id="fFrom" aria-label="Fin de plazo desde"></label><label><span class="sr-only">Hasta</span><input type="date" id="fTo" aria-label="Fin de plazo hasta"></label></div></fieldset>
     <div class="fgroup"><label class="flabel" for="fPublished">Publicado</label>
-      <select id="fPublished"><option value="">Cuando sea</option><option value="7">Últimos 7 días</option><option value="30">Últimos 30 días</option><option value="90">Últimos 90 días</option></select></div>
+      <select id="fPublished"><option value="7">Últimos 7 días</option><option value="30">Últimos 30 días</option><option value="90">Últimos 90 días</option><option value="365">Último año</option><option value="">Todo el histórico</option></select></div>
   </aside>
 
   <main>
@@ -226,7 +226,7 @@ footer{max-width:1280px;margin:24px auto;padding:0 16px 24px;color:var(--muted);
 <dialog id="settings" aria-labelledby="settingsTitle"></dialog>
 <dialog id="manual" aria-labelledby="manualTitle"></dialog>
 
-<script type="application/json" id="snapshot">{{SNAPSHOT}}</script>
+<script type="text/plain" id="snapshot" data-encoding="gzip+base64">{{SNAPSHOT}}</script>
 <script>
 "use strict";
 (() => {
@@ -256,7 +256,7 @@ const safeUrl = (u) => (/^https?:\/\//i.test(String(u || "")) ? u : "");
 const plural = (n, one, many) => `${n} ${n === 1 ? one : many}`;
 
 /* ============================================================ estado persistente */
-const DEFAULT_FILTERS = { text: "", status: ["abierto", "proximo"], processes: [], kinds: [], categories: [], org: "", src: "", from: "", to: "", published: "", followed: false, onlyNew: false, mine: false, hideDiscarded: true };
+const DEFAULT_FILTERS = { text: "", status: ["abierto", "proximo", "cerrado"], processes: [], kinds: [], categories: [], org: "", src: "", from: "", to: "", published: "365", followed: false, onlyNew: false, mine: false, hideDiscarded: true };
 const DEFAULT_STATE = { v: 2, follow: {}, seen: {}, notified: {}, interests: { processes: [], categories: [] }, manual: [], filters: DEFAULT_FILTERS, view: "agenda", calMonth: "", settings: { remind: [3, 1], systemNotifications: false }, firstRun: "" };
 
 let storageOk = true;
@@ -293,7 +293,16 @@ function migrateLegacy(s) {
 const state = load();
 
 /* ============================================================ datos */
-const snapshot = JSON.parse($("#snapshot").textContent);
+// Instantánea de un año de avisos incluida en el propio archivo (comprimida).
+let snapshot = { capturedAt: new Date().toISOString(), items: [] };
+async function decodeSnapshot() {
+  const el = $("#snapshot");
+  const text = el.textContent.trim();
+  if (el.dataset.encoding !== "gzip+base64") return JSON.parse(text);
+  const bytes = Uint8Array.from(atob(text), (c) => c.charCodeAt(0));
+  const stream = new Blob([bytes]).stream().pipeThrough(new DecompressionStream("gzip"));
+  return JSON.parse(await new Response(stream).text());
+}
 let monitor = null;          // último data/source-monitor.json leído
 let monitorError = "";
 let ITEMS = [];
@@ -468,7 +477,8 @@ function activeFilterTags() {
   if (f.org) tags.push(["org", f.org]);
   if (f.src) tags.push(["src", sourceLabel(f.src)]);
   if (f.from || f.to) tags.push(["dates", `Fin ${f.from ? "desde " + fmt(f.from) : ""} ${f.to ? "hasta " + fmt(f.to) : ""}`.trim()]);
-  if (f.published) tags.push(["published", `Publicado últimos ${f.published} días`]);
+  if (f.published && f.published !== "365") tags.push(["published", `Publicado en los últimos ${f.published} días`]);
+  if (!f.published) tags.push(["published", "Todo el histórico"]);
   if (f.followed) tags.push(["followed", "Los que sigo"]);
   if (f.onlyNew) tags.push(["onlyNew", "Novedades"]);
   if (f.mine) tags.push(["mine", "Mis intereses"]);
@@ -521,7 +531,7 @@ function renderAgenda(list) {
   const next = list.filter((i) => i.status === "proximo").sort((a, b) => a.start.localeCompare(b.start));
   const none = list.filter((i) => i.status === "sinplazo").sort((a, b) => b.published.localeCompare(a.published));
   const closed = list.filter((i) => i.status === "cerrado").sort((a, b) => b.end.localeCompare(a.end));
-  const html = section("soon", `Terminan en ${SOON_DAYS} días o menos`, soon) + section("open", "Plazos abiertos", open) + section("next", "Próximos plazos", next) + section("none", "Publicaciones sin fecha de plazo", none) + section("closed", "Plazos cerrados", closed);
+  const html = section("soon", `Terminan en ${SOON_DAYS} días o menos`, soon) + section("open", "Plazos abiertos", open) + section("next", "Próximos plazos", next) + section("none", "Publicaciones sin fecha de plazo", none) + section("closed", state.filters.published === "365" ? "Plazos cerrados en el último año" : "Plazos cerrados", closed);
   return html || emptyState();
 }
 function emptyState() {
@@ -546,7 +556,7 @@ function renderCalendar(list) {
     if (i === 35 && day.slice(0, 7) !== month) break;
     const e = (ends.get(day) || []).sort((a, b) => Boolean(state.follow[b.id]) - Boolean(state.follow[a.id]));
     const s = starts.get(day) || [];
-    const evs = [...e.map((it) => `<span class="ev${state.follow[it.id] ? " f" : ""}">${esc(shortTitle(it))}</span>`), ...s.map((it) => `<span class="ev s">Empieza: ${esc(shortTitle(it))}</span>`)];
+    const evs = [...e.map((it) => `<span class="ev${state.follow[it.id] ? " f" : ""}" title="${esc(`${it.kind} · ${it.title}`)}">${esc(shortTitle(it))}</span>`), ...s.map((it) => `<span class="ev s" title="${esc(`${it.kind} · ${it.title}`)}">Empieza: ${esc(shortTitle(it))}</span>`)];
     const label = `${Number(day.slice(8))} de ${MONTHS[Number(day.slice(5, 7)) - 1]}: ${e.length ? plural(e.length, "fin de plazo", "fines de plazo") : "sin fines de plazo"}${s.length ? `, ${plural(s.length, "inicio", "inicios")} de plazos seguidos` : ""}`;
     cells += `<button type="button" class="day${day.slice(0, 7) !== month ? " out" : ""}${day === t ? " today" : ""}" data-day="${day}" aria-pressed="${day === selectedDay}" aria-label="${label}"><span class="num">${Number(day.slice(8))}</span>${evs.slice(0, 3).join("")}${evs.length > 3 ? `<span class="more">+${evs.length - 3} más</span>` : ""}<span class="dots">${e.slice(0, 8).map((it) => `<i class="${state.follow[it.id] ? "f" : ""}"></i>`).join("")}</span></button>`;
   }
@@ -562,7 +572,7 @@ function renderCalendar(list) {
     <div class="cal">${cells}</div>
     <div class="legend"><span>Fin de plazo</span><span class="lf">Fin de plazo que sigues</span><span class="ls">Inicio de un plazo que sigues</span></div>${below}`;
 }
-const shortTitle = (it) => (it.categories[0] && it.categories.length === 1 ? `${it.kind}: ${it.categories[0]}` : it.title);
+const shortTitle = (it) => (it.categories.length === 1 ? it.categories[0] : it.title);
 function renderFollow() {
   const ids = Object.keys(state.follow);
   const items = ids.map((id) => ITEMS.find((i) => i.id === id)).filter(Boolean);
@@ -920,8 +930,12 @@ async function refresh(manual) {
   await fetchMonitor(manual);
   buildItems(); initMemory(); pruneMemory(); render(); notifySystem();
 }
-buildItems(); initMemory(); render();
-refresh(false);
+(async () => {
+  try { snapshot = await decodeSnapshot(); }
+  catch { $("#dataStatus").textContent = "Este navegador es demasiado antiguo para leer los datos incluidos; se intentará descargar la última comprobación."; }
+  buildItems(); initMemory(); render();
+  refresh(false);
+})();
 setInterval(() => refresh(false), REFRESH_MS);
 document.addEventListener("visibilitychange", () => { if (!document.hidden && Date.now() - lastLoad > 5 * 60 * 1000) refresh(false); });
 window.addEventListener("storage", (e) => { if (e.key === STORE_KEY) location.reload(); });

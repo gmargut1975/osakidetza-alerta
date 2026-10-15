@@ -25,9 +25,8 @@ import {
 
 const TIMEOUT_MS = 45000;
 const RETRIES = 2;
-const KEEP_DAYS = 730;
-const BOPV_BACKFILL = 45;     // boletines a revisar en la primera ejecución
-const BOPV_MAX_PER_RUN = 60;
+const KEEP_DAYS = 730;    // histórico conservado (la app muestra por defecto el último año)
+const BOPV_MAX_PER_RUN = 80;
 const UA = "Mozilla/5.0 (compatible; PlazosOsakidetzaMonitor/2.0; +https://github.com/gmargut1975/osakidetza-alerta)";
 
 export function decodeBody(buffer, contentType) {
@@ -79,25 +78,35 @@ async function checkSource(source, get, today) {
   return { status, items, hash: hash(inlineText(stripNoise(editorRegion(body)))) };
 }
 
-// Recorre los boletines del BOPV posteriores al último procesado.
+// Recorre los boletines del BOPV posteriores al último procesado. En la
+// primera ejecución empieza un año atrás (la numeración se reinicia cada año)
+// y avanza como mucho BOPV_MAX_PER_RUN boletines por ejecución.
 export async function checkBopv(source, get, previous, today) {
   const latest = await get(source.url);
   const m = /s(\d{2})_(\d{4})\.(?:pdf|shtml|epub)/.exec(latest.body);
   if (!m) throw new Error("No se encuentra el número del último boletín");
-  const yy = m[1];
-  const lastNumber = Number(m[2]);
-  const prevYear = previous.lastNumber && String(previous.lastDate || "").slice(2, 4) === yy ? previous.lastNumber : 0;
-  const from = prevYear ? prevYear + 1 : Math.max(1, lastNumber - BOPV_BACKFILL);
+  const curYY = m[1];
+  const latestNumber = Number(m[2]);
+  let yy = previous.yy || (previous.lastDate ? String(previous.lastDate).slice(2, 4) : "");
+  let n = previous.lastNumber || 0;
+  let month = (previous.lastDate || "").slice(0, 7);
+  if (!yy) {
+    // Sin estado: mismo número de boletín, un año antes.
+    yy = String(Number(curYY) - 1).padStart(2, "0");
+    n = Math.max(0, latestNumber - 3);
+    month = addDays(today, -370).slice(0, 7);
+  }
   const items = [];
-  let processed = { lastNumber: prevYear, lastDate: previous.lastDate || "" };
-  const numbers = [];
-  for (let n = from; n <= lastNumber && numbers.length < BOPV_MAX_PER_RUN; n += 1) numbers.push(n);
-  let month = (previous.lastDate || today).slice(0, 7);
-  for (const n of numbers) {
+  let processed = { yy, lastNumber: n, lastDate: previous.lastDate || "" };
+  let misses = 0;
+  let count = 0;
+  while (count < BOPV_MAX_PER_RUN) {
+    if (yy === curYY && n >= latestNumber) break;
+    n += 1;
     const name = `s${yy}_${String(n).padStart(4, "0")}.shtml`;
     let page = null;
-    // El boletín está en la carpeta de su mes: probamos el mes del anterior y los dos siguientes.
-    const candidates = [month, addDays(`${month}-15`, 31).slice(0, 7), addDays(`${month}-15`, -31).slice(0, 7)];
+    const base = month && month.slice(2, 4) === yy ? month : `20${yy}-01`;
+    const candidates = [base, addDays(`${base}-15`, 31).slice(0, 7), addDays(`${base}-15`, 62).slice(0, 7)].filter((c) => c.slice(2, 4) === yy);
     for (const ym of candidates) {
       const url = `https://www.euskadi.eus/web01-bopv/es/bopv2/datos/${ym.slice(0, 4)}/${ym.slice(5, 7)}/${name}`;
       try {
@@ -106,7 +115,15 @@ export async function checkBopv(source, get, previous, today) {
         if (date) { page = { url, body: res.body, date }; break; }
       } catch { /* probar la carpeta siguiente */ }
     }
-    if (!page) continue;
+    count += 1;
+    if (!page) {
+      misses += 1;
+      // Fin del año anterior: pasamos al año en curso.
+      if (yy !== curYY && misses >= 4) { yy = curYY; n = 0; month = `20${yy}-01`; misses = 0; processed = { yy, lastNumber: 0, lastDate: processed.lastDate }; }
+      else if (yy === curYY && misses >= 4) break;
+      continue;
+    }
+    misses = 0;
     month = page.date.slice(0, 7);
     for (const entry of bopvSummaryEntries(page.body, page.url)) {
       let text = "";
@@ -114,9 +131,9 @@ export async function checkBopv(source, get, previous, today) {
       const item = bopvItem(entry, page.date, text, source.key);
       if (item) items.push(item);
     }
-    processed = { lastNumber: n, lastDate: page.date };
+    processed = { yy, lastNumber: n, lastDate: page.date };
   }
-  return { status: latest.status, items, hash: hash(String(lastNumber)), bopv: processed };
+  return { status: latest.status, items, hash: hash(`${curYY}-${latestNumber}`), bopv: processed };
 }
 
 export async function run({ fetchImpl, sourcesPath, outputPath, today = madridToday() } = {}) {

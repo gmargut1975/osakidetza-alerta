@@ -637,7 +637,7 @@ export function classifyBopv(title) {
   if (/comision de servicios/.test(t)) return "Comisiones de servicios";
   if (/movilidad interna/.test(t)) return "Movilidad interna";
   if (/dificil cobertura/.test(t)) return "OPE Difícil Cobertura Primaria";
-  if (/oferta publica de empleo|proceso selectivo|bases (generales|especificas)|concurso-oposicion|ope\b|personal estatutario fijo|aspirantes|aprobad/.test(t)) {
+  if (/oferta publica de empleo|proceso selectivo|bases (generales|especificas)|concurso-oposicion|ope\b|personal estatutario fijo|aspirantes|aprobad|tribunal calificador/.test(t)) {
     if (/2023[^0-9]+2024[^0-9]+2025|2023-2024-2025/.test(t)) return "OPE 2023-2024-2025";
     if (/2020[^0-9]+2021[^0-9]+2022|2020-2021-2022/.test(t)) return "OPE 2020-2021-2022";
     if (/estabilizacion/.test(t)) return "OPE Estabilización";
@@ -659,6 +659,7 @@ export function addMonthsClamped(iso, months) {
 // para estimar plazos en días hábiles. Si una fecha no figura aquí, el plazo se
 // marca igualmente como "estimado" para que se compruebe en la resolución.
 export const HOLIDAYS = new Set([
+  "2025-12-08", "2025-12-25",
   "2026-01-01", "2026-01-06", "2026-03-19", "2026-04-02", "2026-04-03", "2026-04-06", "2026-05-01",
   "2026-07-25", "2026-08-15", "2026-10-12", "2026-12-08", "2026-12-25",
   "2027-01-01", "2027-01-06", "2027-03-19", "2027-03-25", "2027-03-26", "2027-03-29", "2027-05-01",
@@ -746,6 +747,9 @@ export function bopvItem(entry, published, bodyText, sourceKey) {
     const nine = /(nueve|9) d[ií]as/i.exec(bodyText);
     if (nine) deadline = { start: addDays(published, 1), end: addBusinessDays(published, 9), estimated: true, kind: "Emplazamiento", literal: `${sentenceAround(String(bodyText).replace(/\s+/g, " "), nine.index)} (fecha final calculada: nueve días hábiles desde el día siguiente a la publicación; compruébala en la resolución).` };
   }
+  // Resoluciones generales sin plazo (nombramientos de personas concretas,
+  // edictos, tarifas, delegaciones...): no son plazos para el personal.
+  if (!deadline && policy.process.startsWith("Otras")) return null;
   const category = bopvCategory(title);
   return {
     id: `bopv-${stableHash(entry.url.replace(/^https?:\/\/[^/]+/, "").replace(/^\/web01-bopv\/es/, ""))}`,
