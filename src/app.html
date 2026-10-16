@@ -84,6 +84,7 @@ input[type=checkbox]{width:18px;height:18px;accent-color:var(--accent)}
 .pill.est{background:#fff3d6;color:#6b4100}
 .pill.mine{background:var(--accent);color:#fff}
 .pill.org{background:var(--text);color:var(--bg);font-size:13px;padding:2px 10px}
+.pill.proc::before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--c);margin-right:5px;vertical-align:0}
 .pill.org.all{background:var(--chip);color:var(--text)}
 .pill.org::before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--brand);margin-right:6px;vertical-align:1px}
 .when{font-size:13px}
@@ -99,20 +100,44 @@ input[type=checkbox]{width:18px;height:18px;accent-color:var(--accent)}
 .cal-head h2{margin:0;font-size:18px;flex:1;text-transform:capitalize}
 .cal{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px}
 .cal .dow{font-size:12px;font-weight:700;color:var(--muted);text-align:center;padding:4px 0}
-.day{min-height:96px;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:4px;text-align:left;cursor:pointer;display:flex;flex-direction:column;gap:2px;overflow:hidden}
+.day{min-height:104px;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:5px;text-align:left;cursor:pointer;display:flex;flex-direction:column;gap:3px;overflow:hidden}
+.day:hover{border-color:var(--accent)}
 .day.out{opacity:.45}
 .day.today{border:2px solid var(--brand)}
 .day[aria-pressed="true"]{outline:3px solid var(--accent)}
+.dhead{display:flex;align-items:center;justify-content:space-between}
 .day .num{font-size:12px;font-weight:700}
-.ev{font-size:11px;line-height:1.25;border-radius:4px;padding:1px 4px;background:var(--chip);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.ev.f{background:#fff4c2;color:#5c4300}
-.ev.s{background:transparent;border:1px dashed var(--line)}
+.day .total{font-size:11px;font-weight:700;background:var(--text);color:var(--bg);border-radius:999px;padding:0 7px;line-height:18px}
+.grp{display:flex;align-items:center;gap:5px;font-size:12px;line-height:1.2;min-width:0}
+.grp i,.dots i,.lg i,.pgroup summary i{flex:none;width:9px;height:9px;border-radius:50%;background:var(--c)}
+.grp .gname{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.grp b{font-size:11px;color:var(--muted)}
 .more{font-size:11px;color:var(--muted)}
+.flags{display:flex;gap:4px;margin-top:auto}
+.flag{font-size:11px;border-radius:4px;padding:0 4px}
+.flag.f{background:#fff4c2;color:#5c4300}.flag.s{border:1px dashed var(--muted);color:var(--muted)}
 .dots{display:none}
-.day-list{margin-top:14px}
-.legend{display:flex;flex-wrap:wrap;gap:12px;font-size:12px;color:var(--muted);margin-top:8px}
-.legend span::before{content:"";display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:4px;vertical-align:-1px;background:var(--chip)}
-.legend .lf::before{background:#fff4c2}.legend .ls::before{background:transparent;border:1px dashed var(--muted)}
+.day-list{margin-top:16px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:10px 14px}
+.legend{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12px;color:var(--muted);margin-top:10px}
+.lg{display:inline-flex;align-items:center;gap:5px}
+.lg.f{background:#fff4c2;color:#5c4300;border-radius:4px;padding:0 4px}.lg.s{border:1px dashed var(--muted);border-radius:4px;padding:0 4px}
+.pgroup{border-top:1px solid var(--line)}
+.pgroup:first-of-type{border-top:0}
+.pgroup summary{cursor:pointer;display:flex;align-items:center;gap:8px;padding:10px 2px;font-weight:700;list-style:none}
+.pgroup summary::-webkit-details-marker{display:none}
+.pgroup summary::after{content:"▸";margin-left:auto;color:var(--muted);transition:transform .15s}
+.pgroup[open] summary::after{transform:rotate(90deg)}
+.pgroup summary b{font-weight:600;color:var(--muted)}
+.rows{list-style:none;margin:0 0 8px;padding:0;display:grid;gap:2px}
+.rows li{display:flex;align-items:center;gap:6px;border-left:3px solid var(--c);border-radius:4px}
+.rowbtn{all:unset;box-sizing:border-box;flex:1;min-width:0;cursor:pointer;display:grid;grid-template-columns:170px 1fr;grid-template-areas:"org title" "org kind";gap:0 12px;padding:6px 8px;border-radius:6px}
+.rowbtn:hover{background:var(--surface-2)}
+.rowbtn:focus-visible{outline:3px solid var(--focus)}
+.rowbtn.noorg{grid-template-columns:1fr;grid-template-areas:"title" "kind"}
+.r-org{grid-area:org;font-weight:700;font-size:13px}
+.r-title{grid-area:title;font-size:14px}
+.r-kind{grid-area:kind;font-size:12px;color:var(--muted)}
+.follow.small{min-width:36px;min-height:36px;flex:none}
 /* seguimiento */
 .track{display:grid;gap:8px;margin-top:8px;font-size:13px}
 .track .row2{gap:8px}
@@ -143,10 +168,11 @@ footer{max-width:1280px;margin:24px auto;padding:0 16px 24px;color:var(--muted);
 }
 @media (max-width:640px){
   .day{min-height:52px}
-  .day .ev,.day .more{display:none}
+  .day .grp,.day .more,.day .flags{display:none}
+  .day .total{font-size:10px;padding:0 5px;line-height:15px}
   .day .dots{display:flex;gap:2px;flex-wrap:wrap}
-  .dots i{width:7px;height:7px;border-radius:50%;background:var(--muted)}
-  .dots i.f{background:#e0b100}
+  .dots i{width:7px;height:7px}
+  .rowbtn{grid-template-columns:1fr;grid-template-areas:"org" "title" "kind"}
   .card{grid-template-columns:1fr}
   .card .side{grid-row:auto;grid-column:1;flex-direction:row;align-items:center;justify-content:space-between}
   .dl{grid-template-columns:1fr}.dl dt{font-weight:700;margin-top:4px}
@@ -561,7 +587,7 @@ function card(it) {
   const redundant = it.categories.length === 1 && fold(it.title).startsWith(fold(it.categories[0]));
   const cats = it.categories.length && !redundant ? `<div class="cats">${esc(it.categories.slice(0, 3).join(" · "))}${it.categories.length > 3 ? ` · +${it.categories.length - 3}` : ""}</div>` : "";
   return `<article class="card ${st}" data-id="${esc(it.id)}">
-    <div class="meta">${it.org ? `<span class="pill org" title="Organización">${esc(it.org)}</span>` : `<span class="pill org all" title="Proceso corporativo: afecta a toda Osakidetza">${ALL_ORGS}</span>`}<span class="pill">${esc(it.process)}</span><span>${esc(it.kind)}</span>${isNew(it) ? `<span class="pill new">Nuevo</span>` : ""}${it.estimated ? `<span class="pill est" title="Fin de plazo calculado a partir de la resolución">Fecha calculada</span>` : ""}${fol ? `<span class="pill mine">${FSTATUS[fol.status]}</span>` : ""}</div>
+    <div class="meta">${it.org ? `<span class="pill org" title="Organización">${esc(it.org)}</span>` : `<span class="pill org all" title="Proceso corporativo: afecta a toda Osakidetza">${ALL_ORGS}</span>`}<span class="pill proc" style="--c:${processColor(it.process)}">${esc(it.process)}</span><span>${esc(it.kind)}</span>${isNew(it) ? `<span class="pill new">Nuevo</span>` : ""}${it.estimated ? `<span class="pill est" title="Fin de plazo calculado a partir de la resolución">Fecha calculada</span>` : ""}${fol ? `<span class="pill mine">${FSTATUS[fol.status]}</span>` : ""}</div>
     <h3><button type="button" data-open="${esc(it.id)}">${esc(it.title)}</button></h3>
     ${cats}
     <div>${whenText(it)}</div>
@@ -594,6 +620,39 @@ function emptyState() {
   return `<div class="empty" role="status"><p><strong>Ningún plazo coincide con los filtros que tienes puestos.</strong></p>${tags.length ? `<p>Filtros activos: ${tags.map((t) => `<span class="tag">${esc(t)}</span>`).join(" ")}</p>` : ""}<p><button class="btn primary" id="emptyClear">Quitar todos los filtros</button></p></div>`;
 }
 let selectedDay = "";
+/* Cada proceso tiene un color y un nombre corto: así una casilla del
+   calendario resume «qué procesos terminan ese día» sin textos cortados. */
+const PROCESS_SHORT = {
+  "Jefaturas (concurso de méritos)": "Jefaturas", "Comisiones de servicios": "Comisiones", "Puestos directivos": "Directivos",
+  "Listas de contratación temporal": "Listas temporales", "Interinidades y ofertas de nombramiento": "Interinidades",
+  "OPE 2023-2024-2025": "OPE 23-25", "OPE 2020-2021-2022": "OPE 20-22", "OPE Estabilización": "OPE Estabiliz.",
+  "OPE Difícil Cobertura Primaria": "OPE Difícil cob.", "OPE (BOPV)": "OPE (BOPV)", "Traslados": "Traslados",
+  "Desarrollo profesional": "Desarrollo prof.", "Recursos judiciales (emplazamientos)": "Emplazamientos",
+  "Otras resoluciones de Osakidetza (BOPV)": "Otras (BOPV)", "Plazos propios": "Mis plazos",
+};
+// Colores fijos y bien diferenciados para los procesos habituales.
+const PROCESS_COLOR = {
+  "Jefaturas (concurso de méritos)": "#1565c0", "Comisiones de servicios": "#2e7d32", "Puestos directivos": "#ef6c00",
+  "Listas de contratación temporal": "#6a1b9a", "Interinidades y ofertas de nombramiento": "#00838f",
+  "OPE 2023-2024-2025": "#ad1457", "OPE 2020-2021-2022": "#795548", "OPE Estabilización": "#9e9d24",
+  "OPE Difícil Cobertura Primaria": "#c62828", "OPE (BOPV)": "#5c6bc0", "Traslados": "#f9a825",
+  "Desarrollo profesional": "#00695c", "Recursos judiciales (emplazamientos)": "#546e7a",
+  "Otras resoluciones de Osakidetza (BOPV)": "#8d6e63", "Plazos propios": "#37474f",
+};
+const PALETTE = ["#1565c0", "#2e7d32", "#ef6c00", "#6a1b9a", "#00838f", "#ad1457", "#795548", "#9e9d24", "#c62828", "#5c6bc0", "#f9a825", "#00695c"];
+const PROCESS_ORDER = Object.keys(PROCESS_SHORT);
+function processColor(p) {
+  if (PROCESS_COLOR[p]) return PROCESS_COLOR[p];
+  let i = PROCESS_ORDER.indexOf(p);
+  if (i < 0) i = PROCESS_ORDER.length + [...p].reduce((a, c) => a + c.charCodeAt(0), 0);
+  return PALETTE[i % PALETTE.length];
+}
+const processShort = (p) => PROCESS_SHORT[p] || (p.length > 16 ? `${p.slice(0, 15)}…` : p);
+function groupByProcess(items) {
+  const g = new Map();
+  items.forEach((it) => { if (!g.has(it.process)) g.set(it.process, []); g.get(it.process).push(it); });
+  return [...g.entries()].sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0], "es"));
+}
 function renderCalendar(list) {
   const t = todayIso();
   const month = state.calMonth || t.slice(0, 7);
@@ -607,28 +666,57 @@ function renderCalendar(list) {
     if (it.start && it.start !== it.end && state.follow[it.id]) { if (!starts.has(it.start)) starts.set(it.start, []); starts.get(it.start).push(it); }
   });
   let cells = ["L", "M", "X", "J", "V", "S", "D"].map((d, i) => `<div class="dow" aria-hidden="true" title="${["lunes","martes","miércoles","jueves","viernes","sábado","domingo"][i]}">${d}</div>`).join("");
+  const shown = new Set();
   for (let i = 0; i < 42; i += 1) {
     const day = addDays(start, i);
     if (i === 35 && day.slice(0, 7) !== month) break;
-    const e = (ends.get(day) || []).sort((a, b) => Boolean(state.follow[b.id]) - Boolean(state.follow[a.id]));
+    const e = ends.get(day) || [];
     const s = starts.get(day) || [];
-    const chip = (it) => `${it.org ? `${shortOrg(it.org)} · ` : ""}${shortTitle(it)}`;
-    const tip = (it) => `${it.org ? `${it.org} · ` : ""}${it.kind} · ${it.title}`;
-    const evs = [...e.map((it) => `<span class="ev${state.follow[it.id] ? " f" : ""}" title="${esc(tip(it))}">${esc(chip(it))}</span>`), ...s.map((it) => `<span class="ev s" title="${esc(tip(it))}">Empieza: ${esc(chip(it))}</span>`)];
-    const label = `${Number(day.slice(8))} de ${MONTHS[Number(day.slice(5, 7)) - 1]}: ${e.length ? plural(e.length, "fin de plazo", "fines de plazo") : "sin fines de plazo"}${s.length ? `, ${plural(s.length, "inicio", "inicios")} de plazos seguidos` : ""}`;
-    cells += `<button type="button" class="day${day.slice(0, 7) !== month ? " out" : ""}${day === t ? " today" : ""}" data-day="${day}" aria-pressed="${day === selectedDay}" aria-label="${label}"><span class="num">${Number(day.slice(8))}</span>${evs.slice(0, 3).join("")}${evs.length > 3 ? `<span class="more">+${evs.length - 3} más</span>` : ""}<span class="dots">${e.slice(0, 8).map((it) => `<i class="${state.follow[it.id] ? "f" : ""}"></i>`).join("")}</span></button>`;
+    const groups = groupByProcess(e);
+    if (day.slice(0, 7) === month) groups.forEach(([p]) => shown.add(p));
+    const mine = e.filter((it) => state.follow[it.id]).length;
+    const rows = groups.slice(0, 3).map(([p, its]) => `<span class="grp" style="--c:${processColor(p)}" title="${esc(`${p}: ${its.length}`)}"><i></i><span class="gname">${esc(processShort(p))}</span><b>${its.length}</b></span>`).join("");
+    const extra = groups.length > 3 ? `<span class="more">+${groups.length - 3} ${groups.length - 3 === 1 ? "proceso" : "procesos"}</span>` : "";
+    const flags = `${mine ? `<span class="flag f" title="Plazos que sigues">★ ${mine}</span>` : ""}${s.length ? `<span class="flag s" title="Empiezan plazos que sigues">▶ ${s.length}</span>` : ""}`;
+    const dots = groups.slice(0, 6).map(([p]) => `<i style="--c:${processColor(p)}"></i>`).join("");
+    const label = `${Number(day.slice(8))} de ${MONTHS[Number(day.slice(5, 7)) - 1]}: ${e.length ? `${plural(e.length, "fin de plazo", "fines de plazo")} (${groups.map(([p, its]) => `${processShort(p)} ${its.length}`).join(", ")})` : "sin fines de plazo"}${mine ? `, ${mine} que sigues` : ""}${s.length ? `, ${plural(s.length, "inicio", "inicios")} de plazos seguidos` : ""}`;
+    cells += `<button type="button" class="day${day.slice(0, 7) !== month ? " out" : ""}${day === t ? " today" : ""}${e.length ? " has" : ""}" data-day="${day}" aria-pressed="${day === selectedDay}" aria-label="${esc(label)}"><span class="dhead"><span class="num">${Number(day.slice(8))}</span>${e.length ? `<span class="total">${e.length}</span>` : ""}</span>${rows}${extra}${flags ? `<span class="flags">${flags}</span>` : ""}<span class="dots">${dots}</span></button>`;
   }
   const inMonth = list.filter((it) => it.end && it.end.startsWith(month));
+  const legend = [...shown].sort((a, b) => processShort(a).localeCompare(processShort(b), "es")).map((p) => `<span class="lg" style="--c:${processColor(p)}"><i></i>${esc(processShort(p))}</span>`).join("");
   let below = "";
   if (selectedDay) {
-    const items = [...(ends.get(selectedDay) || []), ...(starts.get(selectedDay) || [])];
-    below = `<div class="day-list"><h2 class="section-title">${fmt(selectedDay)} <span class="n">(${items.length})</span></h2>${items.length ? `<div class="cards">${items.map(card).join("")}</div>` : `<p class="status-line">Ningún plazo termina este día con los filtros actuales.</p>`}</div>`;
+    const items = [...(ends.get(selectedDay) || [])];
+    const begin = starts.get(selectedDay) || [];
+    below = `<div class="day-list" id="dayList"><h2 class="section-title">${weekday(selectedDay)} ${fmt(selectedDay)} <span class="n">(${plural(items.length, "plazo termina", "plazos terminan")})</span></h2>
+      ${begin.length ? `<details class="pgroup" open style="--c:var(--accent)"><summary><i></i>Empiezan plazos que sigues <b>${begin.length}</b></summary><ul class="rows">${begin.map(row).join("")}</ul></details>` : ""}
+      ${items.length ? groupByProcess(items).map(([p, its]) => `<details class="pgroup" data-p="${esc(p)}" ${openGroups.has(`${selectedDay}|${p}`) || (!openGroups.size && groupByProcess(items).length <= 3) ? "open" : ""} style="--c:${processColor(p)}"><summary><i></i>${esc(p)} <b>${its.length}</b></summary><ul class="rows">${its.sort((a, b) => Boolean(state.follow[b.id]) - Boolean(state.follow[a.id]) || (a.org || "~").localeCompare(b.org || "~", "es")).map(row).join("")}</ul></details>`).join("") : `<p class="status-line">Ningún plazo termina este día con los filtros actuales.</p>`}</div>`;
   } else {
-    below = `<p class="status-line">Pulsa un día para ver sus plazos. ${plural(inMonth.length, "plazo termina", "plazos terminan")} en ${MONTHS[m - 1]}.</p>`;
+    below = `<p class="status-line">Pulsa un día para ver sus plazos agrupados por proceso. ${plural(inMonth.length, "plazo termina", "plazos terminan")} en ${MONTHS[m - 1]}.</p>`;
   }
   return `${list.length ? "" : emptyState()}<div class="cal-head"><button class="btn" data-month="-1" aria-label="Mes anterior">‹</button><h2>${MONTHS[m - 1]} ${y}</h2><button class="btn" data-month="0">Hoy</button><button class="btn" data-month="1" aria-label="Mes siguiente">›</button></div>
     <div class="cal">${cells}</div>
-    <div class="legend"><span>Fin de plazo</span><span class="lf">Fin de plazo que sigues</span><span class="ls">Inicio de un plazo que sigues</span></div>${below}`;
+    <div class="legend">${legend}<span class="lg f">★ que sigues</span><span class="lg s">▶ empieza un plazo que sigues</span></div>${below}`;
+}
+// Grupos desplegados por el usuario en el panel del día (se conservan al repintar).
+const openGroups = new Set();
+document.addEventListener("toggle", (e) => {
+  const d = e.target;
+  if (!d.classList || !d.classList.contains("pgroup") || !d.dataset.p) return;
+  const key = `${selectedDay}|${d.dataset.p}`;
+  if (d.open) openGroups.add(key); else openGroups.delete(key);
+}, true);
+const weekday = (iso) => ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"][toDate(iso).getUTCDay()];
+// Fila compacta: OSI, título, trámite y estado de seguimiento en una línea.
+function row(it) {
+  const fol = state.follow[it.id];
+  // Si el título no nombra la categoría (resoluciones del BOPV), la categoría
+  // pasa a ser lo principal: «Anestesiología y reanimación» en vez de
+  // «Oferta de destinos (Resolución 1409/2026)».
+  const cat = it.categories.length === 1 && !fold(it.title).includes(fold(it.categories[0])) ? it.categories[0] : "";
+  const main = cat || it.title;
+  const sub = [it.kind, cat ? it.title : "", it.estimated ? "fecha calculada" : "", isNew(it) ? "nuevo" : ""].filter(Boolean).join(" · ");
+  return `<li><button type="button" class="rowbtn${it.org ? "" : " noorg"}" data-open="${esc(it.id)}">${it.org ? `<span class="r-org">${esc(shortOrg(it.org))}</span>` : ""}<span class="r-title">${esc(main)}</span><span class="r-kind">${esc(sub)}</span></button><button type="button" class="follow small" data-follow="${esc(it.id)}" aria-pressed="${Boolean(fol)}" aria-label="${fol ? "Dejar de seguir" : "Seguir"}: ${esc(it.title)}">${fol ? "★" : "☆"}</button></li>`;
 }
 const shortTitle = (it) => (it.categories.length === 1 ? it.categories[0] : it.title);
 function renderFollow() {
