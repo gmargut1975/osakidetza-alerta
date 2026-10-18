@@ -1,0 +1,1096 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#c8102e">
+<meta name="description" content="Plazos de los procesos de Osakidetza para profesionales: calendario, filtros, seguimiento y avisos sin repeticiones.">
+<title>Plazos Osakidetza</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'%3E%3Crect width='256' height='256' rx='56' fill='%23d71920'/%3E%3Cpath d='M128 38c32 0 58 26 58 58v32l18 31H52l18-31V96c0-32 26-58 58-58Z' fill='%23fff'/%3E%3Cpath d='M100 181h56a28 28 0 0 1-56 0Z' fill='%23111'/%3E%3Ccircle cx='176' cy='70' r='24' fill='%23f1c84b'/%3E%3C/svg%3E">
+<style>
+:root{
+  --bg:#f5f6f8;--surface:#fff;--surface-2:#eef0f3;--text:#17191c;--muted:#5b6370;--line:#d9dde3;
+  --brand:#c8102e;--brand-ink:#fff;--accent:#0b5cad;--ok:#1b7f3b;--warn:#a85d00;--danger:#b3261e;--closed:#6b7280;
+  --chip:#e8ecf1;--focus:#0b5cad;--shadow:0 1px 2px rgba(0,0,0,.06),0 4px 14px rgba(0,0,0,.06);
+  --r:12px;--gap:16px;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#121417;--surface:#1b1e23;--surface-2:#23272e;--text:#eceff3;--muted:#a3abb7;--line:#343a43;
+  --brand:#ff5a6e;--brand-ink:#1b0005;--accent:#7ab4ff;--ok:#5fd28a;--warn:#f0ad4e;--danger:#ff8a80;--closed:#9aa3ae;--chip:#2b3038;--focus:#7ab4ff;--shadow:none}}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font:15px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;padding-bottom:env(safe-area-inset-bottom)}
+button,input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+a{color:var(--accent)}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:40px;padding:8px 14px;border-radius:10px;border:1px solid var(--line);background:var(--surface);cursor:pointer;text-decoration:none;color:var(--text)}
+.btn:hover{background:var(--surface-2)}
+.btn.primary{background:var(--brand);border-color:var(--brand);color:var(--brand-ink);font-weight:600}
+.btn.ghost{border-color:transparent;background:transparent}
+.btn.small{min-height:32px;padding:4px 10px;font-size:13px}
+.btn[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+.icon{width:20px;height:20px;flex:none}
+/* cabecera */
+header.top{position:sticky;top:0;z-index:20;background:var(--surface);border-bottom:1px solid var(--line);padding:calc(8px + env(safe-area-inset-top)) 16px 0}
+.top-row{display:flex;align-items:center;gap:12px;max-width:1280px;margin:0 auto}
+.brand{display:flex;align-items:center;gap:10px;min-width:0;flex:1}
+.brand img{height:34px;width:auto;border-radius:4px;background:#fff}
+.brand h1{font-size:18px;margin:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.brand small{display:block;color:var(--muted);font-size:12px;font-weight:400}
+.bell{position:relative}
+.badge{position:absolute;top:-4px;right:-4px;min-width:20px;height:20px;padding:0 5px;border-radius:10px;background:var(--brand);color:var(--brand-ink);font-size:12px;font-weight:700;display:flex;align-items:center;justify-content:center}
+nav.tabs{display:flex;gap:4px;max-width:1280px;margin:8px auto 0;overflow-x:auto}
+nav.tabs button{border:0;background:none;padding:10px 14px;border-bottom:3px solid transparent;cursor:pointer;color:var(--muted);font-weight:600;white-space:nowrap}
+nav.tabs button[aria-selected="true"]{color:var(--text);border-bottom-color:var(--brand)}
+/* estructura */
+.layout{display:grid;grid-template-columns:300px 1fr;gap:var(--gap);max-width:1280px;margin:16px auto;padding:0 16px}
+aside.filters{position:sticky;top:120px;align-self:start;max-height:calc(100vh - 136px);overflow-y:auto;overflow-x:hidden;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px}
+main{min-width:0}
+.fgroup{border:0;margin:0 0 14px;padding:0}
+.fgroup legend,.flabel{font-weight:700;font-size:13px;text-transform:uppercase;letter-spacing:.03em;color:var(--muted);margin-bottom:6px;padding:0}
+.checks{display:flex;flex-direction:column;gap:2px}
+.checks label{min-width:0;overflow-wrap:anywhere}
+.checks label{display:flex;align-items:center;gap:8px;padding:4px 2px;cursor:pointer;border-radius:6px}
+.checks label:hover{background:var(--surface-2)}
+.checks .n{margin-left:auto;color:var(--muted);font-size:12px;flex:none;white-space:nowrap;padding-left:6px}
+input[type=search],input[type=text],input[type=date],input[type=url],select,textarea{width:100%;min-height:40px;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--surface)}
+input[type=checkbox]{width:18px;height:18px;accent-color:var(--accent)}
+.row2{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:8px}
+.row2 input{min-width:0}
+.segmented{display:flex;flex-wrap:wrap;gap:6px}
+.segmented button{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:6px 12px;cursor:pointer;min-height:34px}
+.segmented button[aria-pressed="true"]{background:var(--text);color:var(--bg);border-color:var(--text)}
+.toolbar{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-bottom:12px}
+.toolbar .count{font-weight:700}
+.active-filters{display:flex;flex-wrap:wrap;gap:6px}
+.tag{display:inline-flex;align-items:center;gap:4px;background:var(--chip);border-radius:999px;padding:3px 10px;font-size:13px;border:0;cursor:pointer}
+.status-line{font-size:13px;color:var(--muted);margin:0 0 12px}
+.status-line.warn{color:var(--warn)}
+/* tarjetas */
+.section-title{font-size:15px;margin:18px 0 8px;display:flex;align-items:center;gap:8px}
+.section-title .n{color:var(--muted);font-weight:400}
+.cards{display:grid;gap:10px}
+.card{background:var(--surface);border:1px solid var(--line);border-left:5px solid var(--closed);border-radius:var(--r);padding:12px 14px;display:grid;grid-template-columns:1fr auto;gap:4px 12px;box-shadow:var(--shadow)}
+.card.st-open{border-left-color:var(--ok)}.card.st-soon{border-left-color:var(--danger)}.card.st-next{border-left-color:var(--accent)}.card.st-none{border-left-color:var(--line)}
+.card h3{margin:0;font-size:15px;line-height:1.35}
+.card h3 button{all:unset;cursor:pointer}
+.card h3 button:hover{text-decoration:underline}
+.card h3 button:focus-visible{outline:3px solid var(--focus)}
+.meta{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:13px;color:var(--muted)}
+.pill{display:inline-block;border-radius:999px;padding:1px 8px;font-size:12px;font-weight:600;background:var(--chip);color:var(--text)}
+.pill.new{background:var(--brand);color:var(--brand-ink)}
+.pill.est{background:#fff3d6;color:#6b4100}
+.pill.mine{background:var(--accent);color:#fff}
+.pill.org{background:var(--text);color:var(--bg);font-size:13px;padding:2px 10px}
+.pill.proc::before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--c);margin-right:5px;vertical-align:0}
+.pill.org.all{background:var(--chip);color:var(--text)}
+.pill.org::before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--brand);margin-right:6px;vertical-align:1px}
+.when{font-size:13px}
+.when strong{font-variant-numeric:tabular-nums}
+.left.soon{color:var(--danger);font-weight:700}.left.open{color:var(--ok);font-weight:600}
+.cats{font-size:13px;color:var(--muted)}
+.card .side{grid-row:1/span 4;grid-column:2;display:flex;flex-direction:column;gap:6px;align-items:flex-end}
+.follow{min-width:44px;min-height:44px;border-radius:50%;border:1px solid var(--line);background:var(--surface);cursor:pointer;display:flex;align-items:center;justify-content:center}
+.follow[aria-pressed="true"]{background:#fff4c2;border-color:#e0b100;color:#8a6500}
+.empty{padding:32px;text-align:center;color:var(--muted);background:var(--surface);border:1px dashed var(--line);border-radius:var(--r)}
+/* calendario */
+.cal-head{display:flex;align-items:center;gap:8px;margin-bottom:10px}
+.cal-head h2{margin:0;font-size:18px;flex:1;text-transform:capitalize}
+.cal{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px}
+.cal .dow{font-size:12px;font-weight:700;color:var(--muted);text-align:center;padding:4px 0}
+.day{min-height:104px;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:5px;text-align:left;cursor:pointer;display:flex;flex-direction:column;gap:3px;overflow:hidden}
+.day:hover{border-color:var(--accent)}
+.day.out{opacity:.45}
+.day.today{border:2px solid var(--brand)}
+.day[aria-pressed="true"]{outline:3px solid var(--accent)}
+.dhead{display:flex;align-items:center;justify-content:space-between}
+.day .num{font-size:12px;font-weight:700}
+.day .total{font-size:11px;font-weight:700;background:var(--text);color:var(--bg);border-radius:999px;padding:0 7px;line-height:18px}
+.grp{display:flex;align-items:center;gap:5px;font-size:12px;line-height:1.2;min-width:0}
+.grp i,.dots i,.lg i,.pgroup summary i{flex:none;width:9px;height:9px;border-radius:50%;background:var(--c)}
+.grp .gname{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.grp b{font-size:11px;color:var(--muted)}
+.more{font-size:11px;color:var(--muted)}
+.flags{display:flex;gap:4px;margin-top:auto}
+.flag{font-size:11px;border-radius:4px;padding:0 4px}
+.flag.f{background:#fff4c2;color:#5c4300}.flag.s{border:1px dashed var(--muted);color:var(--muted)}
+.dots{display:none}
+.day-list{margin-top:16px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:10px 14px}
+.legend{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12px;color:var(--muted);margin-top:10px}
+.lg{display:inline-flex;align-items:center;gap:5px}
+.lg.f{background:#fff4c2;color:#5c4300;border-radius:4px;padding:0 4px}.lg.s{border:1px dashed var(--muted);border-radius:4px;padding:0 4px}
+.pgroup{border-top:1px solid var(--line)}
+.pgroup:first-of-type{border-top:0}
+.pgroup summary{cursor:pointer;display:flex;align-items:center;gap:8px;padding:10px 2px;font-weight:700;list-style:none}
+.pgroup summary::-webkit-details-marker{display:none}
+.pgroup summary::after{content:"▸";margin-left:auto;color:var(--muted);transition:transform .15s}
+.pgroup[open] summary::after{transform:rotate(90deg)}
+.pgroup summary b{font-weight:600;color:var(--muted)}
+.rows{list-style:none;margin:0 0 8px;padding:0;display:grid;gap:2px}
+.rows li{display:flex;align-items:center;gap:6px;border-left:3px solid var(--c);border-radius:4px}
+.rowbtn{all:unset;box-sizing:border-box;flex:1;min-width:0;cursor:pointer;display:grid;grid-template-columns:170px 1fr;grid-template-areas:"org title" "org kind";gap:0 12px;padding:6px 8px;border-radius:6px}
+.rowbtn:hover{background:var(--surface-2)}
+.rowbtn:focus-visible{outline:3px solid var(--focus)}
+.rowbtn.noorg{grid-template-columns:1fr;grid-template-areas:"title" "kind"}
+.r-org{grid-area:org;font-weight:700;font-size:13px}
+.r-title{grid-area:title;font-size:14px}
+.r-kind{grid-area:kind;font-size:12px;color:var(--muted)}
+.follow.small{min-width:36px;min-height:36px;flex:none}
+/* seguimiento */
+.track{display:grid;gap:8px;margin-top:8px;font-size:13px}
+.track .row2{gap:8px}
+/* diálogos */
+dialog{border:0;border-radius:16px;padding:0;max-width:680px;width:calc(100% - 24px);background:var(--surface);color:var(--text);box-shadow:0 20px 60px rgba(0,0,0,.35)}
+dialog::backdrop{background:rgba(10,12,16,.55)}
+.dlg-head{display:flex;align-items:flex-start;gap:10px;padding:16px 16px 8px;position:sticky;top:0;background:var(--surface);border-bottom:1px solid var(--line)}
+.dlg-head h2{margin:0;font-size:17px;flex:1}
+.dlg-body{padding:12px 16px 16px;display:grid;gap:12px}
+.dl{display:grid;grid-template-columns:130px 1fr;gap:6px 12px;margin:0;font-size:14px}
+.dl dt{color:var(--muted)}.dl dd{margin:0}
+blockquote{margin:0;padding:10px 12px;background:var(--surface-2);border-left:4px solid var(--accent);border-radius:6px;font-size:14px}
+.actions{display:flex;flex-wrap:wrap;gap:8px}
+.toast{position:fixed;left:50%;bottom:calc(16px + env(safe-area-inset-bottom));transform:translateX(-50%);background:var(--text);color:var(--bg);padding:10px 16px;border-radius:10px;z-index:60;max-width:calc(100% - 32px);box-shadow:var(--shadow)}
+.notice-list{display:grid;gap:8px;max-height:55vh;overflow:auto}
+.src-table{width:100%;border-collapse:collapse;font-size:13px}
+.src-table td,.src-table th{border-bottom:1px solid var(--line);padding:6px 4px;text-align:left;vertical-align:top}
+.ok{color:var(--ok)}.ko{color:var(--danger)}
+.filters-toggle{display:none}
+footer{max-width:1280px;margin:24px auto;padding:0 16px 24px;color:var(--muted);font-size:12px}
+@media (max-width:900px){
+  .layout{grid-template-columns:1fr}
+  aside.filters{position:fixed;inset:0 0 0 auto;width:min(360px,92vw);max-height:none;top:0;align-self:stretch;height:100vh;height:100dvh;border-radius:0;z-index:40;transform:translateX(105%);transition:transform .2s;padding-top:calc(14px + env(safe-area-inset-top))}
+  aside.filters.open{transform:none;box-shadow:-10px 0 40px rgba(0,0,0,.3)}
+  .filters-toggle{display:inline-flex}
+  .scrim{position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:39}
+  .brand small{display:none}
+}
+@media (max-width:640px){
+  .day{min-height:52px}
+  .day .grp,.day .more,.day .flags{display:none}
+  .day .total{font-size:10px;padding:0 5px;line-height:15px}
+  .day .dots{display:flex;gap:2px;flex-wrap:wrap}
+  .dots i{width:7px;height:7px}
+  .rowbtn{grid-template-columns:1fr;grid-template-areas:"org" "title" "kind"}
+  .card{grid-template-columns:1fr}
+  .card .side{grid-row:auto;grid-column:1;flex-direction:row;align-items:center;justify-content:space-between}
+  .dl{grid-template-columns:1fr}.dl dt{font-weight:700;margin-top:4px}
+  .brand img{height:28px}
+  .filters-toggle .lbl{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+  .top-row{gap:4px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+@media print{header.top,aside.filters,.toolbar,.follow,footer{display:none}.layout{display:block}}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="top-row">
+    <div class="brand">
+      <img src="{{LOGO}}" alt="CCOO osasun federakundea" width="94" height="34">
+      <h1>Plazos Osakidetza <small>Procesos para profesionales</small></h1>
+    </div>
+    <button class="btn ghost filters-toggle" id="openFilters" aria-controls="filters" aria-expanded="false">
+      <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3 5h18v2l-7 7v5l-4 2v-7L3 7z"/></svg><span class="lbl">Filtros</span><span id="filterCountMobile"></span>
+    </button>
+    <button class="btn ghost bell" id="openNotices" aria-label="Avisos">
+      <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 22a2.5 2.5 0 0 0 2.45-2h-4.9A2.5 2.5 0 0 0 12 22Zm7-6V11a7 7 0 0 0-5.5-6.84V3a1.5 1.5 0 0 0-3 0v1.16A7 7 0 0 0 5 11v5l-2 2v1h18v-1z"/></svg>
+      <span class="badge" id="noticeBadge" hidden>0</span>
+    </button>
+    <button class="btn ghost" id="openSettings" aria-label="Ajustes">
+      <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M19.4 13a7.6 7.6 0 0 0 0-2l2.1-1.6-2-3.5-2.5 1a7.4 7.4 0 0 0-1.7-1L15 3h-4l-.4 2.9a7.4 7.4 0 0 0-1.7 1l-2.5-1-2 3.5L6.6 11a7.6 7.6 0 0 0 0 2l-2.1 1.6 2 3.5 2.5-1c.5.4 1.1.7 1.7 1L11 21h4l.4-2.9c.6-.3 1.2-.6 1.7-1l2.5 1 2-3.5zM13 15.5a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7z" transform="translate(-1 0)"/></svg>
+    </button>
+  </div>
+  <nav class="tabs" role="tablist" aria-label="Vistas">
+    <button role="tab" id="tab-agenda" aria-controls="view" aria-selected="true" data-view="agenda">Agenda</button>
+    <button role="tab" id="tab-calendario" aria-controls="view" aria-selected="false" data-view="calendario">Calendario</button>
+    <button role="tab" id="tab-seguimiento" aria-controls="view" aria-selected="false" data-view="seguimiento">Mi seguimiento <span id="followCount"></span></button>
+  </nav>
+</header>
+
+<div class="layout">
+  <aside class="filters" id="filters" aria-label="Filtros">
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px">
+      <strong>Filtros</strong>
+      <span><button class="btn small" id="clearFilters">Limpiar</button> <button class="btn small filters-toggle" id="closeFilters">Cerrar</button></span>
+    </div>
+    <div class="fgroup"><label class="flabel" for="fText">Buscar</label>
+      <input type="search" id="fText" placeholder="Categoría, puesto, OSI, palabra…" autocomplete="off"></div>
+    <fieldset class="fgroup"><legend>Situación del plazo</legend>
+      <div class="segmented" id="fStatus"></div></fieldset>
+    <fieldset class="fgroup"><legend>Mostrar solo</legend>
+      <div class="checks">
+        <label><input type="checkbox" id="fFollowed"> Los que sigo</label>
+        <label><input type="checkbox" id="fNew"> Novedades sin ver</label>
+        <label><input type="checkbox" id="fMine"> Mis intereses <span class="n" id="mineHint"></span></label>
+        <label><input type="checkbox" id="fHideDiscarded" checked> Ocultar descartados</label>
+      </div></fieldset>
+    <fieldset class="fgroup"><legend>Proceso</legend><div class="checks" id="fProcess"></div></fieldset>
+    <fieldset class="fgroup"><legend>Trámite</legend><div class="checks" id="fKind"></div></fieldset>
+    <div class="fgroup"><label class="flabel" for="fCategory">Categoría / puesto</label>
+      <input type="text" id="fCategory" list="categoryList" placeholder="Escribe y elige…" autocomplete="off">
+      <datalist id="categoryList"></datalist></div>
+    <div class="fgroup"><label class="flabel" for="fOrg">Organización / OSI</label><select id="fOrg"></select></div>
+    <div class="fgroup"><label class="flabel" for="fSource">Fuente</label><select id="fSource"></select></div>
+    <fieldset class="fgroup"><legend>Fin de plazo entre</legend>
+      <div class="row2"><label><span class="sr-only">Desde</span><input type="date" id="fFrom" aria-label="Fin de plazo desde"></label><label><span class="sr-only">Hasta</span><input type="date" id="fTo" aria-label="Fin de plazo hasta"></label></div></fieldset>
+    <div class="fgroup"><label class="flabel" for="fPublished">Publicado</label>
+      <select id="fPublished"><option value="7">Últimos 7 días</option><option value="30">Últimos 30 días</option><option value="90">Últimos 90 días</option><option value="365">Último año</option><option value="">Todo el histórico</option></select></div>
+  </aside>
+
+  <main>
+    <p class="status-line" id="dataStatus" role="status"></p>
+    <div class="toolbar">
+      <span class="count" id="resultCount" aria-live="polite"></span>
+      <div class="active-filters" id="activeFilters"></div>
+    </div>
+    <section id="view" role="tabpanel" aria-labelledby="tab-agenda"></section>
+  </main>
+</div>
+<footer>
+  Datos extraídos automáticamente de las páginas oficiales de Osakidetza, de Listas de contratación temporal (lan poltsa) y del BOPV. Antes de presentar nada, comprueba el plazo en el documento oficial enlazado: una fecha marcada como «calculada» se ha estimado a partir del texto de la resolución.
+</footer>
+
+<dialog id="detail" aria-labelledby="detailTitle"></dialog>
+<dialog id="notices" aria-labelledby="noticesTitle"></dialog>
+<dialog id="settings" aria-labelledby="settingsTitle"></dialog>
+<dialog id="manual" aria-labelledby="manualTitle"></dialog>
+
+<script type="text/plain" id="snapshot" data-encoding="gzip+base64">{{SNAPSHOT}}</script>
+<script>
+"use strict";
+(() => {
+/* ============================================================ utilidades */
+const $ = (sel, root = document) => root.querySelector(sel);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const fold = (s) => String(s ?? "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+const STORE_KEY = "oskPlazos.v2";
+const MONITOR_URL = "./data/source-monitor.json";
+const REFRESH_MS = 30 * 60 * 1000;
+const SOON_DAYS = 3;
+const MONTHS = ["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"];
+
+function todayIso() {
+  const forced = new URLSearchParams(location.search).get("hoy");
+  if (forced && /^\d{4}-\d{2}-\d{2}$/.test(forced)) return forced;
+  // Fecha de calendario en Euskadi, independiente de la zona del dispositivo.
+  return new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Madrid", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date());
+}
+const toDate = (iso) => { const [y, m, d] = iso.split("-").map(Number); return new Date(Date.UTC(y, m - 1, d)); };
+const isoOf = (date) => date.toISOString().slice(0, 10);
+const addDays = (iso, n) => { const d = toDate(iso); d.setUTCDate(d.getUTCDate() + n); return isoOf(d); };
+const diffDays = (a, b) => Math.round((toDate(b) - toDate(a)) / 86400000);
+const fmt = (iso) => (iso ? `${iso.slice(8, 10)}/${iso.slice(5, 7)}/${iso.slice(0, 4)}` : "");
+const fmtShort = (iso) => (iso ? `${Number(iso.slice(8, 10))} ${MONTHS[Number(iso.slice(5, 7)) - 1].slice(0, 3)}` : "");
+const safeUrl = (u) => (/^https?:\/\//i.test(String(u || "")) ? u : "");
+// Búsqueda tolerante al género y al plural: «enfermera», «enfermeras» y
+// «Enfermero/a» comparten raíz («enfermer»); también «médica» y «Médico/a».
+const stem = (w) => (w.length > 4 ? w.replace(/(as|os|es|a|o|s)$/, "") : w);
+const terms = (text) => fold(text).split(/[\s,;]+/).filter(Boolean).map(stem);
+const matchesAll = (hay, text) => terms(text).every((t) => hay.includes(t));
+const plural = (n, one, many) => `${n} ${n === 1 ? one : many}`;
+
+/* ============================================================ estado persistente */
+const DEFAULT_FILTERS = { text: "", status: ["abierto", "proximo", "cerrado"], processes: [], kinds: [], categories: [], org: "", src: "", from: "", to: "", published: "365", followed: false, onlyNew: false, mine: false, hideDiscarded: true };
+const DEFAULT_STATE = { v: 2, follow: {}, seen: {}, notified: {}, interests: { processes: [], categories: [] }, manual: [], filters: DEFAULT_FILTERS, view: "agenda", calMonth: "", settings: { remind: [3, 1], systemNotifications: false }, firstRun: "" };
+
+let storageOk = true;
+function load() {
+  let raw = null;
+  try { raw = JSON.parse(localStorage.getItem(STORE_KEY) || "null"); } catch { storageOk = false; }
+  const s = Object.assign(structuredClone(DEFAULT_STATE), raw || {});
+  s.filters = Object.assign(structuredClone(DEFAULT_FILTERS), s.filters || {});
+  s.settings = Object.assign(structuredClone(DEFAULT_STATE.settings), s.settings || {});
+  s.interests = Object.assign({ processes: [], categories: [] }, s.interests || {});
+  if (!raw) migrateLegacy(s);
+  return s;
+}
+function save() {
+  try { localStorage.setItem(STORE_KEY, JSON.stringify(state)); }
+  catch { if (storageOk) toast("No se pueden guardar los cambios en este navegador (almacenamiento bloqueado o lleno)."); storageOk = false; }
+}
+// Migración desde la versión anterior (claves osakidetzaAlertas.*).
+function migrateLegacy(s) {
+  const get = (k, d) => { try { return JSON.parse(localStorage.getItem(`osakidetzaAlertas.${k}`) || "null") ?? d; } catch { return d; } };
+  const custom = get("customProcesses", []);
+  custom.forEach((c) => {
+    if (!c || !c.name || !c.end) return;
+    const id = `manual-${c.id || Math.random().toString(36).slice(2)}`;
+    s.manual.push({ id, src: "manual", process: "Plazos propios", kind: "Plazo", title: c.name, org: "", categories: c.theme ? [c.theme] : [], published: c.createdAt || c.start || c.end, start: c.start || "", end: c.end, estimated: false, literal: "", summary: "", url: "" });
+    s.follow[id] = { status: "pendiente", note: "", filed: "", responseEnd: "", addedAt: todayIso() };
+  });
+  const alarms = get("alarms", []);
+  const procs = [...new Set(alarms.map((a) => a && a.process).filter(Boolean))];
+  if (procs.length) s.interests.processes = procs;
+  if (custom.length || alarms.length) s.migrated = { from: "osakidetzaAlertas", at: todayIso(), custom: custom.length, alarms: alarms.length };
+}
+
+const state = load();
+
+/* ============================================================ datos */
+// Instantánea de un año de avisos incluida en el propio archivo (comprimida).
+let snapshot = { capturedAt: new Date().toISOString(), items: [] };
+async function decodeSnapshot() {
+  const el = $("#snapshot");
+  const text = el.textContent.trim();
+  if (el.dataset.encoding !== "gzip+base64") return JSON.parse(text);
+  const bytes = Uint8Array.from(atob(text), (c) => c.charCodeAt(0));
+  const stream = new Blob([bytes]).stream().pipeThrough(new DecompressionStream("gzip"));
+  return JSON.parse(await new Response(stream).text());
+}
+let monitor = null;          // último data/source-monitor.json leído
+let monitorError = "";
+let ITEMS = [];
+let lastLoad = 0;
+
+function buildItems() {
+  const map = new Map();
+  snapshot.items.forEach((it) => map.set(it.id, it));
+  if (monitor && Array.isArray(monitor.items)) {
+    monitor.items.forEach((it) => {
+      if (!it || !it.id || !it.published) return;
+      map.set(it.id, it);
+      (it.aliases || []).forEach((a) => map.delete(a));
+    });
+  }
+  state.manual.forEach((it) => map.set(it.id, it));
+  ITEMS = [...map.values()].map((it) => ({ ...it, url: safeUrl(it.url), altUrl: safeUrl(it.altUrl) })).map(decorate);
+}
+/* Organización (OSI, red, hospital...) donde tiene lugar el plazo: nombre
+   canónico para el filtro y la tarjeta; si la fuente no la da, se deduce del
+   texto cuando este menciona una única organización. */
+const ORGS = [
+  ["OSI Araba", /\bosi araba\b|hospital universitario araba/],
+  ["OSI Rioja Alavesa", /rioja alavesa/],
+  ["OSI Debagoiena", /debagoiena|alto deba/],
+  ["OSI Debabarrena", /debabarrena|bajo deba/],
+  ["OSI Bidasoa", /bidasoa/],
+  ["OSI Donostialdea", /donostialdea/],
+  ["OSI Goierri-Urola Garaia", /goierri/],
+  ["OSI Tolosaldea", /tolosaldea/],
+  ["OSI Barakaldo-Sestao", /barakaldo/],
+  ["OSI Barrualde-Galdakao", /barrualde|galdakao/],
+  ["OSI Bilbao-Basurto", /bilbao.basurto/],
+  ["OSI Ezkerraldea-Enkarterri-Cruces", /ezkerraldea|enkarterri/],
+  ["OSI Uribe", /\buribe\b/],
+  ["Red de Salud Mental de Araba", /salud mental (de )?araba|\brsma\b/],
+  ["Red de Salud Mental de Bizkaia", /salud mental (de )?bizkaia|\brsmb\b/],
+  ["Red de Salud Mental de Gipuzkoa", /salud mental (de )?gipuzkoa|\brsmg\b/],
+  ["Hospital Gorliz", /gorliz/],
+  ["Hospital Santa Marina", /santa marina/],
+  ["Emergencias", /^emergencias/],
+  ["CVTTH (Transfusión y Tejidos)", /cvtth|transfusion y tejidos/],
+  ["Organización Central (Dirección General)", /^direccion general|organizacion central/],
+];
+const CENTRAL = "Organización Central (Dirección General)";
+const ALL_ORGS = "Toda Osakidetza";
+function canonicalOrg(raw) {
+  const t = fold(raw).trim();
+  if (!t) return "";
+  const hit = ORGS.find(([, re]) => re.test(t));
+  return hit ? hit[0] : raw;
+}
+function deriveOrg(it) {
+  const t = fold(`${it.title} ${(it.categories || []).join(" ")} ${it.summary || ""}`);
+  const hits = ORGS.filter(([name, re]) => name !== CENTRAL && name !== "Emergencias" && re.test(t)).map(([name]) => name);
+  return hits.length === 1 ? hits[0] : "";
+}
+const shortOrg = (o) => o.replace(/^OSI /, "").replace(/^Red de Salud Mental de /, "RSM ").replace(/^Hospital /, "H. ").replace(/^Organización Central.*/, "Org. Central").replace(/ \(.*\)$/, "");
+function decorate(it) {
+  const t = todayIso();
+  let status = "sinplazo";
+  if (it.end) status = it.end < t ? "cerrado" : it.start && it.start > t ? "proximo" : "abierto";
+  const left = it.end ? diffDays(t, it.end) : null;
+  // Los puestos convocados por Dirección General para una OSI concreta
+  // (p. ej. «Director/a Gerente (OSI Uribe)») se muestran en esa OSI.
+  const given = canonicalOrg(it.org || "");
+  const org = given && given !== CENTRAL ? given : deriveOrg(it) || given;
+  const hay = fold([it.title, it.process, it.kind, org, it.org, (it.categories || []).join(" "), it.literal, it.summary].join(" "));
+  return { ...it, org, categories: it.categories || [], status, left, soon: status === "abierto" && left <= SOON_DAYS, hay };
+}
+
+async function fetchMonitor(manual) {
+  if (location.protocol === "file:") { monitorError = "file"; return; }
+  try {
+    const res = await fetch(`${MONITOR_URL}?t=${Date.now()}`, { cache: "no-store" });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const json = await res.json();
+    if (!json || !Array.isArray(json.sources)) throw new Error("formato desconocido");
+    monitor = json; monitorError = Array.isArray(json.items) ? "" : "old";
+  } catch (e) {
+    monitorError = String(e.message || e);
+    if (manual) toast("No se ha podido descargar la última comprobación; se muestran los datos guardados.");
+  }
+  lastLoad = Date.now();
+}
+
+/* ============================================================ memoria de avisos */
+function initMemory() {
+  if (state.firstRun) return;
+  // Primera vez: lo publicado hace más de 3 días se da por conocido, para
+  // no abrir la aplicación con cientos de «novedades».
+  const limit = addDays(todayIso(), -3);
+  ITEMS.forEach((it) => { if (it.published < limit) state.seen[it.id] = todayIso(); });
+  state.firstRun = todayIso();
+  save();
+}
+const isNew = (it) => !state.seen[it.id] && it.src !== "manual";
+function markSeen(ids) { const t = todayIso(); ids.forEach((id) => { if (!state.seen[id]) state.seen[id] = t; }); save(); }
+function matchesInterests(it) {
+  const { processes, categories } = state.interests;
+  if (!processes.length && !categories.length) return true;
+  const okP = !processes.length || processes.includes(it.process);
+  const okC = !categories.length || categories.some((c) => matchesAll(it.hay, c));
+  return okP && okC;
+}
+// Novedad avisable: no vista, de mis intereses, con un plazo vigente o una
+// oferta de nombramientos (las publicaciones sin plazo se ven en la agenda).
+function relevantNew() { return ITEMS.filter((it) => isNew(it) && matchesInterests(it) && (it.status === "abierto" || it.status === "proximo" || it.kind === "Oferta de nombramientos")); }
+function dueReminders() {
+  const t = todayIso();
+  const out = [];
+  Object.entries(state.follow).forEach(([id, f]) => {
+    const it = ITEMS.find((x) => x.id === id);
+    if (!it || ["hecho", "descartado"].includes(f.status)) return;
+    const targets = [];
+    if (it.end && f.status !== "presentado") targets.push(["fin", it.end, "Fin de plazo"]);
+    if (f.responseEnd) targets.push(["resp", f.responseEnd, "Fin de plazo de contestación"]);
+    targets.forEach(([type, date, label]) => {
+      const left = diffDays(t, date);
+      if (left < 0) return;
+      const offsets = (f.remind || state.settings.remind).filter((d) => left <= d);
+      if (!offsets.length) return;
+      const key = `${id}|${type}|${date}|${Math.min(...offsets)}`;
+      out.push({ it, key, label, date, left, acknowledged: Boolean(state.notified[key]) });
+    });
+  });
+  return out.sort((a, b) => a.left - b.left);
+}
+// Notificaciones del sistema: cada novedad y cada recordatorio, una sola vez.
+async function notifySystem() {
+  if (!state.settings.systemNotifications || !("Notification" in window) || Notification.permission !== "granted") return;
+  const pending = [];
+  dueReminders().forEach((r) => { const k = `sys|${r.key}`; if (!state.notified[k]) { pending.push([k, `${r.label}: ${r.left === 0 ? "hoy" : `en ${plural(r.left, "día", "días")}`}`, `${r.it.org ? `${r.it.org} · ` : ""}${r.it.title}`]); } });
+  const fresh = relevantNew().filter((it) => !state.notified[`sys|new|${it.id}`]);
+  if (fresh.length) pending.push([fresh.map((it) => `sys|new|${it.id}`), plural(fresh.length, "novedad", "novedades") + " en Plazos Osakidetza", fresh.slice(0, 3).map((it) => `${it.org ? `${shortOrg(it.org)}: ` : ""}${it.title}`).join(" · ")]);
+  if (!pending.length) return;
+  const reg = navigator.serviceWorker ? await navigator.serviceWorker.getRegistration().catch(() => null) : null;
+  pending.forEach(([keys, title, body]) => {
+    try { reg ? reg.showNotification(title, { body, icon: "icons/icon-192.png", tag: String(keys).slice(0, 60) }) : new Notification(title, { body }); } catch { /* sin soporte */ }
+    [].concat(keys).forEach((k) => { state.notified[k] = todayIso(); });
+  });
+  save();
+}
+function pruneMemory() {
+  const ids = new Set(ITEMS.map((i) => i.id));
+  const limit = addDays(todayIso(), -400);
+  Object.keys(state.seen).forEach((id) => { if (!ids.has(id) && state.seen[id] < limit) delete state.seen[id]; });
+  Object.keys(state.notified).forEach((k) => { if (state.notified[k] < limit) delete state.notified[k]; });
+}
+
+/* ============================================================ filtros */
+const STATUS = [["abierto", "Abierto"], ["proximo", "Próximo"], ["cerrado", "Cerrado"], ["sinplazo", "Sin fecha"]];
+const STATUS_LABEL = Object.fromEntries(STATUS);
+const FSTATUS = { pendiente: "Pendiente", presentado: "Presentado", hecho: "Hecho", descartado: "Descartado" };
+
+function filtered(ignore) {
+  const f = state.filters;
+  const t = todayIso();
+  const cats = f.categories;
+  const pubLimit = f.published ? addDays(t, -Number(f.published)) : "";
+  return ITEMS.filter((it) => {
+    const fol = state.follow[it.id];
+    if (ignore !== "status" && f.status.length && !f.status.includes(it.status)) return false;
+    if (ignore !== "process" && f.processes.length && !f.processes.includes(it.process)) return false;
+    if (ignore !== "kind" && f.kinds.length && !f.kinds.includes(it.kind)) return false;
+    if (cats.length && !cats.some((c) => matchesAll(fold(`${it.categories.join(" | ")} ${it.title}`), c))) return false;
+    if (f.org && (f.org === ALL_ORGS ? it.org : it.org !== f.org)) return false;
+    if (f.src && it.src !== f.src) return false;
+    if (f.from && (!it.end || it.end < f.from)) return false;
+    if (f.to && (!it.end || it.end > f.to)) return false;
+    if (pubLimit && it.published < pubLimit) return false;
+    if (f.followed && !fol) return false;
+    if (f.onlyNew && !isNew(it)) return false;
+    if (f.mine && !matchesInterests(it)) return false;
+    if (f.hideDiscarded && fol && fol.status === "descartado") return false;
+    return !f.text || matchesAll(it.hay, f.text);
+  });
+}
+const SOURCE_LABELS = { bopv: "BOPV", lanpoltsa: "Lan poltsa (listas)", manual: "Plazos propios" };
+function sourceLabel(key) {
+  const s = monitor && monitor.sources ? monitor.sources.find((x) => x.key === key) : null;
+  return (s && s.label) || SOURCE_LABELS[key] || key;
+}
+function countBy(list, key) { const m = new Map(); list.forEach((it) => m.set(it[key], (m.get(it[key]) || 0) + 1)); return m; }
+
+function renderFilters() {
+  const f = state.filters;
+  $("#fText").value = f.text;
+  $("#fStatus").innerHTML = STATUS.map(([k, l]) => `<button type="button" data-status="${k}" aria-pressed="${f.status.includes(k)}">${l}</button>`).join("");
+  const checks = (el, field, key, ignore) => {
+    const counts = countBy(filtered(ignore), key);
+    const all = [...new Set([...ITEMS.map((i) => i[key]), ...f[field]])].filter(Boolean).sort((a, b) => a.localeCompare(b, "es"));
+    el.innerHTML = all.map((v) => `<label><input type="checkbox" data-${field}="${esc(v)}" ${f[field].includes(v) ? "checked" : ""}> ${esc(v)}<span class="n">${counts.get(v) || 0}</span></label>`).join("");
+  };
+  checks($("#fProcess"), "processes", "process", "process");
+  checks($("#fKind"), "kinds", "kind", "kind");
+  const cats = [...new Set(ITEMS.flatMap((i) => i.categories))].sort((a, b) => a.localeCompare(b, "es"));
+  $("#categoryList").innerHTML = cats.map((c) => `<option value="${esc(c)}">`).join("");
+  const orgs = [...new Set(ITEMS.map((i) => i.org).filter(Boolean))].sort((a, b) => a.localeCompare(b, "es"));
+  $("#fOrg").innerHTML = `<option value="">Todas</option><option value="${ALL_ORGS}" ${f.org === ALL_ORGS ? "selected" : ""}>${ALL_ORGS} (procesos corporativos)</option>` + orgs.map((o) => `<option ${o === f.org ? "selected" : ""}>${esc(o)}</option>`).join("");
+  const srcs = [...new Set(ITEMS.map((i) => i.src))].sort();
+  $("#fSource").innerHTML = `<option value="">Todas</option>` + srcs.map((s) => `<option value="${esc(s)}" ${s === f.src ? "selected" : ""}>${esc(sourceLabel(s))}</option>`).join("");
+  $("#fFrom").value = f.from; $("#fTo").value = f.to; $("#fPublished").value = f.published;
+  $("#fFollowed").checked = f.followed; $("#fNew").checked = f.onlyNew; $("#fMine").checked = f.mine; $("#fHideDiscarded").checked = f.hideDiscarded;
+  const ni = state.interests.processes.length + state.interests.categories.length;
+  $("#mineHint").textContent = ni ? "" : "(defínelos en Ajustes)";
+}
+function activeFilterTags() {
+  const f = state.filters, tags = [];
+  if (f.text) tags.push(["text", `«${f.text}»`]);
+  f.processes.forEach((p) => tags.push([`processes:${p}`, p]));
+  f.kinds.forEach((k) => tags.push([`kinds:${k}`, k]));
+  f.categories.forEach((c) => tags.push([`categories:${c}`, c]));
+  if (f.org) tags.push(["org", f.org]);
+  if (f.src) tags.push(["src", sourceLabel(f.src)]);
+  if (f.from || f.to) tags.push(["dates", `Fin ${f.from ? "desde " + fmt(f.from) : ""} ${f.to ? "hasta " + fmt(f.to) : ""}`.trim()]);
+  if (f.published && f.published !== "365") tags.push(["published", `Publicado en los últimos ${f.published} días`]);
+  if (!f.published) tags.push(["published", "Todo el histórico"]);
+  if (f.followed) tags.push(["followed", "Los que sigo"]);
+  if (f.onlyNew) tags.push(["onlyNew", "Novedades"]);
+  if (f.mine) tags.push(["mine", "Mis intereses"]);
+  return tags;
+}
+function removeFilter(key) {
+  const f = state.filters;
+  const [field, value] = key.split(/:(.*)/s);
+  if (value !== undefined) f[field] = f[field].filter((v) => v !== value);
+  else if (field === "dates") { f.from = ""; f.to = ""; }
+  else f[field] = DEFAULT_FILTERS[field];
+  save(); render();
+}
+
+/* ============================================================ tarjetas */
+function whenText(it) {
+  if (!it.end) return `<span class="when">Publicado el ${fmt(it.published)} · sin fecha de plazo</span>`;
+  const range = it.start && it.start !== it.end ? `Del <strong>${fmt(it.start)}</strong> al <strong>${fmt(it.end)}</strong>` : `Hasta el <strong>${fmt(it.end)}</strong>`;
+  let left = "";
+  if (it.status === "abierto") left = it.left === 0 ? `<span class="left soon">· termina hoy</span>` : `<span class="left ${it.soon ? "soon" : "open"}">· ${it.left === 1 ? "queda 1 día" : `quedan ${it.left} días`}</span>`;
+  else if (it.status === "proximo") left = `<span class="left">· empieza en ${plural(diffDays(todayIso(), it.start), "día", "días")}</span>`;
+  else left = `<span class="left">· cerrado</span>`;
+  return `<span class="when">${range} ${left}</span>`;
+}
+function card(it) {
+  const fol = state.follow[it.id];
+  const st = it.soon ? "st-soon" : it.status === "abierto" ? "st-open" : it.status === "proximo" ? "st-next" : it.status === "sinplazo" ? "st-none" : "";
+  const redundant = it.categories.length === 1 && fold(it.title).startsWith(fold(it.categories[0]));
+  const cats = it.categories.length && !redundant ? `<div class="cats">${esc(it.categories.slice(0, 3).join(" · "))}${it.categories.length > 3 ? ` · +${it.categories.length - 3}` : ""}</div>` : "";
+  return `<article class="card ${st}" data-id="${esc(it.id)}">
+    <div class="meta">${it.org ? `<span class="pill org" title="Organización">${esc(it.org)}</span>` : `<span class="pill org all" title="Proceso corporativo: afecta a toda Osakidetza">${ALL_ORGS}</span>`}<span class="pill proc" style="--c:${processColor(it.process)}">${esc(it.process)}</span><span>${esc(it.kind)}</span>${isNew(it) ? `<span class="pill new">Nuevo</span>` : ""}${it.estimated ? `<span class="pill est" title="Fin de plazo calculado a partir de la resolución">Fecha calculada</span>` : ""}${fol ? `<span class="pill mine">${FSTATUS[fol.status]}</span>` : ""}</div>
+    <h3><button type="button" data-open="${esc(it.id)}">${esc(it.title)}</button></h3>
+    ${cats}
+    <div>${whenText(it)}</div>
+    <div class="side"><button type="button" class="follow" data-follow="${esc(it.id)}" aria-pressed="${Boolean(fol)}" aria-label="${fol ? "Dejar de seguir" : "Seguir"}: ${esc(it.title)}" title="${fol ? "Dejar de seguir" : "Seguir este plazo"}">${fol ? "★" : "☆"}</button></div>
+  </article>`;
+}
+const PAGE = 40;
+const shown = {};
+function section(key, title, list, extra = "") {
+  if (!list.length) return "";
+  const n = shown[key] || PAGE;
+  return `<h2 class="section-title">${title} <span class="n">(${list.length})</span>${extra}</h2><div class="cards">${list.slice(0, n).map(card).join("")}</div>${list.length > n ? `<p><button class="btn" data-more="${key}">Mostrar ${Math.min(PAGE, list.length - n)} más</button></p>` : ""}`;
+}
+
+/* ============================================================ vistas */
+const byEnd = (a, b) => (a.end || "9999").localeCompare(b.end || "9999") || b.published.localeCompare(a.published);
+function renderAgenda(list) {
+  const soon = list.filter((i) => i.soon).sort(byEnd);
+  const open = list.filter((i) => i.status === "abierto" && !i.soon).sort(byEnd);
+  const next = list.filter((i) => i.status === "proximo").sort((a, b) => a.start.localeCompare(b.start));
+  const none = list.filter((i) => i.status === "sinplazo").sort((a, b) => b.published.localeCompare(a.published));
+  const closed = list.filter((i) => i.status === "cerrado").sort((a, b) => b.end.localeCompare(a.end));
+  const html = section("soon", `Terminan en ${SOON_DAYS} días o menos`, soon) + section("open", "Plazos abiertos", open) + section("next", "Próximos plazos", next) + section("none", "Publicaciones sin fecha de plazo", none) + section("closed", state.filters.published === "365" ? "Plazos cerrados en el último año" : "Plazos cerrados", closed);
+  return html || emptyState();
+}
+function emptyState() {
+  const tags = activeFilterTags().map(([, l]) => l);
+  const f = state.filters;
+  if (f.status.length && f.status.length < STATUS.length) tags.push(`Situación: ${f.status.map((k) => STATUS_LABEL[k]).join(", ")}`);
+  return `<div class="empty" role="status"><p><strong>Ningún plazo coincide con los filtros que tienes puestos.</strong></p>${tags.length ? `<p>Filtros activos: ${tags.map((t) => `<span class="tag">${esc(t)}</span>`).join(" ")}</p>` : ""}<p><button class="btn primary" id="emptyClear">Quitar todos los filtros</button></p></div>`;
+}
+let selectedDay = "";
+/* Cada proceso tiene un color y un nombre corto: así una casilla del
+   calendario resume «qué procesos terminan ese día» sin textos cortados. */
+const PROCESS_SHORT = {
+  "Jefaturas (concurso de méritos)": "Jefaturas", "Comisiones de servicios": "Comisiones", "Puestos directivos": "Directivos",
+  "Listas de contratación temporal": "Listas temporales", "Interinidades y ofertas de nombramiento": "Interinidades",
+  "OPE 2023-2024-2025": "OPE 23-25", "OPE 2020-2021-2022": "OPE 20-22", "OPE Estabilización": "OPE Estabiliz.",
+  "OPE Difícil Cobertura Primaria": "OPE Difícil cob.", "OPE (BOPV)": "OPE (BOPV)", "Traslados": "Traslados",
+  "Desarrollo profesional": "Desarrollo prof.", "Recursos judiciales (emplazamientos)": "Emplazamientos",
+  "Otras resoluciones de Osakidetza (BOPV)": "Otras (BOPV)", "Plazos propios": "Mis plazos",
+};
+// Colores fijos y bien diferenciados para los procesos habituales.
+const PROCESS_COLOR = {
+  "Jefaturas (concurso de méritos)": "#1565c0", "Comisiones de servicios": "#2e7d32", "Puestos directivos": "#ef6c00",
+  "Listas de contratación temporal": "#6a1b9a", "Interinidades y ofertas de nombramiento": "#00838f",
+  "OPE 2023-2024-2025": "#ad1457", "OPE 2020-2021-2022": "#795548", "OPE Estabilización": "#9e9d24",
+  "OPE Difícil Cobertura Primaria": "#c62828", "OPE (BOPV)": "#5c6bc0", "Traslados": "#f9a825",
+  "Desarrollo profesional": "#00695c", "Recursos judiciales (emplazamientos)": "#546e7a",
+  "Otras resoluciones de Osakidetza (BOPV)": "#8d6e63", "Plazos propios": "#37474f",
+};
+const PALETTE = ["#1565c0", "#2e7d32", "#ef6c00", "#6a1b9a", "#00838f", "#ad1457", "#795548", "#9e9d24", "#c62828", "#5c6bc0", "#f9a825", "#00695c"];
+const PROCESS_ORDER = Object.keys(PROCESS_SHORT);
+function processColor(p) {
+  if (PROCESS_COLOR[p]) return PROCESS_COLOR[p];
+  let i = PROCESS_ORDER.indexOf(p);
+  if (i < 0) i = PROCESS_ORDER.length + [...p].reduce((a, c) => a + c.charCodeAt(0), 0);
+  return PALETTE[i % PALETTE.length];
+}
+const processShort = (p) => PROCESS_SHORT[p] || (p.length > 16 ? `${p.slice(0, 15)}…` : p);
+function groupByProcess(items) {
+  const g = new Map();
+  items.forEach((it) => { if (!g.has(it.process)) g.set(it.process, []); g.get(it.process).push(it); });
+  return [...g.entries()].sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0], "es"));
+}
+function renderCalendar(list) {
+  const t = todayIso();
+  const month = state.calMonth || t.slice(0, 7);
+  const [y, m] = month.split("-").map(Number);
+  const first = `${month}-01`;
+  const offset = (toDate(first).getUTCDay() + 6) % 7;
+  const start = addDays(first, -offset);
+  const ends = new Map(), starts = new Map();
+  list.forEach((it) => {
+    if (it.end) { if (!ends.has(it.end)) ends.set(it.end, []); ends.get(it.end).push(it); }
+    if (it.start && it.start !== it.end && state.follow[it.id]) { if (!starts.has(it.start)) starts.set(it.start, []); starts.get(it.start).push(it); }
+  });
+  let cells = ["L", "M", "X", "J", "V", "S", "D"].map((d, i) => `<div class="dow" aria-hidden="true" title="${["lunes","martes","miércoles","jueves","viernes","sábado","domingo"][i]}">${d}</div>`).join("");
+  const shown = new Set();
+  for (let i = 0; i < 42; i += 1) {
+    const day = addDays(start, i);
+    if (i === 35 && day.slice(0, 7) !== month) break;
+    const e = ends.get(day) || [];
+    const s = starts.get(day) || [];
+    const groups = groupByProcess(e);
+    if (day.slice(0, 7) === month) groups.forEach(([p]) => shown.add(p));
+    const mine = e.filter((it) => state.follow[it.id]).length;
+    const rows = groups.slice(0, 3).map(([p, its]) => `<span class="grp" style="--c:${processColor(p)}" title="${esc(`${p}: ${its.length}`)}"><i></i><span class="gname">${esc(processShort(p))}</span><b>${its.length}</b></span>`).join("");
+    const extra = groups.length > 3 ? `<span class="more">+${groups.length - 3} ${groups.length - 3 === 1 ? "proceso" : "procesos"}</span>` : "";
+    const flags = `${mine ? `<span class="flag f" title="Plazos que sigues">★ ${mine}</span>` : ""}${s.length ? `<span class="flag s" title="Empiezan plazos que sigues">▶ ${s.length}</span>` : ""}`;
+    const dots = groups.slice(0, 6).map(([p]) => `<i style="--c:${processColor(p)}"></i>`).join("");
+    const label = `${Number(day.slice(8))} de ${MONTHS[Number(day.slice(5, 7)) - 1]}: ${e.length ? `${plural(e.length, "fin de plazo", "fines de plazo")} (${groups.map(([p, its]) => `${processShort(p)} ${its.length}`).join(", ")})` : "sin fines de plazo"}${mine ? `, ${mine} que sigues` : ""}${s.length ? `, ${plural(s.length, "inicio", "inicios")} de plazos seguidos` : ""}`;
+    cells += `<button type="button" class="day${day.slice(0, 7) !== month ? " out" : ""}${day === t ? " today" : ""}${e.length ? " has" : ""}" data-day="${day}" aria-pressed="${day === selectedDay}" aria-label="${esc(label)}"><span class="dhead"><span class="num">${Number(day.slice(8))}</span>${e.length ? `<span class="total">${e.length}</span>` : ""}</span>${rows}${extra}${flags ? `<span class="flags">${flags}</span>` : ""}<span class="dots">${dots}</span></button>`;
+  }
+  const inMonth = list.filter((it) => it.end && it.end.startsWith(month));
+  const legend = [...shown].sort((a, b) => processShort(a).localeCompare(processShort(b), "es")).map((p) => `<span class="lg" style="--c:${processColor(p)}"><i></i>${esc(processShort(p))}</span>`).join("");
+  let below = "";
+  if (selectedDay) {
+    const items = [...(ends.get(selectedDay) || [])];
+    const begin = starts.get(selectedDay) || [];
+    below = `<div class="day-list" id="dayList"><h2 class="section-title">${weekday(selectedDay)} ${fmt(selectedDay)} <span class="n">(${plural(items.length, "plazo termina", "plazos terminan")})</span></h2>
+      ${begin.length ? `<details class="pgroup" open style="--c:var(--accent)"><summary><i></i>Empiezan plazos que sigues <b>${begin.length}</b></summary><ul class="rows">${begin.map(row).join("")}</ul></details>` : ""}
+      ${items.length ? groupByProcess(items).map(([p, its]) => `<details class="pgroup" data-p="${esc(p)}" ${openGroups.has(`${selectedDay}|${p}`) || (!openGroups.size && groupByProcess(items).length <= 3) ? "open" : ""} style="--c:${processColor(p)}"><summary><i></i>${esc(p)} <b>${its.length}</b></summary><ul class="rows">${its.sort((a, b) => Boolean(state.follow[b.id]) - Boolean(state.follow[a.id]) || (a.org || "~").localeCompare(b.org || "~", "es")).map(row).join("")}</ul></details>`).join("") : `<p class="status-line">Ningún plazo termina este día con los filtros actuales.</p>`}</div>`;
+  } else {
+    below = `<p class="status-line">Pulsa un día para ver sus plazos agrupados por proceso. ${plural(inMonth.length, "plazo termina", "plazos terminan")} en ${MONTHS[m - 1]}.</p>`;
+  }
+  return `${list.length ? "" : emptyState()}<div class="cal-head"><button class="btn" data-month="-1" aria-label="Mes anterior">‹</button><h2>${MONTHS[m - 1]} ${y}</h2><button class="btn" data-month="0">Hoy</button><button class="btn" data-month="1" aria-label="Mes siguiente">›</button></div>
+    <div class="cal">${cells}</div>
+    <div class="legend">${legend}<span class="lg f">★ que sigues</span><span class="lg s">▶ empieza un plazo que sigues</span></div>${below}`;
+}
+// Grupos desplegados por el usuario en el panel del día (se conservan al repintar).
+const openGroups = new Set();
+document.addEventListener("toggle", (e) => {
+  const d = e.target;
+  if (!d.classList || !d.classList.contains("pgroup") || !d.dataset.p) return;
+  const key = `${selectedDay}|${d.dataset.p}`;
+  if (d.open) openGroups.add(key); else openGroups.delete(key);
+}, true);
+const weekday = (iso) => ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"][toDate(iso).getUTCDay()];
+// Fila compacta: OSI, título, trámite y estado de seguimiento en una línea.
+function row(it) {
+  const fol = state.follow[it.id];
+  // Si el título no nombra la categoría (resoluciones del BOPV), la categoría
+  // pasa a ser lo principal: «Anestesiología y reanimación» en vez de
+  // «Oferta de destinos (Resolución 1409/2026)».
+  const cat = it.categories.length === 1 && !fold(it.title).includes(fold(it.categories[0])) ? it.categories[0] : "";
+  const main = cat || it.title;
+  const sub = [it.kind, cat ? it.title : "", it.estimated ? "fecha calculada" : "", isNew(it) ? "nuevo" : ""].filter(Boolean).join(" · ");
+  return `<li><button type="button" class="rowbtn${it.org ? "" : " noorg"}" data-open="${esc(it.id)}">${it.org ? `<span class="r-org">${esc(shortOrg(it.org))}</span>` : ""}<span class="r-title">${esc(main)}</span><span class="r-kind">${esc(sub)}</span></button><button type="button" class="follow small" data-follow="${esc(it.id)}" aria-pressed="${Boolean(fol)}" aria-label="${fol ? "Dejar de seguir" : "Seguir"}: ${esc(it.title)}">${fol ? "★" : "☆"}</button></li>`;
+}
+const shortTitle = (it) => (it.categories.length === 1 ? it.categories[0] : it.title);
+function renderFollow() {
+  const ids = Object.keys(state.follow);
+  const items = ids.map((id) => ITEMS.find((i) => i.id === id)).filter(Boolean);
+  const missing = ids.length - items.length;
+  const groups = ["pendiente", "presentado", "hecho", "descartado"].map((s) => [s, items.filter((i) => state.follow[i.id].status === s).sort(byEnd)]);
+  const head = `<div class="toolbar"><button class="btn primary" id="addManual">+ Añadir plazo propio</button><button class="btn" id="exportIcs" ${items.length ? "" : "disabled"}>Exportar al calendario (.ics)</button></div>`;
+  if (!items.length) return head + `<div class="empty"><p><strong>Todavía no sigues ningún plazo.</strong></p><p>Pulsa la estrella ☆ de cualquier plazo para seguirlo: podrás anotar si lo has presentado, añadir notas y recibir recordatorios antes de que termine.</p></div>`;
+  return head + groups.map(([s, list]) => section(`f-${s}`, FSTATUS[s], list)).join("") + (missing ? `<p class="status-line">${plural(missing, "plazo seguido ya no figura", "plazos seguidos ya no figuran")} en los datos disponibles.</p>` : "");
+}
+
+function render() {
+  buildCounts();
+  renderFilters();
+  const view = state.view;
+  document.querySelectorAll("nav.tabs button").forEach((b) => b.setAttribute("aria-selected", String(b.dataset.view === view)));
+  $("#view").setAttribute("aria-labelledby", `tab-${view}`);
+  const list = view === "seguimiento" ? [] : filtered();
+  const tags = activeFilterTags();
+  $("#activeFilters").innerHTML = view === "seguimiento" ? "" : tags.map(([k, l]) => `<button class="tag" data-remove="${esc(k)}" aria-label="Quitar filtro ${esc(l)}">${esc(l)} ✕</button>`).join("");
+  $("#filterCountMobile").textContent = tags.length ? ` (${tags.length})` : "";
+  $("#resultCount").textContent = view === "seguimiento" ? "" : `${plural(list.length, "plazo", "plazos")}`;
+  $("#view").innerHTML = view === "agenda" ? renderAgenda(list) : view === "calendario" ? renderCalendar(list) : renderFollow();
+  renderStatus();
+}
+function buildCounts() {
+  const n = Object.keys(state.follow).length;
+  $("#followCount").textContent = n ? `(${n})` : "";
+  const count = relevantNew().length + dueReminders().filter((r) => !r.acknowledged).length;
+  const b = $("#noticeBadge");
+  b.hidden = !count; b.textContent = count > 99 ? "99+" : count;
+  $("#openNotices").setAttribute("aria-label", count ? `Avisos: ${count} sin ver` : "Avisos");
+}
+function renderStatus() {
+  const el = $("#dataStatus");
+  const checked = monitor && monitor.checkedAt;
+  const ref = checked && !monitorError ? new Date(checked) : new Date(snapshot.capturedAt);
+  const hours = Math.max(0, (Date.now() - ref) / 3600000);
+  const ago = hours < 1 ? `hace ${Math.max(1, Math.round(hours * 60))} min` : hours < 48 ? `hace ${Math.round(hours)} h` : `el ${fmt(ref.toISOString().slice(0, 10))}`;
+  const failed = monitor && !monitorError ? monitor.sources.filter((s) => !s.ok) : [];
+  let text;
+  if (monitorError === "file") text = `Datos incluidos en la aplicación, capturados ${ago}. Para recibir actualizaciones automáticas, ábrela desde su dirección web.`;
+  else if (monitorError) text = `No se ha podido leer la última comprobación automática. Datos guardados de ${ago}.`;
+  else text = `Fuentes oficiales comprobadas ${ago}.${failed.length ? ` ${plural(failed.length, "fuente no respondió", "fuentes no respondieron")} (ver Ajustes).` : ""}`;
+  el.textContent = text;
+  el.classList.toggle("warn", Boolean(monitorError && monitorError !== "file") || hours > 6 || failed.length > 0);
+}
+
+/* ============================================================ detalle */
+function openDetail(id) {
+  const it = ITEMS.find((i) => i.id === id);
+  if (!it) return;
+  const fol = state.follow[it.id];
+  const d = $("#detail");
+  d.innerHTML = `<div class="dlg-head"><h2 id="detailTitle">${esc(it.title)}</h2><button class="btn ghost" data-close aria-label="Cerrar">✕</button></div>
+  <div class="dlg-body">
+    <div>${whenText(it)}</div>
+    ${it.literal ? `<blockquote>${esc(it.literal)}</blockquote>` : ""}
+    ${it.estimated ? `<p class="status-line warn">La fecha final se ha calculado a partir del texto de la resolución (días hábiles o un mes desde la publicación). Compruébala en el documento oficial.</p>` : ""}
+    <dl class="dl">
+      ${it.org ? `<dt>Organización</dt><dd><strong>${esc(it.org)}</strong></dd>` : ""}
+      <dt>Proceso</dt><dd>${esc(it.process)}</dd>
+      <dt>Trámite</dt><dd>${esc(it.kind)}</dd>
+      ${it.categories.length ? `<dt>Categorías / puestos</dt><dd>${esc(it.categories.join(" · "))}</dd>` : ""}
+      <dt>Publicado</dt><dd>${fmt(it.published)}</dd>
+      <dt>Fuente</dt><dd>${esc(sourceLabel(it.src))}</dd>
+      ${it.summary ? `<dt>Extracto</dt><dd>${esc(it.summary)}</dd>` : ""}
+    </dl>
+    <div class="actions">
+      ${it.url ? `<a class="btn primary" href="${esc(it.url)}" target="_blank" rel="noopener">Ver documento oficial ↗</a>` : ""}
+      ${it.altUrl ? `<a class="btn" href="${esc(it.altUrl)}" target="_blank" rel="noopener">Ver también en ${it.altUrl.includes("bopv") ? "el BOPV" : "otra fuente"} ↗</a>` : ""}
+      <button class="btn" data-follow="${esc(it.id)}" aria-pressed="${Boolean(fol)}">${fol ? "★ Siguiendo" : "☆ Seguir"}</button>
+      ${it.end ? `<button class="btn" data-ics="${esc(it.id)}">Añadir a mi calendario</button>` : ""}
+      <button class="btn" data-share="${esc(it.id)}">Compartir</button>
+      ${it.src === "manual" ? `<button class="btn" data-delmanual="${esc(it.id)}">Eliminar plazo propio</button>` : ""}
+    </div>
+    ${fol ? trackForm(it, fol) : ""}
+  </div>`;
+  if (!d.open) d.showModal();
+  if (isNew(it)) { markSeen([it.id]); render(); }
+}
+function trackForm(it, f) {
+  const rem = (f.remind || state.settings.remind).join(", ");
+  return `<form class="track" id="trackForm" data-id="${esc(it.id)}"><h3 style="margin:0">Mi seguimiento</h3>
+    <label>Estado <select name="status">${Object.entries(FSTATUS).map(([k, l]) => `<option value="${k}" ${f.status === k ? "selected" : ""}>${l}</option>`).join("")}</select></label>
+    <div class="row2"><label>Fecha en que lo presenté <input type="date" name="filed" value="${esc(f.filed)}"></label>
+    <label>Plazo de contestación hasta <input type="date" name="responseEnd" value="${esc(f.responseEnd)}"></label></div>
+    <label>Recordarme estos días antes (separados por comas) <input type="text" name="remind" inputmode="numeric" value="${esc(rem)}" pattern="\\s*\\d{1,3}(\\s*,\\s*\\d{1,3})*\\s*"></label>
+    <label>Notas <textarea name="note" rows="3">${esc(f.note)}</textarea></label>
+    <div class="actions"><button class="btn primary" type="submit">Guardar seguimiento</button></div></form>`;
+}
+function toggleFollow(id) {
+  if (state.follow[id]) {
+    const f = state.follow[id];
+    if ((f.note || f.filed || f.responseEnd) && !confirmInline(id)) return;
+    delete state.follow[id];
+    toast("Has dejado de seguir este plazo.");
+  } else {
+    state.follow[id] = { status: "pendiente", note: "", filed: "", responseEnd: "", addedAt: todayIso() };
+    markSeen([id]);
+    toast("Siguiendo. Te avisaremos antes de que termine.");
+  }
+  save(); render();
+  if ($("#detail").open) openDetail(id);
+}
+// Dejar de seguir con notas exige una segunda pulsación (sin diálogos del sistema).
+let pendingUnfollow = "";
+function confirmInline(id) {
+  if (pendingUnfollow === id) { pendingUnfollow = ""; return true; }
+  pendingUnfollow = id;
+  toast("Tiene notas o fechas guardadas: vuelve a pulsar para dejar de seguirlo.");
+  setTimeout(() => { if (pendingUnfollow === id) pendingUnfollow = ""; }, 5000);
+  return false;
+}
+
+/* ============================================================ avisos */
+function openNotices() {
+  const reminders = dueReminders();
+  const fresh = relevantNew().sort(byEnd);
+  const d = $("#notices");
+  const interests = state.interests.processes.length + state.interests.categories.length;
+  d.innerHTML = `<div class="dlg-head"><h2 id="noticesTitle">Avisos</h2><button class="btn ghost" data-close aria-label="Cerrar">✕</button></div>
+  <div class="dlg-body">
+    <section><h3 style="margin:0 0 6px">Recordatorios de lo que sigues (${reminders.length})</h3>
+      ${reminders.length ? `<div class="notice-list">${reminders.map((r) => `<div class="card ${r.left <= 1 ? "st-soon" : "st-open"}"><div class="meta">${r.it.org ? `<span class="pill org">${esc(r.it.org)}</span>` : ""}<span class="pill">${esc(r.label)}</span><span>${r.left === 0 ? "hoy" : `en ${plural(r.left, "día", "días")}`} (${fmt(r.date)})</span></div><h3><button type="button" data-open="${esc(r.it.id)}">${esc(r.it.title)}</button></h3></div>`).join("")}</div>` : `<p class="status-line">Ningún plazo que sigas termina pronto.</p>`}
+    </section>
+    <section><h3 style="margin:0 0 6px">Novedades sin ver (${fresh.length})</h3>
+      <p class="status-line">${interests ? "Solo se muestran las de tus intereses (Ajustes)." : "Consejo: elige tus procesos y categorías en Ajustes para recibir solo lo que te afecta."} Cada novedad se avisa una única vez: al marcarla como vista no vuelve a aparecer.</p>
+      ${fresh.length ? `<div class="notice-list">${fresh.slice(0, 60).map(card).join("")}</div>${fresh.length > 60 ? `<p class="status-line">Y ${fresh.length - 60} más: usa el filtro «Novedades sin ver».</p>` : ""}` : `<p class="status-line">No hay novedades pendientes.</p>`}
+    </section>
+    <div class="actions">${fresh.length || reminders.some((r) => !r.acknowledged) ? `<button class="btn primary" id="markAllSeen">Marcar todo como visto</button>` : ""}${fresh.length ? `<button class="btn" id="showNew">Ver novedades en la agenda</button>` : ""}</div>
+  </div>`;
+  if (!d.open) d.showModal();
+}
+function markAllSeen() {
+  markSeen(relevantNew().map((i) => i.id));
+  dueReminders().forEach((r) => { state.notified[r.key] = todayIso(); });
+  save(); render(); openNotices();
+}
+
+/* ============================================================ ajustes */
+function openSettings() {
+  const d = $("#settings");
+  const procs = [...new Set(ITEMS.map((i) => i.process))].sort((a, b) => a.localeCompare(b, "es"));
+  const perm = "Notification" in window ? Notification.permission : "unsupported";
+  const srcRows = monitor && monitor.sources ? monitor.sources.map((s) => `<tr><td>${esc(s.label || s.key)}</td><td class="${s.ok ? "ok" : "ko"}">${s.ok ? "Correcta" : "Sin respuesta"}${s.error ? ` <small>(${esc(s.error)})</small>` : ""}</td><td>${s.count ?? ""}</td><td>${s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener">abrir</a>` : ""}</td></tr>`).join("") : "";
+  d.innerHTML = `<div class="dlg-head"><h2 id="settingsTitle">Ajustes</h2><button class="btn ghost" data-close aria-label="Cerrar">✕</button></div>
+  <form class="dlg-body" id="settingsForm">
+    <fieldset class="fgroup"><legend>Mis intereses (para avisos y el filtro «Mis intereses»)</legend>
+      <div class="checks">${procs.map((p) => `<label><input type="checkbox" name="proc" value="${esc(p)}" ${state.interests.processes.includes(p) ? "checked" : ""}> ${esc(p)}</label>`).join("")}</div>
+      <label style="display:block;margin-top:8px">Categorías o palabras clave (una por línea; basta con que aparezca una)<textarea name="cats" rows="3" placeholder="Enfermero/a&#10;Técnico/a Superior Informático/a">${esc(state.interests.categories.join("\n"))}</textarea></label>
+    </fieldset>
+    <fieldset class="fgroup"><legend>Recordatorios</legend>
+      <label>Por defecto, avisar estos días antes del fin de plazo <input type="text" name="remind" value="${esc(state.settings.remind.join(", "))}" pattern="\\s*\\d{1,3}(\\s*,\\s*\\d{1,3})*\\s*"></label>
+      <label style="display:flex;gap:8px;align-items:center;margin-top:8px"><input type="checkbox" name="sys" ${state.settings.systemNotifications && perm === "granted" ? "checked" : ""} ${perm === "unsupported" || perm === "denied" ? "disabled" : ""}> Notificaciones del sistema ${perm === "denied" ? "(bloqueadas en el navegador)" : perm === "unsupported" ? "(no disponibles en este navegador)" : ""}</label>
+      <p class="status-line">Los avisos se muestran cuando abres la aplicación (y cada 30 minutos si está abierta); cada uno, una sola vez.</p>
+    </fieldset>
+    <div class="actions"><button class="btn primary" type="submit">Guardar ajustes</button></div>
+    <fieldset class="fgroup"><legend>Copia de seguridad</legend>
+      <p class="status-line">Tu seguimiento, notas y memoria de avisos se guardan solo en este dispositivo. Exporta una copia para pasarla a otro móvil u ordenador.</p>
+      <div class="actions"><button class="btn" type="button" id="exportBackup">Exportar copia</button><label class="btn" for="importBackup">Importar copia</label><input type="file" id="importBackup" accept="application/json,.json" hidden></div>
+    </fieldset>
+    ${srcRows ? `<fieldset class="fgroup"><legend>Estado de las fuentes (${esc(monitor.checkedAt ? new Date(monitor.checkedAt).toLocaleString("es-ES") : "")})</legend><table class="src-table"><thead><tr><th>Fuente</th><th>Estado</th><th>Avisos</th><th></th></tr></thead><tbody>${srcRows}</tbody></table></fieldset>` : ""}
+    <p class="status-line">${plural(ITEMS.length, "aviso", "avisos")} en memoria · instantánea incluida del ${fmt(snapshot.capturedAt.slice(0, 10))}${state.migrated ? ` · datos importados de la versión anterior (${state.migrated.custom} plazos propios)` : ""}.</p>
+  </form>`;
+  if (!d.open) d.showModal();
+}
+const parseDays = (s) => [...new Set(String(s).split(",").map((x) => parseInt(x, 10)).filter((n) => n >= 0 && n <= 365))].sort((a, b) => b - a);
+
+async function saveSettings(form) {
+  const fd = new FormData(form);
+  state.interests.processes = fd.getAll("proc");
+  state.interests.categories = String(fd.get("cats") || "").split("\n").map((s) => s.trim()).filter(Boolean);
+  const days = parseDays(fd.get("remind"));
+  if (days.length) state.settings.remind = days;
+  const wantSys = fd.get("sys") === "on";
+  if (wantSys && "Notification" in window && Notification.permission !== "granted") {
+    const p = await Notification.requestPermission().catch(() => "denied");
+    state.settings.systemNotifications = p === "granted";
+    if (p !== "granted") toast("No se ha concedido permiso para notificaciones.");
+  } else state.settings.systemNotifications = wantSys;
+  save(); $("#settings").close(); toast("Ajustes guardados."); render(); notifySystem();
+}
+
+/* ============================================================ plazos propios */
+function openManual() {
+  const d = $("#manual");
+  const procs = [...new Set(ITEMS.map((i) => i.process))].sort((a, b) => a.localeCompare(b, "es"));
+  d.innerHTML = `<div class="dlg-head"><h2 id="manualTitle">Añadir plazo propio</h2><button class="btn ghost" data-close aria-label="Cerrar">✕</button></div>
+  <form class="dlg-body" id="manualForm">
+    <label>Descripción <input type="text" name="title" required maxlength="200" placeholder="p. ej. Recurso contra mi baremo"></label>
+    <label>Proceso <input type="text" name="process" list="procList" value="Plazos propios" required maxlength="80"><datalist id="procList">${procs.map((p) => `<option value="${esc(p)}">`).join("")}</datalist></label>
+    <div class="row2"><label>Inicio <input type="date" name="start"></label><label>Fin <input type="date" name="end" required></label></div>
+    <label>Enlace (opcional) <input type="url" name="url" placeholder="https://"></label>
+    <p class="status-line" id="manualError" role="alert"></p>
+    <div class="actions"><button class="btn primary" type="submit">Añadir y seguir</button></div>
+  </form>`;
+  d.showModal();
+}
+function saveManual(form) {
+  const fd = new FormData(form);
+  const start = fd.get("start"), end = fd.get("end");
+  if (start && end && start > end) { $("#manualError").textContent = "La fecha de inicio no puede ser posterior al fin."; return; }
+  const url = String(fd.get("url") || "").trim();
+  const id = `manual-${Date.now().toString(36)}`;
+  state.manual.push({ id, src: "manual", process: String(fd.get("process")).trim() || "Plazos propios", kind: "Plazo", title: String(fd.get("title")).trim(), org: "", categories: [], published: todayIso(), start: start || "", end, estimated: false, literal: "", summary: "", url: /^https?:\/\//.test(url) ? url : "" });
+  state.follow[id] = { status: "pendiente", note: "", filed: "", responseEnd: "", addedAt: todayIso() };
+  save(); buildItems(); $("#manual").close(); render(); toast("Plazo propio añadido a tu seguimiento.");
+}
+
+/* ============================================================ exportaciones */
+function icsEscape(s) { return String(s).replace(/\\/g, "\\\\").replace(/\n/g, "\\n").replace(/[,;]/g, (c) => `\\${c}`); }
+function ics(items) {
+  const stamp = new Date().toISOString().replace(/[-:]/g, "").slice(0, 15) + "Z";
+  const lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Plazos Osakidetza//ES", "CALSCALE:GREGORIAN"];
+  items.filter((it) => it.end).forEach((it) => {
+    const f = state.follow[it.id] || {};
+    const desc = [it.literal, it.categories.join(" · "), f.note ? `Mis notas: ${f.note}` : "", it.url].filter(Boolean).join("\n");
+    lines.push("BEGIN:VEVENT", `UID:${it.id}@plazos-osakidetza`, `DTSTAMP:${stamp}`, `DTSTART;VALUE=DATE:${it.end.replace(/-/g, "")}`, `DTEND;VALUE=DATE:${addDays(it.end, 1).replace(/-/g, "")}`, `SUMMARY:${icsEscape(`Fin de plazo · ${it.org ? `${shortOrg(it.org)} · ` : ""}${it.kind}: ${it.title}`)}`, `DESCRIPTION:${icsEscape(desc)}`);
+    if (it.url) lines.push(`URL:${it.url}`);
+    (f.remind || state.settings.remind).forEach((d) => lines.push("BEGIN:VALARM", "ACTION:DISPLAY", `DESCRIPTION:${icsEscape(it.title)}`, `TRIGGER:-P${d}DT0H`, "END:VALARM"));
+    lines.push("END:VEVENT");
+  });
+  lines.push("END:VCALENDAR");
+  // Plegado de líneas a 75 octetos (RFC 5545) de forma segura para UTF-8.
+  return lines.map((l) => { const out = []; let cur = ""; for (const ch of l) { if (new TextEncoder().encode(cur + ch).length > 74) { out.push(cur); cur = " " + ch; } else cur += ch; } out.push(cur); return out.join("\r\n"); }).join("\r\n") + "\r\n";
+}
+function download(name, text, type) {
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([text], { type }));
+  a.download = name; document.body.append(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+}
+async function share(id) {
+  const it = ITEMS.find((i) => i.id === id);
+  const text = `${it.org ? `${it.org} · ` : ""}${it.kind} · ${it.title}${it.end ? ` · Fin de plazo: ${fmt(it.end)}` : ""}`;
+  try {
+    if (navigator.share) { await navigator.share({ title: "Plazo Osakidetza", text, url: it.url || undefined }); return; }
+    await navigator.clipboard.writeText(`${text}\n${it.url || ""}`.trim());
+    toast("Copiado al portapapeles.");
+  } catch (e) { if (e && e.name !== "AbortError") toast("No se ha podido compartir."); }
+}
+function importBackup(file) {
+  const reader = new FileReader();
+  reader.onload = () => {
+    try {
+      const data = JSON.parse(reader.result);
+      if (!data || data.app !== "plazos-osakidetza" || !data.state || typeof data.state.follow !== "object") throw new Error();
+      const s = data.state;
+      Object.assign(state.follow, s.follow || {});
+      Object.assign(state.seen, s.seen || {});
+      Object.assign(state.notified, s.notified || {});
+      const ids = new Set(state.manual.map((m) => m.id));
+      (s.manual || []).forEach((m) => { if (m && m.id && !ids.has(m.id)) state.manual.push(m); });
+      if (s.interests) state.interests = s.interests;
+      if (!state.firstRun) state.firstRun = s.firstRun || todayIso();
+      save(); buildItems(); render(); $("#settings").close(); toast("Copia importada y combinada con tus datos.");
+    } catch { toast("El archivo no es una copia válida de esta aplicación."); }
+  };
+  reader.readAsText(file);
+}
+
+/* ============================================================ eventos */
+let toastTimer;
+function toast(msg) {
+  let el = $(".toast");
+  if (!el) { el = document.createElement("div"); el.className = "toast"; el.setAttribute("role", "status"); document.body.append(el); }
+  el.textContent = msg; el.hidden = false;
+  clearTimeout(toastTimer); toastTimer = setTimeout(() => { el.hidden = true; }, 3500);
+}
+function setFilter(patch) { Object.assign(state.filters, patch); Object.keys(shown).forEach((k) => delete shown[k]); save(); render(); }
+function toggleIn(arr, v) { return arr.includes(v) ? arr.filter((x) => x !== v) : [...arr, v]; }
+function openFiltersPanel(open) {
+  $("#filters").classList.toggle("open", open);
+  $("#openFilters").setAttribute("aria-expanded", String(open));
+  let scrim = $(".scrim");
+  if (open && !scrim) { scrim = document.createElement("div"); scrim.className = "scrim"; scrim.addEventListener("click", () => openFiltersPanel(false)); document.body.append(scrim); }
+  if (!open && scrim) scrim.remove();
+  if (open) $("#fText").focus();
+}
+
+document.addEventListener("click", (e) => {
+  const t = e.target.closest("button, [data-day]");
+  if (!t) return;
+  const ds = t.dataset;
+  if (ds.open) { openDetail(ds.open); return; }
+  if (ds.follow) { toggleFollow(ds.follow); return; }
+  if (ds.status) { setFilter({ status: toggleIn(state.filters.status, ds.status) }); return; }
+  if (ds.remove) { removeFilter(ds.remove); return; }
+  if (ds.more) { shown[ds.more] = (shown[ds.more] || PAGE) + PAGE; render(); return; }
+  if (ds.view) { state.view = ds.view; selectedDay = ""; save(); render(); return; }
+  if (ds.day) { selectedDay = selectedDay === ds.day ? "" : ds.day; render(); const l = $(".day-list"); if (l && selectedDay) l.scrollIntoView({ behavior: "smooth", block: "nearest" }); return; }
+  if (ds.month !== undefined) { const cur = state.calMonth || todayIso().slice(0, 7); const n = Number(ds.month); state.calMonth = n === 0 ? "" : addDays(`${cur}-15`, n * 30).slice(0, 7); selectedDay = ""; save(); render(); return; }
+  if (ds.ics) { const it = ITEMS.find((i) => i.id === ds.ics); download(`plazo-${it.end}.ics`, ics([it]), "text/calendar"); return; }
+  if (ds.share) { share(ds.share); return; }
+  if (ds.delmanual) { state.manual = state.manual.filter((m) => m.id !== ds.delmanual); delete state.follow[ds.delmanual]; save(); buildItems(); $("#detail").close(); render(); toast("Plazo propio eliminado."); return; }
+  if (ds.close !== undefined) { t.closest("dialog").close(); return; }
+  switch (t.id) {
+    case "openNotices": openNotices(); break;
+    case "openSettings": openSettings(); break;
+    case "openFilters": openFiltersPanel(true); break;
+    case "closeFilters": openFiltersPanel(false); break;
+    case "clearFilters": state.filters = structuredClone(DEFAULT_FILTERS); setFilter({}); break;
+    case "emptyClear": state.filters = structuredClone(DEFAULT_FILTERS); state.filters.status = []; state.filters.hideDiscarded = false; setFilter({}); break;
+    case "markAllSeen": markAllSeen(); break;
+    case "showNew": $("#notices").close(); state.view = "agenda"; setFilter({ onlyNew: true, status: [] }); break;
+    case "addManual": openManual(); break;
+    case "exportIcs": download("mis-plazos-osakidetza.ics", ics(Object.keys(state.follow).map((id) => ITEMS.find((i) => i.id === id)).filter(Boolean)), "text/calendar"); break;
+    case "exportBackup": download(`copia-plazos-osakidetza-${todayIso()}.json`, JSON.stringify({ app: "plazos-osakidetza", version: 2, exportedAt: new Date().toISOString(), state: { follow: state.follow, seen: state.seen, notified: state.notified, manual: state.manual, interests: state.interests, firstRun: state.firstRun } }, null, 1), "application/json"); break;
+    default:
+  }
+});
+document.addEventListener("change", (e) => {
+  const t = e.target;
+  if (t.dataset.processes !== undefined) setFilter({ processes: toggleIn(state.filters.processes, t.dataset.processes) });
+  else if (t.dataset.kinds !== undefined) setFilter({ kinds: toggleIn(state.filters.kinds, t.dataset.kinds) });
+  else if (t.id === "fOrg") setFilter({ org: t.value });
+  else if (t.id === "fSource") setFilter({ src: t.value });
+  else if (t.id === "fFrom") setFilter({ from: t.value });
+  else if (t.id === "fTo") setFilter({ to: t.value });
+  else if (t.id === "fPublished") setFilter({ published: t.value });
+  else if (t.id === "fFollowed") setFilter({ followed: t.checked });
+  else if (t.id === "fNew") setFilter({ onlyNew: t.checked });
+  else if (t.id === "fMine") setFilter({ mine: t.checked });
+  else if (t.id === "fHideDiscarded") setFilter({ hideDiscarded: t.checked });
+  else if (t.id === "fCategory") addCategory(t.value);
+  else if (t.id === "importBackup" && t.files[0]) importBackup(t.files[0]);
+});
+function addCategory(value) {
+  const v = value.trim();
+  if (!v) return;
+  $("#fCategory").value = "";
+  if (!state.filters.categories.includes(v)) setFilter({ categories: [...state.filters.categories, v] });
+}
+$("#fCategory").addEventListener("keydown", (e) => { if (e.key === "Enter") { e.preventDefault(); addCategory(e.target.value); } });
+let textTimer;
+$("#fText").addEventListener("input", (e) => { clearTimeout(textTimer); textTimer = setTimeout(() => { setFilter({ text: e.target.value.trim() }); $("#fText").focus(); }, 200); });
+document.addEventListener("submit", (e) => {
+  e.preventDefault();
+  const form = e.target;
+  if (form.id === "trackForm") {
+    const fd = new FormData(form);
+    const f = state.follow[form.dataset.id];
+    if (!f) return;
+    f.status = fd.get("status"); f.filed = fd.get("filed"); f.responseEnd = fd.get("responseEnd"); f.note = String(fd.get("note")).slice(0, 4000);
+    const days = parseDays(fd.get("remind")); f.remind = days.length ? days : undefined;
+    save(); render(); toast("Seguimiento guardado."); openDetail(form.dataset.id);
+  } else if (form.id === "settingsForm") saveSettings(form);
+  else if (form.id === "manualForm") saveManual(form);
+});
+document.addEventListener("keydown", (e) => { if (e.key === "Escape" && $("#filters").classList.contains("open")) openFiltersPanel(false); });
+document.querySelectorAll("dialog").forEach((d) => d.addEventListener("click", (e) => { if (e.target === d) d.close(); }));
+
+/* ============================================================ arranque */
+async function refresh(manual) {
+  await fetchMonitor(manual);
+  buildItems(); initMemory(); pruneMemory(); render(); notifySystem();
+}
+(async () => {
+  try { snapshot = await decodeSnapshot(); }
+  catch { $("#dataStatus").textContent = "Este navegador es demasiado antiguo para leer los datos incluidos; se intentará descargar la última comprobación."; }
+  buildItems(); initMemory(); render();
+  refresh(false);
+})();
+setInterval(() => refresh(false), REFRESH_MS);
+document.addEventListener("visibilitychange", () => { if (!document.hidden && Date.now() - lastLoad > 5 * 60 * 1000) refresh(false); });
+window.addEventListener("storage", (e) => { if (e.key === STORE_KEY) location.reload(); });
+if (/^https?:$/.test(location.protocol)) {
+  const link = document.createElement("link"); link.rel = "manifest"; link.href = "manifest.webmanifest"; document.head.append(link);
+  if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
+}
+window.__plazos = { state, items: () => ITEMS, ics };
+})();
+</script>
+</body>
+</html>
