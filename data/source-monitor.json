@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checkedAt": "2026-10-19T00:17:56.226Z",
+ "checkedAt": "2026-10-19T10:34:42.707Z",
  "sources": [
   {
    "key": "comisiones2026",
@@ -13,7 +13,7 @@
    "error": "",
    "count": 143,
    "hash": "7cbe7fa03df901af",
-   "checkedAt": "2026-10-19T00:17:56.226Z",
+   "checkedAt": "2026-10-19T10:34:42.707Z",
    "changedAt": "2026-10-18T09:09:23.451Z"
   },
   {
@@ -27,7 +27,7 @@
    "error": "",
    "count": 132,
    "hash": "77f324c1858c86af",
-   "checkedAt": "2026-10-19T00:17:56.226Z",
+   "checkedAt": "2026-10-19T10:34:42.707Z",
    "changedAt": "2026-10-18T09:09:23.451Z"
   },
   {
@@ -39,10 +39,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 457,
-   "hash": "60157c71a58e226a",
-   "checkedAt": "2026-10-19T00:17:56.226Z",
-   "changedAt": "2026-10-18T09:09:23.451Z"
+   "count": 459,
+   "hash": "03697621b4b85464",
+   "checkedAt": "2026-10-19T10:34:42.707Z",
+   "changedAt": "2026-10-19T10:34:42.707Z"
   },
   {
    "key": "jefaturas2025",
@@ -55,7 +55,7 @@
    "error": "",
    "count": 479,
    "hash": "66143b22347640ab",
-   "checkedAt": "2026-10-19T00:17:56.226Z",
+   "checkedAt": "2026-10-19T10:34:42.707Z",
    "changedAt": "2026-10-18T09:09:23.451Z"
   },
   {
@@ -69,7 +69,7 @@
    "error": "",
    "count": 30,
    "hash": "eb07d21ecb1d9061",
-   "checkedAt": "2026-10-19T00:17:56.226Z",
+   "checkedAt": "2026-10-19T10:34:42.707Z",
    "changedAt": "2026-10-18T09:09:23.451Z"
   },
   {
@@ -83,7 +83,7 @@
    "error": "",
    "count": 54,
    "hash": "a304df315c59aa2c",
-   "checkedAt": "2026-10-19T00:17:56.226Z",
+   "checkedAt": "2026-10-19T10:34:42.707Z",
    "changedAt": "2026-10-18T09:09:23.451Z"
   },
   {
@@ -97,7 +97,7 @@
    "error": "",
    "count": 79,
    "hash": "34fc66e897fa1bbd",
-   "checkedAt": "2026-10-19T00:17:56.226Z",
+   "checkedAt": "2026-10-19T10:34:42.707Z",
    "changedAt": "2026-10-18T09:09:23.451Z"
   },
   {
@@ -111,7 +111,7 @@
    "error": "",
    "count": 254,
    "hash": "f7f8a12e5a49e961",
-   "checkedAt": "2026-10-19T00:17:56.226Z",
+   "checkedAt": "2026-10-19T10:34:42.707Z",
    "changedAt": "2026-10-18T09:09:23.451Z"
   },
   {
@@ -125,7 +125,7 @@
    "error": "",
    "count": 15,
    "hash": "5458c70460b20bd8",
-   "checkedAt": "2026-10-19T00:17:56.226Z",
+   "checkedAt": "2026-10-19T10:34:42.707Z",
    "changedAt": "2026-10-18T09:09:23.451Z"
   },
   {
@@ -139,7 +139,7 @@
    "error": "",
    "count": 83,
    "hash": "a6baac4fb1fc60c0",
-   "checkedAt": "2026-10-19T00:17:56.226Z",
+   "checkedAt": "2026-10-19T10:34:42.707Z",
    "changedAt": "2026-10-18T09:09:23.451Z"
   },
   {
@@ -153,7 +153,7 @@
    "error": "",
    "count": 164,
    "hash": "6f0586c40b65c8fe",
-   "checkedAt": "2026-10-19T00:17:56.226Z",
+   "checkedAt": "2026-10-19T10:34:42.707Z",
    "changedAt": "2026-10-18T09:09:23.451Z"
   },
   {
@@ -167,7 +167,7 @@
    "error": "",
    "count": 21,
    "hash": "ff9210a812239484",
-   "checkedAt": "2026-10-19T00:17:56.226Z",
+   "checkedAt": "2026-10-19T10:34:42.707Z",
    "changedAt": "2026-10-18T09:09:23.451Z"
   },
   {
@@ -181,7 +181,7 @@
    "error": "",
    "count": 3,
    "hash": "ed4fc72b663d3272",
-   "checkedAt": "2026-10-19T00:17:56.226Z",
+   "checkedAt": "2026-10-19T10:34:42.707Z",
    "changedAt": "2026-10-18T09:09:23.451Z"
   },
   {
@@ -195,7 +195,7 @@
    "error": "",
    "count": 0,
    "hash": "c4971aba58479f1e",
-   "checkedAt": "2026-10-19T00:17:56.226Z",
+   "checkedAt": "2026-10-19T10:34:42.707Z",
    "changedAt": "2026-10-18T09:09:23.451Z"
   },
   {
@@ -208,9 +208,9 @@
    "status": 200,
    "error": "",
    "count": 0,
-   "hash": "e61f58be95c0096d",
-   "checkedAt": "2026-10-19T00:17:56.226Z",
-   "changedAt": "2026-10-18T09:09:23.451Z"
+   "hash": "0fd7799ba8cbfe87",
+   "checkedAt": "2026-10-19T10:34:42.707Z",
+   "changedAt": "2026-10-19T10:34:42.707Z"
   },
   {
    "key": "traslados",
@@ -223,7 +223,7 @@
    "error": "",
    "count": 0,
    "hash": "9a327c9e5613dad4",
-   "checkedAt": "2026-10-19T00:17:56.226Z",
+   "checkedAt": "2026-10-19T10:34:42.707Z",
    "changedAt": "2026-10-18T09:09:23.451Z"
   },
   {
@@ -237,7 +237,7 @@
    "error": "",
    "count": 0,
    "hash": "678bcb345b70e6ba",
-   "checkedAt": "2026-10-19T00:17:56.226Z",
+   "checkedAt": "2026-10-19T10:34:42.707Z",
    "changedAt": "2026-10-18T09:09:23.451Z"
   },
   {
@@ -251,16 +251,52 @@
    "error": "",
    "count": 0,
    "hash": "974dc087b0130905",
-   "checkedAt": "2026-10-19T00:17:56.226Z",
+   "checkedAt": "2026-10-19T10:34:42.707Z",
    "changedAt": "2026-10-18T09:09:23.451Z"
   }
  ],
  "bopv": {
   "yy": "26",
-  "lastNumber": 198,
-  "lastDate": "2026-10-16"
+  "lastNumber": 199,
+  "lastDate": "2026-10-19"
  },
  "items": [
+  {
+   "id": "jefaturas2026-1dqy7zg",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Solicitud / inscripción",
+   "title": "Encargado/a de Celadores/as (General)",
+   "org": "OSI Barrualde-Galdakao",
+   "categories": [
+    "Encargado/a de Celadores/as"
+   ],
+   "published": "2026-10-20",
+   "start": "2026-10-20",
+   "end": "2026-11-09",
+   "estimated": false,
+   "literal": "Plazo de presentación de solicitudes: abierto desde el 20/10/2026 hasta el 09/11/2026, ambos inclusive.",
+   "summary": "ENCARGADO/A DE CELADORES/AS (GENERAL) - OSI BARRUALDE-GALDAKAO - Plazo de presentación de solicitudes: abierto desde el 20/10/2026 hasta el 09/11/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/261019_L_DESIG_ENC_CELADORES_OSI_BARRUALDE_GALDAKAO_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-1r8jo0v",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Recurso de alzada",
+   "title": "Supervisor/a General de Noches · Nombramiento",
+   "org": "OSI Bidasoa",
+   "categories": [
+    "Supervisor/a General de Noches"
+   ],
+   "published": "2026-10-20",
+   "start": "2026-10-20",
+   "end": "2026-11-19",
+   "estimated": false,
+   "literal": "Plazo para presentar recursos de alzada: abierto desde el 20/10/2026 hasta el 19/11/2026, ambos inclusive.",
+   "summary": "SUPERVISOR/A GENERAL DE NOCHES - NOMBRAMIENTO - OSI BIDASOA - Plazo para presentar recursos de alzada: abierto desde el 20/10/2026 hasta el 19/11/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/260312_L_DESIG_SUPERV_GRAL_501_OSI_BIDASOA_NOMBR_a.pdf"
+  },
   {
    "id": "jefaturas2026-1him6gl",
    "src": "jefaturas2026",
