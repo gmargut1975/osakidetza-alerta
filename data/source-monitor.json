@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checkedAt": "2026-10-21T06:11:44.746Z",
+ "checkedAt": "2026-10-21T12:06:41.768Z",
  "sources": [
   {
    "key": "comisiones2026",
@@ -13,7 +13,7 @@
    "error": "",
    "count": 143,
    "hash": "7cbe7fa03df901af",
-   "checkedAt": "2026-10-21T06:11:44.746Z",
+   "checkedAt": "2026-10-21T12:06:41.768Z",
    "changedAt": "2026-10-20T10:40:45.933Z"
   },
   {
@@ -27,7 +27,7 @@
    "error": "",
    "count": 132,
    "hash": "77f324c1858c86af",
-   "checkedAt": "2026-10-21T06:11:44.746Z",
+   "checkedAt": "2026-10-21T12:06:41.768Z",
    "changedAt": "2026-10-20T10:40:45.933Z"
   },
   {
@@ -39,10 +39,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 460,
-   "hash": "1def8589a20f875f",
-   "checkedAt": "2026-10-21T06:11:44.746Z",
-   "changedAt": "2026-10-20T10:40:45.933Z"
+   "count": 463,
+   "hash": "e21d8ce71a8f1e10",
+   "checkedAt": "2026-10-21T12:06:41.768Z",
+   "changedAt": "2026-10-21T12:06:41.768Z"
   },
   {
    "key": "jefaturas2025",
@@ -55,7 +55,7 @@
    "error": "",
    "count": 479,
    "hash": "66143b22347640ab",
-   "checkedAt": "2026-10-21T06:11:44.746Z",
+   "checkedAt": "2026-10-21T12:06:41.768Z",
    "changedAt": "2026-10-20T10:40:45.933Z"
   },
   {
@@ -69,7 +69,7 @@
    "error": "",
    "count": 30,
    "hash": "eb07d21ecb1d9061",
-   "checkedAt": "2026-10-21T06:11:44.746Z",
+   "checkedAt": "2026-10-21T12:06:41.768Z",
    "changedAt": "2026-10-20T10:40:45.933Z"
   },
   {
@@ -83,7 +83,7 @@
    "error": "",
    "count": 54,
    "hash": "a304df315c59aa2c",
-   "checkedAt": "2026-10-21T06:11:44.746Z",
+   "checkedAt": "2026-10-21T12:06:41.768Z",
    "changedAt": "2026-10-20T10:40:45.933Z"
   },
   {
@@ -97,7 +97,7 @@
    "error": "",
    "count": 79,
    "hash": "34fc66e897fa1bbd",
-   "checkedAt": "2026-10-21T06:11:44.746Z",
+   "checkedAt": "2026-10-21T12:06:41.768Z",
    "changedAt": "2026-10-20T10:40:45.933Z"
   },
   {
@@ -111,7 +111,7 @@
    "error": "",
    "count": 254,
    "hash": "f7f8a12e5a49e961",
-   "checkedAt": "2026-10-21T06:11:44.746Z",
+   "checkedAt": "2026-10-21T12:06:41.768Z",
    "changedAt": "2026-10-18T09:09:23.451Z"
   },
   {
@@ -125,7 +125,7 @@
    "error": "",
    "count": 15,
    "hash": "5458c70460b20bd8",
-   "checkedAt": "2026-10-21T06:11:44.746Z",
+   "checkedAt": "2026-10-21T12:06:41.768Z",
    "changedAt": "2026-10-20T10:40:45.933Z"
   },
   {
@@ -139,7 +139,7 @@
    "error": "",
    "count": 83,
    "hash": "a6baac4fb1fc60c0",
-   "checkedAt": "2026-10-21T06:11:44.746Z",
+   "checkedAt": "2026-10-21T12:06:41.768Z",
    "changedAt": "2026-10-20T10:40:45.933Z"
   },
   {
@@ -153,7 +153,7 @@
    "error": "",
    "count": 164,
    "hash": "6f0586c40b65c8fe",
-   "checkedAt": "2026-10-21T06:11:44.746Z",
+   "checkedAt": "2026-10-21T12:06:41.768Z",
    "changedAt": "2026-10-20T10:40:45.933Z"
   },
   {
@@ -167,7 +167,7 @@
    "error": "",
    "count": 21,
    "hash": "ff9210a812239484",
-   "checkedAt": "2026-10-21T06:11:44.746Z",
+   "checkedAt": "2026-10-21T12:06:41.768Z",
    "changedAt": "2026-10-20T10:40:45.933Z"
   },
   {
@@ -181,7 +181,7 @@
    "error": "",
    "count": 3,
    "hash": "ed4fc72b663d3272",
-   "checkedAt": "2026-10-21T06:11:44.746Z",
+   "checkedAt": "2026-10-21T12:06:41.768Z",
    "changedAt": "2026-10-20T10:40:45.933Z"
   },
   {
@@ -195,7 +195,7 @@
    "error": "",
    "count": 0,
    "hash": "c4971aba58479f1e",
-   "checkedAt": "2026-10-21T06:11:44.746Z",
+   "checkedAt": "2026-10-21T12:06:41.768Z",
    "changedAt": "2026-10-20T10:40:45.933Z"
   },
   {
@@ -209,7 +209,7 @@
    "error": "",
    "count": 0,
    "hash": "4bc02dd0c87afbb3",
-   "checkedAt": "2026-10-21T06:11:44.746Z",
+   "checkedAt": "2026-10-21T12:06:41.768Z",
    "changedAt": "2026-10-21T06:11:44.746Z"
   },
   {
@@ -223,7 +223,7 @@
    "error": "",
    "count": 0,
    "hash": "9a327c9e5613dad4",
-   "checkedAt": "2026-10-21T06:11:44.746Z",
+   "checkedAt": "2026-10-21T12:06:41.768Z",
    "changedAt": "2026-10-20T10:40:45.933Z"
   },
   {
@@ -237,7 +237,7 @@
    "error": "",
    "count": 0,
    "hash": "678bcb345b70e6ba",
-   "checkedAt": "2026-10-21T06:11:44.746Z",
+   "checkedAt": "2026-10-21T12:06:41.768Z",
    "changedAt": "2026-10-20T10:40:45.933Z"
   },
   {
@@ -251,7 +251,7 @@
    "error": "",
    "count": 0,
    "hash": "974dc087b0130905",
-   "checkedAt": "2026-10-21T06:11:44.746Z",
+   "checkedAt": "2026-10-21T12:06:41.768Z",
    "changedAt": "2026-10-20T10:40:45.933Z"
   }
  ],
@@ -261,6 +261,60 @@
   "lastDate": "2026-10-21"
  },
  "items": [
+  {
+   "id": "jefaturas2026-12gacsh",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Alegaciones",
+   "title": "Jefe/a de Unidad de Salud Mental de los Centros de Salud Mental de Adultos de Basauri y de Galdakao · Lista Provisional",
+   "org": "Red de Salud Mental de Bizkaia",
+   "categories": [
+    "Jefe/a de Unidad de Salud Mental de los Centros de Salud Mental de Adultos de Basauri y de Galdakao"
+   ],
+   "published": "2026-10-22",
+   "start": "2026-10-22",
+   "end": "2026-11-04",
+   "estimated": false,
+   "literal": "Plazo para presentar alegaciones: abierto desde el 22/10/2026 hasta el 04/11/2026, ambos inclusive.",
+   "summary": "JEFE/A DE UNIDAD DE SALUD MENTAL DE LOS CENTROS DE SALUD MENTAL DE ADULTOS DE BASAURI Y DE GALDAKAO - RED DE SALUD MENTAL DE BIZKAIA - Lista Provisional - Plazo para presentar alegaciones: abierto desde el 22/10/2026 hasta el 04/11/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/260911_CONC_J_UNID_SALUD_MENT_RSMB_L_PROV_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-1waqkp1",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Alegaciones",
+   "title": "Jefe/a de Unidad de Salud Mental del Centro de Salud Mental de Eibar · Lista Provisional",
+   "org": "Red de Salud Mental Gipuzkoa",
+   "categories": [
+    "Jefe/a de Unidad de Salud Mental del Centro de Salud Mental de Eibar"
+   ],
+   "published": "2026-10-22",
+   "start": "2026-10-22",
+   "end": "2026-11-04",
+   "estimated": false,
+   "literal": "Plazo para presentar alegaciones: abierto desde el 22/10/2026 hasta el 04/11/2026, ambos inclusive.",
+   "summary": "JEFE/A DE UNIDAD DE SALUD MENTAL DEL CENTRO DE SALUD MENTAL DE EIBAR - RED DE SALUD MENTAL GIPUZKOA - Lista Provisional - Plazo para presentar alegaciones: abierto desde el 22/10/2026 hasta el 04/11/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/260921_CONC_J_UNID_SALUD_MENT_RSMG_L_PROV.pdf"
+  },
+  {
+   "id": "jefaturas2026-jv3dkh",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Solicitud / inscripción",
+   "title": "Coordinador/a de Docencia de Medicina Familiar y Comunitaria",
+   "org": "Dirección General",
+   "categories": [
+    "Coordinador/a de Docencia de Medicina Familiar y Comunitaria"
+   ],
+   "published": "2026-10-21",
+   "start": "2026-10-21",
+   "end": "2026-11-03",
+   "estimated": false,
+   "literal": "Plazo de presentación de solicitudes: abierto desde el 21/10/2026 hasta el 03/11/2026, ambos inclusive.",
+   "summary": "COORDINADOR/A DE DOCENCIA DE MEDICINA FAMILIAR Y COMUNITARIA - DIRECCIÓN GENERAL - Plazo de presentación de solicitudes: abierto desde el 21/10/2026 hasta el 03/11/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/261020_L_DESIG_COORD_MED_FAM_DIR_RRHH_a.pdf"
+  },
   {
    "id": "jefaturas2026-1dqy7zg",
    "src": "jefaturas2026",
