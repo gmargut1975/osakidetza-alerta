@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checkedAt": "2026-10-21T20:47:13.247Z",
+ "checkedAt": "2026-10-22T08:07:58.406Z",
  "sources": [
   {
    "key": "comisiones2026",
@@ -13,7 +13,7 @@
    "error": "",
    "count": 143,
    "hash": "7cbe7fa03df901af",
-   "checkedAt": "2026-10-21T20:47:13.247Z",
+   "checkedAt": "2026-10-22T08:07:58.406Z",
    "changedAt": "2026-10-20T10:40:45.933Z"
   },
   {
@@ -27,7 +27,7 @@
    "error": "",
    "count": 132,
    "hash": "77f324c1858c86af",
-   "checkedAt": "2026-10-21T20:47:13.247Z",
+   "checkedAt": "2026-10-22T08:07:58.406Z",
    "changedAt": "2026-10-20T10:40:45.933Z"
   },
   {
@@ -39,10 +39,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 463,
-   "hash": "e21d8ce71a8f1e10",
-   "checkedAt": "2026-10-21T20:47:13.247Z",
-   "changedAt": "2026-10-21T12:06:41.768Z"
+   "count": 466,
+   "hash": "6ae5988792444612",
+   "checkedAt": "2026-10-22T08:07:58.406Z",
+   "changedAt": "2026-10-22T08:07:58.406Z"
   },
   {
    "key": "jefaturas2025",
@@ -55,7 +55,7 @@
    "error": "",
    "count": 479,
    "hash": "66143b22347640ab",
-   "checkedAt": "2026-10-21T20:47:13.247Z",
+   "checkedAt": "2026-10-22T08:07:58.406Z",
    "changedAt": "2026-10-20T10:40:45.933Z"
   },
   {
@@ -69,7 +69,7 @@
    "error": "",
    "count": 30,
    "hash": "eb07d21ecb1d9061",
-   "checkedAt": "2026-10-21T20:47:13.247Z",
+   "checkedAt": "2026-10-22T08:07:58.406Z",
    "changedAt": "2026-10-20T10:40:45.933Z"
   },
   {
@@ -83,7 +83,7 @@
    "error": "",
    "count": 54,
    "hash": "a304df315c59aa2c",
-   "checkedAt": "2026-10-21T20:47:13.247Z",
+   "checkedAt": "2026-10-22T08:07:58.406Z",
    "changedAt": "2026-10-20T10:40:45.933Z"
   },
   {
@@ -97,7 +97,7 @@
    "error": "",
    "count": 79,
    "hash": "34fc66e897fa1bbd",
-   "checkedAt": "2026-10-21T20:47:13.247Z",
+   "checkedAt": "2026-10-22T08:07:58.406Z",
    "changedAt": "2026-10-20T10:40:45.933Z"
   },
   {
@@ -111,7 +111,7 @@
    "error": "",
    "count": 254,
    "hash": "f7f8a12e5a49e961",
-   "checkedAt": "2026-10-21T20:47:13.247Z",
+   "checkedAt": "2026-10-22T08:07:58.406Z",
    "changedAt": "2026-10-18T09:09:23.451Z"
   },
   {
@@ -125,7 +125,7 @@
    "error": "",
    "count": 15,
    "hash": "5458c70460b20bd8",
-   "checkedAt": "2026-10-21T20:47:13.247Z",
+   "checkedAt": "2026-10-22T08:07:58.406Z",
    "changedAt": "2026-10-20T10:40:45.933Z"
   },
   {
@@ -139,7 +139,7 @@
    "error": "",
    "count": 83,
    "hash": "a6baac4fb1fc60c0",
-   "checkedAt": "2026-10-21T20:47:13.247Z",
+   "checkedAt": "2026-10-22T08:07:58.406Z",
    "changedAt": "2026-10-20T10:40:45.933Z"
   },
   {
@@ -153,7 +153,7 @@
    "error": "",
    "count": 164,
    "hash": "6f0586c40b65c8fe",
-   "checkedAt": "2026-10-21T20:47:13.247Z",
+   "checkedAt": "2026-10-22T08:07:58.406Z",
    "changedAt": "2026-10-20T10:40:45.933Z"
   },
   {
@@ -167,7 +167,7 @@
    "error": "",
    "count": 21,
    "hash": "ff9210a812239484",
-   "checkedAt": "2026-10-21T20:47:13.247Z",
+   "checkedAt": "2026-10-22T08:07:58.406Z",
    "changedAt": "2026-10-20T10:40:45.933Z"
   },
   {
@@ -181,7 +181,7 @@
    "error": "",
    "count": 3,
    "hash": "ed4fc72b663d3272",
-   "checkedAt": "2026-10-21T20:47:13.247Z",
+   "checkedAt": "2026-10-22T08:07:58.406Z",
    "changedAt": "2026-10-20T10:40:45.933Z"
   },
   {
@@ -195,7 +195,7 @@
    "error": "",
    "count": 0,
    "hash": "c4971aba58479f1e",
-   "checkedAt": "2026-10-21T20:47:13.247Z",
+   "checkedAt": "2026-10-22T08:07:58.406Z",
    "changedAt": "2026-10-20T10:40:45.933Z"
   },
   {
@@ -208,9 +208,9 @@
    "status": 200,
    "error": "",
    "count": 0,
-   "hash": "4bc02dd0c87afbb3",
-   "checkedAt": "2026-10-21T20:47:13.247Z",
-   "changedAt": "2026-10-21T06:11:44.746Z"
+   "hash": "4bf2841c99f16eb5",
+   "checkedAt": "2026-10-22T08:07:58.406Z",
+   "changedAt": "2026-10-22T08:07:58.406Z"
   },
   {
    "key": "traslados",
@@ -223,7 +223,7 @@
    "error": "",
    "count": 0,
    "hash": "9a327c9e5613dad4",
-   "checkedAt": "2026-10-21T20:47:13.247Z",
+   "checkedAt": "2026-10-22T08:07:58.406Z",
    "changedAt": "2026-10-20T10:40:45.933Z"
   },
   {
@@ -237,7 +237,7 @@
    "error": "",
    "count": 0,
    "hash": "678bcb345b70e6ba",
-   "checkedAt": "2026-10-21T20:47:13.247Z",
+   "checkedAt": "2026-10-22T08:07:58.406Z",
    "changedAt": "2026-10-20T10:40:45.933Z"
   },
   {
@@ -251,16 +251,70 @@
    "error": "",
    "count": 0,
    "hash": "974dc087b0130905",
-   "checkedAt": "2026-10-21T20:47:13.247Z",
+   "checkedAt": "2026-10-22T08:07:58.406Z",
    "changedAt": "2026-10-20T10:40:45.933Z"
   }
  ],
  "bopv": {
   "yy": "26",
-  "lastNumber": 201,
-  "lastDate": "2026-10-21"
+  "lastNumber": 202,
+  "lastDate": "2026-10-22"
  },
  "items": [
+  {
+   "id": "jefaturas2026-1dfk1ja",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Solicitud / inscripción",
+   "title": "Supervisora en el Hospital de Gorliz",
+   "org": "H. Gorliz",
+   "categories": [
+    "Supervisora en el Hospital de Gorliz"
+   ],
+   "published": "2026-10-23",
+   "start": "2026-10-23",
+   "end": "2026-11-12",
+   "estimated": false,
+   "literal": "Plazo de presentación de solicitudes: abierto desde el 23/10/2026 hasta el 12/11/2026, ambos inclusive.",
+   "summary": "SUPERVISORA EN EL HOSPITAL DE GORLIZ - H. GORLIZ - Plazo de presentación de solicitudes: abierto desde el 23/10/2026 hasta el 12/11/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/261022_L_DESIG_SUPERV_ENF_H_GORLIZ_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-1hkz3vm",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Solicitud / inscripción",
+   "title": "Supervisor/a de la Unidad de Terapias de Rehabilitación",
+   "org": "H. Gorliz",
+   "categories": [
+    "Supervisor/a de la Unidad de Terapias de Rehabilitación"
+   ],
+   "published": "2026-10-23",
+   "start": "2026-10-23",
+   "end": "2026-11-12",
+   "estimated": false,
+   "literal": "Plazo de presentación de solicitudes: abierto desde el 23/10/2026 hasta el 12/11/2026, ambos inclusive.",
+   "summary": "SUPERVISOR/A DE LA UNIDAD DE TERAPIAS DE REHABILITACIÓN - H. GORLIZ - Plazo de presentación de solicitudes: abierto desde el 23/10/2026 hasta el 12/11/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/261022_L_DESIG_SUPERV_RHB_H_GORLIZ_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-1rdvnqb",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Solicitud / inscripción",
+   "title": "Jefe/a de Servicio Sanitario del Hospital de Zaldibar",
+   "org": "Red de Salud Mental de Bizkaia",
+   "categories": [
+    "Jefe/a de Servicio Sanitario del Hospital de Zaldibar"
+   ],
+   "published": "2026-10-23",
+   "start": "2026-10-23",
+   "end": "2026-11-12",
+   "estimated": false,
+   "literal": "Plazo de presentación de solicitudes: abierto desde el 23/10/2026 hasta el 12/11/2026, ambos inclusive.",
+   "summary": "JEFE/A DE SERVICIO SANITARIO DEL HOSPITAL DE ZALDIBAR - RED DE SALUD MENTAL DE BIZKAIA - Plazo de presentación de solicitudes: abierto desde el 23/10/2026 hasta el 12/11/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/261013_CONC_J_SERV_SALUD_MENT_RSMB_BOE.pdf"
+  },
   {
    "id": "jefaturas2026-12gacsh",
    "src": "jefaturas2026",
