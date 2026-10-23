@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checkedAt": "2026-10-23T05:06:43.691Z",
+ "checkedAt": "2026-10-23T10:17:45.441Z",
  "sources": [
   {
    "key": "comisiones2026",
@@ -8,12 +8,13 @@
    "process": "Comisiones de servicios",
    "type": "links",
    "url": "https://www.osakidetza.euskadi.eus/comisiones-servicios-2026/webosk00-procon/es/",
-   "ok": false,
-   "status": 0,
-   "error": "fetch failed",
-   "count": 0,
-   "hash": "",
-   "checkedAt": "2026-10-23T05:06:43.691Z"
+   "ok": true,
+   "status": 200,
+   "error": "",
+   "count": 144,
+   "hash": "21871cfa8d338d79",
+   "checkedAt": "2026-10-23T10:17:45.441Z",
+   "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
    "key": "comisiones2025",
@@ -21,12 +22,13 @@
    "process": "Comisiones de servicios",
    "type": "links",
    "url": "https://www.osakidetza.euskadi.eus/comisiones-servicios-2025/webosk00-procon/es/",
-   "ok": false,
-   "status": 0,
-   "error": "fetch failed",
-   "count": 0,
-   "hash": "",
-   "checkedAt": "2026-10-23T05:06:43.691Z"
+   "ok": true,
+   "status": 200,
+   "error": "",
+   "count": 132,
+   "hash": "77f324c1858c86af",
+   "checkedAt": "2026-10-23T10:17:45.441Z",
+   "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
    "key": "jefaturas2026",
@@ -34,12 +36,13 @@
    "process": "Jefaturas (concurso de méritos)",
    "type": "links",
    "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/",
-   "ok": false,
-   "status": 0,
-   "error": "fetch failed",
-   "count": 0,
-   "hash": "",
-   "checkedAt": "2026-10-23T05:06:43.691Z"
+   "ok": true,
+   "status": 200,
+   "error": "",
+   "count": 467,
+   "hash": "60e2014fcc396540",
+   "checkedAt": "2026-10-23T10:17:45.441Z",
+   "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
    "key": "jefaturas2025",
@@ -47,12 +50,13 @@
    "process": "Jefaturas (concurso de méritos)",
    "type": "links",
    "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2025/webosk00-procon/es/",
-   "ok": false,
-   "status": 0,
-   "error": "fetch failed",
-   "count": 0,
-   "hash": "",
-   "checkedAt": "2026-10-23T05:06:43.691Z"
+   "ok": true,
+   "status": 200,
+   "error": "",
+   "count": 479,
+   "hash": "66143b22347640ab",
+   "checkedAt": "2026-10-23T10:17:45.441Z",
+   "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
    "key": "directivos2026",
@@ -60,12 +64,13 @@
    "process": "Puestos directivos",
    "type": "links",
    "url": "https://www.osakidetza.euskadi.eus/convocatoria-puestos-directivos-2026/webosk00-procon/es/",
-   "ok": false,
-   "status": 0,
-   "error": "fetch failed",
-   "count": 0,
-   "hash": "",
-   "checkedAt": "2026-10-23T05:06:43.691Z"
+   "ok": true,
+   "status": 200,
+   "error": "",
+   "count": 30,
+   "hash": "eb07d21ecb1d9061",
+   "checkedAt": "2026-10-23T10:17:45.441Z",
+   "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
    "key": "directivos2025",
@@ -73,12 +78,13 @@
    "process": "Puestos directivos",
    "type": "links",
    "url": "https://www.osakidetza.euskadi.eus/convocatoria-puestos-directivos-2025/webosk00-procon/es/",
-   "ok": false,
-   "status": 0,
-   "error": "fetch failed",
-   "count": 0,
-   "hash": "",
-   "checkedAt": "2026-10-23T05:06:43.691Z"
+   "ok": true,
+   "status": 200,
+   "error": "",
+   "count": 54,
+   "hash": "a304df315c59aa2c",
+   "checkedAt": "2026-10-23T10:17:45.441Z",
+   "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
    "key": "temporal",
@@ -86,12 +92,13 @@
    "process": "Listas de contratación temporal",
    "type": "announcements",
    "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/",
-   "ok": false,
-   "status": 0,
-   "error": "fetch failed",
-   "count": 0,
-   "hash": "",
-   "checkedAt": "2026-10-23T05:06:43.691Z"
+   "ok": true,
+   "status": 200,
+   "error": "",
+   "count": 79,
+   "hash": "34fc66e897fa1bbd",
+   "checkedAt": "2026-10-23T10:17:45.441Z",
+   "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
    "key": "lanpoltsa",
@@ -99,12 +106,13 @@
    "process": "Listas de contratación temporal",
    "type": "lanpoltsa",
    "url": "https://lanpoltsa.osakidetza.eus/c28/avisos-generales",
-   "ok": false,
-   "status": 0,
-   "error": "fetch failed",
-   "count": 0,
-   "hash": "",
-   "checkedAt": "2026-10-23T05:06:43.691Z"
+   "ok": true,
+   "status": 200,
+   "error": "",
+   "count": 254,
+   "hash": "f7f8a12e5a49e961",
+   "checkedAt": "2026-10-23T10:17:45.441Z",
+   "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
    "key": "ope2325",
@@ -112,12 +120,13 @@
    "process": "OPE 2023-2024-2025",
    "type": "announcements",
    "url": "https://www.osakidetza.euskadi.eus/ope-2023-2024-2025/webosk00-procon/es/",
-   "ok": false,
-   "status": 0,
-   "error": "fetch failed",
-   "count": 0,
-   "hash": "",
-   "checkedAt": "2026-10-23T05:06:43.691Z"
+   "ok": true,
+   "status": 200,
+   "error": "",
+   "count": 15,
+   "hash": "5458c70460b20bd8",
+   "checkedAt": "2026-10-23T10:17:45.441Z",
+   "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
    "key": "ope2022",
@@ -125,12 +134,13 @@
    "process": "OPE 2020-2021-2022",
    "type": "announcements",
    "url": "https://www.osakidetza.euskadi.eus/oferta-publica-de-empleo-ope-2020-21-22-estabilizacion/webosk00-procon/es/",
-   "ok": false,
-   "status": 0,
-   "error": "fetch failed",
-   "count": 0,
-   "hash": "",
-   "checkedAt": "2026-10-23T05:06:43.691Z"
+   "ok": true,
+   "status": 200,
+   "error": "",
+   "count": 83,
+   "hash": "a6baac4fb1fc60c0",
+   "checkedAt": "2026-10-23T10:17:45.441Z",
+   "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
    "key": "opeEstabilizacion",
@@ -138,12 +148,13 @@
    "process": "OPE Estabilización",
    "type": "announcements",
    "url": "https://www.osakidetza.euskadi.eus/ope-estabilizacion/webosk00-procon/es/",
-   "ok": false,
-   "status": 0,
-   "error": "fetch failed",
-   "count": 0,
-   "hash": "",
-   "checkedAt": "2026-10-23T05:06:43.691Z"
+   "ok": true,
+   "status": 200,
+   "error": "",
+   "count": 164,
+   "hash": "6f0586c40b65c8fe",
+   "checkedAt": "2026-10-23T10:17:45.441Z",
+   "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
    "key": "opeDificil",
@@ -151,12 +162,13 @@
    "process": "OPE Difícil Cobertura Primaria",
    "type": "announcements",
    "url": "https://www.osakidetza.euskadi.eus/ope-dificil-cobertura-primaria/webosk00-procon/es/",
-   "ok": false,
-   "status": 0,
-   "error": "fetch failed",
-   "count": 0,
-   "hash": "",
-   "checkedAt": "2026-10-23T05:06:43.691Z"
+   "ok": true,
+   "status": 200,
+   "error": "",
+   "count": 21,
+   "hash": "ff9210a812239484",
+   "checkedAt": "2026-10-23T10:17:45.441Z",
+   "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
    "key": "desarrollo",
@@ -164,12 +176,13 @@
    "process": "Desarrollo profesional",
    "type": "announcements",
    "url": "https://www.osakidetza.euskadi.eus/desarrollo-profesional-convocatoria-ordinaria-2025-reapertura-2022-2023-2024/webosk00-procon/es/",
-   "ok": false,
-   "status": 0,
-   "error": "fetch failed",
-   "count": 0,
-   "hash": "",
-   "checkedAt": "2026-10-23T05:06:43.691Z"
+   "ok": true,
+   "status": 200,
+   "error": "",
+   "count": 3,
+   "hash": "ed4fc72b663d3272",
+   "checkedAt": "2026-10-23T10:17:45.441Z",
+   "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
    "key": "convocatoriaPuestos",
@@ -177,12 +190,13 @@
    "process": "Convocatoria de puestos",
    "type": "announcements",
    "url": "https://www.osakidetza.euskadi.eus/convocatoria-de-puestos/webosk00-oskcon/es/",
-   "ok": false,
-   "status": 0,
-   "error": "fetch failed",
+   "ok": true,
+   "status": 200,
+   "error": "",
    "count": 0,
-   "hash": "",
-   "checkedAt": "2026-10-23T05:06:43.691Z"
+   "hash": "c4971aba58479f1e",
+   "checkedAt": "2026-10-23T10:17:45.441Z",
+   "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
    "key": "bopv",
@@ -190,12 +204,13 @@
    "process": "BOPV · Osakidetza",
    "type": "bopv",
    "url": "https://www.euskadi.eus/web01-bopv/es/bopv2/datos/Ultimo.shtml",
-   "ok": false,
-   "status": 0,
-   "error": "fetch failed",
-   "count": 0,
-   "hash": "",
-   "checkedAt": "2026-10-23T05:06:43.691Z"
+   "ok": true,
+   "status": 200,
+   "error": "",
+   "count": 1,
+   "hash": "130afe1e035acf03",
+   "checkedAt": "2026-10-23T10:17:45.441Z",
+   "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
    "key": "traslados",
@@ -203,12 +218,13 @@
    "process": "Traslados",
    "type": "watch",
    "url": "https://www.osakidetza.euskadi.eus/el-concurso-de-traslados-abierto-y-permanente/webosk00-procon/es/",
-   "ok": false,
-   "status": 0,
-   "error": "fetch failed",
+   "ok": true,
+   "status": 200,
+   "error": "",
    "count": 0,
-   "hash": "",
-   "checkedAt": "2026-10-23T05:06:43.691Z"
+   "hash": "9a327c9e5613dad4",
+   "checkedAt": "2026-10-23T10:17:45.441Z",
+   "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
    "key": "empleoPublico",
@@ -216,12 +232,13 @@
    "process": "Empleo público",
    "type": "watch",
    "url": "https://www.osakidetza.euskadi.eus/oferta-de-empleo-publico/webosk00-procon/es/",
-   "ok": false,
-   "status": 0,
-   "error": "fetch failed",
+   "ok": true,
+   "status": 200,
+   "error": "",
    "count": 0,
-   "hash": "",
-   "checkedAt": "2026-10-23T05:06:43.691Z"
+   "hash": "678bcb345b70e6ba",
+   "checkedAt": "2026-10-23T10:17:45.441Z",
+   "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
    "key": "noticiasProfesionales",
@@ -229,20 +246,73 @@
    "process": "Noticias para profesionales",
    "type": "watch",
    "url": "https://www.osakidetza.euskadi.eus/noticias-para-profesionales/",
-   "ok": false,
-   "status": 0,
-   "error": "fetch failed",
+   "ok": true,
+   "status": 200,
+   "error": "",
    "count": 0,
-   "hash": "",
-   "checkedAt": "2026-10-23T05:06:43.691Z"
+   "hash": "974dc087b0130905",
+   "checkedAt": "2026-10-23T10:17:45.441Z",
+   "changedAt": "2026-10-23T10:17:45.441Z"
   }
  ],
  "bopv": {
   "yy": "26",
-  "lastNumber": 202,
-  "lastDate": "2026-10-22"
+  "lastNumber": 203,
+  "lastDate": "2026-10-23"
  },
  "items": [
+  {
+   "id": "comisiones2026-156dhak",
+   "src": "comisiones2026",
+   "process": "Comisiones de servicios",
+   "kind": "Alegaciones",
+   "title": "Varias Categorías · Lista Provisional",
+   "org": "H. Gorliz",
+   "categories": [
+    "Varias categorías"
+   ],
+   "published": "2026-10-26",
+   "start": "2026-10-26",
+   "end": "2026-11-06",
+   "estimated": false,
+   "literal": "Plazo para presentar alegaciones: abierto desde el 26/10/2026 hasta el 06/11/2026, ambos inclusive.",
+   "summary": "VARIAS CATEGORÍAS - H. GORLIZ - Lista Provisional - Plazo para presentar alegaciones: abierto desde el 26/10/2026 hasta el 06/11/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/comisiones-servicios-2026/webosk00-procon/es/adjuntos/260205_C_SERV_PIT_VARIAS_CATEG_VAR_DEST_H_GORLIZ_L_PROV.pdf"
+  },
+  {
+   "id": "jefaturas2026-1xvt3lw",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Recurso de alzada",
+   "title": "Jefe/a de Servicio Sanitario de Anatomía Patológica · Corrección de Errores · Lista Definitiva/Comisión de valoración",
+   "org": "OSI Ezkerraldea-Enkarterri-Cruces",
+   "categories": [
+    "Jefe/a de Servicio Sanitario de Anatomía Patológica"
+   ],
+   "published": "2026-10-24",
+   "start": "2026-10-24",
+   "end": "2026-11-23",
+   "estimated": false,
+   "literal": "Plazo para presentar recursos de alzada: abierto desde el 24/10/2026 hasta el 23/11/2026, ambos inclusive.",
+   "summary": "CORRECCIÓN DE ERRORES : JEFE/A DE SERVICIO SANITARIO DE ANATOMÍA PATOLÓGICA - OSI EZKERRALDEA-ENKARTERRI-CRUCES - Lista Definitiva/Comisión de valoración - Plazo para presentar recursos de alzada: abierto desde el 24/10/2026 hasta el 23/11/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/261023_CONC_J_SERV_ANAT_PATOL_OSI_EZ_EN_CRUCES_L_DEF_COM_VALOR_CORREC_a.pdf"
+  },
+  {
+   "id": "bopv-glaoh",
+   "src": "bopv",
+   "process": "Recursos judiciales (emplazamientos)",
+   "kind": "Emplazamiento",
+   "title": "Emplazamiento a interesados en un recurso contencioso-administrativo",
+   "org": "",
+   "categories": [],
+   "published": "2026-10-23",
+   "start": "2026-10-24",
+   "end": "2026-11-05",
+   "estimated": true,
+   "literal": "En cumplimiento de lo dispuesto en el artículo 49 de la Ley 29/1998, de 13 de julio, reguladora de la Jurisdicción Contencioso-Administrativa, se le emplaza como posible tercero interesado, haciéndole saber que puede comparecer y personarse en el procedimiento judicial citado en el plazo de nueve días contados a partir del día siguiente de la publicación en el Boletín Oficial del Estado. (fecha final calculada: nueve días hábiles desde el día siguiente a la publicación; compruébala en la resolución).",
+   "summary": "ANUNCIO por la que se emplaza a posibles interesados en el recurso contencioso-administrativo (procedimiento ordinario) n.º 215/2026, que se sigue ante la Sección de lo Contencioso-Administrativo del Tribunal de Instancia de Bilbao. Plaza n.º 3.",
+   "url": "https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2026/10/2604465a.shtml"
+  },
   {
    "id": "jefaturas2026-1dfk1ja",
    "src": "jefaturas2026",
