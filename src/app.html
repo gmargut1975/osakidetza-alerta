@@ -518,7 +518,7 @@ function filtered(ignore) {
     return !f.text || matchesAll(it.hay, f.text);
   });
 }
-const SOURCE_LABELS = { bopv: "BOPV", lanpoltsa: "Lan poltsa (listas)", manual: "Plazos propios" };
+const SOURCE_LABELS = { bopv: "BOPV", lanpoltsa: "Lan poltsa (listas)", ctap: "Aplicación del concurso de traslados", manual: "Plazos propios" };
 function sourceLabel(key) {
   const s = monitor && monitor.sources ? monitor.sources.find((x) => x.key === key) : null;
   return (s && s.label) || SOURCE_LABELS[key] || key;
@@ -814,7 +814,7 @@ function openDetail(id) {
       ${it.summary ? `<dt>Extracto</dt><dd>${esc(it.summary)}</dd>` : ""}
     </dl>
     <div class="actions">
-      ${it.url ? `<a class="btn primary" href="${esc(it.url)}" target="_blank" rel="noopener">Ver documento oficial ↗</a>` : ""}
+      ${it.url ? `<a class="btn primary" href="${esc(it.url)}" target="_blank" rel="noopener">${it.src === "ctap" ? "Abrir la aplicación de traslados ↗" : "Ver documento oficial ↗"}</a>` : ""}
       ${it.altUrl ? `<a class="btn" href="${esc(it.altUrl)}" target="_blank" rel="noopener">Ver también en ${it.altUrl.includes("bopv") ? "el BOPV" : "otra fuente"} ↗</a>` : ""}
       <button class="btn" data-follow="${esc(it.id)}" aria-pressed="${Boolean(fol)}">${fol ? "★ Siguiendo" : "☆ Seguir"}</button>
       ${it.end ? `<button class="btn" data-ics="${esc(it.id)}">Añadir a mi calendario</button>` : ""}

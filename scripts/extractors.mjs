@@ -264,6 +264,7 @@ export function classifyKind(text) {
   if (/reclamaci/.test(t)) return "Reclamación";
   if (/alegaci|subsanaci/.test(t)) return "Alegaciones";
   if (/toma de posesion/.test(t)) return "Toma de posesión";
+  if (/renunciar|boton renuncia|derecho de renuncia|desistimiento|uko egi/.test(t)) return "Renuncia / desistimiento";
   if (/elecci[oó]n de (los )?destinos|eleccion de destino|elegir destino|oferta de destinos/.test(t)) return "Elección de destinos";
   if (/meritos|requisitos/.test(t)) return "Méritos y requisitos";
   if (/inscripci|solicitudes|solicitud de participaci|presentaci[oó]n de solicitud|izena emateko/.test(t)) return "Solicitud / inscripción";
@@ -594,6 +595,72 @@ export function extractLanpoltsa(list, source, todayIso) {
       literal: chosen ? chosen.sentence : isOffer ? "Plazos y condiciones en el área privada de Listas de contratación temporal." : "",
       summary: truncate(body.replace(/\n+/g, " "), 420),
       url: source.publicUrl || source.url,
+    };
+  }).filter(Boolean);
+}
+
+// ------------------------------------- CTAP (aplicación del concurso de traslados)
+// Avisos públicos de https://hh-sp.osakidetza.eus/B96/avisosProcesoPub.xhtml:
+// asignaciones provisionales (solo se publican aquí), definitivas, previsiones
+// de publicación y plazos de renuncia y reclamación.
+
+export const CTAP_PUBLIC_URL = "https://hh-sp.osakidetza.eus/B96/home_usuario_publico.xhtml";
+
+// HTML de la página de avisos -> [{date: "dd-mm-aaaa", title, body}]
+export function ctapAnnouncements(html) {
+  const out = [];
+  for (const m of String(html ?? "").matchAll(/<div class="announcement">([\s\S]*?)(?=<div class="announcement">|<\/main>|$)/gi)) {
+    const block = m[1];
+    const date = (/announcement__date">\s*([\d-]+)\s*</.exec(block) || [])[1];
+    const titles = [...block.matchAll(/class="announcement__title"[^>]*>([\s\S]*?)<\/div>/gi)].map((t) => inlineText(t[1]));
+    const bodyHtml = (/class="entry-text__content[^"]*"[^>]*>([\s\S]*?)<\/span>/i.exec(block) || [])[1] || "";
+    const body = decodeEntities(bodyHtml.replace(/<br\s*\/?>/gi, "\n").replace(/<[^>]+>/g, "")).replace(/\r/g, "").replace(/[ \t]+\n/g, "\n").trim();
+    if (date && titles.length) out.push({ date, proc: titles[0], title: titles[titles.length - 1], body });
+  }
+  return out;
+}
+
+function ctapTitle(raw) {
+  const t = String(raw).replace(/\s+/g, " ").trim();
+  let m = /ADJUDICACI[OÓ]N (PROVISIONAL|DEFINITIVA)[^A-Z]*CICLO (.+)$/i.exec(t);
+  if (m && !/PREVISI/i.test(t)) return `Asignación ${m[1].toLowerCase()} de destinos · ciclo ${m[2].toLowerCase()}`;
+  m = /PREVISI[OÓ]N PUBLICACI[OÓ]N ASIGNACI[OÓ]N (PROVISIONAL|DEFINITIVA) CICLO (.+)$/i.exec(t);
+  if (m) return `Aviso: próxima asignación ${m[1].toLowerCase()} de destinos · ciclo ${m[2].toLowerCase()}`;
+  m = /OFERTA DE DESTINOS[^A-Z]*CICLO (.+)$/i.exec(t);
+  if (m) return `Oferta de destinos · ciclo ${m[1].toLowerCase()}`;
+  return niceCase(t);
+}
+
+export function extractCtap(rows, source, todayIso) {
+  if (!Array.isArray(rows)) return [];
+  return rows.map((row) => {
+    const published = numericDate(String(row.date || "").replace(/-/g, "/"));
+    if (!published || !row.title) return null;
+    // Los modelos de impresos no fijan plazos.
+    if (/^\s*MODELO\b/i.test(row.title)) return null;
+    const lines = String(row.body || "").split("\n").map((l) => l.trim()).filter(Boolean);
+    const deadlines = deadlinesOfLines(lines, published);
+    const chosen = deadlines.length ? deadlines.reduce((a, b) => (b.end > a.end ? b : a)) : null;
+    const categories = lines
+      .map((l) => cleanBullet(l.replace(/^\d+\.\s*/, "")))
+      .filter((l) => l.length >= 3 && l.length <= 120 && isUpperLine(l) && !/\d{4}/.test(l))
+      .map(niceCase);
+    const title = ctapTitle(row.title);
+    return {
+      id: `ctap-${stableHash(`${row.date}|${row.title}`)}`,
+      src: source.key,
+      process: source.process,
+      kind: chosen ? classifyKind(chosen.sentence) : /PREVISI/i.test(row.title) ? "Publicación" : classifyKind(row.title) === "Plazo" ? "Publicación" : classifyKind(row.title),
+      title,
+      org: "",
+      categories: [...new Set(categories)].slice(0, 40),
+      published,
+      start: chosen ? (chosen.start || published) : "",
+      end: chosen ? chosen.end : "",
+      estimated: false,
+      literal: chosen ? chosen.sentence : "",
+      summary: truncate(lines.join(" "), 420),
+      url: source.publicUrl || CTAP_PUBLIC_URL,
     };
   }).filter(Boolean);
 }

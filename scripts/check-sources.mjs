@@ -20,8 +20,9 @@ import { readFile, writeFile } from "node:fs/promises";
 import { createHash } from "node:crypto";
 import {
   extractLinkList, extractAnnouncements, extractLanpoltsa, bopvBulletinDate, bopvSummaryEntries,
-  bopvItem, mergeItems, inlineText, stripNoise, editorRegion, addDays,
+  bopvItem, mergeItems, inlineText, stripNoise, editorRegion, addDays, ctapAnnouncements, extractCtap,
 } from "./extractors.mjs";
+import { fetchCtapHtml } from "./fetch-ctap.mjs";
 
 const TIMEOUT_MS = 45000;
 const RETRIES = 2;
@@ -66,7 +67,12 @@ function madridToday() {
   return new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Madrid", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date());
 }
 
-async function checkSource(source, get, today) {
+async function checkSource(source, get, today, ctapFetcher = fetchCtapHtml) {
+  if (source.type === "ctap") {
+    const rows = ctapAnnouncements(await ctapFetcher());
+    if (!rows.length) throw new Error("La página de avisos de traslados no devolvió ningún aviso");
+    return { status: 200, items: extractCtap(rows, source, today), hash: hash(JSON.stringify(rows)) };
+  }
   if (source.type === "lanpoltsa") {
     const { status, body } = await get(source.url, { json: true });
     const list = Array.isArray(body) ? body : body.avisos || body.content || [];
@@ -136,7 +142,7 @@ export async function checkBopv(source, get, previous, today) {
   return { status: latest.status, items, hash: hash(`${curYY}-${latestNumber}`), bopv: processed };
 }
 
-export async function run({ fetchImpl, sourcesPath, outputPath, today = madridToday() } = {}) {
+export async function run({ fetchImpl, sourcesPath, outputPath, today = madridToday(), ctapFetcher } = {}) {
   const sp = sourcesPath || new URL("../data/sources.json", import.meta.url);
   const op = outputPath || new URL("../data/source-monitor.json", import.meta.url);
   const { sources } = JSON.parse(await readFile(sp, "utf8"));
@@ -155,7 +161,7 @@ export async function run({ fetchImpl, sourcesPath, outputPath, today = madridTo
   for (const source of sources) {
     const row = { key: source.key, label: source.label, process: source.process, type: source.type, url: source.publicUrl || source.url, ok: false, status: 0, error: "", count: 0, hash: "", checkedAt };
     try {
-      const result = source.type === "bopv" ? await checkBopv(source, get, bopvState, today) : await checkSource(source, get, today);
+      const result = source.type === "bopv" ? await checkBopv(source, get, bopvState, today) : await checkSource(source, get, today, ctapFetcher);
       if (result.bopv) bopvState = result.bopv;
       Object.assign(row, { ok: true, status: result.status, count: result.items.length, hash: result.hash });
       const prevRow = (previous.sources || []).find((s) => s.key === source.key);
@@ -163,6 +169,9 @@ export async function run({ fetchImpl, sourcesPath, outputPath, today = madridTo
       fresh.push(...result.items);
     } catch (error) {
       row.error = String(error.name === "AbortError" ? "tiempo de espera agotado" : error.message || error).slice(0, 160);
+      // Una caída puntual no cuenta como «cambio» cuando la fuente vuelva.
+      const prevRow = (previous.sources || []).find((s) => s.key === source.key);
+      if (prevRow) { row.hash = prevRow.hash || ""; row.changedAt = prevRow.changedAt; }
       row.status = error.status || 0;
     }
     report.push(row);

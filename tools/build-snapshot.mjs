@@ -8,7 +8,7 @@
 // Uso: node tools/build-snapshot.mjs
 
 import { readFile, writeFile } from "node:fs/promises";
-import { extractLanpoltsa, mergeItems, humanDate, absoluteUrl, stableHash } from "../scripts/extractors.mjs";
+import { extractLanpoltsa, extractCtap, mergeItems, humanDate, absoluteUrl, stableHash } from "../scripts/extractors.mjs";
 
 const here = (p) => new URL(p, import.meta.url);
 const sources = JSON.parse(await readFile(here("../data/sources.json"), "utf8")).sources;
@@ -68,8 +68,12 @@ const osk = (await jsonl("osakidetza.jsonl")).map(([id, src, kind, title, org, c
 const today = process.env.SNAPSHOT_DATE || "2026-10-15";
 const lan = extractLanpoltsa(JSON.parse(await readFile(here("snapshot/lanpoltsa.json"), "utf8")), byKey.lanpoltsa, today);
 
+// Avisos públicos de la aplicación del concurso de traslados (CTAP), capturados
+// de https://hh-sp.osakidetza.eus/B96/avisosProcesoPub.xhtml.
+const ctap = extractCtap(JSON.parse(await readFile(here("snapshot/ctap.json"), "utf8")), byKey.ctap, today);
+
 // Orden: Osakidetza primero para que su página pública quede como enlace principal.
-const items = mergeItems([osk, lan, bopv]).map((item) => ({ ...item, summary: item.summary || "" }));
+const items = mergeItems([osk, lan, ctap, bopv]).map((item) => ({ ...item, summary: item.summary || "" }));
 const ids = new Set();
 items.forEach((item) => {
   if (ids.has(item.id)) throw new Error(`Id duplicado: ${item.id}`);
@@ -82,4 +86,4 @@ items.forEach((item) => {
 
 const out = { capturedAt: process.env.SNAPSHOT_TIME || `${today}T08:30:00+02:00`, items };
 await writeFile(here("../data/snapshot.json"), `${JSON.stringify(out)}\n`);
-console.log(`snapshot: ${items.length} avisos (${osk.length} Osakidetza, ${lan.length} lan poltsa, ${bopv.length} BOPV) · hash ${stableHash(JSON.stringify(items))}`);
+console.log(`snapshot: ${items.length} avisos (${osk.length} Osakidetza, ${lan.length} lan poltsa, ${ctap.length} CTAP, ${bopv.length} BOPV) · hash ${stableHash(JSON.stringify(items))}`);

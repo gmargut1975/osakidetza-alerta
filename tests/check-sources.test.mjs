@@ -60,3 +60,19 @@ test("BOPV: primera ejecución recorre el año anterior y continúa en el actual
   const again = await checkBopv({ key: "bopv", url: "https://www.euskadi.eus/web01-bopv/es/bopv2/datos/Ultimo.shtml" }, makeGetter(fetchImpl), r.bopv, "2026-10-15");
   assert.equal(again.items.length, 0, "no repite boletines ya procesados");
 });
+
+test("CTAP: la fuente usa el lector inyectado y falla de forma controlada", async () => {
+  const html = `<div class="announcement"><span class="announcement__date">21-10-2026</span><div class="announcement__title">Concurso de Traslados Abierto y Permanente</div><div class="announcement__title"><span>PUBLICACIÓN ADJUDICACIÓN PROVISIONAL CICLO OCTUBRE 2025</span></div><span class="entry-text__content">Plazo reclamaciones: 10 días hábiles, hasta el día 04/11/2026 incluido.</span></div>`;
+  const src = [{ key: "ctap", type: "ctap", process: "Traslados", label: "CTAP", url: "https://x/avisos", publicUrl: "https://x/home" }];
+  let { sp, op } = await setup(src, { version: 2, checkedAt: "2026-10-01T00:00:00Z", sources: [], items: [{ id: "x-1", src: "x", process: "P", kind: "Plazo", title: "t", categories: [], published: "2026-10-01", end: "2026-10-10", url: "u" }] });
+  const ok = await run({ fetchImpl: async () => { throw new Error("sin red"); }, ctapFetcher: async () => html, sourcesPath: sp, outputPath: op, today: "2026-10-25" });
+  const item = ok.output.items.find((i) => i.src === "ctap");
+  assert.equal(item.end, "2026-11-04");
+  assert.equal(item.url, "https://x/home");
+  ({ sp, op } = await setup(src, { version: 2, checkedAt: "2026-10-01T00:00:00Z", sources: [], items: [item] }));
+  const ko = await run({ fetchImpl: async () => { throw new Error("sin red"); }, ctapFetcher: async () => { throw new Error("Playwright no está instalado"); }, sourcesPath: sp, outputPath: op, today: "2026-10-25" });
+  const row = ko.output.sources.find((s) => s.key === "ctap");
+  assert.equal(row.ok, false);
+  assert.match(row.error, /Playwright/);
+  assert.ok(ko.output.items.some((i) => i.id === item.id), "conserva los avisos ya conocidos");
+});
