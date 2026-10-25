@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checkedAt": "2026-10-25T20:09:40.385Z",
+ "checkedAt": "2026-10-25T21:38:51.828Z",
  "sources": [
   {
    "key": "comisiones2026",
@@ -13,7 +13,7 @@
    "error": "",
    "count": 144,
    "hash": "21871cfa8d338d79",
-   "checkedAt": "2026-10-25T20:09:40.385Z",
+   "checkedAt": "2026-10-25T21:38:51.828Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -27,7 +27,7 @@
    "error": "",
    "count": 132,
    "hash": "77f324c1858c86af",
-   "checkedAt": "2026-10-25T20:09:40.385Z",
+   "checkedAt": "2026-10-25T21:38:51.828Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -41,7 +41,7 @@
    "error": "",
    "count": 467,
    "hash": "60e2014fcc396540",
-   "checkedAt": "2026-10-25T20:09:40.385Z",
+   "checkedAt": "2026-10-25T21:38:51.828Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -55,7 +55,7 @@
    "error": "",
    "count": 479,
    "hash": "66143b22347640ab",
-   "checkedAt": "2026-10-25T20:09:40.385Z",
+   "checkedAt": "2026-10-25T21:38:51.828Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -69,7 +69,7 @@
    "error": "",
    "count": 30,
    "hash": "eb07d21ecb1d9061",
-   "checkedAt": "2026-10-25T20:09:40.385Z",
+   "checkedAt": "2026-10-25T21:38:51.828Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -83,7 +83,7 @@
    "error": "",
    "count": 54,
    "hash": "a304df315c59aa2c",
-   "checkedAt": "2026-10-25T20:09:40.385Z",
+   "checkedAt": "2026-10-25T21:38:51.828Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -97,7 +97,7 @@
    "error": "",
    "count": 79,
    "hash": "34fc66e897fa1bbd",
-   "checkedAt": "2026-10-25T20:09:40.385Z",
+   "checkedAt": "2026-10-25T21:38:51.828Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -111,7 +111,7 @@
    "error": "",
    "count": 254,
    "hash": "f7f8a12e5a49e961",
-   "checkedAt": "2026-10-25T20:09:40.385Z",
+   "checkedAt": "2026-10-25T21:38:51.828Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -125,7 +125,7 @@
    "error": "",
    "count": 15,
    "hash": "5458c70460b20bd8",
-   "checkedAt": "2026-10-25T20:09:40.385Z",
+   "checkedAt": "2026-10-25T21:38:51.828Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -139,7 +139,7 @@
    "error": "",
    "count": 83,
    "hash": "a6baac4fb1fc60c0",
-   "checkedAt": "2026-10-25T20:09:40.385Z",
+   "checkedAt": "2026-10-25T21:38:51.828Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -153,7 +153,7 @@
    "error": "",
    "count": 164,
    "hash": "6f0586c40b65c8fe",
-   "checkedAt": "2026-10-25T20:09:40.385Z",
+   "checkedAt": "2026-10-25T21:38:51.828Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -167,7 +167,7 @@
    "error": "",
    "count": 21,
    "hash": "ff9210a812239484",
-   "checkedAt": "2026-10-25T20:09:40.385Z",
+   "checkedAt": "2026-10-25T21:38:51.828Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -181,7 +181,7 @@
    "error": "",
    "count": 3,
    "hash": "ed4fc72b663d3272",
-   "checkedAt": "2026-10-25T20:09:40.385Z",
+   "checkedAt": "2026-10-25T21:38:51.828Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -195,7 +195,7 @@
    "error": "",
    "count": 0,
    "hash": "c4971aba58479f1e",
-   "checkedAt": "2026-10-25T20:09:40.385Z",
+   "checkedAt": "2026-10-25T21:38:51.828Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -209,8 +209,22 @@
    "error": "",
    "count": 0,
    "hash": "130afe1e035acf03",
-   "checkedAt": "2026-10-25T20:09:40.385Z",
+   "checkedAt": "2026-10-25T21:38:51.828Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
+  },
+  {
+   "key": "ctap",
+   "label": "Aplicación del concurso de traslados (avisos públicos)",
+   "process": "Traslados",
+   "type": "ctap",
+   "url": "https://hh-sp.osakidetza.eus/B96/home_usuario_publico.xhtml",
+   "ok": true,
+   "status": 200,
+   "error": "",
+   "count": 124,
+   "hash": "eb4a95c77f65d33f",
+   "checkedAt": "2026-10-25T21:38:51.828Z",
+   "changedAt": "2026-10-25T21:38:51.828Z"
   },
   {
    "key": "traslados",
@@ -223,7 +237,7 @@
    "error": "",
    "count": 0,
    "hash": "9a327c9e5613dad4",
-   "checkedAt": "2026-10-25T20:09:40.385Z",
+   "checkedAt": "2026-10-25T21:38:51.828Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -237,7 +251,7 @@
    "error": "",
    "count": 0,
    "hash": "678bcb345b70e6ba",
-   "checkedAt": "2026-10-25T20:09:40.385Z",
+   "checkedAt": "2026-10-25T21:38:51.828Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -251,7 +265,7 @@
    "error": "",
    "count": 0,
    "hash": "974dc087b0130905",
-   "checkedAt": "2026-10-25T20:09:40.385Z",
+   "checkedAt": "2026-10-25T21:38:51.828Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   }
  ],
@@ -402,6 +416,90 @@
    "literal": "Plazo para presentar alegaciones: abierto desde el 22/10/2026 hasta el 04/11/2026, ambos inclusive.",
    "summary": "JEFE/A DE UNIDAD DE SALUD MENTAL DEL CENTRO DE SALUD MENTAL DE EIBAR - RED DE SALUD MENTAL GIPUZKOA - Lista Provisional - Plazo para presentar alegaciones: abierto desde el 22/10/2026 hasta el 04/11/2026, ambos inclusive.",
    "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/260921_CONC_J_UNID_SALUD_MENT_RSMG_L_PROV.pdf"
+  },
+  {
+   "id": "ctap-1hqstix",
+   "src": "ctap",
+   "process": "Traslados",
+   "kind": "Reclamación",
+   "title": "Asignación provisional de destinos · ciclo octubre 2025",
+   "org": "",
+   "categories": [
+    "Técnico/a Medio/a Prevención, Seguridad e Higiene",
+    "Técnico/a Especialista en Instalaciones de Electromedicina",
+    "Técnico/a Medio/a Electromedicina",
+    "Oficial de Costura",
+    "Técnico/a Superior de Mantenimiento de Instalaciones",
+    "Técnico/a Superior de Prevención, Seguridad e Higiene",
+    "Técnico/a Medio/a de Mantenimiento de Instalaciones"
+   ],
+   "published": "2026-10-21",
+   "start": "2026-10-21",
+   "end": "2026-11-04",
+   "estimated": false,
+   "literal": "Plazo reclamaciones: 10 días hábiles, hasta el día 04/11/2026 incluido.",
+   "summary": "Se procede a la publicación de las Resoluciones de la Directora de Personas y Talento de Osakidetza-Servicio vasco de salud que contienen la relación provisional de personas admitidas y excluidas y la asignación provisional de destinos correspondientes al ciclo de octubre 2025 del concurso de traslados abierto y permanente de las siguientes categorías: 1. TÉCNICO/A MEDIO/A PREVENCIÓN, SEGURIDAD E HIGIENE 2.…",
+   "url": "https://hh-sp.osakidetza.eus/B96/home_usuario_publico.xhtml"
+  },
+  {
+   "id": "ctap-hcrdy9",
+   "src": "ctap",
+   "process": "Traslados",
+   "kind": "Reclamación",
+   "title": "Asignación provisional de destinos · ciclo diciembre 2025",
+   "org": "",
+   "categories": [
+    "Fac. Esp. Médico/a Anatomía Patológica",
+    "Fac. Esp. Médico/a Aparato Digestivo",
+    "Fac. Esp. Médico/a Cirugía Plástica, Estética y Reparadora",
+    "Fac. Esp. Médico/a Cuidados Paliativos",
+    "Fac. Esp. Médico/a Dermatología, Medicina Quirúrgica y Venereología",
+    "Fac. Esp. Médico/a Enfermedades Infecciosas",
+    "Fac. Esp. Médico/a Hematología y Hemoterapia",
+    "Fac. Esp. Médico/a Hospitalización a Domicilio",
+    "Fac. Esp. Médico/a Medicina del Trabajo",
+    "Fac. Esp. Médico/a Medicina Física y Rehabilitación",
+    "Fac. Esp. Médico/a Medicina Interna",
+    "Fac. Esp. Médico/a Neumología",
+    "Fac. Esp. Médico/a Neurocirugía",
+    "Fac. Esp. Médico/a Neurología",
+    "Fac. Esp. Médico/a Oncología Médica",
+    "Fac. Esp. Médico/a Otorrinolaringología",
+    "Fac. Esp. Médico/a Reumatología",
+    "Fac. Esp. Médico/a UGS",
+    "Fac. Esp. Médico/a Urgencias Hospitalarias",
+    "Fac. Esp. Médico/a-Técnico/a Unidad Investigación",
+    "Fac. Esp. Técnico/a Farmacia Hospitalaria",
+    "Fac. Téc. Biólogo/a"
+   ],
+   "published": "2026-10-21",
+   "start": "2026-10-21",
+   "end": "2026-11-04",
+   "estimated": false,
+   "literal": "Plazo reclamaciones: 10 días hábiles, hasta el día 04/11/2026 incluido.",
+   "summary": "Se procede a la publicación de las Resoluciones de la Directora de Personas y Talento de Osakidetza-Servicio vasco de salud que contienen la relación provisional de personas admitidas y excluidas y la asignación provisional de destinos correspondientes al ciclo de diciembre 2025 del concurso de traslados abierto y permanente de las siguientes categorías: FAC. ESP. MÉDICO/A ANATOMÍA PATOLÓGICA FAC. ESP. MÉDICO/A…",
+   "url": "https://hh-sp.osakidetza.eus/B96/home_usuario_publico.xhtml"
+  },
+  {
+   "id": "ctap-owdi22",
+   "src": "ctap",
+   "process": "Traslados",
+   "kind": "Reclamación",
+   "title": "Asignación provisional de destinos · ciclo mayo 2026",
+   "org": "",
+   "categories": [
+    "Oficial de Mantenimiento Carpintería",
+    "Oficial de Mantenimiento Mecánico",
+    "Técnico/a de Dietética",
+    "Técnico/a de Audioprótesis"
+   ],
+   "published": "2026-10-21",
+   "start": "2026-10-21",
+   "end": "2026-11-04",
+   "estimated": false,
+   "literal": "Plazo reclamaciones: 10 días hábiles, hasta el día 04/11/2026 incluido.",
+   "summary": "Se procede a la publicación de las Resoluciones de la Directora de Personas y Talento de Osakidetza-Servicio vasco de salud que contienen la relación provisional de personas admitidas y excluidas y la asignación provisional de destinos correspondientes al ciclo de mayo 2026 del concurso de traslados abierto y permanente de las siguientes categorías: 1. OFICIAL DE MANTENIMIENTO CARPINTERÍA 2. OFICIAL DE MANTENIMIENTO…",
+   "url": "https://hh-sp.osakidetza.eus/B96/home_usuario_publico.xhtml"
   },
   {
    "id": "jefaturas2026-jv3dkh",
@@ -1208,6 +1306,33 @@
    "literal": "",
    "summary": "",
    "url": "https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2026/10/2604293a.shtml"
+  },
+  {
+   "id": "ctap-14amw3d",
+   "src": "ctap",
+   "process": "Traslados",
+   "kind": "Publicación",
+   "title": "Asignación definitiva de destinos · ciclo diciembre 2025",
+   "org": "",
+   "categories": [
+    "Fac. Esp. Médico/a Alergología",
+    "Fac. Esp. Médico/a Angiología y Cirugía Vascular",
+    "Fac. Esp. Médico/a Cirugía Oral y Maxilofacial",
+    "Fac. Esp. Médico/a Cirugía Pediátrica",
+    "Fac. Esp. Médico/a Endocrinología y Nutrición",
+    "Fac. Esp. Médico/a Medicina Intensiva",
+    "Fac. Esp. Médico/a Medicina Nuclear",
+    "Fac. Esp. Médico/a Medicina Preventiva y Salud Pública",
+    "Fac. Esp. Médico/a Neurofisiología Clínica",
+    "Fac. Esp. Médico/a-Técnico/a Radiofísica Hospitalaria"
+   ],
+   "published": "2026-10-15",
+   "start": "",
+   "end": "",
+   "estimated": false,
+   "literal": "",
+   "summary": "Se procede a la publicación en la página web de Osakidetza-Servicio vasco de salud de las Resoluciones de la directora general de Osakidetza-Servicio vasco de salud que contienen la relación definitiva de personas admitidas y excluidas y la asignación definitiva de destinos correspondientes al ciclo de diciembre 2025 del concurso de traslados abierto y permanente de las siguientes 10 categorías: FAC. ESP. MÉDICO/A…",
+   "url": "https://hh-sp.osakidetza.eus/B96/home_usuario_publico.xhtml"
   },
   {
    "id": "jefaturas2026-1ipq98g",
@@ -2074,6 +2199,25 @@
    "url": "https://www.osakidetza.euskadi.eus/comisiones-servicios-2026/webosk00-procon/es/adjuntos/261008_C_SERV_PIT_MID_TCO_RES_COMPRAS_1624_DIR_RRHH_a.pdf"
   },
   {
+   "id": "ctap-1dxb7vr",
+   "src": "ctap",
+   "process": "Traslados",
+   "kind": "Reclamación",
+   "title": "Asignación provisional de destinos · ciclo octubre 2025",
+   "org": "",
+   "categories": [
+    "Técnico/a Superior de Normalización de Euskera",
+    "Técnico/a Medio/a de Administración y Gestión"
+   ],
+   "published": "2026-10-09",
+   "start": "2026-10-09",
+   "end": "2026-10-26",
+   "estimated": false,
+   "literal": "Plazo reclamaciones: 10 días hábiles, hasta el día 26/10/2026 incluido.",
+   "summary": "Se procede a la publicación de las Resoluciones de la Directora de Personas y Talento de Osakidetza-Servicio vasco de salud que contienen la relación provisional de personas admitidas y excluidas y la asignación provisional de destinos correspondientes al ciclo de octubre 2025 del concurso de traslados abierto y permanente de las siguientes categorías: TÉCNICO/A SUPERIOR DE NORMALIZACIÓN DE EUSKERA TÉCNICO/A MEDIO/A…",
+   "url": "https://hh-sp.osakidetza.eus/B96/home_usuario_publico.xhtml"
+  },
+  {
    "id": "jefaturas2026-13gd3r9",
    "src": "jefaturas2026",
    "process": "Jefaturas (concurso de méritos)",
@@ -2683,6 +2827,90 @@
    "literal": "Plazo para presentar alegaciones: abierto desde el 30/09/2026 hasta el 14/10/2026, ambos inclusive.",
    "summary": "LISTAS DE PODÓLOGO/A - DESIERTA PROVISIONAL - OSI EZKERRALDEA-ENKARTERRI-CRUCES - Plazo para presentar alegaciones: abierto desde el 30/09/2026 hasta el 14/10/2026, ambos inclusive.",
    "url": "https://www.osakidetza.euskadi.eus/comisiones-servicios-2026/webosk00-procon/es/adjuntos/260806_C_SERV_PIT_POD_ASIST_OSI_EZ_EN_CRUCES_DESIER.pdf"
+  },
+  {
+   "id": "ctap-13qglx8",
+   "src": "ctap",
+   "process": "Traslados",
+   "kind": "Renuncia / desistimiento",
+   "title": "Aviso: próxima asignación provisional de destinos · ciclo diciembre 2025",
+   "org": "",
+   "categories": [
+    "Fac. Esp. Médico/a Anatomía Patológica",
+    "Fac. Esp. Médico/a Aparato Digestivo",
+    "Fac. Esp. Médico/a Cirugía Plástica, Estética y Reparadora",
+    "Fac. Esp. Médico/a Cuidados Paliativos",
+    "Fac. Esp. Médico/a Dermatología, Medicina Quirúrgica y Venereología",
+    "Fac. Esp. Médico/a Enfermedades Infecciosas",
+    "Fac. Esp. Médico/a Hematología y Hemoterapia",
+    "Fac. Esp. Médico/a Hospitalización a Domicilio",
+    "Fac. Esp. Médico/a Medicina del Trabajo",
+    "Fac. Esp. Médico/a Medicina Física y Rehabilitación",
+    "Fac. Esp. Médico/a Medicina Interna",
+    "Fac. Esp. Médico/a Neumología",
+    "Fac. Esp. Médico/a Neurocirugía",
+    "Fac. Esp. Médico/a Neurología",
+    "Fac. Esp. Médico/a Oncología Médica",
+    "Fac. Esp. Médico/a Otorrinolaringología",
+    "Fac. Esp. Médico/a Reumatología",
+    "Fac. Esp. Médico/a UGS",
+    "Fac. Esp. Médico/a Urgencias Hospitalarias",
+    "Fac. Esp. Médico/a-Técnico/a Unidad Investigación",
+    "Fac. Esp. Técnico/a Farmacia Hospitalaria",
+    "Fac. Téc. Biólogo/a"
+   ],
+   "published": "2026-09-29",
+   "start": "2026-09-29",
+   "end": "2026-10-06",
+   "estimated": false,
+   "literal": "De conformidad con la base 3.2.2 del Acuerdo de 27 de noviembre de 2019, por el que se aprueban las bases del concurso de traslados abierto y permanente, aquellas aspirantes que deseen renunciar a su participación en el concurso de traslados abierto y permanente, disponen de plazo hasta el día 6 de octubre de 2026, incluido, haciendo uso del botón RENUNCIA…",
+   "summary": "Con fecha 21 de octubre de 2026 está prevista la publicación, en la web de concurso de traslados abierto y permanente de Osakidetza-Servicio vasco de salud, de las Resoluciones de la Dirección de Personas y Talento de Osakidetza que contienen la relación provisional de personas admitidas por el orden de puntuación total alcanzada, la relación provisional de personas excluidas y la asignación provisional de destinos,…",
+   "url": "https://hh-sp.osakidetza.eus/B96/home_usuario_publico.xhtml"
+  },
+  {
+   "id": "ctap-1fl8t9g",
+   "src": "ctap",
+   "process": "Traslados",
+   "kind": "Renuncia / desistimiento",
+   "title": "Aviso: próxima asignación provisional de destinos · ciclo octubre 2025",
+   "org": "",
+   "categories": [
+    "Técnico/a Medio/a Prevención, Seguridad e Higiene",
+    "Técnico/a Especialista en Instalaciones de Electromedicina",
+    "Técnico/a Medio/a Electromedicina",
+    "Oficial de Costura",
+    "Técnico/a Superior de Mantenimiento de Instalaciones",
+    "Técnico/a Superior de Prevención, Seguridad e Higiene",
+    "Técnico/a Medio/a de Mantenimiento de Instalaciones"
+   ],
+   "published": "2026-09-29",
+   "start": "2026-09-29",
+   "end": "2026-10-06",
+   "estimated": false,
+   "literal": "De conformidad con la base 3.2.2 del Acuerdo de 27 de noviembre de 2019, por el que se aprueban las bases del concurso de traslados abierto y permanente, aquellas aspirantes que deseen renunciar a su participación en el concurso de traslados abierto y permanente, disponen de plazo hasta el día 6 de octubre de 2026, incluido, haciendo uso del botón RENUNCIA…",
+   "summary": "Con fecha 21 de octubre de 2026 está prevista la publicación, en la web de concurso de traslados abierto y permanente de Osakidetza-Servicio vasco de salud, de las Resoluciones de la Dirección de Personas y Talento de Osakidetza que contienen la relación provisional de personas admitidas por el orden de puntuación total alcanzada, la relación provisional de personas excluidas y la asignación provisional de destinos,…",
+   "url": "https://hh-sp.osakidetza.eus/B96/home_usuario_publico.xhtml"
+  },
+  {
+   "id": "ctap-1ynzb55",
+   "src": "ctap",
+   "process": "Traslados",
+   "kind": "Renuncia / desistimiento",
+   "title": "Aviso: próxima asignación provisional de destinos · ciclo mayo 2026",
+   "org": "",
+   "categories": [
+    "Oficial de Mantenimiento Carpintería",
+    "Oficial de Mantenimiento Mecánico",
+    "Técnico/a de Dietética",
+    "Técnico/a de Audioprótesis"
+   ],
+   "published": "2026-09-29",
+   "start": "2026-09-29",
+   "end": "2026-10-06",
+   "estimated": false,
+   "literal": "De conformidad con la base 3.2.2 del Acuerdo de 27 de noviembre de 2019, por el que se aprueban las bases del concurso de traslados abierto y permanente, aquellas aspirantes que deseen renunciar a su participación en el concurso de traslados abierto y permanente, disponen de plazo hasta el día 6 de octubre de 2026, incluido, haciendo uso del botón RENUNCIA…",
+   "summary": "Con fecha 21 de octubre de 2026 está prevista la publicación, en la web de concurso de traslados abierto y permanente de Osakidetza-Servicio vasco de salud, de las Resoluciones de la Dirección de Personas y Talento de Osakidetza que contienen la relación provisional de personas admitidas por el orden de puntuación total alcanzada, la relación provisional de personas excluidas y la asignación provisional de destinos,…",
+   "url": "https://hh-sp.osakidetza.eus/B96/home_usuario_publico.xhtml"
   },
   {
    "id": "jefaturas2026-1sdf4ei",
@@ -3330,6 +3558,25 @@
    "literal": "Plazo para presentar recursos de alzada: abierto desde el 18/09/2026 hasta el 19/10/2026, ambos inclusive.",
    "summary": "TÉCNICO/A RESPONSABLE DE ÁREA CORPORATIVA-TÉCNICO/A SUPERIOR JURÍDICO/A - DECLARADA DESIERTA - DIRECCIÓN GENERAL - Plazo para presentar recursos de alzada: abierto desde el 18/09/2026 hasta el 19/10/2026, ambos inclusive.",
    "url": "https://www.osakidetza.euskadi.eus/comisiones-servicios-2026/webosk00-procon/es/adjuntos/260821_C_SERV_PIT_MID_TCO_RES_CONTRAT_DIR_RRHH_DESIER_DEF_a.pdf"
+  },
+  {
+   "id": "ctap-wvap7g",
+   "src": "ctap",
+   "process": "Traslados",
+   "kind": "Renuncia / desistimiento",
+   "title": "Aviso: próxima asignación provisional de destinos · ciclo octubre 2025",
+   "org": "",
+   "categories": [
+    "Técnico/a Superior de Normalización de Euskera",
+    "Técnico/a Medio Administración y Gestión"
+   ],
+   "published": "2026-09-18",
+   "start": "2026-09-18",
+   "end": "2026-09-25",
+   "estimated": false,
+   "literal": "De conformidad con la base 3.2.2 del Acuerdo de 27 de noviembre de 2019, por el que se aprueban las bases del concurso de traslados abierto y permanente, aquellas aspirantes que deseen renunciar a su participación en el concurso de traslados abierto y permanente, disponen de plazo hasta el día 25 de septiembre de 2026, incluido, haciendo uso del botón…",
+   "summary": "Con fecha 9 de octubre de 2026 está prevista la publicación, en la web de concurso de traslados abierto y permanente de Osakidetza-Servicio vasco de salud, de las Resoluciones de la Dirección de Personas y Talento de Osakidetza que contienen la relación provisional de personas admitidas por el orden de puntuación total alcanzada, la relación provisional de personas excluidas y la asignación provisional de destinos,…",
+   "url": "https://hh-sp.osakidetza.eus/B96/home_usuario_publico.xhtml"
   },
   {
    "id": "jefaturas2026-1ezfmct",
@@ -4951,6 +5198,24 @@
    "url": "https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2026/08/2603734a.shtml"
   },
   {
+   "id": "ctap-12fn379",
+   "src": "ctap",
+   "process": "Traslados",
+   "kind": "Reclamación",
+   "title": "Asignación provisional de destinos · ciclo octubre 2025",
+   "org": "",
+   "categories": [
+    "Enfermero/a Salud Laboral"
+   ],
+   "published": "2026-08-28",
+   "start": "2026-08-28",
+   "end": "2026-09-11",
+   "estimated": false,
+   "literal": "Plazo reclamaciones: 10 días hábiles, hasta el día 11/09/2026 incluido.",
+   "summary": "Se procede a la publicación de las Resoluciones de la Directora de Personas y Talento de Osakidetza-Servicio vasco de salud que contienen la relación provisional de personas admitidas y excluidas y la asignación provisional de destinos correspondientes al ciclo de octubre 2025 del concurso de traslados abierto y permanente de las siguiente categoría: ENFERMERO/A SALUD LABORAL Ver Resoluciones en la parte pública y…",
+   "url": "https://hh-sp.osakidetza.eus/B96/home_usuario_publico.xhtml"
+  },
+  {
    "id": "bopv-13hjkz6",
    "src": "bopv",
    "process": "Recursos judiciales (emplazamientos)",
@@ -5651,6 +5916,33 @@
    "url": "https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2026/08/2603551a.shtml"
   },
   {
+   "id": "ctap-1lgbhjx",
+   "src": "ctap",
+   "process": "Traslados",
+   "kind": "Reclamación",
+   "title": "Asignación provisional de destinos · ciclo diciembre 2025",
+   "org": "",
+   "categories": [
+    "Fac. Esp. Médico/a Alergología",
+    "Fac. Esp. Médico/a Angiología y Cirugía Vascular",
+    "Fac. Esp. Médico/a Cirugía Oral y Maxilofacial",
+    "Fac. Esp. Médico/a Cirugía Pediátrica",
+    "Fac. Esp. Médico/a Endocrinología y Nutrición",
+    "Fac. Esp. Médico/a Medicina Intensiva",
+    "Fac. Esp. Médico/a Medicina Nuclear",
+    "Fac. Esp. Médico/a Medicina Preventiva y Salud Pública",
+    "Fac. Esp. Médico/a Neurofisiología Clínica",
+    "Fac. Esp. Médico/a-Técnico/a Radiofísica Hospitalaria"
+   ],
+   "published": "2026-08-11",
+   "start": "2026-08-11",
+   "end": "2026-08-25",
+   "estimated": false,
+   "literal": "Plazo reclamaciones: 10 días hábiles, hasta el día 25/8/2026 incluido.",
+   "summary": "Se procede a la publicación de las Resoluciones de la Directora de Personas y Talento de Osakidetza-Servicio vasco de salud que contienen la relación provisional de personas admitidas y excluidas y la asignación provisional de destinos correspondientes al ciclo de diciembre 2025 del concurso de traslados abierto y permanente de las siguientes categorías: FAC. ESP. MÉDICO/A ALERGOLOGÍA FAC. ESP. MÉDICO/A ANGIOLOGÍA Y…",
+   "url": "https://hh-sp.osakidetza.eus/B96/home_usuario_publico.xhtml"
+  },
+  {
    "id": "jefaturas2026-1e11ocl",
    "src": "jefaturas2026",
    "process": "Jefaturas (concurso de méritos)",
@@ -5854,6 +6146,43 @@
    "literal": "Plazo para presentar alegaciones: abierto desde el 07/08/2026 hasta el 20/08/2026, ambos inclusive.",
    "summary": "JEFE/A DE SERVICIO SANITARIO DE ONCOLOGÍA MÉDICA - OSI BILBAO-BASURTO - Lista Provisional - Plazo para presentar alegaciones: abierto desde el 07/08/2026 hasta el 20/08/2026, ambos inclusive.",
    "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/260611_CONC_J_SERV_ONCO_OSI_BILBAO_BASURTO_L_PROV_a.pdf"
+  },
+  {
+   "id": "ctap-1kpojlg",
+   "src": "ctap",
+   "process": "Traslados",
+   "kind": "Publicación",
+   "title": "Asignación definitiva de destinos · ciclo octubre 2025",
+   "org": "",
+   "categories": [
+    "Facultativo/a Técnico/a Farmaceútico/a",
+    "Facultativo/a Especialista Médico/a Cirugía Torácica",
+    "Facultativo/a Especialista Médico/a Emergencias",
+    "Facultativo/a Especialista Médico/a Microbiología y Parasitología"
+   ],
+   "published": "2026-08-06",
+   "start": "",
+   "end": "",
+   "estimated": false,
+   "literal": "",
+   "summary": "Se procede a la publicación en la página web de Osakidetza-Servicio vasco de salud de las Resoluciones de la directora general de Osakidetza-Servicio vasco de salud que contienen la relación definitiva de personas admitidas y excluidas y la asignación definitiva de destinos correspondientes al ciclo de octubre 2025 del concurso de traslados abierto y permanente de las siguientes 4 categorías: 1. FACULTATIVO/A…",
+   "url": "https://hh-sp.osakidetza.eus/B96/home_usuario_publico.xhtml"
+  },
+  {
+   "id": "ctap-v4eqgu",
+   "src": "ctap",
+   "process": "Traslados",
+   "kind": "Renuncia / desistimiento",
+   "title": "Aviso: próxima asignación provisional de destinos · ciclo octubre 2025",
+   "org": "",
+   "categories": [],
+   "published": "2026-08-06",
+   "start": "2026-08-06",
+   "end": "2026-08-13",
+   "estimated": false,
+   "literal": "De conformidad con la base 3.2.2 del Acuerdo de 27 de noviembre de 2019, por el que se aprueban las bases del concurso de traslados abierto y permanente, aquellas aspirantes que deseen renunciar a su participación en el concurso de traslados abierto y permanente, disponen de plazo hasta el día 13 de agosto de 2026, incluido, haciendo uso del botón RENUNCIA…",
+   "summary": "Con fecha 28 de agosto de 2026 está prevista la publicación, en la web de concurso de traslados abierto y permanente de Osakidetza-Servicio vasco de salud, de la Resolución de la Dirección de Personas y Talento de Osakidetza que contiene la relación provisional de personas admitidas por el orden de puntuación total alcanzada, la relación provisional de personas excluidas y la asignación provisional de destinos, del…",
+   "url": "https://hh-sp.osakidetza.eus/B96/home_usuario_publico.xhtml"
   },
   {
    "id": "jefaturas2026-1c6g1mp",
@@ -6605,6 +6934,33 @@
    "literal": "Plazo de presentación de solicitudes: abierto desde el 17/07/2026 hasta el 14/08/2026, ambos inclusive.",
    "summary": "TÉCNICO/A DE PREVENCIÓN, ERGONOMÍA Y PSICOSOCIOLOGÍA - OSI ARABA - Plazo de presentación de solicitudes: abierto desde el 17/07/2026 hasta el 14/08/2026, ambos inclusive.",
    "url": "https://www.osakidetza.euskadi.eus/comisiones-servicios-2026/webosk00-procon/es/adjuntos/260716_C_SERV_PIT_TCO_PREVEN_OSI_ARABA.pdf"
+  },
+  {
+   "id": "ctap-ptld6j",
+   "src": "ctap",
+   "process": "Traslados",
+   "kind": "Renuncia / desistimiento",
+   "title": "Aviso: próxima asignación provisional de destinos · ciclo diciembre 2025",
+   "org": "",
+   "categories": [
+    "Fac. Esp. Médico/a Alergología",
+    "Fac. Esp. Médico/a Angiología y Cirugía Vascular",
+    "Fac. Esp. Médico/a Cirugía Oral y Maxilofacial",
+    "Fac. Esp. Médico/a Cirugía Pediátrica",
+    "Fac. Esp. Médico/a Endocrinología y Nutrición",
+    "Fac. Esp. Médico/a Medicina Intensiva",
+    "Fac. Esp. Médico/a Medicina Nuclear",
+    "Fac. Esp. Médico/a Medicina Preventiva y Salud Pública",
+    "Fac. Esp. Médico/a Neurofisiología Clínica",
+    "Fac. Esp. Médico/a-Técnico/a Radiofísica Hospitalaria"
+   ],
+   "published": "2026-07-17",
+   "start": "2026-07-17",
+   "end": "2026-07-24",
+   "estimated": false,
+   "literal": "De conformidad con la base 3.2.2 del Acuerdo de 27 de noviembre de 2019, por el que se aprueban las bases del concurso de traslados abierto y permanente, aquellas aspirantes que deseen renunciar a su participación en el concurso de traslados abierto y permanente, disponen de plazo hasta el día 24 de julio de 2026, incluido, haciendo uso del botón RENUNCIA…",
+   "summary": "Con fecha 11 de agosto de 2026 está prevista la publicación, en la web de concurso de traslados abierto y permanente de Osakidetza-Servicio vasco de salud, de las Resoluciones de la Dirección de Personas y Talento de Osakidetza que contienen la relación provisional de personas admitidas por el orden de puntuación total alcanzada, la relación provisional de personas excluidas y la asignación provisional de destinos,…",
+   "url": "https://hh-sp.osakidetza.eus/B96/home_usuario_publico.xhtml"
   },
   {
    "id": "bopv-km6qrt",
@@ -10854,6 +11210,27 @@
    ]
   },
   {
+   "id": "ctap-1a30hnc",
+   "src": "ctap",
+   "process": "Traslados",
+   "kind": "Reclamación",
+   "title": "Asignación provisional de destinos · ciclo octubre 2025",
+   "org": "",
+   "categories": [
+    "Facultativo/a Técnico/a Farmaceútico/a",
+    "Facultativo/a Especialista Médico/a Cirugía Torácica",
+    "Facultativo/a Especialista Médico/a Emergencias",
+    "Facultativo/a Especialista Médico/a Microbiología y Parasitología"
+   ],
+   "published": "2026-06-03",
+   "start": "2026-06-03",
+   "end": "2026-06-17",
+   "estimated": false,
+   "literal": "Plazo reclamaciones: 10 días hábiles, hasta el día 17/6/2026 incluido.",
+   "summary": "Se procede a la publicación de las Resoluciones de la Directora de Personas y Talento de Osakidetza-Servicio vasco de salud que contienen la relación provisional de personas admitidas y excluidas y la asignación provisional de destinos correspondientes al ciclo de octubre 2025 del concurso de traslados abierto y permanente de las siguientes categorías: 1. FACULTATIVO/A TÉCNICO/A FARMACEÚTICO/A 2. FACULTATIVO/A…",
+   "url": "https://hh-sp.osakidetza.eus/B96/home_usuario_publico.xhtml"
+  },
+  {
    "id": "jefaturas2026-d5suvj",
    "src": "jefaturas2026",
    "process": "Jefaturas (concurso de méritos)",
@@ -13603,6 +13980,27 @@
    "url": "https://www.osakidetza.euskadi.eus/comisiones-servicios-2026/webosk00-procon/es/adjuntos/260511_C_SERV_PIT_MID_TCO_RES_TECNOL_DIR_RRHH_a.pdf"
   },
   {
+   "id": "ctap-1em9vsa",
+   "src": "ctap",
+   "process": "Traslados",
+   "kind": "Renuncia / desistimiento",
+   "title": "Aviso: próxima asignación provisional de destinos · ciclo octubre 2025",
+   "org": "",
+   "categories": [
+    "Facultativo/a Técnico/a Farmaceútico/a",
+    "Facultativo/a Especialista Médico/a Cirugía Torácica",
+    "Facultativo/a Especialista Médico/a Emergencias",
+    "Facultativo/a Especialista Médico/a Microbiología y Parasitología"
+   ],
+   "published": "2026-05-12",
+   "start": "2026-05-12",
+   "end": "2026-05-19",
+   "estimated": false,
+   "literal": "De conformidad con la base 3.2.2 del Acuerdo de 27 de noviembre de 2019, por el que se aprueban las bases del concurso de traslados abierto y permanente, aquellas aspirantes que deseen renunciar a su participación en el concurso de traslados abierto y permanente, disponen de plazo hasta el día 19 de mayo de 2026, incluido, haciendo uso del botón RENUNCIA…",
+   "summary": "Con fecha 3 de junio de 2026 está prevista la publicación, en la web de concurso de traslados abierto y permanente de Osakidetza-Servicio vasco de salud, de las Resoluciones de la Dirección de Personas y Talento de Osakidetza que contienen la relación provisional de personas admitidas por el orden de puntuación total alcanzada, la relación provisional de personas excluidas y la asignación provisional de destinos,…",
+   "url": "https://hh-sp.osakidetza.eus/B96/home_usuario_publico.xhtml"
+  },
+  {
    "id": "jefaturas2026-16hhszq",
    "src": "jefaturas2026",
    "process": "Jefaturas (concurso de méritos)",
@@ -14941,6 +15339,22 @@
    "literal": "Plazo para presentar recursos de alzada: abierto desde el 25/04/2026 hasta el 25/05/2026, ambos inclusive.",
    "summary": "JEFE/A DE SECCIÓN DE ADMINISTRACIÓN Y GESTIÓN B (MANTENIMIENTO) - OSI BARAKALDO-SESTAO - CESE - Plazo para presentar recursos de alzada: abierto desde el 25/04/2026 hasta el 25/05/2026, ambos inclusive.",
    "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/250218_L_DESIG_J_SEC_MANTENI_OSI_BARAKALDO_SESTAO_CESE_a.pdf"
+  },
+  {
+   "id": "ctap-1d6h8ag",
+   "src": "ctap",
+   "process": "Traslados",
+   "kind": "Publicación",
+   "title": "CTAP: Anuncio Acto de Sorteo de Renovación Tribunales",
+   "org": "",
+   "categories": [],
+   "published": "2026-04-24",
+   "start": "",
+   "end": "",
+   "estimated": false,
+   "literal": "",
+   "summary": "El día 7 de mayo de 2026, a las 12:30 h. de la mañana, en sesión pública a celebrar en la sala de la dirección de personas y talento de la Dirección General de Osakidetza-Servicio vasco de salud (Vitoria-Gasteiz), se realizará el sorteo correspondiente a la renovación de los nombramientos de los Tribunales calificadores de las convocatorias del concurso de traslados abierto y permanente correspondientes a los grupos…",
+   "url": "https://hh-sp.osakidetza.eus/B96/home_usuario_publico.xhtml"
   },
   {
    "id": "jefaturas2026-1dsjk8g",
@@ -37193,6 +37607,25 @@
    "url": "https://www.osakidetza.euskadi.eus/comisiones-servicios-2025/webosk00-procon/es/adjuntos/250506_C_SERV_PIT_TCO_MED_ARQUIT_E_ING_DIR_RRHH_DESIER_DEF_a.pdf"
   },
   {
+   "id": "ctap-1dmjd08",
+   "src": "ctap",
+   "process": "Traslados",
+   "kind": "Plazo",
+   "title": "Asignación definitiva de destinos · ciclo febrero 2025 (y ii)",
+   "org": "",
+   "categories": [
+    "Fac. Esp. Médico/a Familia - EAP",
+    "Fac. Esp. Médico/a Pediatría - EAP"
+   ],
+   "published": "2025-05-30",
+   "start": "2025-06-02",
+   "end": "2025-06-02",
+   "estimated": false,
+   "literal": "La publicación en el Boletín Oficial del País Vasco se realizará el día 2 de junio de 2025.",
+   "summary": "Se procede a la publicación en la página web de Osakidetza-Servicio vasco de salud de las Resoluciones de la Directora General de Osakidetza-Servicio vasco de salud que contienen la relación definitiva de personas admitidas y excluidas y la asignación definitiva de destinos correspondientes al ciclo de febrero 2025 del concurso de traslados abierto y permanente de las siguientes categorías: FAC. ESP. MÉDICO/A…",
+   "url": "https://hh-sp.osakidetza.eus/B96/home_usuario_publico.xhtml"
+  },
+  {
    "id": "jefaturas2025-1v514m2",
    "src": "jefaturas2025",
    "process": "Jefaturas (concurso de méritos)",
@@ -37279,6 +37712,25 @@
    "literal": "Plazo para presentar recursos de alzada: abierto desde el 27/05/2025 hasta el 26/06/2025, ambos inclusive.",
    "summary": "VARIAS CATEGORIAS - OSI URIBE - Lista Definitiva - Plazo para presentar recursos de alzada: abierto desde el 27/05/2025 hasta el 26/06/2025, ambos inclusive.",
    "url": "https://www.osakidetza.euskadi.eus/comisiones-servicios-2025/webosk00-procon/es/adjuntos/220905_C_SERV_PIT_VARIAS_CATEG_VARIAS_OSI_URIBE_L_DEF.pdf"
+  },
+  {
+   "id": "ctap-10zthck",
+   "src": "ctap",
+   "process": "Traslados",
+   "kind": "Plazo",
+   "title": "Asignación definitiva de destinos · ciclo febrero 2025 (i)",
+   "org": "",
+   "categories": [
+    "Fac. Esp. Médico/a Psiquiatría",
+    "Fac. Esp. Médico/a Psiquiatría Infantil"
+   ],
+   "published": "2025-05-27",
+   "start": "2025-05-27",
+   "end": "2025-05-27",
+   "estimated": false,
+   "literal": "La publicación en el Boletín Oficial del País Vasco se realizará el día 27 de mayo.",
+   "summary": "Se procede a la publicación en la página web de Osakidetza-Servicio vasco de salud de las Resoluciones de la Directora General de Osakidetza-Servicio vasco de salud que contienen la relación definitiva de personas admitidas y excluidas y la asignación definitiva de destinos correspondientes al ciclo de febrero 2025 del concurso de traslados abierto y permanente de las siguientes categorías: FAC. ESP. MÉDICO/A…",
+   "url": "https://hh-sp.osakidetza.eus/B96/home_usuario_publico.xhtml"
   },
   {
    "id": "jefaturas2025-8louii",
@@ -38756,6 +39208,27 @@
    "literal": "El plazo para la elección de destinos por parte de las personas incluidas en el anexo I (aspirantes con opción a destino) de las referidas resoluciones, cuando así se indique en las mismas, se extenderá desde el día 24 de abril de 2025 hasta el día 9 de mayo de 2025, ambos incluidos.En el mismo plazo, las personas interesadas podrán presentar reclamación…",
    "summary": "En relación con la publicación de las Resoluciones que contienen la relación provisional de aspirantes correspondientes a OPE 2020-2021-2022 se remite esta información: Con fecha 23 de abril de 2025 se ha publicado en la web OPE 2020-2021-2022 de las Resoluciones que contienen la relación provisional de aspirantes correspondientes a las siguientes categorías: TÉC. MEDIO MANTENIMIENTO E INSTALACIONES TÉC. ESP.…",
    "url": "https://www.osakidetza.euskadi.eus/oferta-publica-de-empleo-ope-2020-21-22-estabilizacion/webosk00-procon/es/#:~:text=Con%20fecha%2023%20de%20abril%20de%202025"
+  },
+  {
+   "id": "ctap-13n7njb",
+   "src": "ctap",
+   "process": "Traslados",
+   "kind": "Reclamación",
+   "title": "Asignación provisional de destinos · ciclo febrero 2025",
+   "org": "",
+   "categories": [
+    "Fac. Esp. Médico/a Familia-Eap",
+    "Fac. Esp. Médico/a Pediatría-Eap",
+    "Fac. Esp. Médico/a Psiquiatría",
+    "Fac. Esp. Médico/a Psiquiatría Infantil"
+   ],
+   "published": "2025-04-22",
+   "start": "2025-04-22",
+   "end": "2025-05-08",
+   "estimated": false,
+   "literal": "Plazo reclamaciones: 10 días hábiles, hasta el día 8/5/2025 incluido.",
+   "summary": "Se procede a la publicación de las Resoluciones de la Directora de Recursos Humanos de Osakidetza-Servicio vasco de salud que contienen la relación provisional de personas admitidas y excluidas y la asignación provisional de destinos correspondientes al ciclo de febrero 2025 del concurso de traslados abierto y permanente de las siguientes categorías: FAC. ESP. MÉDICO/A FAMILIA-EAP FAC. ESP. MÉDICO/A PEDIATRÍA-EAP…",
+   "url": "https://hh-sp.osakidetza.eus/B96/home_usuario_publico.xhtml"
   },
   {
    "id": "jefaturas2025-ive34a",
@@ -41312,6 +41785,22 @@
    "url": "https://www.osakidetza.euskadi.eus/comisiones-servicios-2025/webosk00-procon/es/adjuntos/250312_C_SERV_VARIAS_CATEG_VAR_DEST_OSI_DONOSTIALDEA_L_PROV_CORREC.pdf"
   },
   {
+   "id": "ctap-1gwbnhf",
+   "src": "ctap",
+   "process": "Traslados",
+   "kind": "Publicación",
+   "title": "Nota Informativa",
+   "org": "",
+   "categories": [],
+   "published": "2025-03-13",
+   "start": "",
+   "end": "",
+   "estimated": false,
+   "literal": "",
+   "summary": "En caso de tener problemas para formalizar su solicitud de participación en la aplicación de concurso de traslados puede solicitar ayuda llamando al teléfono 945 00 62 05",
+   "url": "https://hh-sp.osakidetza.eus/B96/home_usuario_publico.xhtml"
+  },
+  {
    "id": "jefaturas2025-1jnastb",
    "src": "jefaturas2025",
    "process": "Jefaturas (concurso de méritos)",
@@ -42137,6 +42626,22 @@
    "url": "https://www.osakidetza.euskadi.eus/ope-estabilizacion/webosk00-procon/es/#:~:text=Con%20fecha%205%20de%20marzo%20de%202025"
   },
   {
+   "id": "ctap-kuqvu0",
+   "src": "ctap",
+   "process": "Traslados",
+   "kind": "Publicación",
+   "title": "CTAP: Anuncio Acto de Sorteo de Renovación Tribunales",
+   "org": "",
+   "categories": [],
+   "published": "2025-03-04",
+   "start": "",
+   "end": "",
+   "estimated": false,
+   "literal": "",
+   "summary": "El día 11 de marzo de 2025, a las 9:00 h. de la mañana, en sesión pública a celebrar en el salón de Actos de la Dirección General de Osakidetza-Servicio vasco de salud (Vitoria-Gasteiz), se realizará el sorteo correspondiente para la renovación de los nombramientos de los Tribunales calificadores de las convocatorias del concurso de traslados abierto y permanente del grupo profesional de Facultativos/as…",
+   "url": "https://hh-sp.osakidetza.eus/B96/home_usuario_publico.xhtml"
+  },
+  {
    "id": "directivos2025-13evxja",
    "src": "directivos2025",
    "process": "Puestos directivos",
@@ -42207,6 +42712,22 @@
    "literal": "El plazo para la interposición de recurso de alzada contra las resoluciones que contiene la relación definitiva de aspirantes y adjudicación se extiende desde el día 4 de marzo de 2025 hasta el día 3 de abril de 2025, ambos incluidos, debiendo utilizar la aplicación disponible en la web OPE 20, 21, 22 y Estabilización.",
    "summary": "En relación con la publicación de las Resoluciones que contienen la relación definitiva de aspirantes correspondientes a OPE Estabilización se remite esta información: Hoy, día 3 de marzo de 2025, está prevista la publicación en la web OPE 20, 21, 22 y Estabilización de las Resoluciones que contienen la relación definitiva de aspirantes correspondientes a las siguientes categorías: AUXILIAR DE ENFERMERÍA El plazo…",
    "url": "https://www.osakidetza.euskadi.eus/ope-estabilizacion/webosk00-procon/es/#:~:text=Hoy%2C%20d%C3%ADa%203%20de%20marzo%20de%202025"
+  },
+  {
+   "id": "ctap-2zi6mp",
+   "src": "ctap",
+   "process": "Traslados",
+   "kind": "Elección de destinos",
+   "title": "Oferta de destinos · ciclo febrero 2025",
+   "org": "",
+   "categories": [],
+   "published": "2025-02-28",
+   "start": "",
+   "end": "",
+   "estimated": false,
+   "literal": "",
+   "summary": "En el BOPV del día 28 de febrero de 2025 se publican las resoluciones de la Directora de Recursos Humanos de Osakidetza-Servicio vasco de salud por las que se ofertan los destinos correspondientes al ciclo de febrero 2025 de las siguientes categorías convocadas en el concurso de traslados abierto y permanente: Facultativo/a Especialista Médico/a de Familia – EAP Facultativo/a Especialista Médico/a Pediatría – EAP…",
+   "url": "https://hh-sp.osakidetza.eus/B96/home_usuario_publico.xhtml"
   },
   {
    "id": "jefaturas2025-1kdxb14",
