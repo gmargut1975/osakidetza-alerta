@@ -61,6 +61,7 @@ input[type=checkbox]{width:18px;height:18px;accent-color:var(--accent)}
 .row2 input{min-width:0}
 .segmented{display:flex;flex-wrap:wrap;gap:6px}
 .segmented button{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:6px 12px;cursor:pointer;min-height:34px}
+.segmented.order{margin:0 0 12px}
 .segmented button[aria-pressed="true"]{background:var(--text);color:var(--bg);border-color:var(--text)}
 .toolbar{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-bottom:12px}
 .toolbar .count{font-weight:700}
@@ -293,7 +294,7 @@ const plural = (n, one, many) => `${n} ${n === 1 ? one : many}`;
 
 /* ============================================================ estado persistente */
 const DEFAULT_FILTERS = { text: "", status: ["abierto", "proximo", "cerrado"], processes: [], kinds: [], categories: [], org: "", src: "", from: "", to: "", published: "365", followed: false, onlyNew: false, mine: false, hideDiscarded: true };
-const DEFAULT_STATE = { v: 2, follow: {}, seen: {}, notified: {}, interests: { processes: [], categories: [] }, manual: [], filters: DEFAULT_FILTERS, view: "agenda", calMonth: "", settings: { remind: [3, 1], systemNotifications: false }, firstRun: "" };
+const DEFAULT_STATE = { v: 2, follow: {}, seen: {}, notified: {}, interests: { processes: [], categories: [] }, manual: [], filters: DEFAULT_FILTERS, view: "agenda", calMonth: "", order: "end", calMode: "end", settings: { remind: [3, 1], systemNotifications: false }, firstRun: "" };
 
 let storageOk = true;
 function load() {
@@ -517,7 +518,7 @@ function filtered(ignore) {
     return !f.text || matchesAll(it.hay, f.text);
   });
 }
-const SOURCE_LABELS = { bopv: "BOPV", lanpoltsa: "Lan poltsa (listas)", manual: "Plazos propios" };
+const SOURCE_LABELS = { bopv: "BOPV", lanpoltsa: "Lan poltsa (listas)", ctap: "Aplicación del concurso de traslados", manual: "Plazos propios" };
 function sourceLabel(key) {
   const s = monitor && monitor.sources ? monitor.sources.find((x) => x.key === key) : null;
   return (s && s.label) || SOURCE_LABELS[key] || key;
@@ -587,7 +588,7 @@ function card(it) {
   const redundant = it.categories.length === 1 && fold(it.title).startsWith(fold(it.categories[0]));
   const cats = it.categories.length && !redundant ? `<div class="cats">${esc(it.categories.slice(0, 3).join(" · "))}${it.categories.length > 3 ? ` · +${it.categories.length - 3}` : ""}</div>` : "";
   return `<article class="card ${st}" data-id="${esc(it.id)}">
-    <div class="meta">${it.org ? `<span class="pill org" title="Organización">${esc(it.org)}</span>` : `<span class="pill org all" title="Proceso corporativo: afecta a toda Osakidetza">${ALL_ORGS}</span>`}<span class="pill proc" style="--c:${processColor(it.process)}">${esc(it.process)}</span><span>${esc(it.kind)}</span>${isNew(it) ? `<span class="pill new">Nuevo</span>` : ""}${it.estimated ? `<span class="pill est" title="Fin de plazo calculado a partir de la resolución">Fecha calculada</span>` : ""}${fol ? `<span class="pill mine">${FSTATUS[fol.status]}</span>` : ""}</div>
+    <div class="meta">${it.org ? `<span class="pill org" title="Organización">${esc(it.org)}</span>` : `<span class="pill org all" title="Proceso corporativo: afecta a toda Osakidetza">${ALL_ORGS}</span>`}<span class="pill proc" style="--c:${processColor(it.process)}">${esc(it.process)}</span><span>${esc(it.kind)}</span><span title="Fecha de publicación">· publicado ${fmtShort(it.published)}</span>${isNew(it) ? `<span class="pill new">Nuevo</span>` : ""}${it.estimated ? `<span class="pill est" title="Fin de plazo calculado a partir de la resolución">Fecha calculada</span>` : ""}${fol ? `<span class="pill mine">${FSTATUS[fol.status]}</span>` : ""}</div>
     <h3><button type="button" data-open="${esc(it.id)}">${esc(it.title)}</button></h3>
     ${cats}
     <div>${whenText(it)}</div>
@@ -604,14 +605,38 @@ function section(key, title, list, extra = "") {
 
 /* ============================================================ vistas */
 const byEnd = (a, b) => (a.end || "9999").localeCompare(b.end || "9999") || b.published.localeCompare(a.published);
+const dayLabel = (iso) => { const d = diffDays(iso, todayIso()); return d === 0 ? "hoy" : d === 1 ? "ayer" : `el ${weekday(iso).toLowerCase()} ${fmt(iso)}`; };
+function orderSwitch(key, value, options) {
+  return `<div class="segmented order" role="group" aria-label="${key === "order" ? "Ordenar por" : "Ver en el calendario"}">${options.map(([v, l]) => `<button type="button" data-${key}="${v}" aria-pressed="${value === v}">${l}</button>`).join("")}</div>`;
+}
+// Vista «Recién publicados»: lo último que ha salido, día a día.
+function renderByPublication(list) {
+  const sorted = [...list].sort((a, b) => b.published.localeCompare(a.published) || (a.process).localeCompare(b.process, "es"));
+  const n = shown.pub || PAGE * 2;
+  let html = "", last = "";
+  sorted.slice(0, n).forEach((it) => {
+    if (it.published !== last) {
+      if (last) html += "</div>";
+      last = it.published;
+      const count = sorted.filter((x) => x.published === last).length;
+      html += `<h2 class="section-title">Publicado ${dayLabel(last)} <span class="n">(${count})</span></h2><div class="cards">`;
+    }
+    html += card(it);
+  });
+  if (last) html += "</div>";
+  if (sorted.length > n) html += `<p><button class="btn" data-more="pub">Mostrar ${Math.min(PAGE * 2, sorted.length - n)} más</button></p>`;
+  return html;
+}
 function renderAgenda(list) {
+  const head = orderSwitch("order", state.order, [["end", "Por fin de plazo"], ["pub", "Recién publicados"]]);
+  if (state.order === "pub") return head + (list.length ? renderByPublication(list) : emptyState());
   const soon = list.filter((i) => i.soon).sort(byEnd);
   const open = list.filter((i) => i.status === "abierto" && !i.soon).sort(byEnd);
   const next = list.filter((i) => i.status === "proximo").sort((a, b) => a.start.localeCompare(b.start));
   const none = list.filter((i) => i.status === "sinplazo").sort((a, b) => b.published.localeCompare(a.published));
   const closed = list.filter((i) => i.status === "cerrado").sort((a, b) => b.end.localeCompare(a.end));
   const html = section("soon", `Terminan en ${SOON_DAYS} días o menos`, soon) + section("open", "Plazos abiertos", open) + section("next", "Próximos plazos", next) + section("none", "Publicaciones sin fecha de plazo", none) + section("closed", state.filters.published === "365" ? "Plazos cerrados en el último año" : "Plazos cerrados", closed);
-  return html || emptyState();
+  return head + (html || emptyState());
 }
 function emptyState() {
   const tags = activeFilterTags().map(([, l]) => l);
@@ -660,10 +685,12 @@ function renderCalendar(list) {
   const first = `${month}-01`;
   const offset = (toDate(first).getUTCDay() + 6) % 7;
   const start = addDays(first, -offset);
+  const byPub = state.calMode === "pub";
   const ends = new Map(), starts = new Map();
   list.forEach((it) => {
-    if (it.end) { if (!ends.has(it.end)) ends.set(it.end, []); ends.get(it.end).push(it); }
-    if (it.start && it.start !== it.end && state.follow[it.id]) { if (!starts.has(it.start)) starts.set(it.start, []); starts.get(it.start).push(it); }
+    const key = byPub ? it.published : it.end;
+    if (key) { if (!ends.has(key)) ends.set(key, []); ends.get(key).push(it); }
+    if (!byPub && it.start && it.start !== it.end && state.follow[it.id]) { if (!starts.has(it.start)) starts.set(it.start, []); starts.get(it.start).push(it); }
   });
   let cells = ["L", "M", "X", "J", "V", "S", "D"].map((d, i) => `<div class="dow" aria-hidden="true" title="${["lunes","martes","miércoles","jueves","viernes","sábado","domingo"][i]}">${d}</div>`).join("");
   const shown = new Set();
@@ -679,22 +706,22 @@ function renderCalendar(list) {
     const extra = groups.length > 3 ? `<span class="more">+${groups.length - 3} ${groups.length - 3 === 1 ? "proceso" : "procesos"}</span>` : "";
     const flags = `${mine ? `<span class="flag f" title="Plazos que sigues">★ ${mine}</span>` : ""}${s.length ? `<span class="flag s" title="Empiezan plazos que sigues">▶ ${s.length}</span>` : ""}`;
     const dots = groups.slice(0, 6).map(([p]) => `<i style="--c:${processColor(p)}"></i>`).join("");
-    const label = `${Number(day.slice(8))} de ${MONTHS[Number(day.slice(5, 7)) - 1]}: ${e.length ? `${plural(e.length, "fin de plazo", "fines de plazo")} (${groups.map(([p, its]) => `${processShort(p)} ${its.length}`).join(", ")})` : "sin fines de plazo"}${mine ? `, ${mine} que sigues` : ""}${s.length ? `, ${plural(s.length, "inicio", "inicios")} de plazos seguidos` : ""}`;
+    const label = `${Number(day.slice(8))} de ${MONTHS[Number(day.slice(5, 7)) - 1]}: ${e.length ? `${byPub ? plural(e.length, "publicación", "publicaciones") : plural(e.length, "fin de plazo", "fines de plazo")} (${groups.map(([p, its]) => `${processShort(p)} ${its.length}`).join(", ")})` : byPub ? "sin publicaciones" : "sin fines de plazo"}${mine ? `, ${mine} que sigues` : ""}${s.length ? `, ${plural(s.length, "inicio", "inicios")} de plazos seguidos` : ""}`;
     cells += `<button type="button" class="day${day.slice(0, 7) !== month ? " out" : ""}${day === t ? " today" : ""}${e.length ? " has" : ""}" data-day="${day}" aria-pressed="${day === selectedDay}" aria-label="${esc(label)}"><span class="dhead"><span class="num">${Number(day.slice(8))}</span>${e.length ? `<span class="total">${e.length}</span>` : ""}</span>${rows}${extra}${flags ? `<span class="flags">${flags}</span>` : ""}<span class="dots">${dots}</span></button>`;
   }
-  const inMonth = list.filter((it) => it.end && it.end.startsWith(month));
+  const inMonth = list.filter((it) => (byPub ? it.published : it.end || "").startsWith(month));
   const legend = [...shown].sort((a, b) => processShort(a).localeCompare(processShort(b), "es")).map((p) => `<span class="lg" style="--c:${processColor(p)}"><i></i>${esc(processShort(p))}</span>`).join("");
   let below = "";
   if (selectedDay) {
     const items = [...(ends.get(selectedDay) || [])];
     const begin = starts.get(selectedDay) || [];
-    below = `<div class="day-list" id="dayList"><h2 class="section-title">${weekday(selectedDay)} ${fmt(selectedDay)} <span class="n">(${plural(items.length, "plazo termina", "plazos terminan")})</span></h2>
+    below = `<div class="day-list" id="dayList"><h2 class="section-title">${weekday(selectedDay)} ${fmt(selectedDay)} <span class="n">(${byPub ? plural(items.length, "publicación", "publicaciones") : plural(items.length, "plazo termina", "plazos terminan")})</span></h2>
       ${begin.length ? `<details class="pgroup" open style="--c:var(--accent)"><summary><i></i>Empiezan plazos que sigues <b>${begin.length}</b></summary><ul class="rows">${begin.map(row).join("")}</ul></details>` : ""}
-      ${items.length ? groupByProcess(items).map(([p, its]) => `<details class="pgroup" data-p="${esc(p)}" ${openGroups.has(`${selectedDay}|${p}`) || (!openGroups.size && groupByProcess(items).length <= 3) ? "open" : ""} style="--c:${processColor(p)}"><summary><i></i>${esc(p)} <b>${its.length}</b></summary><ul class="rows">${its.sort((a, b) => Boolean(state.follow[b.id]) - Boolean(state.follow[a.id]) || (a.org || "~").localeCompare(b.org || "~", "es")).map(row).join("")}</ul></details>`).join("") : `<p class="status-line">Ningún plazo termina este día con los filtros actuales.</p>`}</div>`;
+      ${items.length ? groupByProcess(items).map(([p, its]) => `<details class="pgroup" data-p="${esc(p)}" ${openGroups.has(`${selectedDay}|${p}`) || (!openGroups.size && groupByProcess(items).length <= 3) ? "open" : ""} style="--c:${processColor(p)}"><summary><i></i>${esc(p)} <b>${its.length}</b></summary><ul class="rows">${its.sort((a, b) => Boolean(state.follow[b.id]) - Boolean(state.follow[a.id]) || (a.org || "~").localeCompare(b.org || "~", "es")).map(row).join("")}</ul></details>`).join("") : `<p class="status-line">${byPub ? "No se publicó nada este día" : "Ningún plazo termina este día"} con los filtros actuales.</p>`}</div>`;
   } else {
-    below = `<p class="status-line">Pulsa un día para ver sus plazos agrupados por proceso. ${plural(inMonth.length, "plazo termina", "plazos terminan")} en ${MONTHS[m - 1]}.</p>`;
+    below = `<p class="status-line">Pulsa un día para ver sus plazos agrupados por proceso. ${byPub ? `${plural(inMonth.length, "publicación", "publicaciones")} en ${MONTHS[m - 1]}` : `${plural(inMonth.length, "plazo termina", "plazos terminan")} en ${MONTHS[m - 1]}`}.</p>`;
   }
-  return `${list.length ? "" : emptyState()}<div class="cal-head"><button class="btn" data-month="-1" aria-label="Mes anterior">‹</button><h2>${MONTHS[m - 1]} ${y}</h2><button class="btn" data-month="0">Hoy</button><button class="btn" data-month="1" aria-label="Mes siguiente">›</button></div>
+  return `${list.length ? "" : emptyState()}${orderSwitch("calmode", state.calMode, [["end", "Ver fines de plazo"], ["pub", "Ver fechas de publicación"]])}<div class="cal-head"><button class="btn" data-month="-1" aria-label="Mes anterior">‹</button><h2>${MONTHS[m - 1]} ${y}</h2><button class="btn" data-month="0">Hoy</button><button class="btn" data-month="1" aria-label="Mes siguiente">›</button></div>
     <div class="cal">${cells}</div>
     <div class="legend">${legend}<span class="lg f">★ que sigues</span><span class="lg s">▶ empieza un plazo que sigues</span></div>${below}`;
 }
@@ -787,7 +814,7 @@ function openDetail(id) {
       ${it.summary ? `<dt>Extracto</dt><dd>${esc(it.summary)}</dd>` : ""}
     </dl>
     <div class="actions">
-      ${it.url ? `<a class="btn primary" href="${esc(it.url)}" target="_blank" rel="noopener">Ver documento oficial ↗</a>` : ""}
+      ${it.url ? `<a class="btn primary" href="${esc(it.url)}" target="_blank" rel="noopener">${it.src === "ctap" ? "Abrir la aplicación de traslados ↗" : "Ver documento oficial ↗"}</a>` : ""}
       ${it.altUrl ? `<a class="btn" href="${esc(it.altUrl)}" target="_blank" rel="noopener">Ver también en ${it.altUrl.includes("bopv") ? "el BOPV" : "otra fuente"} ↗</a>` : ""}
       <button class="btn" data-follow="${esc(it.id)}" aria-pressed="${Boolean(fol)}">${fol ? "★ Siguiendo" : "☆ Seguir"}</button>
       ${it.end ? `<button class="btn" data-ics="${esc(it.id)}">Añadir a mi calendario</button>` : ""}
@@ -1007,7 +1034,9 @@ document.addEventListener("click", (e) => {
   if (ds.follow) { toggleFollow(ds.follow); return; }
   if (ds.status) { setFilter({ status: toggleIn(state.filters.status, ds.status) }); return; }
   if (ds.remove) { removeFilter(ds.remove); return; }
-  if (ds.more) { shown[ds.more] = (shown[ds.more] || PAGE) + PAGE; render(); return; }
+  if (ds.order) { state.order = ds.order; save(); render(); return; }
+  if (ds.calmode) { state.calMode = ds.calmode; selectedDay = ""; save(); render(); return; }
+  if (ds.more) { const step = ds.more === "pub" ? PAGE * 2 : PAGE; shown[ds.more] = (shown[ds.more] || step) + step; render(); return; }
   if (ds.view) { state.view = ds.view; selectedDay = ""; save(); render(); return; }
   if (ds.day) { selectedDay = selectedDay === ds.day ? "" : ds.day; render(); const l = $(".day-list"); if (l && selectedDay) l.scrollIntoView({ behavior: "smooth", block: "nearest" }); return; }
   if (ds.month !== undefined) { const cur = state.calMonth || todayIso().slice(0, 7); const n = Number(ds.month); state.calMonth = n === 0 ? "" : addDays(`${cur}-15`, n * 30).slice(0, 7); selectedDay = ""; save(); render(); return; }

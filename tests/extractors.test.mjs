@@ -209,3 +209,22 @@ test("fases y paréntesis en listas de enlaces", () => {
   const a = X.splitHead(["ACTUALIZACIÓN : VARIAS CATEGORIAS", "OSI BARRUALDE-GALDAKAO", "LISTA DEFINITIVA"]);
   assert.deepEqual(X.categoriesFromPuesto(a.puesto), ["Varias categorías"]); assert.deepEqual(a.phases, ["ACTUALIZACIÓN", "LISTA DEFINITIVA"]);
 });
+
+test("CTAP: avisos públicos del concurso de traslados", () => {
+  const block = (n, date, title, body) => `<div class="announcement"> <div class="row"> <div class="col-sm-2"> <span class="announcement__number">${n}</span> <span class="announcement__date">${date}</span> </div> <div class="col-sm-6"> <div class="announcement__title"> Concurso de Traslados Abierto y Permanente </div> <div class="announcement__title" style="word-wrap: break-word; display: block;"> <span style="white-space: pre-wrap;">${title}</span> </div> <div> <span class="entry-text wrapText"><span class="entry-text__content wrapTextContent-avisos" style="white-space: pre-wrap;">${body}</span> </span> <a class="see-more-avisos">Más(+)</a> </div> </div> </div> </div>`;
+  const html = `<main>${block(1, "21-10-2026", "MODELO RECLAMACIÓN CTAP: CONTRA LA ASIGNACIÓN PROVISIONAL DE DESTINOS", "Para descargar el modelo de reclamación, pinche en el pdf adjunto .")}${block(2, "21-10-2026", "PUBLICACIÓN ADJUDICACIÓN PROVISIONAL CICLO MAYO 2026", "Se procede a la publicación de las Resoluciones ... de las siguientes categorías:\n\n1.\tOFICIAL DE MANTENIMIENTO CARPINTERÍA\n2.\tTÉCNICO/A DE AUDIOPRÓTESIS\n\nVer Resoluciones en la parte pública y listados en el área privada.\n\nPlazo reclamaciones: 10 días hábiles, hasta el día 04/11/2026 incluido.")}${block(3, "29-09-2026", "AVISO PREVISIÓN PUBLICACIÓN ASIGNACIÓN PROVISIONAL CICLO MAYO 2026", "Con fecha 21 de octubre de 2026 está prevista la publicación.\n\nLas aspirantes que deseen renunciar a su participación disponen de plazo hasta el día 6 de octubre de 2026, incluido, haciendo uso del botón RENUNCIA.")}</main>`;
+  const rows = X.ctapAnnouncements(html);
+  assert.equal(rows.length, 3);
+  assert.equal(rows[1].title, "PUBLICACIÓN ADJUDICACIÓN PROVISIONAL CICLO MAYO 2026");
+  const items = X.extractCtap(rows, { key: "ctap", process: "Traslados" }, "2026-10-25");
+  assert.equal(items.length, 2, "los modelos de impresos no son plazos");
+  const [prov, aviso] = items;
+  assert.equal(prov.title, "Asignación provisional de destinos · ciclo mayo 2026");
+  assert.equal(prov.kind, "Reclamación");
+  assert.equal(prov.published, "2026-10-21");
+  assert.equal(prov.end, "2026-11-04");
+  assert.deepEqual(prov.categories, ["Oficial de Mantenimiento Carpintería", "Técnico/a de Audioprótesis"]);
+  assert.equal(prov.url, X.CTAP_PUBLIC_URL);
+  assert.equal(aviso.kind, "Renuncia / desistimiento");
+  assert.equal(aviso.end, "2026-10-06");
+});
