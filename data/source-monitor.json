@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checkedAt": "2026-10-26T05:37:15.839Z",
+ "checkedAt": "2026-10-26T11:58:53.040Z",
  "sources": [
   {
    "key": "comisiones2026",
@@ -13,7 +13,7 @@
    "error": "",
    "count": 144,
    "hash": "21871cfa8d338d79",
-   "checkedAt": "2026-10-26T05:37:15.839Z",
+   "checkedAt": "2026-10-26T11:58:53.040Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -27,7 +27,7 @@
    "error": "",
    "count": 132,
    "hash": "77f324c1858c86af",
-   "checkedAt": "2026-10-26T05:37:15.839Z",
+   "checkedAt": "2026-10-26T11:58:53.040Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -39,10 +39,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 467,
-   "hash": "60e2014fcc396540",
-   "checkedAt": "2026-10-26T05:37:15.839Z",
-   "changedAt": "2026-10-23T10:17:45.441Z"
+   "count": 475,
+   "hash": "56c9cbfc1f5cb14e",
+   "checkedAt": "2026-10-26T11:58:53.040Z",
+   "changedAt": "2026-10-26T11:58:53.040Z"
   },
   {
    "key": "jefaturas2025",
@@ -55,7 +55,7 @@
    "error": "",
    "count": 479,
    "hash": "66143b22347640ab",
-   "checkedAt": "2026-10-26T05:37:15.839Z",
+   "checkedAt": "2026-10-26T11:58:53.040Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -69,7 +69,7 @@
    "error": "",
    "count": 30,
    "hash": "eb07d21ecb1d9061",
-   "checkedAt": "2026-10-26T05:37:15.839Z",
+   "checkedAt": "2026-10-26T11:58:53.040Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -83,7 +83,7 @@
    "error": "",
    "count": 54,
    "hash": "a304df315c59aa2c",
-   "checkedAt": "2026-10-26T05:37:15.839Z",
+   "checkedAt": "2026-10-26T11:58:53.040Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -97,7 +97,7 @@
    "error": "",
    "count": 79,
    "hash": "34fc66e897fa1bbd",
-   "checkedAt": "2026-10-26T05:37:15.839Z",
+   "checkedAt": "2026-10-26T11:58:53.040Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -109,10 +109,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 254,
-   "hash": "f7f8a12e5a49e961",
-   "checkedAt": "2026-10-26T05:37:15.839Z",
-   "changedAt": "2026-10-23T10:17:45.441Z"
+   "count": 255,
+   "hash": "f4acb629416a7837",
+   "checkedAt": "2026-10-26T11:58:53.040Z",
+   "changedAt": "2026-10-26T11:58:53.040Z"
   },
   {
    "key": "ope2325",
@@ -125,7 +125,7 @@
    "error": "",
    "count": 15,
    "hash": "5458c70460b20bd8",
-   "checkedAt": "2026-10-26T05:37:15.839Z",
+   "checkedAt": "2026-10-26T11:58:53.040Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -139,7 +139,7 @@
    "error": "",
    "count": 83,
    "hash": "a6baac4fb1fc60c0",
-   "checkedAt": "2026-10-26T05:37:15.839Z",
+   "checkedAt": "2026-10-26T11:58:53.040Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -153,7 +153,7 @@
    "error": "",
    "count": 164,
    "hash": "6f0586c40b65c8fe",
-   "checkedAt": "2026-10-26T05:37:15.839Z",
+   "checkedAt": "2026-10-26T11:58:53.040Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -167,7 +167,7 @@
    "error": "",
    "count": 21,
    "hash": "ff9210a812239484",
-   "checkedAt": "2026-10-26T05:37:15.839Z",
+   "checkedAt": "2026-10-26T11:58:53.040Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -181,7 +181,7 @@
    "error": "",
    "count": 3,
    "hash": "ed4fc72b663d3272",
-   "checkedAt": "2026-10-26T05:37:15.839Z",
+   "checkedAt": "2026-10-26T11:58:53.040Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -195,7 +195,7 @@
    "error": "",
    "count": 0,
    "hash": "c4971aba58479f1e",
-   "checkedAt": "2026-10-26T05:37:15.839Z",
+   "checkedAt": "2026-10-26T11:58:53.040Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -208,9 +208,9 @@
    "status": 200,
    "error": "",
    "count": 0,
-   "hash": "130afe1e035acf03",
-   "checkedAt": "2026-10-26T05:37:15.839Z",
-   "changedAt": "2026-10-23T10:17:45.441Z"
+   "hash": "ea624ecd4dcc61f3",
+   "checkedAt": "2026-10-26T11:58:53.040Z",
+   "changedAt": "2026-10-26T11:58:53.040Z"
   },
   {
    "key": "ctap",
@@ -223,7 +223,7 @@
    "error": "",
    "count": 124,
    "hash": "eb4a95c77f65d33f",
-   "checkedAt": "2026-10-26T05:37:15.839Z",
+   "checkedAt": "2026-10-26T11:58:53.040Z",
    "changedAt": "2026-10-25T21:38:51.828Z"
   },
   {
@@ -237,7 +237,7 @@
    "error": "",
    "count": 0,
    "hash": "9a327c9e5613dad4",
-   "checkedAt": "2026-10-26T05:37:15.839Z",
+   "checkedAt": "2026-10-26T11:58:53.040Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -251,7 +251,7 @@
    "error": "",
    "count": 0,
    "hash": "678bcb345b70e6ba",
-   "checkedAt": "2026-10-26T05:37:15.839Z",
+   "checkedAt": "2026-10-26T11:58:53.040Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -265,16 +265,160 @@
    "error": "",
    "count": 0,
    "hash": "974dc087b0130905",
-   "checkedAt": "2026-10-26T05:37:15.839Z",
+   "checkedAt": "2026-10-26T11:58:53.040Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   }
  ],
  "bopv": {
   "yy": "26",
-  "lastNumber": 203,
-  "lastDate": "2026-10-23"
+  "lastNumber": 204,
+  "lastDate": "2026-10-26"
  },
  "items": [
+  {
+   "id": "jefaturas2026-10xjhy4",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Recurso de alzada",
+   "title": "Jefe/a de Servicio Sanitario de Radioterapia Oncológica · Lista Definitiva/Comisión de valoración",
+   "org": "OSI Bilbao-Basurto",
+   "categories": [
+    "Jefe/a de Servicio Sanitario de Radioterapia Oncológica"
+   ],
+   "published": "2026-10-27",
+   "start": "2026-10-27",
+   "end": "2026-11-26",
+   "estimated": false,
+   "literal": "Plazo para presentar recursos de alzada: abierto desde el 27/10/2026 hasta el 26/11/2026, ambos inclusive.",
+   "summary": "JEFE/A DE SERVICIO SANITARIO DE RADIOTERAPIA ONCOLÓGICA - OSI BILBAO-BASURTO - Lista Definitiva/Comisión de valoración - Plazo para presentar recursos de alzada: abierto desde el 27/10/2026 hasta el 26/11/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/260611_CONC_J_SERV_RADIOTERAPIA_OSI_BILBAO_BASURTO_L_DEF_COM_VALOR_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-196uhlx",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Alegaciones",
+   "title": "Jefe/a de Servicio Sanitario de Urgencias Hospitalarias · Lista Provisional",
+   "org": "OSI Barrualde-Galdakao",
+   "categories": [
+    "Jefe/a de Servicio Sanitario de Urgencias Hospitalarias"
+   ],
+   "published": "2026-10-27",
+   "start": "2026-10-27",
+   "end": "2026-11-09",
+   "estimated": false,
+   "literal": "Plazo para presentar alegaciones: abierto desde el 27/10/2026 hasta el 09/11/2026, ambos inclusive.",
+   "summary": "JEFE/A DE SERVICIO SANITARIO DE URGENCIAS HOSPITALARIAS - OSI BARRUALDE-GALDAKAO - Lista Provisional - Plazo para presentar alegaciones: abierto desde el 27/10/2026 hasta el 09/11/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/260922_CONC_J_SERV_URG_OSI_BARRUALDE_GALDAKAO_L_PROV_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-19ct8c3",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Solicitud / inscripción",
+   "title": "Supervisor/a General de Noches",
+   "org": "OSI Goierri-Urola Garaia",
+   "categories": [
+    "Supervisor/a General de Noches"
+   ],
+   "published": "2026-10-27",
+   "start": "2026-10-27",
+   "end": "2026-11-16",
+   "estimated": false,
+   "literal": "Plazo de presentación de solicitudes: abierto desde el 27/10/2026 hasta el 16/11/2026, ambos inclusive.",
+   "summary": "SUPERVISOR/A GENERAL DE NOCHES - OSI GOIERRI-UROLA GARAIA - Plazo de presentación de solicitudes: abierto desde el 27/10/2026 hasta el 16/11/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/261026_L_DESIG_SUPERV_ENF_OSI_GOIERRI_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-19si7n",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Solicitud / inscripción",
+   "title": "Secretario/a de Dirección (Dirección de Atención Integrada)",
+   "org": "OSI Araba",
+   "categories": [
+    "Secretario/a de Dirección"
+   ],
+   "published": "2026-10-27",
+   "start": "2026-10-27",
+   "end": "2026-11-16",
+   "estimated": false,
+   "literal": "Plazo de presentación de solicitudes: abierto desde el 27/10/2026 hasta el 16/11/2026, ambos inclusive.",
+   "summary": "SECRETARIO/A DE DIRECCIÓN (DIRECCIÓN DE ATENCIÓN INTEGRADA) - OSI ARABA - Plazo de presentación de solicitudes: abierto desde el 27/10/2026 hasta el 16/11/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/261026_L_DESIG_SECRET_AT_INTEG_OSI_ARABA_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-1rnj34h",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Solicitud / inscripción",
+   "title": "Jefe/a de Equipo Administrativo (Área Económica, Contabilidad y Facturación)",
+   "org": "Red de Salud Mental de Bizkaia",
+   "categories": [
+    "Jefe/a de Equipo Administrativo"
+   ],
+   "published": "2026-10-27",
+   "start": "2026-10-27",
+   "end": "2026-11-16",
+   "estimated": false,
+   "literal": "Plazo de presentación de solicitudes: abierto desde el 27/10/2026 hasta el 16/11/2026, ambos inclusive.",
+   "summary": "JEFE/A DE EQUIPO ADMINISTRATIVO (ÁREA ECONÓMICA, CONTABILIDAD Y FACTURACIÓN) - RED DE SALUD MENTAL DE BIZKAIA - Plazo de presentación de solicitudes: abierto desde el 27/10/2026 hasta el 16/11/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/261026_L_DESIG_J_EQ_CONTA_RSMB_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-1vg7jz9",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Recurso de alzada",
+   "title": "Jefe/a de Equipo de Mantenimiento e Instalaciones (Responsable del Parque Móvil) · Nombramiento",
+   "org": "Emergencias",
+   "categories": [
+    "Jefe/a de Equipo de Mantenimiento e Instalaciones"
+   ],
+   "published": "2026-10-27",
+   "start": "2026-10-27",
+   "end": "2026-11-26",
+   "estimated": false,
+   "literal": "Plazo para presentar recursos de alzada: abierto desde el 27/10/2026 hasta el 26/11/2026, ambos inclusive.",
+   "summary": "JEFE/A DE EQUIPO DE MANTENIMIENTO E INSTALACIONES (RESPONSABLE DEL PARQUE MÓVIL) - NOMBRAMIENTO - EMERGENCIAS - Plazo para presentar recursos de alzada: abierto desde el 27/10/2026 hasta el 26/11/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/260112_L_DESIG_J_EQ_MANT_E_INST_EMERGENCIAS_NOMBR_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-1w34ox0",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Solicitud / inscripción",
+   "title": "Adjunto/a de Enfermería de Cuidados",
+   "org": "Red de Salud Mental de Bizkaia",
+   "categories": [
+    "Adjunto/a de Enfermería de Cuidados"
+   ],
+   "published": "2026-10-27",
+   "start": "2026-10-27",
+   "end": "2026-11-16",
+   "estimated": false,
+   "literal": "Plazo de presentación de solicitudes: abierto desde el 27/10/2026 hasta el 16/11/2026, ambos inclusive.",
+   "summary": "ADJUNTO/A DE ENFERMERÍA DE CUIDADOS - RED DE SALUD MENTAL DE BIZKAIA - Plazo de presentación de solicitudes: abierto desde el 27/10/2026 hasta el 16/11/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/261026_L_DESIG_ADJ_ENF_RSMB_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-vyip68",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Recurso de alzada",
+   "title": "Revocación – Jefe/a de Unidad de Atención Primaria de Valles Alaveses II",
+   "org": "OSI Araba",
+   "categories": [
+    "Jefe/a de Unidad de Atención Primaria de Valles Alaveses II"
+   ],
+   "published": "2026-10-27",
+   "start": "2026-10-27",
+   "end": "2026-11-26",
+   "estimated": false,
+   "literal": "Plazo para presentar recursos de alzada: abierto desde el 27/10/2026 hasta el 26/11/2026, ambos inclusive.",
+   "summary": "REVOCACIÓN - JEFE/A DE UNIDAD DE ATENCIÓN PRIMARIA DE VALLES ALAVESES II - OSI ARABA - Plazo para presentar recursos de alzada: abierto desde el 27/10/2026 hasta el 26/11/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/240508_L_DESIG_JUAP_AT_PRIM_OSI_ARABA_REVOC_a.pdf"
+  },
   {
    "id": "comisiones2026-156dhak",
    "src": "comisiones2026",
@@ -292,6 +436,24 @@
    "literal": "Plazo para presentar alegaciones: abierto desde el 26/10/2026 hasta el 06/11/2026, ambos inclusive.",
    "summary": "VARIAS CATEGORÍAS - H. GORLIZ - Lista Provisional - Plazo para presentar alegaciones: abierto desde el 26/10/2026 hasta el 06/11/2026, ambos inclusive.",
    "url": "https://www.osakidetza.euskadi.eus/comisiones-servicios-2026/webosk00-procon/es/adjuntos/260205_C_SERV_PIT_VARIAS_CATEG_VAR_DEST_H_GORLIZ_L_PROV.pdf"
+  },
+  {
+   "id": "lanpoltsa-4500",
+   "src": "lanpoltsa",
+   "process": "Interinidades y ofertas de nombramiento",
+   "kind": "Plazo",
+   "title": "Oferta de Interinidades – FEM Familia-Eap",
+   "org": "",
+   "categories": [
+    "FEM Familia EAP"
+   ],
+   "published": "2026-10-26",
+   "start": "2026-10-26",
+   "end": "2026-11-03",
+   "estimated": false,
+   "literal": "Plazo para realizar solicitud a través de la página web desde las 14:00 horas del día 22 de octubre de 2026 hasta las 14:00h del día 3 de noviembre de 2026.",
+   "summary": "Se va a realizar una oferta de interinidades a través de la página web de Osakidetza destinada a las personas integrantes de las listas largas de contratación 2021, que se encuentren en situación de disponibles, de la siguiente categoría: FEM FAMILIA EAP Para conocer los nombramientos ofertados y poder solicitarlos, deberá acceder a la web de listas de contratación temporal de Osakidetza, apartado “Mis ofertas”.…",
+   "url": "https://lanpoltsa.osakidetza.eus/c28/avisos-generales"
   },
   {
    "id": "jefaturas2026-1xvt3lw",
