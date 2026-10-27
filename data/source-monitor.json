@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checkedAt": "2026-10-27T13:34:39.916Z",
+ "checkedAt": "2026-10-27T18:53:33.071Z",
  "sources": [
   {
    "key": "comisiones2026",
@@ -13,7 +13,7 @@
    "error": "",
    "count": 144,
    "hash": "21871cfa8d338d79",
-   "checkedAt": "2026-10-27T13:34:39.916Z",
+   "checkedAt": "2026-10-27T18:53:33.071Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -27,7 +27,7 @@
    "error": "",
    "count": 132,
    "hash": "77f324c1858c86af",
-   "checkedAt": "2026-10-27T13:34:39.916Z",
+   "checkedAt": "2026-10-27T18:53:33.071Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -39,10 +39,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 475,
-   "hash": "56c9cbfc1f5cb14e",
-   "checkedAt": "2026-10-27T13:34:39.916Z",
-   "changedAt": "2026-10-26T11:58:53.040Z"
+   "count": 478,
+   "hash": "e78f55b7193683c7",
+   "checkedAt": "2026-10-27T18:53:33.071Z",
+   "changedAt": "2026-10-27T18:53:33.071Z"
   },
   {
    "key": "jefaturas2025",
@@ -55,7 +55,7 @@
    "error": "",
    "count": 479,
    "hash": "66143b22347640ab",
-   "checkedAt": "2026-10-27T13:34:39.916Z",
+   "checkedAt": "2026-10-27T18:53:33.071Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -69,7 +69,7 @@
    "error": "",
    "count": 30,
    "hash": "eb07d21ecb1d9061",
-   "checkedAt": "2026-10-27T13:34:39.916Z",
+   "checkedAt": "2026-10-27T18:53:33.071Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -83,7 +83,7 @@
    "error": "",
    "count": 54,
    "hash": "a304df315c59aa2c",
-   "checkedAt": "2026-10-27T13:34:39.916Z",
+   "checkedAt": "2026-10-27T18:53:33.071Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -97,7 +97,7 @@
    "error": "",
    "count": 79,
    "hash": "34fc66e897fa1bbd",
-   "checkedAt": "2026-10-27T13:34:39.916Z",
+   "checkedAt": "2026-10-27T18:53:33.071Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -111,7 +111,7 @@
    "error": "",
    "count": 255,
    "hash": "f4acb629416a7837",
-   "checkedAt": "2026-10-27T13:34:39.916Z",
+   "checkedAt": "2026-10-27T18:53:33.071Z",
    "changedAt": "2026-10-26T11:58:53.040Z"
   },
   {
@@ -125,7 +125,7 @@
    "error": "",
    "count": 15,
    "hash": "5458c70460b20bd8",
-   "checkedAt": "2026-10-27T13:34:39.916Z",
+   "checkedAt": "2026-10-27T18:53:33.071Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -139,7 +139,7 @@
    "error": "",
    "count": 83,
    "hash": "a6baac4fb1fc60c0",
-   "checkedAt": "2026-10-27T13:34:39.916Z",
+   "checkedAt": "2026-10-27T18:53:33.071Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -153,7 +153,7 @@
    "error": "",
    "count": 164,
    "hash": "6f0586c40b65c8fe",
-   "checkedAt": "2026-10-27T13:34:39.916Z",
+   "checkedAt": "2026-10-27T18:53:33.071Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -167,7 +167,7 @@
    "error": "",
    "count": 21,
    "hash": "ff9210a812239484",
-   "checkedAt": "2026-10-27T13:34:39.916Z",
+   "checkedAt": "2026-10-27T18:53:33.071Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -181,7 +181,7 @@
    "error": "",
    "count": 3,
    "hash": "ed4fc72b663d3272",
-   "checkedAt": "2026-10-27T13:34:39.916Z",
+   "checkedAt": "2026-10-27T18:53:33.071Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -195,7 +195,7 @@
    "error": "",
    "count": 0,
    "hash": "c4971aba58479f1e",
-   "checkedAt": "2026-10-27T13:34:39.916Z",
+   "checkedAt": "2026-10-27T18:53:33.071Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -209,7 +209,7 @@
    "error": "",
    "count": 0,
    "hash": "1bb4cc747921a82b",
-   "checkedAt": "2026-10-27T13:34:39.916Z",
+   "checkedAt": "2026-10-27T18:53:33.071Z",
    "changedAt": "2026-10-27T07:04:27.088Z"
   },
   {
@@ -223,7 +223,7 @@
    "error": "",
    "count": 124,
    "hash": "eb4a95c77f65d33f",
-   "checkedAt": "2026-10-27T13:34:39.916Z",
+   "checkedAt": "2026-10-27T18:53:33.071Z",
    "changedAt": "2026-10-25T21:38:51.828Z"
   },
   {
@@ -237,7 +237,7 @@
    "error": "",
    "count": 0,
    "hash": "9a327c9e5613dad4",
-   "checkedAt": "2026-10-27T13:34:39.916Z",
+   "checkedAt": "2026-10-27T18:53:33.071Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -251,7 +251,7 @@
    "error": "",
    "count": 0,
    "hash": "678bcb345b70e6ba",
-   "checkedAt": "2026-10-27T13:34:39.916Z",
+   "checkedAt": "2026-10-27T18:53:33.071Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -265,7 +265,7 @@
    "error": "",
    "count": 0,
    "hash": "974dc087b0130905",
-   "checkedAt": "2026-10-27T13:34:39.916Z",
+   "checkedAt": "2026-10-27T18:53:33.071Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   }
  ],
@@ -275,6 +275,60 @@
   "lastDate": "2026-10-27"
  },
  "items": [
+  {
+   "id": "jefaturas2026-fl195l",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Alegaciones",
+   "title": "Jefe/a de Servicio Sanitario de Cardiología · Lista Provisional",
+   "org": "OSI Bilbao-Basurto",
+   "categories": [
+    "Jefe/a de Servicio Sanitario de Cardiología"
+   ],
+   "published": "2026-10-28",
+   "start": "2026-10-28",
+   "end": "2026-11-10",
+   "estimated": false,
+   "literal": "Plazo para presentar alegaciones: abierto desde el 28/10/2026 hasta el 10/11/2026, ambos inclusive.",
+   "summary": "JEFE/A DE SERVICIO SANITARIO DE CARDIOLOGÍA - OSI BILBAO-BASURTO - Lista Provisional - Plazo para presentar alegaciones: abierto desde el 28/10/2026 hasta el 10/11/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/260921_CONC_J_SERV_CARDIO_OSI_BILBAO_BASURTO_L_PROV_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-k5g62x",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Alegaciones",
+   "title": "Jefe/a de Servicio Sanitario de Urología · Lista Provisional",
+   "org": "OSI Bilbao-Basurto",
+   "categories": [
+    "Jefe/a de Servicio Sanitario de Urología"
+   ],
+   "published": "2026-10-28",
+   "start": "2026-10-28",
+   "end": "2026-11-10",
+   "estimated": false,
+   "literal": "Plazo para presentar alegaciones: abierto desde el 28/10/2026 hasta el 10/11/2026, ambos inclusive.",
+   "summary": "JEFE/A DE SERVICIO SANITARIO DE UROLOGÍA - OSI BILBAO-BASURTO - Lista Provisional - Plazo para presentar alegaciones: abierto desde el 28/10/2026 hasta el 10/11/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/260921_CONC_J_SERV_URO_OSI_BILBAO_BASURTO_L_PROV_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-rutxuq",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Alegaciones",
+   "title": "Jefe/a de Servicio Sanitario de Medicina Interna · Lista Provisional",
+   "org": "OSI Bilbao-Basurto",
+   "categories": [
+    "Jefe/a de Servicio Sanitario de Medicina Interna"
+   ],
+   "published": "2026-10-28",
+   "start": "2026-10-28",
+   "end": "2026-11-10",
+   "estimated": false,
+   "literal": "Plazo para presentar alegaciones: abierto desde el 28/10/2026 hasta el 10/11/2026, ambos inclusive.",
+   "summary": "JEFE/A DE SERVICIO SANITARIO DE MEDICINA INTERNA - OSI BILBAO-BASURTO - Lista Provisional - Plazo para presentar alegaciones: abierto desde el 28/10/2026 hasta el 10/11/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/260921_CONC_J_SERV_MED_INT_OSI_BILBAO_BASURTO_L_PROV_a.pdf"
+  },
   {
    "id": "jefaturas2026-10xjhy4",
    "src": "jefaturas2026",
