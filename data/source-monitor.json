@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checkedAt": "2026-10-28T01:55:42.807Z",
+ "checkedAt": "2026-10-28T07:46:01.961Z",
  "sources": [
   {
    "key": "comisiones2026",
@@ -13,7 +13,7 @@
    "error": "",
    "count": 144,
    "hash": "21871cfa8d338d79",
-   "checkedAt": "2026-10-28T01:55:42.807Z",
+   "checkedAt": "2026-10-28T07:46:01.961Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -27,7 +27,7 @@
    "error": "",
    "count": 132,
    "hash": "77f324c1858c86af",
-   "checkedAt": "2026-10-28T01:55:42.807Z",
+   "checkedAt": "2026-10-28T07:46:01.961Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -39,10 +39,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 478,
-   "hash": "e78f55b7193683c7",
-   "checkedAt": "2026-10-28T01:55:42.807Z",
-   "changedAt": "2026-10-27T18:53:33.071Z"
+   "count": 483,
+   "hash": "d4fa994b1912c07b",
+   "checkedAt": "2026-10-28T07:46:01.961Z",
+   "changedAt": "2026-10-28T07:46:01.961Z"
   },
   {
    "key": "jefaturas2025",
@@ -55,7 +55,7 @@
    "error": "",
    "count": 479,
    "hash": "66143b22347640ab",
-   "checkedAt": "2026-10-28T01:55:42.807Z",
+   "checkedAt": "2026-10-28T07:46:01.961Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -69,7 +69,7 @@
    "error": "",
    "count": 30,
    "hash": "eb07d21ecb1d9061",
-   "checkedAt": "2026-10-28T01:55:42.807Z",
+   "checkedAt": "2026-10-28T07:46:01.961Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -83,7 +83,7 @@
    "error": "",
    "count": 54,
    "hash": "a304df315c59aa2c",
-   "checkedAt": "2026-10-28T01:55:42.807Z",
+   "checkedAt": "2026-10-28T07:46:01.961Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -97,7 +97,7 @@
    "error": "",
    "count": 79,
    "hash": "34fc66e897fa1bbd",
-   "checkedAt": "2026-10-28T01:55:42.807Z",
+   "checkedAt": "2026-10-28T07:46:01.961Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -111,7 +111,7 @@
    "error": "",
    "count": 255,
    "hash": "f4acb629416a7837",
-   "checkedAt": "2026-10-28T01:55:42.807Z",
+   "checkedAt": "2026-10-28T07:46:01.961Z",
    "changedAt": "2026-10-26T11:58:53.040Z"
   },
   {
@@ -125,7 +125,7 @@
    "error": "",
    "count": 15,
    "hash": "5458c70460b20bd8",
-   "checkedAt": "2026-10-28T01:55:42.807Z",
+   "checkedAt": "2026-10-28T07:46:01.961Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -139,7 +139,7 @@
    "error": "",
    "count": 83,
    "hash": "a6baac4fb1fc60c0",
-   "checkedAt": "2026-10-28T01:55:42.807Z",
+   "checkedAt": "2026-10-28T07:46:01.961Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -153,7 +153,7 @@
    "error": "",
    "count": 164,
    "hash": "6f0586c40b65c8fe",
-   "checkedAt": "2026-10-28T01:55:42.807Z",
+   "checkedAt": "2026-10-28T07:46:01.961Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -167,7 +167,7 @@
    "error": "",
    "count": 21,
    "hash": "ff9210a812239484",
-   "checkedAt": "2026-10-28T01:55:42.807Z",
+   "checkedAt": "2026-10-28T07:46:01.961Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -180,9 +180,9 @@
    "status": 200,
    "error": "",
    "count": 3,
-   "hash": "ed4fc72b663d3272",
-   "checkedAt": "2026-10-28T01:55:42.807Z",
-   "changedAt": "2026-10-23T10:17:45.441Z"
+   "hash": "f2a0ccd07af6d873",
+   "checkedAt": "2026-10-28T07:46:01.961Z",
+   "changedAt": "2026-10-28T07:46:01.961Z"
   },
   {
    "key": "convocatoriaPuestos",
@@ -195,7 +195,7 @@
    "error": "",
    "count": 0,
    "hash": "c4971aba58479f1e",
-   "checkedAt": "2026-10-28T01:55:42.807Z",
+   "checkedAt": "2026-10-28T07:46:01.961Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -207,10 +207,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 0,
-   "hash": "1bb4cc747921a82b",
-   "checkedAt": "2026-10-28T01:55:42.807Z",
-   "changedAt": "2026-10-27T07:04:27.088Z"
+   "count": 1,
+   "hash": "9a05859c257464f5",
+   "checkedAt": "2026-10-28T07:46:01.961Z",
+   "changedAt": "2026-10-28T07:46:01.961Z"
   },
   {
    "key": "ctap",
@@ -223,7 +223,7 @@
    "error": "",
    "count": 124,
    "hash": "eb4a95c77f65d33f",
-   "checkedAt": "2026-10-28T01:55:42.807Z",
+   "checkedAt": "2026-10-28T07:46:01.961Z",
    "changedAt": "2026-10-25T21:38:51.828Z"
   },
   {
@@ -237,7 +237,7 @@
    "error": "",
    "count": 0,
    "hash": "9a327c9e5613dad4",
-   "checkedAt": "2026-10-28T01:55:42.807Z",
+   "checkedAt": "2026-10-28T07:46:01.961Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -251,7 +251,7 @@
    "error": "",
    "count": 0,
    "hash": "678bcb345b70e6ba",
-   "checkedAt": "2026-10-28T01:55:42.807Z",
+   "checkedAt": "2026-10-28T07:46:01.961Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -265,16 +265,122 @@
    "error": "",
    "count": 0,
    "hash": "974dc087b0130905",
-   "checkedAt": "2026-10-28T01:55:42.807Z",
+   "checkedAt": "2026-10-28T07:46:01.961Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   }
  ],
  "bopv": {
   "yy": "26",
-  "lastNumber": 205,
-  "lastDate": "2026-10-27"
+  "lastNumber": 206,
+  "lastDate": "2026-10-28"
  },
  "items": [
+  {
+   "id": "jefaturas2026-11wwaqn",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Recurso de alzada",
+   "title": "Subdirector/a Médico-Quirúrgico · Nombramiento",
+   "org": "OSI Bilbao-Basurto",
+   "categories": [
+    "Subdirector/a Médico-Quirúrgico"
+   ],
+   "published": "2026-10-29",
+   "start": "2026-10-29",
+   "end": "2026-11-30",
+   "estimated": false,
+   "literal": "Plazo para presentar recursos de alzada: abierto desde el 29/10/2026 hasta el 30/11/2026, ambos inclusive.",
+   "summary": "SUBDIRECTOR/A MÉDICO-QUIRÚRGICO - NOMBRAMIENTO - OSI BILBAO-BASURTO - Plazo para presentar recursos de alzada: abierto desde el 29/10/2026 hasta el 30/11/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/260903_L_DESIG_SUBDIREC_MED_SUBDIREC_OSI_BILBAO_BASURTO_NOMBR_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-16d4yq1",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Solicitud / inscripción",
+   "title": "Secretario/a de Dirección (Dirección Gerencia)",
+   "org": "H. Gorliz",
+   "categories": [
+    "Secretario/a de Dirección"
+   ],
+   "published": "2026-10-29",
+   "start": "2026-10-29",
+   "end": "2026-11-18",
+   "estimated": false,
+   "literal": "Plazo de presentación de solicitudes: abierto desde el 29/10/2026 hasta el 18/11/2026, ambos inclusive.",
+   "summary": "SECRETARIO/A DE DIRECCIÓN (DIRECCIÓN GERENCIA) - H. GORLIZ - Plazo de presentación de solicitudes: abierto desde el 29/10/2026 hasta el 18/11/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/261028_L_DESIG_SECRET_DIREC_H_GORLIZ_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-1at4rpl",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Recurso de alzada",
+   "title": "Jefe de Estudios – Asignación de Funciones- OSI Araba",
+   "org": "",
+   "categories": [
+    "Asignación de Funciones- OSI Araba"
+   ],
+   "published": "2026-10-29",
+   "start": "2026-10-29",
+   "end": "2026-11-30",
+   "estimated": false,
+   "literal": "Plazo para presentar recursos de alzada: abierto desde el 29/10/2026 hasta el 30/11/2026, ambos inclusive.",
+   "summary": "JEFE DE ESTUDIOS - ASIGNACIÓN DE FUNCIONES- OSI ARABA - Plazo para presentar recursos de alzada: abierto desde el 29/10/2026 hasta el 30/11/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/260521_CONC_J_FORM_DIR_GRAL_ASIG_FUN_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-1r86mc7",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Recurso de alzada",
+   "title": "Coordinador/a de Docencia de Medicina Familiar y Comunitaria · Cese",
+   "org": "Dirección General",
+   "categories": [
+    "Coordinador/a de Docencia de Medicina Familiar y Comunitaria"
+   ],
+   "published": "2026-10-29",
+   "start": "2026-10-29",
+   "end": "2026-11-30",
+   "estimated": false,
+   "literal": "Plazo para presentar recursos de alzada: abierto desde el 29/10/2026 hasta el 30/11/2026, ambos inclusive.",
+   "summary": "COORDINADOR/A DE DOCENCIA DE MEDICINA FAMILIAR Y COMUNITARIA - DIRECCIÓN GENERAL - CESE - Plazo para presentar recursos de alzada: abierto desde el 29/10/2026 hasta el 30/11/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/261028_L_DESIG_COORD_DOCENCIA_DIR_RRHH_CESE_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-nxjfz",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Solicitud / inscripción",
+   "title": "Supervisor/a de Coordinación",
+   "org": "Emergencias",
+   "categories": [
+    "Supervisor/a de Coordinación"
+   ],
+   "published": "2026-10-29",
+   "start": "2026-10-29",
+   "end": "2026-11-18",
+   "estimated": false,
+   "literal": "Plazo de presentación de solicitudes: abierto desde el 29/10/2026 hasta el 18/11/2026, ambos inclusive.",
+   "summary": "SUPERVISOR/A DE COORDINACIÓN - EMERGENCIAS - Plazo de presentación de solicitudes: abierto desde el 29/10/2026 hasta el 18/11/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/261028_L_DESIG_SUPERV_COORD_EMERGENCIAS_a.pdf"
+  },
+  {
+   "id": "bopv-1p3c4ok",
+   "src": "bopv",
+   "process": "Desarrollo profesional",
+   "kind": "Publicación",
+   "title": "Admitidos/as y asignación definitiva de destinos (Resolución 1756/2026)",
+   "org": "",
+   "categories": [],
+   "published": "2026-10-28",
+   "start": "",
+   "end": "",
+   "estimated": false,
+   "literal": "",
+   "summary": "RESOLUCIÓN 1756/2026, de 19 de octubre, de la directora general de Osakidetza-Servicio vasco de salud, por la que se corrigen errores de la Resolución 1509/2026, de 1 de septiembre, por la que se resuelven las solicitudes de reconocimiento del nivel de desarrollo profesional y se ordena la publicación de la asignación definitiva del nivel de desarrollo profesional de los/las profesionales, de las organizaciones de…",
+   "url": "https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2026/10/2604547a.shtml"
+  },
   {
    "id": "jefaturas2026-fl195l",
    "src": "jefaturas2026",
