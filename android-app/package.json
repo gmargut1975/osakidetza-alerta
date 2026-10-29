@@ -1,0 +1,19 @@
+{
+  "name": "plazos-osakidetza-android",
+  "private": true,
+  "version": "1.0.0",
+  "description": "App Android de Plazos Osakidetza: la misma aplicación web empaquetada con Capacitor y una comprobación periódica en segundo plano que lanza alertas.",
+  "scripts": {
+    "prepare-www": "node scripts/prepare-www.mjs",
+    "icons": "capacitor-assets generate --android --iconBackgroundColor '#c8102e' --splashBackgroundColor '#ffffff'"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.0.0",
+    "@capacitor/background-runner": "^2.0.0",
+    "@capacitor/core": "^7.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^7.0.0"
+  }
+}

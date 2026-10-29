@@ -142,7 +142,16 @@ export async function checkBopv(source, get, previous, today) {
   return { status: latest.status, items, hash: hash(`${curYY}-${latestNumber}`), bopv: processed };
 }
 
-export async function run({ fetchImpl, sourcesPath, outputPath, today = madridToday(), ctapFetcher } = {}) {
+export function buildFeed(items, today, generatedAt) {
+  const from = addDays(today, -14);
+  const keep = items.filter((it) => (it.end && it.end >= addDays(today, -1)) || (it.published && it.published >= from));
+  return {
+    generatedAt,
+    items: keep.map((it) => ({ id: it.id, process: it.process, kind: it.kind, title: it.title, org: it.org || "", categories: (it.categories || []).slice(0, 12), published: it.published, start: it.start || "", end: it.end || "" })),
+  };
+}
+
+export async function run({ fetchImpl, sourcesPath, outputPath, feedPath, today = madridToday(), ctapFetcher } = {}) {
   const sp = sourcesPath || new URL("../data/sources.json", import.meta.url);
   const op = outputPath || new URL("../data/source-monitor.json", import.meta.url);
   const { sources } = JSON.parse(await readFile(sp, "utf8"));
@@ -188,7 +197,15 @@ export async function run({ fetchImpl, sourcesPath, outputPath, today = madridTo
   const changed = strip(output) !== strip(previous);
   const stale = !previous.checkedAt || Date.now() - Date.parse(previous.checkedAt) > 6 * 3600 * 1000;
   if (changed || stale) await writeFile(op, `${JSON.stringify(output, null, 1)}\n`);
-  return { output, changed };
+  // Resumen ligero para las alertas del móvil: lo que sigue con plazo y lo
+  // publicado en las dos últimas semanas (unos pocos KB en vez de varios MB).
+  const feed = buildFeed(items, today, checkedAt);
+  const fp = feedPath || new URL("../data/feed.json", import.meta.url);
+  let prevFeed = "";
+  try { prevFeed = await readFile(fp, "utf8"); } catch { /* primera vez */ }
+  const feedText = `${JSON.stringify(feed)}\n`;
+  if (prevFeed.replace(/"generatedAt":"[^"]*"/, "") !== feedText.replace(/"generatedAt":"[^"]*"/, "") || stale) await writeFile(fp, feedText);
+  return { output, changed, feed };
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {
