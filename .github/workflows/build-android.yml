@@ -119,12 +119,16 @@ jobs:
           path: plazos-osakidetza.apk
 
       - name: Publicar versión
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: android-v${{ env.VERSION }}
-          name: App Android ${{ env.VERSION }}
-          make_latest: "true"
-          files: plazos-osakidetza.apk
-          body: |
-            Descarga **plazos-osakidetza.apk** en el móvil y ábrelo para instalar (Android pedirá permitir instalar apps de esta fuente).
-            ${{ env.HAS_KEY == 'true' && 'Versión firmada: se instala encima de la anterior sin perder tus datos.' || 'Versión de pruebas (sin clave de firma): para instalarla encima de otra hay que desinstalar antes.' }}
+        working-directory: .
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ "$HAS_KEY" = "true" ]; then
+            NOTE="Versión firmada: se instala encima de la anterior sin perder tus datos."
+          else
+            NOTE="Versión de pruebas (sin clave de firma): para instalarla encima de otra hay que desinstalar antes."
+          fi
+          gh release create "android-v$VERSION" plazos-osakidetza.apk \
+            --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --latest \
+            --title "App Android $VERSION" \
+            --notes "Descarga **plazos-osakidetza.apk** en el móvil y ábrelo para instalar (Android pedirá permitir instalar apps de esta fuente). $NOTE"
