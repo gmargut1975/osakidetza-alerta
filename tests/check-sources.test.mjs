@@ -25,7 +25,7 @@ test("acumula avisos y conserva los de fuentes caídas", async () => {
     if (url.endsWith("/api")) return resp(JSON.stringify([{ id: 9, fechaInicio: "2026-10-09", tituloES: "PUBLICACIÓN LISTAS DEFINITIVAS", resumenES: "Hoy, 9 de octubre de 2026:\r\n•\tCELADOR/A\r\nPlazo para interponer recurso de alzada hasta el 9 de noviembre de 2026, inclusive." }]), "application/json");
     return { ok: false, status: 404, headers: { get: () => "" }, arrayBuffer: async () => new ArrayBuffer(0) };
   };
-  const { output } = await run({ fetchImpl, sourcesPath: sp, outputPath: op, today: "2026-10-15" });
+  const { output } = await run({ fetchImpl, sourcesPath: sp, outputPath: op, feedPath: `${op}.feed.json`, today: "2026-10-15" });
   const saved = JSON.parse(await readFile(op, "utf8"));
   assert.equal(saved.version, 2);
   assert.ok(saved.items.some((i) => i.id === "temporal-old"), "conserva el histórico");
@@ -38,7 +38,7 @@ test("acumula avisos y conserva los de fuentes caídas", async () => {
 test("descarta avisos de más de 24 meses", async () => {
   const old = { id: "x-1", src: "x", process: "P", kind: "Plazo", title: "Viejo", categories: [], published: "2023-01-01", start: "", end: "2023-02-01", url: "u" };
   const { sp, op } = await setup([], { version: 2, checkedAt: "2026-10-01T00:00:00Z", sources: [], items: [old] });
-  const { output } = await run({ fetchImpl: async () => { throw new Error("sin red"); }, sourcesPath: sp, outputPath: op, today: "2026-10-15" });
+  const { output } = await run({ fetchImpl: async () => { throw new Error("sin red"); }, sourcesPath: sp, outputPath: op, feedPath: `${op}.feed.json`, today: "2026-10-15" });
   assert.equal(output.items.length, 0);
 });
 
@@ -65,14 +65,26 @@ test("CTAP: la fuente usa el lector inyectado y falla de forma controlada", asyn
   const html = `<div class="announcement"><span class="announcement__date">21-10-2026</span><div class="announcement__title">Concurso de Traslados Abierto y Permanente</div><div class="announcement__title"><span>PUBLICACIÓN ADJUDICACIÓN PROVISIONAL CICLO OCTUBRE 2025</span></div><span class="entry-text__content">Plazo reclamaciones: 10 días hábiles, hasta el día 04/11/2026 incluido.</span></div>`;
   const src = [{ key: "ctap", type: "ctap", process: "Traslados", label: "CTAP", url: "https://x/avisos", publicUrl: "https://x/home" }];
   let { sp, op } = await setup(src, { version: 2, checkedAt: "2026-10-01T00:00:00Z", sources: [], items: [{ id: "x-1", src: "x", process: "P", kind: "Plazo", title: "t", categories: [], published: "2026-10-01", end: "2026-10-10", url: "u" }] });
-  const ok = await run({ fetchImpl: async () => { throw new Error("sin red"); }, ctapFetcher: async () => html, sourcesPath: sp, outputPath: op, today: "2026-10-25" });
+  const ok = await run({ fetchImpl: async () => { throw new Error("sin red"); }, ctapFetcher: async () => html, sourcesPath: sp, outputPath: op, feedPath: `${op}.feed.json`, today: "2026-10-25" });
   const item = ok.output.items.find((i) => i.src === "ctap");
   assert.equal(item.end, "2026-11-04");
   assert.equal(item.url, "https://x/home");
   ({ sp, op } = await setup(src, { version: 2, checkedAt: "2026-10-01T00:00:00Z", sources: [], items: [item] }));
-  const ko = await run({ fetchImpl: async () => { throw new Error("sin red"); }, ctapFetcher: async () => { throw new Error("Playwright no está instalado"); }, sourcesPath: sp, outputPath: op, today: "2026-10-25" });
+  const ko = await run({ fetchImpl: async () => { throw new Error("sin red"); }, ctapFetcher: async () => { throw new Error("Playwright no está instalado"); }, sourcesPath: sp, outputPath: op, feedPath: `${op}.feed.json`, today: "2026-10-25" });
   const row = ko.output.sources.find((s) => s.key === "ctap");
   assert.equal(row.ok, false);
   assert.match(row.error, /Playwright/);
   assert.ok(ko.output.items.some((i) => i.id === item.id), "conserva los avisos ya conocidos");
+});
+
+test("feed ligero para el móvil: solo lo vigente y lo reciente", async () => {
+  const { buildFeed } = await import("../scripts/check-sources.mjs");
+  const items = [
+    { id: "vigente", process: "P", kind: "Reclamación", title: "a", categories: [], published: "2026-01-01", end: "2026-11-04" },
+    { id: "reciente", process: "P", kind: "Publicación", title: "b", categories: [], published: "2026-10-20", end: "" },
+    { id: "viejo", process: "P", kind: "Plazo", title: "c", categories: [], published: "2026-05-01", end: "2026-06-01" },
+  ];
+  const feed = buildFeed(items, "2026-10-25", "t");
+  assert.deepEqual(feed.items.map((i) => i.id), ["vigente", "reciente"]);
+  assert.equal(feed.items[0].summary, undefined, "sin textos largos");
 });

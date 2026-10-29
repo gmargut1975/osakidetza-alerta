@@ -1,0 +1,16 @@
+{
+  "appId": "eus.plazos.osakidetza",
+  "appName": "Plazos Osakidetza",
+  "webDir": "www",
+  "android": { "allowMixedContent": false },
+  "plugins": {
+    "BackgroundRunner": {
+      "label": "eus.plazos.osakidetza.check",
+      "src": "runners/background.js",
+      "event": "checkPlazos",
+      "repeat": true,
+      "interval": 60,
+      "autoStart": true
+    }
+  }
+}

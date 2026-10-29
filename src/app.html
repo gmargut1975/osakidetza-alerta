@@ -267,7 +267,11 @@ const $ = (sel, root = document) => root.querySelector(sel);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const fold = (s) => String(s ?? "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 const STORE_KEY = "oskPlazos.v2";
-const MONITOR_URL = "./data/source-monitor.json";
+// En la app Android los datos se leen de GitHub Pages; en la web, del mismo sitio.
+const NATIVE = Boolean(window.PLAZOS_NATIVE);
+const MONITOR_URL = `${window.PLAZOS_DATA_BASE || "./"}data/source-monitor.json`;
+const APK_URL = "https://github.com/gmargut1975/osakidetza-alerta/releases/latest/download/plazos-osakidetza.apk";
+const RUNNER_LABEL = "eus.plazos.osakidetza.check";
 const REFRESH_MS = 30 * 60 * 1000;
 const SOON_DAYS = 3;
 const MONTHS = ["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"];
@@ -308,6 +312,7 @@ function load() {
   return s;
 }
 function save() {
+  queueNativeSync();
   try { localStorage.setItem(STORE_KEY, JSON.stringify(state)); }
   catch { if (storageOk) toast("No se pueden guardar los cambios en este navegador (almacenamiento bloqueado o lleno)."); storageOk = false; }
 }
@@ -468,8 +473,42 @@ function dueReminders() {
   });
   return out.sort((a, b) => a.left - b.left);
 }
+// App Android: el comprobador de segundo plano (android-app/runner) recibe
+// los intereses y los plazos seguidos y lanza él las notificaciones, también
+// con la app cerrada.
+function nativeRunner() {
+  const cap = window.Capacitor;
+  if (!NATIVE || !cap) return null;
+  return (cap.Plugins && cap.Plugins.BackgroundRunner) || (cap.registerPlugin ? cap.registerPlugin("BackgroundRunner") : null);
+}
+let nativeSyncTimer = 0;
+function queueNativeSync() {
+  if (!NATIVE) return;
+  clearTimeout(nativeSyncTimer);
+  nativeSyncTimer = setTimeout(syncNative, 400);
+}
+async function syncNative() {
+  const runner = nativeRunner();
+  if (!runner) return;
+  const tracked = Object.entries(state.follow).map(([id, f]) => {
+    const it = ITEMS.find((x) => x.id === id);
+    return it ? { id, title: it.title, org: it.org ? shortOrg(it.org) : "", end: it.end || "", responseEnd: f.responseEnd || "", status: f.status, remind: f.remind } : null;
+  }).filter(Boolean);
+  const details = { enabled: state.settings.systemNotifications, interests: state.interests, remind: state.settings.remind, tracked };
+  try { await runner.dispatchEvent({ label: RUNNER_LABEL, event: "syncState", details }); } catch { /* el comprobador aún no está listo */ }
+}
+async function nativePermission() {
+  const runner = nativeRunner();
+  if (!runner) return "unsupported";
+  try {
+    let p = await runner.checkPermissions();
+    if (p.notifications !== "granted") p = await runner.requestPermissions({ apis: ["notifications"] });
+    return p.notifications === "granted" ? "granted" : "denied";
+  } catch { return "denied"; }
+}
 // Notificaciones del sistema: cada novedad y cada recordatorio, una sola vez.
 async function notifySystem() {
+  if (NATIVE) { syncNative(); return; }
   if (!state.settings.systemNotifications || !("Notification" in window) || Notification.permission !== "granted") return;
   const pending = [];
   dueReminders().forEach((r) => { const k = `sys|${r.key}`; if (!state.notified[k]) { pending.push([k, `${r.label}: ${r.left === 0 ? "hoy" : `en ${plural(r.left, "día", "días")}`}`, `${r.it.org ? `${r.it.org} · ` : ""}${r.it.title}`]); } });
@@ -889,7 +928,7 @@ function markAllSeen() {
 function openSettings() {
   const d = $("#settings");
   const procs = [...new Set(ITEMS.map((i) => i.process))].sort((a, b) => a.localeCompare(b, "es"));
-  const perm = "Notification" in window ? Notification.permission : "unsupported";
+  const perm = NATIVE ? "default" : "Notification" in window ? Notification.permission : "unsupported";
   const srcRows = monitor && monitor.sources ? monitor.sources.map((s) => `<tr><td>${esc(s.label || s.key)}</td><td class="${s.ok ? "ok" : "ko"}">${s.ok ? "Correcta" : "Sin respuesta"}${s.error ? ` <small>(${esc(s.error)})</small>` : ""}</td><td>${s.count ?? ""}</td><td>${s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener">abrir</a>` : ""}</td></tr>`).join("") : "";
   d.innerHTML = `<div class="dlg-head"><h2 id="settingsTitle">Ajustes</h2><button class="btn ghost" data-close aria-label="Cerrar">✕</button></div>
   <form class="dlg-body" id="settingsForm">
@@ -900,7 +939,9 @@ function openSettings() {
     <fieldset class="fgroup"><legend>Recordatorios</legend>
       <label>Por defecto, avisar estos días antes del fin de plazo <input type="text" name="remind" value="${esc(state.settings.remind.join(", "))}" pattern="\\s*\\d{1,3}(\\s*,\\s*\\d{1,3})*\\s*"></label>
       <label style="display:flex;gap:8px;align-items:center;margin-top:8px"><input type="checkbox" name="sys" ${state.settings.systemNotifications && perm === "granted" ? "checked" : ""} ${perm === "unsupported" || perm === "denied" ? "disabled" : ""}> Notificaciones del sistema ${perm === "denied" ? "(bloqueadas en el navegador)" : perm === "unsupported" ? "(no disponibles en este navegador)" : ""}</label>
-      <p class="status-line">Los avisos se muestran cuando abres la aplicación (y cada 30 minutos si está abierta); cada uno, una sola vez.</p>
+      <p class="status-line">${NATIVE
+        ? "El móvil comprueba las novedades de tus intereses y tus recordatorios aproximadamente cada hora, aunque la app esté cerrada (Android puede retrasarlo si el móvil está en ahorro de batería). La primera comprobación solo aprende lo que ya hay: avisará de lo que salga a partir de ahí."
+        : `Los avisos se muestran cuando abres la aplicación (y cada 30 minutos si está abierta); cada uno, una sola vez. Para recibirlos con la app cerrada, <a href="${APK_URL}">descarga la app Android</a>.`}</p>
     </fieldset>
     <div class="actions"><button class="btn primary" type="submit">Guardar ajustes</button></div>
     <fieldset class="fgroup"><legend>Copia de seguridad</legend>
@@ -921,7 +962,12 @@ async function saveSettings(form) {
   const days = parseDays(fd.get("remind"));
   if (days.length) state.settings.remind = days;
   const wantSys = fd.get("sys") === "on";
-  if (wantSys && "Notification" in window && Notification.permission !== "granted") {
+  if (wantSys && NATIVE) {
+    const p = await nativePermission();
+    state.settings.systemNotifications = p === "granted";
+    if (p !== "granted") toast("Sin permiso de notificaciones: actívalo en Ajustes de Android > Apps > Plazos Osakidetza.");
+    else if (!state.interests.processes.length && !state.interests.categories.length) toast("Elige procesos o categorías en «Mis intereses» para recibir avisos de novedades.");
+  } else if (wantSys && "Notification" in window && Notification.permission !== "granted") {
     const p = await Notification.requestPermission().catch(() => "denied");
     state.settings.systemNotifications = p === "granted";
     if (p !== "granted") toast("No se ha concedido permiso para notificaciones.");
@@ -1110,11 +1156,18 @@ async function refresh(manual) {
   catch { $("#dataStatus").textContent = "Este navegador es demasiado antiguo para leer los datos incluidos; se intentará descargar la última comprobación."; }
   buildItems(); initMemory(); render();
   refresh(false);
+  // Primera apertura de la app Android: pedir permiso para avisar.
+  if (NATIVE && !state.settings.nativeAsked) {
+    state.settings.nativeAsked = true;
+    state.settings.systemNotifications = (await nativePermission()) === "granted";
+    save();
+    if (!state.interests.processes.length && !state.interests.categories.length) toast("Elige tus procesos y categorías en Ajustes para recibir avisos de novedades.");
+  }
 })();
 setInterval(() => refresh(false), REFRESH_MS);
 document.addEventListener("visibilitychange", () => { if (!document.hidden && Date.now() - lastLoad > 5 * 60 * 1000) refresh(false); });
 window.addEventListener("storage", (e) => { if (e.key === STORE_KEY) location.reload(); });
-if (/^https?:$/.test(location.protocol)) {
+if (!NATIVE && /^https?:$/.test(location.protocol)) {
   const link = document.createElement("link"); link.rel = "manifest"; link.href = "manifest.webmanifest"; document.head.append(link);
   if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
 }
