@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checkedAt": "2026-10-30T07:29:38.465Z",
+ "checkedAt": "2026-10-30T14:27:12.732Z",
  "sources": [
   {
    "key": "comisiones2026",
@@ -11,10 +11,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 144,
-   "hash": "21871cfa8d338d79",
-   "checkedAt": "2026-10-30T07:29:38.465Z",
-   "changedAt": "2026-10-23T10:17:45.441Z"
+   "count": 145,
+   "hash": "0f88d20e235dd341",
+   "checkedAt": "2026-10-30T14:27:12.732Z",
+   "changedAt": "2026-10-30T14:27:12.732Z"
   },
   {
    "key": "comisiones2025",
@@ -27,7 +27,7 @@
    "error": "",
    "count": 132,
    "hash": "77f324c1858c86af",
-   "checkedAt": "2026-10-30T07:29:38.465Z",
+   "checkedAt": "2026-10-30T14:27:12.732Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -39,10 +39,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 483,
-   "hash": "dc8f27bdacd05dab",
-   "checkedAt": "2026-10-30T07:29:38.465Z",
-   "changedAt": "2026-10-29T17:12:43.030Z"
+   "count": 484,
+   "hash": "2964efbd77c0a1db",
+   "checkedAt": "2026-10-30T14:27:12.732Z",
+   "changedAt": "2026-10-30T14:27:12.732Z"
   },
   {
    "key": "jefaturas2025",
@@ -55,7 +55,7 @@
    "error": "",
    "count": 479,
    "hash": "66143b22347640ab",
-   "checkedAt": "2026-10-30T07:29:38.465Z",
+   "checkedAt": "2026-10-30T14:27:12.732Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -69,7 +69,7 @@
    "error": "",
    "count": 30,
    "hash": "eb07d21ecb1d9061",
-   "checkedAt": "2026-10-30T07:29:38.465Z",
+   "checkedAt": "2026-10-30T14:27:12.732Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -83,7 +83,7 @@
    "error": "",
    "count": 54,
    "hash": "a304df315c59aa2c",
-   "checkedAt": "2026-10-30T07:29:38.465Z",
+   "checkedAt": "2026-10-30T14:27:12.732Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -95,10 +95,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 79,
-   "hash": "34fc66e897fa1bbd",
-   "checkedAt": "2026-10-30T07:29:38.465Z",
-   "changedAt": "2026-10-23T10:17:45.441Z"
+   "count": 80,
+   "hash": "108cba716b7e116d",
+   "checkedAt": "2026-10-30T14:27:12.732Z",
+   "changedAt": "2026-10-30T14:27:12.732Z"
   },
   {
    "key": "lanpoltsa",
@@ -109,10 +109,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 256,
-   "hash": "58fa0a92cc6612d5",
-   "checkedAt": "2026-10-30T07:29:38.465Z",
-   "changedAt": "2026-10-28T19:59:25.173Z"
+   "count": 257,
+   "hash": "f39ce67a0fa1a213",
+   "checkedAt": "2026-10-30T14:27:12.732Z",
+   "changedAt": "2026-10-30T14:27:12.732Z"
   },
   {
    "key": "ope2325",
@@ -123,10 +123,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 15,
-   "hash": "5458c70460b20bd8",
-   "checkedAt": "2026-10-30T07:29:38.465Z",
-   "changedAt": "2026-10-23T10:17:45.441Z"
+   "count": 16,
+   "hash": "e8a956ae6d0b88fa",
+   "checkedAt": "2026-10-30T14:27:12.732Z",
+   "changedAt": "2026-10-30T14:27:12.732Z"
   },
   {
    "key": "ope2022",
@@ -139,7 +139,7 @@
    "error": "",
    "count": 83,
    "hash": "a6baac4fb1fc60c0",
-   "checkedAt": "2026-10-30T07:29:38.465Z",
+   "checkedAt": "2026-10-30T14:27:12.732Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -153,7 +153,7 @@
    "error": "",
    "count": 164,
    "hash": "6f0586c40b65c8fe",
-   "checkedAt": "2026-10-30T07:29:38.465Z",
+   "checkedAt": "2026-10-30T14:27:12.732Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -167,7 +167,7 @@
    "error": "",
    "count": 21,
    "hash": "ff9210a812239484",
-   "checkedAt": "2026-10-30T07:29:38.465Z",
+   "checkedAt": "2026-10-30T14:27:12.732Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -181,7 +181,7 @@
    "error": "",
    "count": 3,
    "hash": "3ff1c551e57dff5d",
-   "checkedAt": "2026-10-30T07:29:38.465Z",
+   "checkedAt": "2026-10-30T14:27:12.732Z",
    "changedAt": "2026-10-28T14:42:46.786Z"
   },
   {
@@ -195,7 +195,7 @@
    "error": "",
    "count": 0,
    "hash": "c4971aba58479f1e",
-   "checkedAt": "2026-10-30T07:29:38.465Z",
+   "checkedAt": "2026-10-30T14:27:12.732Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -207,9 +207,9 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 13,
+   "count": 0,
    "hash": "964caaff0d68b6ad",
-   "checkedAt": "2026-10-30T07:29:38.465Z",
+   "checkedAt": "2026-10-30T14:27:12.732Z",
    "changedAt": "2026-10-30T07:29:38.465Z"
   },
   {
@@ -223,7 +223,7 @@
    "error": "",
    "count": 124,
    "hash": "eb4a95c77f65d33f",
-   "checkedAt": "2026-10-30T07:29:38.465Z",
+   "checkedAt": "2026-10-30T14:27:12.732Z",
    "changedAt": "2026-10-25T21:38:51.828Z"
   },
   {
@@ -237,7 +237,7 @@
    "error": "",
    "count": 0,
    "hash": "9a327c9e5613dad4",
-   "checkedAt": "2026-10-30T07:29:38.465Z",
+   "checkedAt": "2026-10-30T14:27:12.732Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -251,7 +251,7 @@
    "error": "",
    "count": 0,
    "hash": "678bcb345b70e6ba",
-   "checkedAt": "2026-10-30T07:29:38.465Z",
+   "checkedAt": "2026-10-30T14:27:12.732Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -265,7 +265,7 @@
    "error": "",
    "count": 0,
    "hash": "974dc087b0130905",
-   "checkedAt": "2026-10-30T07:29:38.465Z",
+   "checkedAt": "2026-10-30T14:27:12.732Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   }
  ],
@@ -275,6 +275,42 @@
   "lastDate": "2026-10-30"
  },
  "items": [
+  {
+   "id": "comisiones2026-1brr60u",
+   "src": "comisiones2026",
+   "process": "Comisiones de servicios",
+   "kind": "Alegaciones",
+   "title": "Enfermería Pediátrica · Lista Provisional",
+   "org": "OSI Ezkerraldea-Enkarterri-Cruces",
+   "categories": [
+    "Enfermería Pediátrica"
+   ],
+   "published": "2026-11-02",
+   "start": "2026-11-02",
+   "end": "2026-11-13",
+   "estimated": false,
+   "literal": "Plazo para presentar alegaciones: abierto desde el 02/11/2026 hasta el 13/11/2026, ambos inclusive.",
+   "summary": "ENFERMERÍA PEDIÁTRICA - OSI EZKERRALDEA-ENKARTERRI-CRUCES - Lista Provisional - Plazo para presentar alegaciones: abierto desde el 02/11/2026 hasta el 13/11/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/comisiones-servicios-2026/webosk00-procon/es/adjuntos/260925_C_SERV_PIT_ENF_PEDIATRIA_OSI_EZ_EN_CRUCES_L_PROV.pdf"
+  },
+  {
+   "id": "jefaturas2026-68hzbe",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Recurso de alzada",
+   "title": "Jefe/a de Sección Sanitaria en la Unidad de Cronicidad y Fin de Vida · Lista Definitiva/Comisión de valoración",
+   "org": "Dirección General",
+   "categories": [
+    "Jefe/a de Sección Sanitaria en la Unidad de Cronicidad y Fin de Vida"
+   ],
+   "published": "2026-10-31",
+   "start": "2026-10-31",
+   "end": "2026-11-30",
+   "estimated": false,
+   "literal": "Plazo para presentar recursos de alzada: abierto desde el 31/10/2026 hasta el 30/11/2026, ambos inclusive.",
+   "summary": "JEFE/A DE SECCIÓN SANITARIA EN LA UNIDAD DE CRONICIDAD Y FIN DE VIDA - DIRECCIÓN GENERAL - Lista Definitiva/Comisión de valoración - Plazo para presentar recursos de alzada: abierto desde el 31/10/2026 hasta el 30/11/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/260825_CONC_J_SEC_CRONIC_DIR_GRAL_L_DEF_COM_VALOR_a.pdf"
+  },
   {
    "id": "bopv-1bbhxj9",
    "src": "bopv",
@@ -508,6 +544,75 @@
    "literal": "Sexto.– Establecer como plazo para presentar la solicitud de participación en la presente convocatoria desde el día 2 de noviembre hasta las 14:00 horas del día 27 de noviembre de 2026, de acuerdo con lo previsto en la base 10.3 de la Resolución 120/2026, de 28 de enero, de la directora general de Osakidetza-Servicio vasco de salud, por la que se aprueban las bases generales.",
    "summary": "RESOLUCIÓN 1680/2026, de 1 de octubre, de la directora general de Osakidetza-Servicio vasco de salud, por la que se aprueban las bases específicas que han de regir el proceso selectivo para la adquisición del vínculo estatutario fijo en la categoría de médico/a (puesto funcional de facultativo/a especialista médico/a enfermedades infecciosas) del grupo profesional de facultativos/as médicos/as y técnicos/as con…",
    "url": "https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2026/10/2604578a.shtml"
+  },
+  {
+   "id": "ope2325-12uxv9u",
+   "src": "ope2325",
+   "process": "OPE 2023-2024-2025",
+   "kind": "Solicitud / inscripción",
+   "title": "El día 30 de octubre de 2026 se han publicado en el Boletín Oficial del País Vasco las bases específicas de las siguientes categorías de la Oferta…",
+   "org": "",
+   "categories": [
+    "F.E. Médico/a Alergología",
+    "F.E. Médico/a Anatomía Patológica",
+    "F.E. Médico/a Anestesiología y Reanimación",
+    "F.E. Médico/a Angiología y Cirugía Vascular",
+    "F.E. Médico/a Aparato Digestivo",
+    "F.E. Médico/a Cirugía General y Aparato Digestivo",
+    "F.E. Médico/a Cirugía Oral y Maxilofacial",
+    "F.E. Médico/a Cirugía Ortopédica y Traumatología",
+    "F.E. Médico/a Cirugía Pediátrica",
+    "F.E. Médico/a Cirugía Plástica, Estética y Reparadora",
+    "F.E. Médico/a Cirugía Torácica",
+    "F.E. Médico/a Cuidados Paliativos",
+    "F.E. Médico/a de Familia - EAP",
+    "F.E. Médico/a Dermatología, Medicina Quirúrgica y Venereología",
+    "F.E. Médico/a Endocrinología y Nutrición",
+    "F.E. Médico/a Enfermedades Infecciosas",
+    "F.E. Médico/a Hematología y Hemoterapia",
+    "F.E. Médico/a Hospitalización a Domicilio",
+    "F.E. Médico/a Medicina del Trabajo",
+    "F.E. Médico/a Medicina Intensiva",
+    "F.E. Médico/a Medicina Interna",
+    "F.E. Médico/a Medicina Nuclear",
+    "F.E. Médico/a Medicina Preventiva y Salud Pública",
+    "F.E. Médico/a Nefrología",
+    "F.E. Médico/a Neumología",
+    "F.E. Médico/a Neurocirugía",
+    "F.E. Médico/a Neurofisiología Clínica",
+    "F.E. Médico/a Neurología",
+    "F.E. Médico/a Obstetricia y Ginecología",
+    "F.E. Médico/a Oftalmología"
+   ],
+   "published": "2026-10-30",
+   "start": "2026-11-02",
+   "end": "2026-11-27",
+   "estimated": false,
+   "literal": "El plazo de presentación de solicitudes de participación en estas categorías se extenderá desde el día 2 de noviembre hasta el 27 de noviembre a las 14:00.",
+   "summary": "El día 30 de octubre de 2026 se han publicado en el Boletín Oficial del País Vasco las bases específicas de las siguientes categorías de la Oferta Pública de Empleo 2023-2024-2025: F.E. MÉDICO/A ALERGOLOGÍA F.E. MÉDICO/A ANATOMÍA PATOLÓGICA F.E. MÉDICO/A ANESTESIOLOGÍA Y REANIMACIÓN F.E. MÉDICO/A ANGIOLOGÍA Y CIRUGÍA VASCULAR F.E. MÉDICO/A APARATO DIGESTIVO F.E. MÉDICO/A CIRUGÍA GENERAL Y APARATO DIGESTIVO F.E.…",
+   "url": "https://www.osakidetza.euskadi.eus/ope-2023-2024-2025/webosk00-procon/es/#:~:text=El%20d%C3%ADa%2030%20de%20octubre%20de%202026"
+  },
+  {
+   "id": "temporal-hx8mgr",
+   "src": "temporal",
+   "process": "Listas de contratación temporal",
+   "kind": "Recurso de alzada",
+   "title": "Publicación Listas Definitivas",
+   "org": "",
+   "categories": [
+    "F.E.M. - Técnico/a Laboratorio Clínico"
+   ],
+   "published": "2026-10-30",
+   "start": "2026-10-30",
+   "end": "2026-11-30",
+   "estimated": false,
+   "literal": "Plazo para interponer recurso de alzada hasta el 30 de noviembre de 2026, inclusive.",
+   "summary": "Hoy, 30 de octubre de 2026, está prevista la publicación de las Listas definitivas de contratación temporal de la siguiente categoría/puesto funcional: F.E.M. - TÉCNICO/A LABORATORIO CLÍNICO Plazo para interponer recurso de alzada hasta el 30 de noviembre de 2026, inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/#:~:text=Hoy%2C%2030%20de%20octubre%20de%202026%2C%20est%C3%A1",
+   "altUrl": "https://lanpoltsa.osakidetza.eus/c28/avisos-generales",
+   "aliases": [
+    "lanpoltsa-4505"
+   ]
   },
   {
    "id": "jefaturas2026-11wwaqn",
@@ -12181,6 +12286,53 @@
    "literal": "Último día de presentación de solicitudes: 16 de junio de 2026 (incluido).",
    "summary": "Se oferta un nombramiento para la cobertura de un puesto de Técnico/a Superior Jurídico/a (RRHH), con conocimientos específicos, utilizando el correo electrónico como forma de contacto, a las personas integrantes de las listas largas de contratación en la OSI Araba y en el Área de Araba. Igualmente, se remitirá esta oferta a las personas que, habiendo realizado solicitud de inscripción en las listas descritas en el…",
    "url": "https://lanpoltsa.osakidetza.eus/c28/avisos-generales"
+  },
+  {
+   "id": "ope2325-1k0in79",
+   "src": "ope2325",
+   "process": "OPE 2023-2024-2025",
+   "kind": "Solicitud / inscripción",
+   "title": "Presentación de Solicitudes",
+   "org": "",
+   "categories": [
+    "F.E. Médico/a Emergencias",
+    "F. Tecnico/a Farmaceutico/a",
+    "F. Tecnico/a Odontologo/a",
+    "F.E. Médico/a Pediatría Hospitalaria",
+    "F.E. Técnico/a Psicólogo/a Clínico/a",
+    "F.E. Médico/a UGS",
+    "Letrado/a Corporativo/a",
+    "Bibliotecario/a",
+    "Técnico/a Superior Económico/a",
+    "Técnico/a Superior Informática",
+    "Técnico/a Superior Jurídico/a",
+    "Técnico/a Superior Mantenimiento e Instalaciones",
+    "Técnico/a Superior Normalización de Euskera",
+    "Técnico/a Superior Organización",
+    "Técnico/a Superior Prevención, Ergonomía y Psicosociología",
+    "Técnico/a Superior Prevención, Seguridad e Higiene",
+    "Diplomado/a Óptica y Optometría",
+    "Enfermero/a Salud Laboral",
+    "Enfermero/a Salud Mental",
+    "Matrón/a",
+    "Terapeuta Ocupacional",
+    "Técnico/a Medio Administración y Gestión",
+    "Técnico/a Medio Mantenimiento e Instalaciones",
+    "Trabajador/a Social",
+    "Técnico/a Especialista Anatomía Patológica y Citología",
+    "Técnico/a Especialista Audioprótesis",
+    "Técnico/a Especialista Dietetica",
+    "Técnico/a Especialista Documentación Sanitaria",
+    "Técnico/a Especialista Radiodiagnóstico",
+    "Técnico/a Especialista Radioterapia"
+   ],
+   "published": "2026-06-01",
+   "start": "2026-06-02",
+   "end": "2026-06-29",
+   "estimated": false,
+   "literal": "El plazo de presentación de solicitudes de participación en estas categorías se extenderá desde el día 2 de junio hasta el 29 de junio a las 14:00.",
+   "summary": "El día 1 de junio de 2026 se han publicado en el Boletín Oficial del País Vasco las bases específicas de las siguientes categorías de la Oferta Pública de Empleo 2023-2024-2025: F.E. MÉDICO/A EMERGENCIAS F. TECNICO/A FARMACEUTICO/A F. TECNICO/A ODONTOLOGO/A F.E. MÉDICO/A PEDIATRÍA HOSPITALARIA F.E. TÉCNICO/A PSICÓLOGO/A CLÍNICO/A F.E. MÉDICO/A UGS LETRADO/A CORPORATIVO/A BIBLIOTECARIO/A TÉCNICO/A SUPERIOR…",
+   "url": "https://www.osakidetza.euskadi.eus/ope-2023-2024-2025/webosk00-procon/es/#:~:text=El%20d%C3%ADa%201%20de%20junio%20de%202026"
   },
   {
    "id": "ope2325-o646hk",
