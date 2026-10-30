@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checkedAt": "2026-10-30T01:27:40.570Z",
+ "checkedAt": "2026-10-30T07:29:38.465Z",
  "sources": [
   {
    "key": "comisiones2026",
@@ -13,7 +13,7 @@
    "error": "",
    "count": 144,
    "hash": "21871cfa8d338d79",
-   "checkedAt": "2026-10-30T01:27:40.570Z",
+   "checkedAt": "2026-10-30T07:29:38.465Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -27,7 +27,7 @@
    "error": "",
    "count": 132,
    "hash": "77f324c1858c86af",
-   "checkedAt": "2026-10-30T01:27:40.570Z",
+   "checkedAt": "2026-10-30T07:29:38.465Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -41,7 +41,7 @@
    "error": "",
    "count": 483,
    "hash": "dc8f27bdacd05dab",
-   "checkedAt": "2026-10-30T01:27:40.570Z",
+   "checkedAt": "2026-10-30T07:29:38.465Z",
    "changedAt": "2026-10-29T17:12:43.030Z"
   },
   {
@@ -55,7 +55,7 @@
    "error": "",
    "count": 479,
    "hash": "66143b22347640ab",
-   "checkedAt": "2026-10-30T01:27:40.570Z",
+   "checkedAt": "2026-10-30T07:29:38.465Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -69,7 +69,7 @@
    "error": "",
    "count": 30,
    "hash": "eb07d21ecb1d9061",
-   "checkedAt": "2026-10-30T01:27:40.570Z",
+   "checkedAt": "2026-10-30T07:29:38.465Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -83,7 +83,7 @@
    "error": "",
    "count": 54,
    "hash": "a304df315c59aa2c",
-   "checkedAt": "2026-10-30T01:27:40.570Z",
+   "checkedAt": "2026-10-30T07:29:38.465Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -97,7 +97,7 @@
    "error": "",
    "count": 79,
    "hash": "34fc66e897fa1bbd",
-   "checkedAt": "2026-10-30T01:27:40.570Z",
+   "checkedAt": "2026-10-30T07:29:38.465Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -111,7 +111,7 @@
    "error": "",
    "count": 256,
    "hash": "58fa0a92cc6612d5",
-   "checkedAt": "2026-10-30T01:27:40.570Z",
+   "checkedAt": "2026-10-30T07:29:38.465Z",
    "changedAt": "2026-10-28T19:59:25.173Z"
   },
   {
@@ -125,7 +125,7 @@
    "error": "",
    "count": 15,
    "hash": "5458c70460b20bd8",
-   "checkedAt": "2026-10-30T01:27:40.570Z",
+   "checkedAt": "2026-10-30T07:29:38.465Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -139,7 +139,7 @@
    "error": "",
    "count": 83,
    "hash": "a6baac4fb1fc60c0",
-   "checkedAt": "2026-10-30T01:27:40.570Z",
+   "checkedAt": "2026-10-30T07:29:38.465Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -153,7 +153,7 @@
    "error": "",
    "count": 164,
    "hash": "6f0586c40b65c8fe",
-   "checkedAt": "2026-10-30T01:27:40.570Z",
+   "checkedAt": "2026-10-30T07:29:38.465Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -167,7 +167,7 @@
    "error": "",
    "count": 21,
    "hash": "ff9210a812239484",
-   "checkedAt": "2026-10-30T01:27:40.570Z",
+   "checkedAt": "2026-10-30T07:29:38.465Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -181,7 +181,7 @@
    "error": "",
    "count": 3,
    "hash": "3ff1c551e57dff5d",
-   "checkedAt": "2026-10-30T01:27:40.570Z",
+   "checkedAt": "2026-10-30T07:29:38.465Z",
    "changedAt": "2026-10-28T14:42:46.786Z"
   },
   {
@@ -195,7 +195,7 @@
    "error": "",
    "count": 0,
    "hash": "c4971aba58479f1e",
-   "checkedAt": "2026-10-30T01:27:40.570Z",
+   "checkedAt": "2026-10-30T07:29:38.465Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -207,10 +207,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 0,
-   "hash": "6307b14b60a47ed3",
-   "checkedAt": "2026-10-30T01:27:40.570Z",
-   "changedAt": "2026-10-29T10:35:13.380Z"
+   "count": 13,
+   "hash": "964caaff0d68b6ad",
+   "checkedAt": "2026-10-30T07:29:38.465Z",
+   "changedAt": "2026-10-30T07:29:38.465Z"
   },
   {
    "key": "ctap",
@@ -223,7 +223,7 @@
    "error": "",
    "count": 124,
    "hash": "eb4a95c77f65d33f",
-   "checkedAt": "2026-10-30T01:27:40.570Z",
+   "checkedAt": "2026-10-30T07:29:38.465Z",
    "changedAt": "2026-10-25T21:38:51.828Z"
   },
   {
@@ -237,7 +237,7 @@
    "error": "",
    "count": 0,
    "hash": "9a327c9e5613dad4",
-   "checkedAt": "2026-10-30T01:27:40.570Z",
+   "checkedAt": "2026-10-30T07:29:38.465Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -251,7 +251,7 @@
    "error": "",
    "count": 0,
    "hash": "678bcb345b70e6ba",
-   "checkedAt": "2026-10-30T01:27:40.570Z",
+   "checkedAt": "2026-10-30T07:29:38.465Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -265,16 +265,250 @@
    "error": "",
    "count": 0,
    "hash": "974dc087b0130905",
-   "checkedAt": "2026-10-30T01:27:40.570Z",
+   "checkedAt": "2026-10-30T07:29:38.465Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   }
  ],
  "bopv": {
   "yy": "26",
-  "lastNumber": 207,
-  "lastDate": "2026-10-29"
+  "lastNumber": 208,
+  "lastDate": "2026-10-30"
  },
  "items": [
+  {
+   "id": "bopv-1bbhxj9",
+   "src": "bopv",
+   "process": "OPE (BOPV)",
+   "kind": "Solicitud / inscripción",
+   "title": "Bases específicas de la convocatoria (Resolución 1688/2026)",
+   "org": "",
+   "categories": [
+    "Facultativo/a especialista técnico/a farmacia hospitalaria"
+   ],
+   "published": "2026-10-30",
+   "start": "2026-10-30",
+   "end": "2026-11-27",
+   "estimated": false,
+   "literal": "Sexto.– Establecer como plazo para presentar la solicitud de participación en la presente convocatoria desde el día 2 de noviembre hasta las 14:00 horas del día 27 de noviembre de 2026, de acuerdo con lo previsto en la base 10.3 de la Resolución 120/2026, de 28 de enero, de la directora general de Osakidetza-Servicio vasco de salud, por la que se aprueban las bases generales.",
+   "summary": "RESOLUCIÓN 1688/2026, de 1 de octubre, de la directora general de Osakidetza-Servicio vasco de salud, por la que se aprueban las bases específicas que han de regir el proceso selectivo para la adquisición del vínculo estatutario fijo en la categoría de farmacéutico/a (puesto funcional de facultativo/a especialista técnico/a farmacia hospitalaria) del grupo profesional de facultativos/as médicos/as y técnicos/as con…",
+   "url": "https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2026/10/2604586a.shtml"
+  },
+  {
+   "id": "bopv-1c7tn7u",
+   "src": "bopv",
+   "process": "OPE (BOPV)",
+   "kind": "Solicitud / inscripción",
+   "title": "Bases específicas de la convocatoria (Resolución 1687/2026)",
+   "org": "",
+   "categories": [
+    "Facultativo/a especialista médico/a-técnico/a radiofísica hospitalaria"
+   ],
+   "published": "2026-10-30",
+   "start": "2026-10-30",
+   "end": "2026-11-27",
+   "estimated": false,
+   "literal": "Sexto.– Establecer como plazo para presentar la solicitud de participación en la presente convocatoria desde el día 2 de noviembre hasta las 14:00 horas del día 27 de noviembre de 2026, de acuerdo con lo previsto en la base 10.3 de la Resolución 120/2026, de 28 de enero, de la directora general de Osakidetza-Servicio vasco de salud, por la que se aprueban las bases generales.",
+   "summary": "RESOLUCIÓN 1687/2026, de 1 de octubre, de la directora general de Osakidetza-Servicio vasco de salud, por la que se aprueban las bases específicas que han de regir el proceso selectivo para la adquisición del vínculo estatutario fijo en la categoría de radiofísico/a hospitalario/a (puesto funcional de facultativo/a especialista médico/a-técnico/a radiofísica hospitalaria) del grupo profesional de facultativos/as…",
+   "url": "https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2026/10/2604585a.shtml"
+  },
+  {
+   "id": "bopv-1svgr24",
+   "src": "bopv",
+   "process": "OPE (BOPV)",
+   "kind": "Solicitud / inscripción",
+   "title": "Bases específicas de la convocatoria (Resolución 1685/2026)",
+   "org": "",
+   "categories": [
+    "Facultativo/a especialista médico/a - técnico/a inmunología"
+   ],
+   "published": "2026-10-30",
+   "start": "2026-10-30",
+   "end": "2026-11-27",
+   "estimated": false,
+   "literal": "Sexto.– Establecer como plazo para presentar la solicitud de participación en la presente convocatoria desde el día 2 de noviembre hasta las 14:00 horas del día 27 de noviembre de 2026, de acuerdo con lo previsto en la base 10.3 de la Resolución 120/2026, de 28 de enero, de la directora general de Osakidetza-Servicio vasco de salud, por la que se aprueban las bases generales.",
+   "summary": "RESOLUCIÓN 1685/2026, de 1 de octubre, de la directora general de Osakidetza-Servicio vasco de salud, por la que se aprueban las bases específicas que han de regir el proceso selectivo para la adquisición del vínculo estatutario fijo en la categoría de inmunólogo/a (puesto funcional de facultativo/a especialista médico/a - técnico/a inmunología) del grupo profesional de facultativos/as médicos/as y técnicos/as con…",
+   "url": "https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2026/10/2604583a.shtml"
+  },
+  {
+   "id": "bopv-1yl1w37",
+   "src": "bopv",
+   "process": "OPE (BOPV)",
+   "kind": "Solicitud / inscripción",
+   "title": "Bases específicas de la convocatoria (Resolución 1682/2026)",
+   "org": "",
+   "categories": [
+    "Facultativo/a especialista médico/a medicina del trabajo"
+   ],
+   "published": "2026-10-30",
+   "start": "2026-10-30",
+   "end": "2026-11-27",
+   "estimated": false,
+   "literal": "Sexto.– Establecer como plazo para presentar la solicitud de participación en la presente convocatoria desde el día 2 de noviembre hasta las 14:00 horas del día 27 de noviembre de 2026, de acuerdo con lo previsto en la base 10.3 de la Resolución 120/2026, de 28 de enero, de la directora general de Osakidetza-Servicio vasco de salud, por la que se aprueban las bases generales.",
+   "summary": "RESOLUCIÓN 1682/2026, de 1 de octubre, de la directora general de Osakidetza-Servicio vasco de salud, por la que se aprueban las bases específicas que han de regir el proceso selectivo para la adquisición del vínculo estatutario fijo en la categoría de médico/a (puesto funcional de facultativo/a especialista médico/a medicina del trabajo) del grupo profesional de facultativos/as médicos/as y técnicos/as con destino…",
+   "url": "https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2026/10/2604580a.shtml"
+  },
+  {
+   "id": "bopv-7fqp7n",
+   "src": "bopv",
+   "process": "OPE (BOPV)",
+   "kind": "Solicitud / inscripción",
+   "title": "Bases específicas de la convocatoria (Resolución 1681/2026)",
+   "org": "",
+   "categories": [
+    "Facultativo/a especialista médico/a hospitalización a domicilio"
+   ],
+   "published": "2026-10-30",
+   "start": "2026-10-30",
+   "end": "2026-11-27",
+   "estimated": false,
+   "literal": "Sexto.– Establecer como plazo para presentar la solicitud de participación en la presente convocatoria desde el día 2 de noviembre hasta las 14:00 horas del día 27 de noviembre de 2026, de acuerdo con lo previsto en la base 10.3 de la Resolución 120/2026, de 28 de enero, de la directora general de Osakidetza-Servicio vasco de salud, por la que se aprueban las bases generales.",
+   "summary": "RESOLUCIÓN 1681/2026, de 1 de octubre, de la directora general de Osakidetza-Servicio vasco de salud, por la que se aprueban las bases específicas que han de regir el proceso selectivo para la adquisición del vínculo estatutario fijo en la categoría de médico/a (puesto funcional de facultativo/a especialista médico/a hospitalización a domicilio) del grupo profesional de facultativos/as médicos/as y técnicos/as con…",
+   "url": "https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2026/10/2604579a.shtml"
+  },
+  {
+   "id": "bopv-by74d",
+   "src": "bopv",
+   "process": "OPE (BOPV)",
+   "kind": "Solicitud / inscripción",
+   "title": "Bases específicas de la convocatoria (Resolución 1679/2026)",
+   "org": "",
+   "categories": [
+    "Facultativo/a especialista médico/a de familia-EAP"
+   ],
+   "published": "2026-10-30",
+   "start": "2026-10-30",
+   "end": "2026-11-27",
+   "estimated": false,
+   "literal": "Sexto.– Establecer como plazo para presentar la solicitud de participación en la presente convocatoria desde el día 2 de noviembre hasta las 14:00 horas del día 27 de noviembre de 2026, de acuerdo con lo previsto en la base 10.3 de la Resolución 120/2026, de 28 de enero, de la directora general de Osakidetza-Servicio vasco de salud, por la que se aprueban las bases generales.",
+   "summary": "RESOLUCIÓN 1679/2026, de 1 de octubre, de la directora general de Osakidetza-Servicio vasco de salud, por la que se aprueban las bases específicas que han de regir el proceso selectivo para la adquisición del vínculo estatutario fijo en la categoría de médico/a (puesto funcional de facultativo/a especialista médico/a de familia-EAP) del grupo profesional de facultativos/as médicos/as y técnicos/as con destino en las…",
+   "url": "https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2026/10/2604577a.shtml"
+  },
+  {
+   "id": "bopv-chkxow",
+   "src": "bopv",
+   "process": "OPE (BOPV)",
+   "kind": "Solicitud / inscripción",
+   "title": "Bases específicas de la convocatoria (Resolución 1689/2026)",
+   "org": "",
+   "categories": [
+    "Diplomado/a en nutrición humana y dietética"
+   ],
+   "published": "2026-10-30",
+   "start": "2026-10-30",
+   "end": "2026-11-27",
+   "estimated": false,
+   "literal": "Sexto.– Establecer como plazo para presentar las solicitudes de participación en la presente convocatoria desde el día 2 de noviembre hasta las 14:00 horas del día 27 de noviembre de 2026, de acuerdo con lo previsto en la base 10.3 de la Resolución 120/2026, de 28 de enero, de la directora general de Osakidetza-Servicio vasco de salud, por la que se aprueban las bases generales.",
+   "summary": "RESOLUCIÓN 1689/2026, de 1 de octubre, de la directora general de Osakidetza-Servicio vasco de salud, por la que se aprueban las bases específicas que han de regir los procesos selectivos para la adquisición del vínculo estatutario fijo en la categoría de diplomado/a en nutrición humana y dietética del grupo profesional de diplomados/as sanitarios/as con destino en las organizaciones de servicios sanitarios de…",
+   "url": "https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2026/10/2604587a.shtml"
+  },
+  {
+   "id": "bopv-eqtgjb",
+   "src": "bopv",
+   "process": "OPE (BOPV)",
+   "kind": "Solicitud / inscripción",
+   "title": "Bases específicas de la convocatoria (Resolución 1686/2026)",
+   "org": "",
+   "categories": [
+    "Facultativo/a especialista médico/a-técnico/a microbiología y parasitología"
+   ],
+   "published": "2026-10-30",
+   "start": "2026-10-30",
+   "end": "2026-11-27",
+   "estimated": false,
+   "literal": "Sexto.– Establecer como plazo para presentar la solicitud de participación en la presente convocatoria desde el día 2 de noviembre hasta las 14:00 horas del día 27 de noviembre de 2026, de acuerdo con lo previsto en la base 10.3 de la Resolución 120/2026, de 28 de enero, de la directora general de Osakidetza-Servicio vasco de salud, por la que se aprueban las bases generales.",
+   "summary": "RESOLUCIÓN 1686/2026, de 1 de octubre, de la directora general de Osakidetza-Servicio vasco de salud, por la que se aprueban las bases específicas que han de regir el proceso selectivo para la adquisición del vínculo estatutario fijo en la categoría de microbiólogo/a-parasitólogo/a (puesto funcional de facultativo/a especialista médico/a-técnico/a microbiología y parasitología) del grupo profesional de…",
+   "url": "https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2026/10/2604584a.shtml"
+  },
+  {
+   "id": "bopv-i2hsoh",
+   "src": "bopv",
+   "process": "OPE (BOPV)",
+   "kind": "Solicitud / inscripción",
+   "title": "Bases específicas de la convocatoria (Resolución 1684/2026)",
+   "org": "",
+   "categories": [
+    "Facultativo/a especialista médico/a urgencias hospitalarias"
+   ],
+   "published": "2026-10-30",
+   "start": "2026-10-30",
+   "end": "2026-11-27",
+   "estimated": false,
+   "literal": "Sexto.– Establecer como plazo para presentar la solicitud de participación en la presente convocatoria desde el día 2 de noviembre hasta las 14:00 horas del día 27 de noviembre de 2026, de acuerdo con lo previsto en la base 10.3 de la Resolución 120/2026, de 28 de enero, de la directora general de Osakidetza-Servicio vasco de salud, por la que se aprueban las bases generales.",
+   "summary": "RESOLUCIÓN 1684/2026, de 1 de octubre, de la directora general de Osakidetza-Servicio vasco de salud, por la que se aprueban las bases específicas que han de regir el proceso selectivo para la adquisición del vínculo estatutario fijo en la categoría de médico/a (puesto funcional de facultativo/a especialista médico/a urgencias hospitalarias) del grupo profesional de facultativos/as médicos/as y técnicos/as con…",
+   "url": "https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2026/10/2604582a.shtml"
+  },
+  {
+   "id": "bopv-o4x3g6",
+   "src": "bopv",
+   "process": "OPE (BOPV)",
+   "kind": "Solicitud / inscripción",
+   "title": "Bases específicas de la convocatoria (Resolución 1683/2026)",
+   "org": "",
+   "categories": [
+    "Facultativo/a especialista médico/a pediatra-EAP"
+   ],
+   "published": "2026-10-30",
+   "start": "2026-10-30",
+   "end": "2026-11-27",
+   "estimated": false,
+   "literal": "Sexto.– Establecer como plazo para presentar la solicitud de participación en la presente convocatoria desde el día 2 de noviembre hasta las 14:00 horas del día 27 de noviembre de 2026, de acuerdo con lo previsto en la base 10.3 de la Resolución 120/2026, de 28 de enero, de la directora general de Osakidetza-Servicio vasco de salud, por la que se aprueban las bases generales.",
+   "summary": "RESOLUCIÓN 1683/2026, de 1 de octubre, de la directora general de Osakidetza-Servicio vasco de salud, por la que se aprueban las bases específicas que han de regir el proceso selectivo para la adquisición del vínculo estatutario fijo en la categoría de médico/a (puesto funcional de facultativo/a especialista médico/a pediatra-EAP) del grupo profesional de facultativos/as médicos/as y técnicos/as con destino en las…",
+   "url": "https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2026/10/2604581a.shtml"
+  },
+  {
+   "id": "bopv-q0yz8f",
+   "src": "bopv",
+   "process": "OPE (BOPV)",
+   "kind": "Solicitud / inscripción",
+   "title": "Bases específicas de la convocatoria (Resolución 1677/2026)",
+   "org": "",
+   "categories": [
+    "Médico/a (varios puestos funcionales)"
+   ],
+   "published": "2026-10-30",
+   "start": "2026-10-30",
+   "end": "2026-11-27",
+   "estimated": false,
+   "literal": "Sexto.– Establecer como plazo para presentar las solicitudes de participación en la presente convocatoria desde el día 2 de noviembre hasta las 14:00 horas del día 27 de noviembre de 2026, de acuerdo con lo previsto en la base 10.3 de la Resolución 120/2026, de 28 de enero, de la directora general de Osakidetza-Servicio vasco de salud, por la que se aprueban las bases generales.",
+   "summary": "RESOLUCIÓN 1677/2026, de 1 de octubre, de la directora general de Osakidetza-Servicio vasco de salud, por la que se aprueban las bases específicas que han de regir los procesos selectivos para la adquisición del vínculo estatutario fijo en la categoría de médico/a (varios puestos funcionales) del grupo profesional de facultativos/as médicos/as y técnicos/as con destino en las organizaciones de servicios sanitarios…",
+   "url": "https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2026/10/2604575a.shtml"
+  },
+  {
+   "id": "bopv-q8420o",
+   "src": "bopv",
+   "process": "OPE (BOPV)",
+   "kind": "Solicitud / inscripción",
+   "title": "Bases específicas de la convocatoria (Resolución 1678/2026)",
+   "org": "",
+   "categories": [
+    "Facultativo/a especialista médico/a cuidados paliativos"
+   ],
+   "published": "2026-10-30",
+   "start": "2026-10-30",
+   "end": "2026-11-27",
+   "estimated": false,
+   "literal": "Sexto.– Establecer como plazo para presentar la solicitud de participación en la presente convocatoria desde el día 2 de noviembre hasta las 14:00 horas del día 27 de noviembre de 2026, de acuerdo con lo previsto en la base 10.3 de la Resolución 120/2026, de 28 de enero, de la directora general de Osakidetza-Servicio vasco de salud, por la que se aprueban las bases generales.",
+   "summary": "RESOLUCIÓN 1678/2026, de 1 de octubre, de la directora general de Osakidetza-Servicio vasco de salud, por la que se aprueban las bases específicas que han de regir el proceso selectivo para la adquisición del vínculo estatutario fijo en la categoría de médico/a (puesto funcional de facultativo/a especialista médico/a cuidados paliativos) del grupo profesional de facultativos/as médicos/as y técnicos/as con destino…",
+   "url": "https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2026/10/2604576a.shtml"
+  },
+  {
+   "id": "bopv-y25vhi",
+   "src": "bopv",
+   "process": "OPE (BOPV)",
+   "kind": "Solicitud / inscripción",
+   "title": "Bases específicas de la convocatoria (Resolución 1680/2026)",
+   "org": "",
+   "categories": [
+    "Facultativo/a especialista médico/a enfermedades infecciosas"
+   ],
+   "published": "2026-10-30",
+   "start": "2026-10-30",
+   "end": "2026-11-27",
+   "estimated": false,
+   "literal": "Sexto.– Establecer como plazo para presentar la solicitud de participación en la presente convocatoria desde el día 2 de noviembre hasta las 14:00 horas del día 27 de noviembre de 2026, de acuerdo con lo previsto en la base 10.3 de la Resolución 120/2026, de 28 de enero, de la directora general de Osakidetza-Servicio vasco de salud, por la que se aprueban las bases generales.",
+   "summary": "RESOLUCIÓN 1680/2026, de 1 de octubre, de la directora general de Osakidetza-Servicio vasco de salud, por la que se aprueban las bases específicas que han de regir el proceso selectivo para la adquisición del vínculo estatutario fijo en la categoría de médico/a (puesto funcional de facultativo/a especialista médico/a enfermedades infecciosas) del grupo profesional de facultativos/as médicos/as y técnicos/as con…",
+   "url": "https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2026/10/2604578a.shtml"
+  },
   {
    "id": "jefaturas2026-11wwaqn",
    "src": "jefaturas2026",
