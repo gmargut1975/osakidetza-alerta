@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checkedAt": "2026-11-02T02:38:39.621Z",
+ "checkedAt": "2026-11-02T10:18:42.513Z",
  "sources": [
   {
    "key": "comisiones2026",
@@ -13,7 +13,7 @@
    "error": "",
    "count": 145,
    "hash": "0f88d20e235dd341",
-   "checkedAt": "2026-11-02T02:38:39.621Z",
+   "checkedAt": "2026-11-02T10:18:42.513Z",
    "changedAt": "2026-10-30T14:27:12.732Z"
   },
   {
@@ -27,7 +27,7 @@
    "error": "",
    "count": 132,
    "hash": "77f324c1858c86af",
-   "checkedAt": "2026-11-02T02:38:39.621Z",
+   "checkedAt": "2026-11-02T10:18:42.513Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -39,10 +39,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 484,
-   "hash": "2964efbd77c0a1db",
-   "checkedAt": "2026-11-02T02:38:39.621Z",
-   "changedAt": "2026-10-30T14:27:12.732Z"
+   "count": 492,
+   "hash": "1dcd08ba504ad3f0",
+   "checkedAt": "2026-11-02T10:18:42.513Z",
+   "changedAt": "2026-11-02T10:18:42.513Z"
   },
   {
    "key": "jefaturas2025",
@@ -55,7 +55,7 @@
    "error": "",
    "count": 479,
    "hash": "66143b22347640ab",
-   "checkedAt": "2026-11-02T02:38:39.621Z",
+   "checkedAt": "2026-11-02T10:18:42.513Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -69,7 +69,7 @@
    "error": "",
    "count": 30,
    "hash": "eb07d21ecb1d9061",
-   "checkedAt": "2026-11-02T02:38:39.621Z",
+   "checkedAt": "2026-11-02T10:18:42.513Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -83,7 +83,7 @@
    "error": "",
    "count": 54,
    "hash": "a304df315c59aa2c",
-   "checkedAt": "2026-11-02T02:38:39.621Z",
+   "checkedAt": "2026-11-02T10:18:42.513Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -97,7 +97,7 @@
    "error": "",
    "count": 80,
    "hash": "108cba716b7e116d",
-   "checkedAt": "2026-11-02T02:38:39.621Z",
+   "checkedAt": "2026-11-02T10:18:42.513Z",
    "changedAt": "2026-10-30T14:27:12.732Z"
   },
   {
@@ -110,9 +110,9 @@
    "status": 200,
    "error": "",
    "count": 257,
-   "hash": "f39ce67a0fa1a213",
-   "checkedAt": "2026-11-02T02:38:39.621Z",
-   "changedAt": "2026-10-30T14:27:12.732Z"
+   "hash": "aad802b68a23089a",
+   "checkedAt": "2026-11-02T10:18:42.513Z",
+   "changedAt": "2026-11-02T10:18:42.513Z"
   },
   {
    "key": "ope2325",
@@ -125,7 +125,7 @@
    "error": "",
    "count": 16,
    "hash": "e8a956ae6d0b88fa",
-   "checkedAt": "2026-11-02T02:38:39.621Z",
+   "checkedAt": "2026-11-02T10:18:42.513Z",
    "changedAt": "2026-10-30T14:27:12.732Z"
   },
   {
@@ -139,7 +139,7 @@
    "error": "",
    "count": 83,
    "hash": "a6baac4fb1fc60c0",
-   "checkedAt": "2026-11-02T02:38:39.621Z",
+   "checkedAt": "2026-11-02T10:18:42.513Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -153,7 +153,7 @@
    "error": "",
    "count": 164,
    "hash": "6f0586c40b65c8fe",
-   "checkedAt": "2026-11-02T02:38:39.621Z",
+   "checkedAt": "2026-11-02T10:18:42.513Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -167,7 +167,7 @@
    "error": "",
    "count": 21,
    "hash": "ff9210a812239484",
-   "checkedAt": "2026-11-02T02:38:39.621Z",
+   "checkedAt": "2026-11-02T10:18:42.513Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -181,7 +181,7 @@
    "error": "",
    "count": 3,
    "hash": "3ff1c551e57dff5d",
-   "checkedAt": "2026-11-02T02:38:39.621Z",
+   "checkedAt": "2026-11-02T10:18:42.513Z",
    "changedAt": "2026-10-28T14:42:46.786Z"
   },
   {
@@ -195,7 +195,7 @@
    "error": "",
    "count": 0,
    "hash": "c4971aba58479f1e",
-   "checkedAt": "2026-11-02T02:38:39.621Z",
+   "checkedAt": "2026-11-02T10:18:42.513Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -208,9 +208,9 @@
    "status": 200,
    "error": "",
    "count": 0,
-   "hash": "964caaff0d68b6ad",
-   "checkedAt": "2026-11-02T02:38:39.621Z",
-   "changedAt": "2026-10-30T07:29:38.465Z"
+   "hash": "f49f9238695b832e",
+   "checkedAt": "2026-11-02T10:18:42.513Z",
+   "changedAt": "2026-11-02T10:18:42.513Z"
   },
   {
    "key": "ctap",
@@ -223,7 +223,7 @@
    "error": "",
    "count": 124,
    "hash": "eb4a95c77f65d33f",
-   "checkedAt": "2026-11-02T02:38:39.621Z",
+   "checkedAt": "2026-11-02T10:18:42.513Z",
    "changedAt": "2026-10-25T21:38:51.828Z"
   },
   {
@@ -237,7 +237,7 @@
    "error": "",
    "count": 0,
    "hash": "9a327c9e5613dad4",
-   "checkedAt": "2026-11-02T02:38:39.621Z",
+   "checkedAt": "2026-11-02T10:18:42.513Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -251,7 +251,7 @@
    "error": "",
    "count": 0,
    "hash": "678bcb345b70e6ba",
-   "checkedAt": "2026-11-02T02:38:39.621Z",
+   "checkedAt": "2026-11-02T10:18:42.513Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -265,16 +265,161 @@
    "error": "",
    "count": 0,
    "hash": "974dc087b0130905",
-   "checkedAt": "2026-11-02T02:38:39.621Z",
+   "checkedAt": "2026-11-02T10:18:42.513Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   }
  ],
  "bopv": {
   "yy": "26",
-  "lastNumber": 208,
-  "lastDate": "2026-10-30"
+  "lastNumber": 209,
+  "lastDate": "2026-11-02"
  },
  "items": [
+  {
+   "id": "jefaturas2026-10jdwp3",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Solicitud / inscripción",
+   "title": "Jefe/a de Servicio Sanitario de Cirugía Cardiovascular",
+   "org": "OSI Ezkerraldea-Enkarterri-Cruces",
+   "categories": [
+    "Jefe/a de Servicio Sanitario de Cirugía Cardiovascular"
+   ],
+   "published": "2026-11-03",
+   "start": "2026-11-03",
+   "end": "2026-11-23",
+   "estimated": false,
+   "literal": "Plazo de presentación de solicitudes: abierto desde el 03/11/2026 hasta el 23/11/2026, ambos inclusive.",
+   "summary": "JEFE/A DE SERVICIO SANITARIO DE CIRUGÍA CARDIOVASCULAR - OSI EZKERRALDEA-ENKARTERRI-CRUCES - Plazo de presentación de solicitudes: abierto desde el 03/11/2026 hasta el 23/11/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/261019_CONC_J_SERV_CIR_CARD_OSI_EZ_EN_CRUCES_BOE.pdf"
+  },
+  {
+   "id": "jefaturas2026-1xbpcbf",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Recurso de alzada",
+   "title": "Jefe/a de Sección Sanitaria de Anestesiología y Reanimación – Área Clínica de Cuidados Críticos y Postoperatorios · Nombramiento",
+   "org": "OSI Barrualde-Galdakao",
+   "categories": [
+    "Área Clínica de Cuidados Críticos y Postoperatorios"
+   ],
+   "published": "2026-11-03",
+   "start": "2026-11-03",
+   "end": "2026-12-02",
+   "estimated": false,
+   "literal": "Plazo para presentar recursos de alzada: abierto desde el 03/11/2026 hasta el 02/12/2026, ambos inclusive.",
+   "summary": "JEFE/A DE SECCIÓN SANITARIA DE ANESTESIOLOGÍA Y REANIMACIÓN - ÁREA CLÍNICA DE CUIDADOS CRÍTICOS Y POSTOPERATORIOS - NOMBRAMIENTO - OSI BARRUALDE-GALDAKAO - Plazo para presentar recursos de alzada: abierto desde el 03/11/2026 hasta el 02/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/260528_CONC_J_SEC_ANEST_Y_REANI_OSI_BARRUALDE_GALDAKAO_NOMBR_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-1yr9zv3",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Solicitud / inscripción",
+   "title": "Jefe/a de Servicio de Anatomía Patológica",
+   "org": "OSI Donostialdea",
+   "categories": [
+    "Jefe/a de Servicio de Anatomía Patológica"
+   ],
+   "published": "2026-11-03",
+   "start": "2026-11-03",
+   "end": "2026-11-23",
+   "estimated": false,
+   "literal": "Plazo de presentación de solicitudes: abierto desde el 03/11/2026 hasta el 23/11/2026, ambos inclusive.",
+   "summary": "JEFE/A DE SERVICIO DE ANATOMÍA PATOLÓGICA - OSI DONOSTIALDEA - Plazo de presentación de solicitudes: abierto desde el 03/11/2026 hasta el 23/11/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/261022_CONC_J_SERV_ANAT_PATOL_OSI_DONOSTIALDEA_BOE.pdf"
+  },
+  {
+   "id": "jefaturas2026-g3z6yy",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Recurso de alzada",
+   "title": "Coordinador/a de Unidad Central de Laboratorio · Nombramiento",
+   "org": "OSI Barrualde-Galdakao",
+   "categories": [
+    "Coordinador/a de Unidad Central de Laboratorio"
+   ],
+   "published": "2026-11-03",
+   "start": "2026-11-03",
+   "end": "2026-12-02",
+   "estimated": false,
+   "literal": "Plazo para presentar recursos de alzada: abierto desde el 03/11/2026 hasta el 02/12/2026, ambos inclusive.",
+   "summary": "COORDINADOR/A DE UNIDAD CENTRAL DE LABORATORIO - NOMBRAMIENTO - OSI BARRUALDE-GALDAKAO - Plazo para presentar recursos de alzada: abierto desde el 03/11/2026 hasta el 02/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/260911_L_DESIG_COORD_LABORAT_OSI_BARRUALDE_GALDAKAO_NOMBR_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-h3ese4",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Solicitud / inscripción",
+   "title": "Jefe/a de Servicio Sanitario de Oftalmología",
+   "org": "OSI Ezkerraldea-Enkarterri-Cruces",
+   "categories": [
+    "Jefe/a de Servicio Sanitario de Oftalmología"
+   ],
+   "published": "2026-11-03",
+   "start": "2026-11-03",
+   "end": "2026-11-23",
+   "estimated": false,
+   "literal": "Plazo de presentación de solicitudes: abierto desde el 03/11/2026 hasta el 23/11/2026, ambos inclusive.",
+   "summary": "JEFE/A DE SERVICIO SANITARIO DE OFTALMOLOGÍA - OSI EZKERRALDEA-ENKARTERRI-CRUCES - Plazo de presentación de solicitudes: abierto desde el 03/11/2026 hasta el 23/11/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/261019_CONC_J_SERV_OFL_OSI_EZ_EN_CRUCES_BOE.pdf"
+  },
+  {
+   "id": "jefaturas2026-hz80o3",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Solicitud / inscripción",
+   "title": "Jefe/a de Grupo Administrativo (Departamento de Personas)",
+   "org": "OSI Uribe",
+   "categories": [
+    "Jefe/a de Grupo Administrativo"
+   ],
+   "published": "2026-11-03",
+   "start": "2026-11-03",
+   "end": "2026-11-23",
+   "estimated": false,
+   "literal": "Plazo de presentación de solicitudes: abierto desde el 03/11/2026 hasta el 23/11/2026, ambos inclusive.",
+   "summary": "JEFE/A DE GRUPO ADMINISTRATIVO (DEPARTAMENTO DE PERSONAS) - OSI URIBE - Plazo de presentación de solicitudes: abierto desde el 03/11/2026 hasta el 23/11/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/261102_L_DESIG_J_GR_PERS_OSI_URIBE_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-sjse3k",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Solicitud / inscripción",
+   "title": "Jefe/a de Sección Sanitaria de la Unidad de Calidad, Innovación y Resultados en Salud",
+   "org": "OSI Barrualde-Galdakao",
+   "categories": [
+    "Jefe/a de Sección Sanitaria de la Unidad de Calidad",
+    "Innovación y Resultados en Salud"
+   ],
+   "published": "2026-11-03",
+   "start": "2026-11-03",
+   "end": "2026-11-23",
+   "estimated": false,
+   "literal": "Plazo de presentación de solicitudes: abierto desde el 03/11/2026 hasta el 23/11/2026, ambos inclusive.",
+   "summary": "JEFE/A DE SECCIÓN SANITARIA DE LA UNIDAD DE CALIDAD, INNOVACIÓN Y RESULTADOS EN SALUD - OSI BARRUALDE-GALDAKAO - Plazo de presentación de solicitudes: abierto desde el 03/11/2026 hasta el 23/11/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/261022_CONC_J_SEC_CALIDAD_OSI_BARRUALDE_GALDAKAO_BOE.pdf"
+  },
+  {
+   "id": "jefaturas2026-spxfjg",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Solicitud / inscripción",
+   "title": "Jefe/a de Servicio de Medicina Nuclear",
+   "org": "OSI Donostialdea",
+   "categories": [
+    "Jefe/a de Servicio de Medicina Nuclear"
+   ],
+   "published": "2026-11-03",
+   "start": "2026-11-03",
+   "end": "2026-11-23",
+   "estimated": false,
+   "literal": "Plazo de presentación de solicitudes: abierto desde el 03/11/2026 hasta el 23/11/2026, ambos inclusive.",
+   "summary": "JEFE/A DE SERVICIO DE MEDICINA NUCLEAR - OSI DONOSTIALDEA - Plazo de presentación de solicitudes: abierto desde el 03/11/2026 hasta el 23/11/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/261022_CONC_J_SERV_MED_NUCL_OSI_DONOSTIALDEA_BOE.pdf"
+  },
   {
    "id": "comisiones2026-1brr60u",
    "src": "comisiones2026",
