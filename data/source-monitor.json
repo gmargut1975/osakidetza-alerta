@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checkedAt": "2026-11-03T10:18:35.772Z",
+ "checkedAt": "2026-11-03T17:56:58.427Z",
  "sources": [
   {
    "key": "comisiones2026",
@@ -11,10 +11,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 145,
-   "hash": "0f88d20e235dd341",
-   "checkedAt": "2026-11-03T10:18:35.772Z",
-   "changedAt": "2026-10-30T14:27:12.732Z"
+   "count": 148,
+   "hash": "117dee86e622667c",
+   "checkedAt": "2026-11-03T17:56:58.427Z",
+   "changedAt": "2026-11-03T17:56:58.427Z"
   },
   {
    "key": "comisiones2025",
@@ -27,7 +27,7 @@
    "error": "",
    "count": 132,
    "hash": "77f324c1858c86af",
-   "checkedAt": "2026-11-03T10:18:35.772Z",
+   "checkedAt": "2026-11-03T17:56:58.427Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -41,7 +41,7 @@
    "error": "",
    "count": 492,
    "hash": "80d7ab9145e06aca",
-   "checkedAt": "2026-11-03T10:18:35.772Z",
+   "checkedAt": "2026-11-03T17:56:58.427Z",
    "changedAt": "2026-11-02T20:26:55.705Z"
   },
   {
@@ -55,7 +55,7 @@
    "error": "",
    "count": 479,
    "hash": "66143b22347640ab",
-   "checkedAt": "2026-11-03T10:18:35.772Z",
+   "checkedAt": "2026-11-03T17:56:58.427Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -69,7 +69,7 @@
    "error": "",
    "count": 30,
    "hash": "eb07d21ecb1d9061",
-   "checkedAt": "2026-11-03T10:18:35.772Z",
+   "checkedAt": "2026-11-03T17:56:58.427Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -83,7 +83,7 @@
    "error": "",
    "count": 54,
    "hash": "a304df315c59aa2c",
-   "checkedAt": "2026-11-03T10:18:35.772Z",
+   "checkedAt": "2026-11-03T17:56:58.427Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -95,10 +95,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 80,
-   "hash": "108cba716b7e116d",
-   "checkedAt": "2026-11-03T10:18:35.772Z",
-   "changedAt": "2026-10-30T14:27:12.732Z"
+   "count": 81,
+   "hash": "638d970e27193081",
+   "checkedAt": "2026-11-03T17:56:58.427Z",
+   "changedAt": "2026-11-03T17:56:58.427Z"
   },
   {
    "key": "lanpoltsa",
@@ -109,10 +109,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 258,
-   "hash": "5b2a62479d8e9b58",
-   "checkedAt": "2026-11-03T10:18:35.772Z",
-   "changedAt": "2026-11-02T20:26:55.705Z"
+   "count": 259,
+   "hash": "8cb28cab775e44dd",
+   "checkedAt": "2026-11-03T17:56:58.427Z",
+   "changedAt": "2026-11-03T17:56:58.427Z"
   },
   {
    "key": "ope2325",
@@ -125,7 +125,7 @@
    "error": "",
    "count": 16,
    "hash": "e8a956ae6d0b88fa",
-   "checkedAt": "2026-11-03T10:18:35.772Z",
+   "checkedAt": "2026-11-03T17:56:58.427Z",
    "changedAt": "2026-10-30T14:27:12.732Z"
   },
   {
@@ -139,7 +139,7 @@
    "error": "",
    "count": 83,
    "hash": "a6baac4fb1fc60c0",
-   "checkedAt": "2026-11-03T10:18:35.772Z",
+   "checkedAt": "2026-11-03T17:56:58.427Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -153,7 +153,7 @@
    "error": "",
    "count": 164,
    "hash": "6f0586c40b65c8fe",
-   "checkedAt": "2026-11-03T10:18:35.772Z",
+   "checkedAt": "2026-11-03T17:56:58.427Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -167,7 +167,7 @@
    "error": "",
    "count": 21,
    "hash": "ff9210a812239484",
-   "checkedAt": "2026-11-03T10:18:35.772Z",
+   "checkedAt": "2026-11-03T17:56:58.427Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -181,7 +181,7 @@
    "error": "",
    "count": 3,
    "hash": "3ff1c551e57dff5d",
-   "checkedAt": "2026-11-03T10:18:35.772Z",
+   "checkedAt": "2026-11-03T17:56:58.427Z",
    "changedAt": "2026-10-28T14:42:46.786Z"
   },
   {
@@ -195,7 +195,7 @@
    "error": "",
    "count": 0,
    "hash": "c4971aba58479f1e",
-   "checkedAt": "2026-11-03T10:18:35.772Z",
+   "checkedAt": "2026-11-03T17:56:58.427Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -209,7 +209,7 @@
    "error": "",
    "count": 0,
    "hash": "0ca8c7680edc3527",
-   "checkedAt": "2026-11-03T10:18:35.772Z",
+   "checkedAt": "2026-11-03T17:56:58.427Z",
    "changedAt": "2026-11-03T10:18:35.772Z"
   },
   {
@@ -223,7 +223,7 @@
    "error": "",
    "count": 124,
    "hash": "eb4a95c77f65d33f",
-   "checkedAt": "2026-11-03T10:18:35.772Z",
+   "checkedAt": "2026-11-03T17:56:58.427Z",
    "changedAt": "2026-11-03T02:30:38.793Z"
   },
   {
@@ -237,7 +237,7 @@
    "error": "",
    "count": 0,
    "hash": "9a327c9e5613dad4",
-   "checkedAt": "2026-11-03T10:18:35.772Z",
+   "checkedAt": "2026-11-03T17:56:58.427Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -251,7 +251,7 @@
    "error": "",
    "count": 0,
    "hash": "678bcb345b70e6ba",
-   "checkedAt": "2026-11-03T10:18:35.772Z",
+   "checkedAt": "2026-11-03T17:56:58.427Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -265,7 +265,7 @@
    "error": "",
    "count": 0,
    "hash": "974dc087b0130905",
-   "checkedAt": "2026-11-03T10:18:35.772Z",
+   "checkedAt": "2026-11-03T17:56:58.427Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   }
  ],
@@ -275,6 +275,60 @@
   "lastDate": "2026-11-03"
  },
  "items": [
+  {
+   "id": "comisiones2026-1d97hdt",
+   "src": "comisiones2026",
+   "process": "Comisiones de servicios",
+   "kind": "Recurso de alzada",
+   "title": "Listas de Podólogo/a · Declarada Desierta",
+   "org": "OSI Ezkerraldea-Enkarterri-Cruces",
+   "categories": [
+    "Listas de Podólogo/a"
+   ],
+   "published": "2026-11-04",
+   "start": "2026-11-04",
+   "end": "2026-12-03",
+   "estimated": false,
+   "literal": "Plazo para presentar recursos de alzada: abierto desde el 04/11/2026 hasta el 03/12/2026, ambos inclusive.",
+   "summary": "LISTAS DE PODÓLOGO/A - DECLARADA DESIERTA - OSI EZKERRALDEA-ENKARTERRI-CRUCES - Plazo para presentar recursos de alzada: abierto desde el 04/11/2026 hasta el 03/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/comisiones-servicios-2026/webosk00-procon/es/adjuntos/260806_C_SERV_PIT_POD_ASIST_OSI_EZ_EN_CRUCES_DESIER_DEF.pdf"
+  },
+  {
+   "id": "comisiones2026-1q1wssp",
+   "src": "comisiones2026",
+   "process": "Comisiones de servicios",
+   "kind": "Alegaciones",
+   "title": "Varias Categorías · Lista Provisional",
+   "org": "CVTTH",
+   "categories": [
+    "Varias categorías"
+   ],
+   "published": "2026-11-04",
+   "start": "2026-11-04",
+   "end": "2026-11-17",
+   "estimated": false,
+   "literal": "Plazo para presentar alegaciones: abierto desde el 04/11/2026 hasta el 17/11/2026, ambos inclusive.",
+   "summary": "VARIAS CATEGORÍAS - CVTTH - Lista Provisional - Plazo para presentar alegaciones: abierto desde el 04/11/2026 hasta el 17/11/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/comisiones-servicios-2026/webosk00-procon/es/adjuntos/260921_C_SERV_PIT_VARIAS_CATEG_VAR_DEST_CVTTH_L_PROV.pdf"
+  },
+  {
+   "id": "comisiones2026-v0883r",
+   "src": "comisiones2026",
+   "process": "Comisiones de servicios",
+   "kind": "Recurso de alzada",
+   "title": "Trabajador/a Social · Declarada Desierta",
+   "org": "Dirección General",
+   "categories": [
+    "Trabajador/a Social"
+   ],
+   "published": "2026-11-04",
+   "start": "2026-11-04",
+   "end": "2026-12-03",
+   "estimated": false,
+   "literal": "Plazo para presentar recursos de alzada: abierto desde el 04/11/2026 hasta el 03/12/2026, ambos inclusive.",
+   "summary": "TRABAJADOR/A SOCIAL - DECLARADA DESIERTA - DIRECCIÓN GENERAL - Plazo para presentar recursos de alzada: abierto desde el 04/11/2026 hasta el 03/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/comisiones-servicios-2026/webosk00-procon/es/adjuntos/260911_C_SERV_PIT_MID_TRAB_SOC_ASIST_SANIT_DIR_RRHH_DESIER_DEF_a.pdf"
+  },
   {
    "id": "jefaturas2026-10jdwp3",
    "src": "jefaturas2026",
@@ -419,6 +473,28 @@
    "literal": "Plazo de presentación de solicitudes: abierto desde el 03/11/2026 hasta el 23/11/2026, ambos inclusive.",
    "summary": "JEFE/A DE SERVICIO DE MEDICINA NUCLEAR - OSI DONOSTIALDEA - Plazo de presentación de solicitudes: abierto desde el 03/11/2026 hasta el 23/11/2026, ambos inclusive.",
    "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/261022_CONC_J_SERV_MED_NUCL_OSI_DONOSTIALDEA_BOE.pdf"
+  },
+  {
+   "id": "temporal-yla0us",
+   "src": "temporal",
+   "process": "Listas de contratación temporal",
+   "kind": "Recurso de alzada",
+   "title": "Publicación Listas Definitivas",
+   "org": "",
+   "categories": [
+    "Titulado/a Superior – Técnico/a Superior Psicología"
+   ],
+   "published": "2026-11-03",
+   "start": "2026-11-03",
+   "end": "2026-12-03",
+   "estimated": false,
+   "literal": "Plazo para interponer recurso de alzada hasta el 3 de diciembre de 2026, inclusive.",
+   "summary": "Hoy, 3 de noviembre de 2026, está prevista la publicación de las Listas definitivas de contratación temporal de la siguiente categoría/puesto funcional: TITULADO/A SUPERIOR – TÉCNICO/A SUPERIOR PSICOLOGÍA Plazo para interponer recurso de alzada hasta el 3 de diciembre de 2026, inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/#:~:text=Hoy%2C%203%20de%20noviembre%20de%202026%2C%20est%C3%A1",
+   "altUrl": "https://lanpoltsa.osakidetza.eus/c28/avisos-generales",
+   "aliases": [
+    "lanpoltsa-4510"
+   ]
   },
   {
    "id": "comisiones2026-1brr60u",
