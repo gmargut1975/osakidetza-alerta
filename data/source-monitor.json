@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checkedAt": "2026-11-04T02:49:41.993Z",
+ "checkedAt": "2026-11-04T10:11:32.793Z",
  "sources": [
   {
    "key": "comisiones2026",
@@ -13,7 +13,7 @@
    "error": "",
    "count": 148,
    "hash": "117dee86e622667c",
-   "checkedAt": "2026-11-04T02:49:41.993Z",
+   "checkedAt": "2026-11-04T10:11:32.793Z",
    "changedAt": "2026-11-03T17:56:58.427Z"
   },
   {
@@ -27,7 +27,7 @@
    "error": "",
    "count": 132,
    "hash": "77f324c1858c86af",
-   "checkedAt": "2026-11-04T02:49:41.993Z",
+   "checkedAt": "2026-11-04T10:11:32.793Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -39,10 +39,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 492,
-   "hash": "80d7ab9145e06aca",
-   "checkedAt": "2026-11-04T02:49:41.993Z",
-   "changedAt": "2026-11-02T20:26:55.705Z"
+   "count": 493,
+   "hash": "6e7b486dece7e4fc",
+   "checkedAt": "2026-11-04T10:11:32.793Z",
+   "changedAt": "2026-11-04T10:11:32.793Z"
   },
   {
    "key": "jefaturas2025",
@@ -55,7 +55,7 @@
    "error": "",
    "count": 479,
    "hash": "66143b22347640ab",
-   "checkedAt": "2026-11-04T02:49:41.993Z",
+   "checkedAt": "2026-11-04T10:11:32.793Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -69,7 +69,7 @@
    "error": "",
    "count": 30,
    "hash": "eb07d21ecb1d9061",
-   "checkedAt": "2026-11-04T02:49:41.993Z",
+   "checkedAt": "2026-11-04T10:11:32.793Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -83,7 +83,7 @@
    "error": "",
    "count": 54,
    "hash": "a304df315c59aa2c",
-   "checkedAt": "2026-11-04T02:49:41.993Z",
+   "checkedAt": "2026-11-04T10:11:32.793Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -97,7 +97,7 @@
    "error": "",
    "count": 81,
    "hash": "638d970e27193081",
-   "checkedAt": "2026-11-04T02:49:41.993Z",
+   "checkedAt": "2026-11-04T10:11:32.793Z",
    "changedAt": "2026-11-03T17:56:58.427Z"
   },
   {
@@ -111,7 +111,7 @@
    "error": "",
    "count": 259,
    "hash": "8cb28cab775e44dd",
-   "checkedAt": "2026-11-04T02:49:41.993Z",
+   "checkedAt": "2026-11-04T10:11:32.793Z",
    "changedAt": "2026-11-03T17:56:58.427Z"
   },
   {
@@ -125,7 +125,7 @@
    "error": "",
    "count": 16,
    "hash": "e8a956ae6d0b88fa",
-   "checkedAt": "2026-11-04T02:49:41.993Z",
+   "checkedAt": "2026-11-04T10:11:32.793Z",
    "changedAt": "2026-10-30T14:27:12.732Z"
   },
   {
@@ -139,7 +139,7 @@
    "error": "",
    "count": 83,
    "hash": "a6baac4fb1fc60c0",
-   "checkedAt": "2026-11-04T02:49:41.993Z",
+   "checkedAt": "2026-11-04T10:11:32.793Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -153,7 +153,7 @@
    "error": "",
    "count": 164,
    "hash": "6f0586c40b65c8fe",
-   "checkedAt": "2026-11-04T02:49:41.993Z",
+   "checkedAt": "2026-11-04T10:11:32.793Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -167,7 +167,7 @@
    "error": "",
    "count": 21,
    "hash": "ff9210a812239484",
-   "checkedAt": "2026-11-04T02:49:41.993Z",
+   "checkedAt": "2026-11-04T10:11:32.793Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -181,7 +181,7 @@
    "error": "",
    "count": 3,
    "hash": "3ff1c551e57dff5d",
-   "checkedAt": "2026-11-04T02:49:41.993Z",
+   "checkedAt": "2026-11-04T10:11:32.793Z",
    "changedAt": "2026-10-28T14:42:46.786Z"
   },
   {
@@ -195,7 +195,7 @@
    "error": "",
    "count": 0,
    "hash": "c4971aba58479f1e",
-   "checkedAt": "2026-11-04T02:49:41.993Z",
+   "checkedAt": "2026-11-04T10:11:32.793Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -207,10 +207,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 0,
-   "hash": "0ca8c7680edc3527",
-   "checkedAt": "2026-11-04T02:49:41.993Z",
-   "changedAt": "2026-11-03T10:18:35.772Z"
+   "count": 1,
+   "hash": "8763cfff018ddfb2",
+   "checkedAt": "2026-11-04T10:11:32.793Z",
+   "changedAt": "2026-11-04T10:11:32.793Z"
   },
   {
    "key": "ctap",
@@ -221,10 +221,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 124,
-   "hash": "eb4a95c77f65d33f",
-   "checkedAt": "2026-11-04T02:49:41.993Z",
-   "changedAt": "2026-11-03T02:30:38.793Z"
+   "count": 125,
+   "hash": "44ff34f0838ee74f",
+   "checkedAt": "2026-11-04T10:11:32.793Z",
+   "changedAt": "2026-11-04T10:11:32.793Z"
   },
   {
    "key": "traslados",
@@ -237,7 +237,7 @@
    "error": "",
    "count": 0,
    "hash": "9a327c9e5613dad4",
-   "checkedAt": "2026-11-04T02:49:41.993Z",
+   "checkedAt": "2026-11-04T10:11:32.793Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -251,7 +251,7 @@
    "error": "",
    "count": 0,
    "hash": "678bcb345b70e6ba",
-   "checkedAt": "2026-11-04T02:49:41.993Z",
+   "checkedAt": "2026-11-04T10:11:32.793Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -265,16 +265,52 @@
    "error": "",
    "count": 0,
    "hash": "974dc087b0130905",
-   "checkedAt": "2026-11-04T02:49:41.993Z",
+   "checkedAt": "2026-11-04T10:11:32.793Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   }
  ],
  "bopv": {
   "yy": "26",
-  "lastNumber": 210,
-  "lastDate": "2026-11-03"
+  "lastNumber": 211,
+  "lastDate": "2026-11-04"
  },
  "items": [
+  {
+   "id": "jefaturas2026-1gqqcjp",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Solicitud / inscripción",
+   "title": "Jefe/a de Servicio Corporativo (Dirección de Asistencia Sanitaria)",
+   "org": "Dirección General",
+   "categories": [
+    "Jefe/a de Servicio Corporativo"
+   ],
+   "published": "2026-11-05",
+   "start": "2026-11-05",
+   "end": "2026-11-18",
+   "estimated": false,
+   "literal": "Plazo de presentación de solicitudes: abierto desde el 05/11/2026 hasta el 18/11/2026, ambos inclusive.",
+   "summary": "JEFE/A DE SERVICIO CORPORATIVO (DIRECCIÓN DE ASISTENCIA SANITARIA) - DIRECCIÓN GENERAL - Plazo de presentación de solicitudes: abierto desde el 05/11/2026 hasta el 18/11/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/261104_L_DESIG_J_SERV_ASIST_SANIT_DIR_RRHH_a.pdf"
+  },
+  {
+   "id": "bopv-3l1on8",
+   "src": "bopv",
+   "process": "Traslados",
+   "kind": "Recurso de alzada",
+   "title": "Admitidos/as y asignación definitiva de destinos · ciclo octubre 2025 (Resolución 1724/2026)",
+   "org": "",
+   "categories": [
+    "Enfermero/a de salud laboral"
+   ],
+   "published": "2026-11-04",
+   "start": "2026-11-05",
+   "end": "2026-12-04",
+   "estimated": true,
+   "literal": "Séptimo.– Al amparo de lo establecido en la base 9.8 del Acuerdo de 27 de noviembre de 2019, del Consejo de Administración de Osakidetza-Servicio vasco de salud, contra esta Resolución podrá interponerse recurso de alzada ante el Consejo de Administración de Osakidetza-Servicio vasco de salud en el plazo de un mes a contar desde el día siguiente a su publicación en el BOPV. (fecha final calculada: un mes desde el día siguiente a la publicación; compruébala en la resolución).",
+   "summary": "RESOLUCIÓN 1724/2026, de 8 de octubre, de la directora general de Osakidetza-Servicio vasco de salud, por la que se hacen públicas las relaciones de personas admitidas y excluidas y se procede a la asignación definitiva de destinos convocados, en el ciclo de octubre 2025 del concurso de traslados abierto y permanente, de la categoría/puesto funcional de enfermero/a de salud laboral del grupo profesional de…",
+   "url": "https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2026/11/2604641a.shtml"
+  },
   {
    "id": "comisiones2026-1d97hdt",
    "src": "comisiones2026",
@@ -328,6 +364,22 @@
    "literal": "Plazo para presentar recursos de alzada: abierto desde el 04/11/2026 hasta el 03/12/2026, ambos inclusive.",
    "summary": "TRABAJADOR/A SOCIAL - DECLARADA DESIERTA - DIRECCIÓN GENERAL - Plazo para presentar recursos de alzada: abierto desde el 04/11/2026 hasta el 03/12/2026, ambos inclusive.",
    "url": "https://www.osakidetza.euskadi.eus/comisiones-servicios-2026/webosk00-procon/es/adjuntos/260911_C_SERV_PIT_MID_TRAB_SOC_ASIST_SANIT_DIR_RRHH_DESIER_DEF_a.pdf"
+  },
+  {
+   "id": "ctap-1da21qc",
+   "src": "ctap",
+   "process": "Traslados",
+   "kind": "Publicación",
+   "title": "Asignación definitiva de destinos · ciclo octubre 2025",
+   "org": "",
+   "categories": [],
+   "published": "2026-11-04",
+   "start": "",
+   "end": "",
+   "estimated": false,
+   "literal": "",
+   "summary": "Se procede a la publicación en la página web de Osakidetza-Servicio vasco de salud de las Resolución de la directora general de Osakidetza-Servicio vasco de salud que contiene la relación definitiva de personas admitidas y excluidas y la asignación definitiva de destinos correspondientes al ciclo de octubre 2025 del concurso de traslados abierto y permanente de la categoría de enfermero/a de salud laboral. Ver…",
+   "url": "https://hh-sp.osakidetza.eus/B96/home_usuario_publico.xhtml"
   },
   {
    "id": "jefaturas2026-10jdwp3",
