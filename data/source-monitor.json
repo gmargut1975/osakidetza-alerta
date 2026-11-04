@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checkedAt": "2026-11-04T10:11:32.793Z",
+ "checkedAt": "2026-11-04T18:07:16.207Z",
  "sources": [
   {
    "key": "comisiones2026",
@@ -11,10 +11,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 148,
-   "hash": "117dee86e622667c",
-   "checkedAt": "2026-11-04T10:11:32.793Z",
-   "changedAt": "2026-11-03T17:56:58.427Z"
+   "count": 149,
+   "hash": "18da4cc65db84e9d",
+   "checkedAt": "2026-11-04T18:07:16.207Z",
+   "changedAt": "2026-11-04T18:07:16.207Z"
   },
   {
    "key": "comisiones2025",
@@ -27,7 +27,7 @@
    "error": "",
    "count": 132,
    "hash": "77f324c1858c86af",
-   "checkedAt": "2026-11-04T10:11:32.793Z",
+   "checkedAt": "2026-11-04T18:07:16.207Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -40,9 +40,9 @@
    "status": 200,
    "error": "",
    "count": 493,
-   "hash": "6e7b486dece7e4fc",
-   "checkedAt": "2026-11-04T10:11:32.793Z",
-   "changedAt": "2026-11-04T10:11:32.793Z"
+   "hash": "5d34081712818d2c",
+   "checkedAt": "2026-11-04T18:07:16.207Z",
+   "changedAt": "2026-11-04T18:07:16.207Z"
   },
   {
    "key": "jefaturas2025",
@@ -55,7 +55,7 @@
    "error": "",
    "count": 479,
    "hash": "66143b22347640ab",
-   "checkedAt": "2026-11-04T10:11:32.793Z",
+   "checkedAt": "2026-11-04T18:07:16.207Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -69,7 +69,7 @@
    "error": "",
    "count": 30,
    "hash": "eb07d21ecb1d9061",
-   "checkedAt": "2026-11-04T10:11:32.793Z",
+   "checkedAt": "2026-11-04T18:07:16.207Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -83,7 +83,7 @@
    "error": "",
    "count": 54,
    "hash": "a304df315c59aa2c",
-   "checkedAt": "2026-11-04T10:11:32.793Z",
+   "checkedAt": "2026-11-04T18:07:16.207Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -97,7 +97,7 @@
    "error": "",
    "count": 81,
    "hash": "638d970e27193081",
-   "checkedAt": "2026-11-04T10:11:32.793Z",
+   "checkedAt": "2026-11-04T18:07:16.207Z",
    "changedAt": "2026-11-03T17:56:58.427Z"
   },
   {
@@ -109,10 +109,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 259,
-   "hash": "8cb28cab775e44dd",
-   "checkedAt": "2026-11-04T10:11:32.793Z",
-   "changedAt": "2026-11-03T17:56:58.427Z"
+   "count": 260,
+   "hash": "d494e66cbc0a9f4c",
+   "checkedAt": "2026-11-04T18:07:16.207Z",
+   "changedAt": "2026-11-04T18:07:16.207Z"
   },
   {
    "key": "ope2325",
@@ -125,7 +125,7 @@
    "error": "",
    "count": 16,
    "hash": "e8a956ae6d0b88fa",
-   "checkedAt": "2026-11-04T10:11:32.793Z",
+   "checkedAt": "2026-11-04T18:07:16.207Z",
    "changedAt": "2026-10-30T14:27:12.732Z"
   },
   {
@@ -139,7 +139,7 @@
    "error": "",
    "count": 83,
    "hash": "a6baac4fb1fc60c0",
-   "checkedAt": "2026-11-04T10:11:32.793Z",
+   "checkedAt": "2026-11-04T18:07:16.207Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -153,7 +153,7 @@
    "error": "",
    "count": 164,
    "hash": "6f0586c40b65c8fe",
-   "checkedAt": "2026-11-04T10:11:32.793Z",
+   "checkedAt": "2026-11-04T18:07:16.207Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -167,7 +167,7 @@
    "error": "",
    "count": 21,
    "hash": "ff9210a812239484",
-   "checkedAt": "2026-11-04T10:11:32.793Z",
+   "checkedAt": "2026-11-04T18:07:16.207Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -181,7 +181,7 @@
    "error": "",
    "count": 3,
    "hash": "3ff1c551e57dff5d",
-   "checkedAt": "2026-11-04T10:11:32.793Z",
+   "checkedAt": "2026-11-04T18:07:16.207Z",
    "changedAt": "2026-10-28T14:42:46.786Z"
   },
   {
@@ -195,7 +195,7 @@
    "error": "",
    "count": 0,
    "hash": "c4971aba58479f1e",
-   "checkedAt": "2026-11-04T10:11:32.793Z",
+   "checkedAt": "2026-11-04T18:07:16.207Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -207,9 +207,9 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 1,
+   "count": 0,
    "hash": "8763cfff018ddfb2",
-   "checkedAt": "2026-11-04T10:11:32.793Z",
+   "checkedAt": "2026-11-04T18:07:16.207Z",
    "changedAt": "2026-11-04T10:11:32.793Z"
   },
   {
@@ -218,12 +218,12 @@
    "process": "Traslados",
    "type": "ctap",
    "url": "https://hh-sp.osakidetza.eus/B96/home_usuario_publico.xhtml",
-   "ok": true,
-   "status": 200,
-   "error": "",
-   "count": 125,
+   "ok": false,
+   "status": 0,
+   "error": "page.waitForURL: Timeout 60000ms exceeded.\n=========================== logs ===========================\nwaiting for navigation until \"load\"\n====================",
+   "count": 0,
    "hash": "44ff34f0838ee74f",
-   "checkedAt": "2026-11-04T10:11:32.793Z",
+   "checkedAt": "2026-11-04T18:07:16.207Z",
    "changedAt": "2026-11-04T10:11:32.793Z"
   },
   {
@@ -237,7 +237,7 @@
    "error": "",
    "count": 0,
    "hash": "9a327c9e5613dad4",
-   "checkedAt": "2026-11-04T10:11:32.793Z",
+   "checkedAt": "2026-11-04T18:07:16.207Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -251,7 +251,7 @@
    "error": "",
    "count": 0,
    "hash": "678bcb345b70e6ba",
-   "checkedAt": "2026-11-04T10:11:32.793Z",
+   "checkedAt": "2026-11-04T18:07:16.207Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -265,7 +265,7 @@
    "error": "",
    "count": 0,
    "hash": "974dc087b0130905",
-   "checkedAt": "2026-11-04T10:11:32.793Z",
+   "checkedAt": "2026-11-04T18:07:16.207Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   }
  ],
@@ -275,6 +275,24 @@
   "lastDate": "2026-11-04"
  },
  "items": [
+  {
+   "id": "comisiones2026-1b20695",
+   "src": "comisiones2026",
+   "process": "Comisiones de servicios",
+   "kind": "Alegaciones",
+   "title": "Fac. Esp. Médico de Familia EAP – Centro de Usansolo · Lista Provisional",
+   "org": "CVTTH",
+   "categories": [
+    "Centro de Usansolo"
+   ],
+   "published": "2026-11-05",
+   "start": "2026-11-05",
+   "end": "2026-11-18",
+   "estimated": false,
+   "literal": "Plazo para presentar alegaciones: abierto desde el 05/11/2026 hasta el 18/11/2026, ambos inclusive.",
+   "summary": "FAC. ESP. MÉDICO DE FAMILIA EAP - CENTRO DE USANSOLO - CVTTH - Lista Provisional - Plazo para presentar alegaciones: abierto desde el 05/11/2026 hasta el 18/11/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/comisiones-servicios-2026/webosk00-procon/es/adjuntos/261007_C_SERV_PIT_FEM_MEDICO_CVTTH_L_PROV.pdf"
+  },
   {
    "id": "jefaturas2026-1gqqcjp",
    "src": "jefaturas2026",
@@ -380,6 +398,22 @@
    "literal": "",
    "summary": "Se procede a la publicación en la página web de Osakidetza-Servicio vasco de salud de las Resolución de la directora general de Osakidetza-Servicio vasco de salud que contiene la relación definitiva de personas admitidas y excluidas y la asignación definitiva de destinos correspondientes al ciclo de octubre 2025 del concurso de traslados abierto y permanente de la categoría de enfermero/a de salud laboral. Ver…",
    "url": "https://hh-sp.osakidetza.eus/B96/home_usuario_publico.xhtml"
+  },
+  {
+   "id": "lanpoltsa-4514",
+   "src": "lanpoltsa",
+   "process": "Interinidades y ofertas de nombramiento",
+   "kind": "Plazo",
+   "title": "Oferta de Contratación Específica. Profesor/a Escuela Universitaria de Enfermería",
+   "org": "",
+   "categories": [],
+   "published": "2026-11-04",
+   "start": "2026-11-04",
+   "end": "2026-11-18",
+   "estimated": false,
+   "literal": "Plazo de solicitud: hasta el 18 de noviembre de 2026 (incluido).",
+   "summary": "Se oferta un nombramiento para la cobertura de un puesto de Profesor/a Escuela Universitaria de Enfermería, con conocimientos específicos, utilizando el correo electrónico como forma de contacto, a las personas integrantes de las listas cortas de contratación de Enfermería inscritas en el Área de Araba. Plazo de solicitud: hasta el 18 de noviembre de 2026 (incluido). Más información en el área privada.",
+   "url": "https://lanpoltsa.osakidetza.eus/c28/avisos-generales"
   },
   {
    "id": "jefaturas2026-10jdwp3",
