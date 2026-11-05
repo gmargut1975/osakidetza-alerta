@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checkedAt": "2026-11-04T23:53:52.332Z",
+ "checkedAt": "2026-11-05T12:36:16.848Z",
  "sources": [
   {
    "key": "comisiones2026",
@@ -13,7 +13,7 @@
    "error": "",
    "count": 149,
    "hash": "18da4cc65db84e9d",
-   "checkedAt": "2026-11-04T23:53:52.332Z",
+   "checkedAt": "2026-11-05T12:36:16.848Z",
    "changedAt": "2026-11-04T18:07:16.207Z"
   },
   {
@@ -27,7 +27,7 @@
    "error": "",
    "count": 132,
    "hash": "77f324c1858c86af",
-   "checkedAt": "2026-11-04T23:53:52.332Z",
+   "checkedAt": "2026-11-05T12:36:16.848Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -39,10 +39,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 493,
-   "hash": "5d34081712818d2c",
-   "checkedAt": "2026-11-04T23:53:52.332Z",
-   "changedAt": "2026-11-04T18:07:16.207Z"
+   "count": 495,
+   "hash": "6255fb3432c8e6d2",
+   "checkedAt": "2026-11-05T12:36:16.848Z",
+   "changedAt": "2026-11-05T12:36:16.848Z"
   },
   {
    "key": "jefaturas2025",
@@ -55,7 +55,7 @@
    "error": "",
    "count": 479,
    "hash": "66143b22347640ab",
-   "checkedAt": "2026-11-04T23:53:52.332Z",
+   "checkedAt": "2026-11-05T12:36:16.848Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -69,7 +69,7 @@
    "error": "",
    "count": 30,
    "hash": "eb07d21ecb1d9061",
-   "checkedAt": "2026-11-04T23:53:52.332Z",
+   "checkedAt": "2026-11-05T12:36:16.848Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -83,7 +83,7 @@
    "error": "",
    "count": 54,
    "hash": "a304df315c59aa2c",
-   "checkedAt": "2026-11-04T23:53:52.332Z",
+   "checkedAt": "2026-11-05T12:36:16.848Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -97,7 +97,7 @@
    "error": "",
    "count": 81,
    "hash": "638d970e27193081",
-   "checkedAt": "2026-11-04T23:53:52.332Z",
+   "checkedAt": "2026-11-05T12:36:16.848Z",
    "changedAt": "2026-11-03T17:56:58.427Z"
   },
   {
@@ -111,7 +111,7 @@
    "error": "",
    "count": 260,
    "hash": "d494e66cbc0a9f4c",
-   "checkedAt": "2026-11-04T23:53:52.332Z",
+   "checkedAt": "2026-11-05T12:36:16.848Z",
    "changedAt": "2026-11-04T18:07:16.207Z"
   },
   {
@@ -124,9 +124,9 @@
    "status": 200,
    "error": "",
    "count": 16,
-   "hash": "e8a956ae6d0b88fa",
-   "checkedAt": "2026-11-04T23:53:52.332Z",
-   "changedAt": "2026-10-30T14:27:12.732Z"
+   "hash": "25c73cb149072fbd",
+   "checkedAt": "2026-11-05T12:36:16.848Z",
+   "changedAt": "2026-11-05T12:36:16.848Z"
   },
   {
    "key": "ope2022",
@@ -139,7 +139,7 @@
    "error": "",
    "count": 83,
    "hash": "a6baac4fb1fc60c0",
-   "checkedAt": "2026-11-04T23:53:52.332Z",
+   "checkedAt": "2026-11-05T12:36:16.848Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -153,7 +153,7 @@
    "error": "",
    "count": 164,
    "hash": "6f0586c40b65c8fe",
-   "checkedAt": "2026-11-04T23:53:52.332Z",
+   "checkedAt": "2026-11-05T12:36:16.848Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -167,7 +167,7 @@
    "error": "",
    "count": 21,
    "hash": "ff9210a812239484",
-   "checkedAt": "2026-11-04T23:53:52.332Z",
+   "checkedAt": "2026-11-05T12:36:16.848Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -181,7 +181,7 @@
    "error": "",
    "count": 3,
    "hash": "3ff1c551e57dff5d",
-   "checkedAt": "2026-11-04T23:53:52.332Z",
+   "checkedAt": "2026-11-05T12:36:16.848Z",
    "changedAt": "2026-10-28T14:42:46.786Z"
   },
   {
@@ -195,7 +195,7 @@
    "error": "",
    "count": 0,
    "hash": "c4971aba58479f1e",
-   "checkedAt": "2026-11-04T23:53:52.332Z",
+   "checkedAt": "2026-11-05T12:36:16.848Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -208,9 +208,9 @@
    "status": 200,
    "error": "",
    "count": 0,
-   "hash": "8763cfff018ddfb2",
-   "checkedAt": "2026-11-04T23:53:52.332Z",
-   "changedAt": "2026-11-04T10:11:32.793Z"
+   "hash": "4b777a3e3f3beb1a",
+   "checkedAt": "2026-11-05T12:36:16.848Z",
+   "changedAt": "2026-11-05T12:36:16.848Z"
   },
   {
    "key": "ctap",
@@ -223,7 +223,7 @@
    "error": "",
    "count": 125,
    "hash": "44ff34f0838ee74f",
-   "checkedAt": "2026-11-04T23:53:52.332Z",
+   "checkedAt": "2026-11-05T12:36:16.848Z",
    "changedAt": "2026-11-04T10:11:32.793Z"
   },
   {
@@ -237,7 +237,7 @@
    "error": "",
    "count": 0,
    "hash": "9a327c9e5613dad4",
-   "checkedAt": "2026-11-04T23:53:52.332Z",
+   "checkedAt": "2026-11-05T12:36:16.848Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -251,7 +251,7 @@
    "error": "",
    "count": 0,
    "hash": "678bcb345b70e6ba",
-   "checkedAt": "2026-11-04T23:53:52.332Z",
+   "checkedAt": "2026-11-05T12:36:16.848Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -265,16 +265,52 @@
    "error": "",
    "count": 0,
    "hash": "974dc087b0130905",
-   "checkedAt": "2026-11-04T23:53:52.332Z",
+   "checkedAt": "2026-11-05T12:36:16.848Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   }
  ],
  "bopv": {
   "yy": "26",
-  "lastNumber": 211,
-  "lastDate": "2026-11-04"
+  "lastNumber": 212,
+  "lastDate": "2026-11-05"
  },
  "items": [
+  {
+   "id": "jefaturas2026-15hgrll",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Recurso de alzada",
+   "title": "Supervisor/a de Reanimación y Hospital de Día Médico Quirúrgico -Nombramiento",
+   "org": "OSI Debabarrena",
+   "categories": [
+    "Supervisor/a de Reanimación y Hospital de Día Médico Quirúrgico -Nombramiento"
+   ],
+   "published": "2026-11-06",
+   "start": "2026-11-06",
+   "end": "2026-12-07",
+   "estimated": false,
+   "literal": "Plazo para presentar recursos de alzada: abierto desde el 06/11/2026 hasta el 07/12/2026, ambos inclusive.",
+   "summary": "SUPERVISOR/A DE REANIMACIÓN Y HOSPITAL DE DÍA MÉDICO QUIRÚRGICO -NOMBRAMIENTO - OSI DEBABARRENA - Plazo para presentar recursos de alzada: abierto desde el 06/11/2026 hasta el 07/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/260904_L_DESIG_SUPERV_REANI_OSI_BAJO_DEBA_NOMBR_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-7he288",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Solicitud / inscripción",
+   "title": "Supervisor/a de la Unidad de Apoyo a la Estrategia y Resultados en Salud -Osi Bilbao-Basurto",
+   "org": "",
+   "categories": [
+    "Supervisor/a de la Unidad de Apoyo a la Estrategia y Resultados en Salud -Osi Bilbao-Basurto"
+   ],
+   "published": "2026-11-06",
+   "start": "2026-11-06",
+   "end": "2026-11-26",
+   "estimated": false,
+   "literal": "Plazo de presentación de solicitudes: abierto desde el 06/11/2026 hasta el 26/11/2026, ambos inclusive.",
+   "summary": "SUPERVISOR/A DE LA UNIDAD DE APOYO A LA ESTRATEGIA Y RESULTADOS EN SALUD -OSI BILBAO-BASURTO - Plazo de presentación de solicitudes: abierto desde el 06/11/2026 hasta el 26/11/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/261105_L_DESIG_SUPERV_CONTROL_GEST_OSI_BILBAO_BASURTO_a.pdf"
+  },
   {
    "id": "comisiones2026-1b20695",
    "src": "comisiones2026",
