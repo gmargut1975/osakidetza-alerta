@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checkedAt": "2026-11-05T12:36:16.848Z",
+ "checkedAt": "2026-11-05T20:24:27.017Z",
  "sources": [
   {
    "key": "comisiones2026",
@@ -13,7 +13,7 @@
    "error": "",
    "count": 149,
    "hash": "18da4cc65db84e9d",
-   "checkedAt": "2026-11-05T12:36:16.848Z",
+   "checkedAt": "2026-11-05T20:24:27.017Z",
    "changedAt": "2026-11-04T18:07:16.207Z"
   },
   {
@@ -27,7 +27,7 @@
    "error": "",
    "count": 132,
    "hash": "77f324c1858c86af",
-   "checkedAt": "2026-11-05T12:36:16.848Z",
+   "checkedAt": "2026-11-05T20:24:27.017Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -41,7 +41,7 @@
    "error": "",
    "count": 495,
    "hash": "6255fb3432c8e6d2",
-   "checkedAt": "2026-11-05T12:36:16.848Z",
+   "checkedAt": "2026-11-05T20:24:27.017Z",
    "changedAt": "2026-11-05T12:36:16.848Z"
   },
   {
@@ -55,7 +55,7 @@
    "error": "",
    "count": 479,
    "hash": "66143b22347640ab",
-   "checkedAt": "2026-11-05T12:36:16.848Z",
+   "checkedAt": "2026-11-05T20:24:27.017Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -69,7 +69,7 @@
    "error": "",
    "count": 30,
    "hash": "eb07d21ecb1d9061",
-   "checkedAt": "2026-11-05T12:36:16.848Z",
+   "checkedAt": "2026-11-05T20:24:27.017Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -83,7 +83,7 @@
    "error": "",
    "count": 54,
    "hash": "a304df315c59aa2c",
-   "checkedAt": "2026-11-05T12:36:16.848Z",
+   "checkedAt": "2026-11-05T20:24:27.017Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -97,7 +97,7 @@
    "error": "",
    "count": 81,
    "hash": "638d970e27193081",
-   "checkedAt": "2026-11-05T12:36:16.848Z",
+   "checkedAt": "2026-11-05T20:24:27.017Z",
    "changedAt": "2026-11-03T17:56:58.427Z"
   },
   {
@@ -109,10 +109,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 260,
-   "hash": "d494e66cbc0a9f4c",
-   "checkedAt": "2026-11-05T12:36:16.848Z",
-   "changedAt": "2026-11-04T18:07:16.207Z"
+   "count": 261,
+   "hash": "d70a29243a973c43",
+   "checkedAt": "2026-11-05T20:24:27.017Z",
+   "changedAt": "2026-11-05T20:24:27.017Z"
   },
   {
    "key": "ope2325",
@@ -125,7 +125,7 @@
    "error": "",
    "count": 16,
    "hash": "25c73cb149072fbd",
-   "checkedAt": "2026-11-05T12:36:16.848Z",
+   "checkedAt": "2026-11-05T20:24:27.017Z",
    "changedAt": "2026-11-05T12:36:16.848Z"
   },
   {
@@ -139,7 +139,7 @@
    "error": "",
    "count": 83,
    "hash": "a6baac4fb1fc60c0",
-   "checkedAt": "2026-11-05T12:36:16.848Z",
+   "checkedAt": "2026-11-05T20:24:27.017Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -153,7 +153,7 @@
    "error": "",
    "count": 164,
    "hash": "6f0586c40b65c8fe",
-   "checkedAt": "2026-11-05T12:36:16.848Z",
+   "checkedAt": "2026-11-05T20:24:27.017Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -167,7 +167,7 @@
    "error": "",
    "count": 21,
    "hash": "ff9210a812239484",
-   "checkedAt": "2026-11-05T12:36:16.848Z",
+   "checkedAt": "2026-11-05T20:24:27.017Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -181,7 +181,7 @@
    "error": "",
    "count": 3,
    "hash": "3ff1c551e57dff5d",
-   "checkedAt": "2026-11-05T12:36:16.848Z",
+   "checkedAt": "2026-11-05T20:24:27.017Z",
    "changedAt": "2026-10-28T14:42:46.786Z"
   },
   {
@@ -195,7 +195,7 @@
    "error": "",
    "count": 0,
    "hash": "c4971aba58479f1e",
-   "checkedAt": "2026-11-05T12:36:16.848Z",
+   "checkedAt": "2026-11-05T20:24:27.017Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -209,7 +209,7 @@
    "error": "",
    "count": 0,
    "hash": "4b777a3e3f3beb1a",
-   "checkedAt": "2026-11-05T12:36:16.848Z",
+   "checkedAt": "2026-11-05T20:24:27.017Z",
    "changedAt": "2026-11-05T12:36:16.848Z"
   },
   {
@@ -223,7 +223,7 @@
    "error": "",
    "count": 125,
    "hash": "44ff34f0838ee74f",
-   "checkedAt": "2026-11-05T12:36:16.848Z",
+   "checkedAt": "2026-11-05T20:24:27.017Z",
    "changedAt": "2026-11-04T10:11:32.793Z"
   },
   {
@@ -237,7 +237,7 @@
    "error": "",
    "count": 0,
    "hash": "9a327c9e5613dad4",
-   "checkedAt": "2026-11-05T12:36:16.848Z",
+   "checkedAt": "2026-11-05T20:24:27.017Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -251,7 +251,7 @@
    "error": "",
    "count": 0,
    "hash": "678bcb345b70e6ba",
-   "checkedAt": "2026-11-05T12:36:16.848Z",
+   "checkedAt": "2026-11-05T20:24:27.017Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -265,7 +265,7 @@
    "error": "",
    "count": 0,
    "hash": "974dc087b0130905",
-   "checkedAt": "2026-11-05T12:36:16.848Z",
+   "checkedAt": "2026-11-05T20:24:27.017Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   }
  ],
@@ -346,6 +346,22 @@
    "literal": "Plazo de presentación de solicitudes: abierto desde el 05/11/2026 hasta el 18/11/2026, ambos inclusive.",
    "summary": "JEFE/A DE SERVICIO CORPORATIVO (DIRECCIÓN DE ASISTENCIA SANITARIA) - DIRECCIÓN GENERAL - Plazo de presentación de solicitudes: abierto desde el 05/11/2026 hasta el 18/11/2026, ambos inclusive.",
    "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/261104_L_DESIG_J_SERV_ASIST_SANIT_DIR_RRHH_a.pdf"
+  },
+  {
+   "id": "lanpoltsa-4516",
+   "src": "lanpoltsa",
+   "process": "Interinidades y ofertas de nombramiento",
+   "kind": "Plazo",
+   "title": "Oferta de Contratación Específica. Titulado/a Superior- Técnico/a Superior Psicología",
+   "org": "",
+   "categories": [],
+   "published": "2026-11-05",
+   "start": "2026-11-05",
+   "end": "2026-11-19",
+   "estimated": false,
+   "literal": "Plazo de solicitud: hasta el 19 de noviembre de 2026 (incluido).",
+   "summary": "Se va a ofertar un nombramiento para la cobertura de un puesto de Titulado/a Superior- Técnico/a Superior Psicología, con conocimientos específicos, utilizando el correo electrónico como forma de contacto, a las personas integrantes de las listas largas de contratación de las Áreas de Araba y de Gipuzkoa. Plazo de solicitud: hasta el 19 de noviembre de 2026 (incluido). Más información en el área privada.",
+   "url": "https://lanpoltsa.osakidetza.eus/c28/avisos-generales"
   },
   {
    "id": "bopv-3l1on8",
