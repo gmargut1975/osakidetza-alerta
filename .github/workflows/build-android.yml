@@ -85,10 +85,23 @@ jobs:
             '<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />',
           ].filter((p) => !m.includes(p.split('"')[1]));
           m = m.replace("</manifest>", `    ${perms.join("\n    ")}\n</manifest>`);
+          // Al tocar una notificación del comprobador se abre la app: su
+          // PendingIntent usa la acción ".NOTIFICATION_CLICKED".
+          if (!m.includes(".NOTIFICATION_CLICKED")) {
+            m = m.replace("</intent-filter>", `</intent-filter>\n            <intent-filter>\n                <action android:name=".NOTIFICATION_CLICKED" />\n                <category android:name="android.intent.category.DEFAULT" />\n            </intent-filter>`);
+          }
           fs.writeFileSync(manifest, m);
+
+          // Icono de la barra de notificaciones (campana blanca).
+          fs.mkdirSync("android/app/src/main/res/drawable", { recursive: true });
+          fs.writeFileSync("android/app/src/main/res/drawable/ic_stat_plazos.xml", `<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="24dp" android:height="24dp" android:viewportWidth="24" android:viewportHeight="24">
+            <path android:fillColor="#FFFFFFFF" android:pathData="M12,22c1.1,0 2,-0.9 2,-2h-4c0,1.1 0.9,2 2,2zM18,16v-5c0,-3.07 -1.64,-5.64 -4.5,-6.32V4c0,-0.83 -0.67,-1.5 -1.5,-1.5s-1.5,0.67 -1.5,1.5v0.68C7.63,5.36 6,7.92 6,11v5l-2,2v1h16v-1l-2,-2z"/>
+          </vector>
+          `);
           JS
           npx cap sync android
           grep -n "background-runner\|versionCode\|versionName" android/app/build.gradle
+          grep -n "NOTIFICATION_CLICKED\|POST_NOTIFICATIONS" android/app/src/main/AndroidManifest.xml
 
       - name: Compilar APK
         working-directory: android-app/android

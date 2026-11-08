@@ -497,6 +497,26 @@ async function syncNative() {
   const details = { enabled: state.settings.systemNotifications, interests: state.interests, remind: state.settings.remind, tracked };
   try { await runner.dispatchEvent({ label: RUNNER_LABEL, event: "syncState", details }); } catch { /* el comprobador aún no está listo */ }
 }
+async function testNativeNotification() {
+  const runner = nativeRunner();
+  if (!runner) return;
+  if ((await nativePermission()) !== "granted") { toast("Sin permiso de notificaciones: actívalo en Ajustes de Android > Apps > Plazos Osakidetza."); return; }
+  state.settings.systemNotifications = true; save();
+  try { await runner.dispatchEvent({ label: RUNNER_LABEL, event: "testNotification", details: {} }); toast("Enviada: mira la barra de notificaciones del móvil."); }
+  catch { toast("No se ha podido enviar la notificación de prueba."); }
+}
+// Al abrir la app (por ejemplo, tocando una notificación) se muestran
+// directamente las novedades y recordatorios pendientes.
+let lastNoticeKey = "";
+function showPendingNotices() {
+  if (!NATIVE || document.querySelector("dialog[open]")) return;
+  const fresh = state.interests.processes.length || state.interests.categories.length ? relevantNew() : [];
+  const reminders = dueReminders().filter((r) => !r.acknowledged);
+  const key = [...fresh.map((it) => it.id), ...reminders.map((r) => r.key)].join("|");
+  if (!key || key === lastNoticeKey) return;
+  lastNoticeKey = key;
+  openNotices();
+}
 async function nativePermission() {
   const runner = nativeRunner();
   if (!runner) return "unsupported";
@@ -792,7 +812,7 @@ function renderFollow() {
   const items = ids.map((id) => ITEMS.find((i) => i.id === id)).filter(Boolean);
   const missing = ids.length - items.length;
   const groups = ["pendiente", "presentado", "hecho", "descartado"].map((s) => [s, items.filter((i) => state.follow[i.id].status === s).sort(byEnd)]);
-  const head = `<div class="toolbar"><button class="btn primary" id="addManual">+ Añadir plazo propio</button><button class="btn" id="exportIcs" ${items.length ? "" : "disabled"}>Exportar al calendario (.ics)</button></div>`;
+  const head = `<div class="toolbar"><button class="btn primary" id="addManual">+ Añadir plazo propio</button>${NATIVE ? "" : `<button class="btn" id="exportIcs" ${items.length ? "" : "disabled"}>Exportar al calendario (.ics)</button>`}</div>`;
   if (!items.length) return head + `<div class="empty"><p><strong>Todavía no sigues ningún plazo.</strong></p><p>Pulsa la estrella ☆ de cualquier plazo para seguirlo: podrás anotar si lo has presentado, añadir notas y recibir recordatorios antes de que termine.</p></div>`;
   return head + groups.map(([s, list]) => section(`f-${s}`, FSTATUS[s], list)).join("") + (missing ? `<p class="status-line">${plural(missing, "plazo seguido ya no figura", "plazos seguidos ya no figuran")} en los datos disponibles.</p>` : "");
 }
@@ -858,7 +878,7 @@ function openDetail(id) {
       ${it.url ? `<a class="btn primary" href="${esc(it.url)}" target="_blank" rel="noopener">${it.src === "ctap" ? "Abrir la aplicación de traslados ↗" : it.src === "ivap" || it.src === "habe" ? "Ver calendario oficial ↗" : "Ver documento oficial ↗"}</a>` : ""}
       ${it.altUrl ? `<a class="btn" href="${esc(it.altUrl)}" target="_blank" rel="noopener">Ver también en ${it.altUrl.includes("bopv") ? "el BOPV" : "otra fuente"} ↗</a>` : ""}
       <button class="btn" data-follow="${esc(it.id)}" aria-pressed="${Boolean(fol)}">${fol ? "★ Siguiendo" : "☆ Seguir"}</button>
-      ${it.end ? `<button class="btn" data-ics="${esc(it.id)}">Añadir a mi calendario</button>` : ""}
+      ${it.end && !NATIVE ? `<button class="btn" data-ics="${esc(it.id)}">Añadir a mi calendario</button>` : ""}
       <button class="btn" data-share="${esc(it.id)}">Compartir</button>
       ${it.src === "manual" ? `<button class="btn" data-delmanual="${esc(it.id)}">Eliminar plazo propio</button>` : ""}
     </div>
@@ -942,7 +962,7 @@ function openSettings() {
       <label>Por defecto, avisar estos días antes del fin de plazo <input type="text" name="remind" value="${esc(state.settings.remind.join(", "))}" pattern="\\s*\\d{1,3}(\\s*,\\s*\\d{1,3})*\\s*"></label>
       <label style="display:flex;gap:8px;align-items:center;margin-top:8px"><input type="checkbox" name="sys" ${state.settings.systemNotifications && perm === "granted" ? "checked" : ""} ${perm === "unsupported" || perm === "denied" ? "disabled" : ""}> Notificaciones del sistema ${perm === "denied" ? "(bloqueadas en el navegador)" : perm === "unsupported" ? "(no disponibles en este navegador)" : ""}</label>
       <p class="status-line">${NATIVE
-        ? "El móvil comprueba las novedades de tus intereses y tus recordatorios aproximadamente cada hora, aunque la app esté cerrada (Android puede retrasarlo si el móvil está en ahorro de batería). La primera comprobación solo aprende lo que ya hay: avisará de lo que salga a partir de ahí."
+        ? "<button type=\"button\" class=\"btn\" id=\"testNotif\">Probar notificación</button> El móvil comprueba las novedades de tus intereses y tus recordatorios aproximadamente cada hora, aunque la app esté cerrada (Android puede retrasarlo si el móvil está en ahorro de batería). La primera comprobación solo aprende lo que ya hay: avisará de lo que salga a partir de ahí."
         : `Los avisos se muestran cuando abres la aplicación (y cada 30 minutos si está abierta); cada uno, una sola vez. Para recibirlos con la app cerrada, <a href="${APK_URL}">descarga la app Android</a>.`}</p>
     </fieldset>
     <div class="actions"><button class="btn primary" type="submit">Guardar ajustes</button></div>
@@ -1021,19 +1041,28 @@ function ics(items) {
   return lines.map((l) => { const out = []; let cur = ""; for (const ch of l) { if (new TextEncoder().encode(cur + ch).length > 74) { out.push(cur); cur = " " + ch; } else cur += ch; } out.push(cur); return out.join("\r\n"); }).join("\r\n") + "\r\n";
 }
 function download(name, text, type) {
+  // En la app Android no hay descargas: la copia se comparte (correo, Drive...).
+  const nativeShare = nativePlugin("Share");
+  if (nativeShare) { nativeShare.share({ title: name, text, dialogTitle: "Guardar o enviar la copia" }).catch(() => {}); return; }
   const a = document.createElement("a");
   a.href = URL.createObjectURL(new Blob([text], { type }));
   a.download = name; document.body.append(a); a.click(); a.remove();
   setTimeout(() => URL.revokeObjectURL(a.href), 1000);
 }
+function nativePlugin(name) {
+  const cap = window.Capacitor;
+  return NATIVE && cap ? (cap.Plugins && cap.Plugins[name]) || (cap.registerPlugin ? cap.registerPlugin(name) : null) : null;
+}
 async function share(id) {
   const it = ITEMS.find((i) => i.id === id);
   const text = `${it.org ? `${it.org} · ` : ""}${it.kind} · ${it.title}${it.end ? ` · Fin de plazo: ${fmt(it.end)}` : ""}`;
   try {
+    const nativeShare = nativePlugin("Share");
+    if (nativeShare) { await nativeShare.share({ title: "Plazo Osakidetza", text: `${text}${it.url ? "" : "\n(Plazos Osakidetza)"}`, url: it.url || undefined, dialogTitle: "Compartir aviso" }); return; }
     if (navigator.share) { await navigator.share({ title: "Plazo Osakidetza", text, url: it.url || undefined }); return; }
     await navigator.clipboard.writeText(`${text}\n${it.url || ""}`.trim());
     toast("Copiado al portapapeles.");
-  } catch (e) { if (e && e.name !== "AbortError") toast("No se ha podido compartir."); }
+  } catch (e) { if (e && e.name !== "AbortError" && !/cancel/i.test(String(e.message || e))) toast("No se ha podido compartir."); }
 }
 function importBackup(file) {
   const reader = new FileReader();
@@ -1094,6 +1123,7 @@ document.addEventListener("click", (e) => {
   if (ds.close !== undefined) { t.closest("dialog").close(); return; }
   switch (t.id) {
     case "openNotices": openNotices(); break;
+    case "testNotif": testNativeNotification(); break;
     case "openSettings": openSettings(); break;
     case "openFilters": openFiltersPanel(true); break;
     case "closeFilters": openFiltersPanel(false); break;
@@ -1151,7 +1181,7 @@ document.querySelectorAll("dialog").forEach((d) => d.addEventListener("click", (
 /* ============================================================ arranque */
 async function refresh(manual) {
   await fetchMonitor(manual);
-  buildItems(); initMemory(); pruneMemory(); render(); notifySystem();
+  buildItems(); initMemory(); pruneMemory(); render(); notifySystem(); showPendingNotices();
 }
 (async () => {
   try { snapshot = await decodeSnapshot(); }
@@ -1167,7 +1197,10 @@ async function refresh(manual) {
   }
 })();
 setInterval(() => refresh(false), REFRESH_MS);
-document.addEventListener("visibilitychange", () => { if (!document.hidden && Date.now() - lastLoad > 5 * 60 * 1000) refresh(false); });
+document.addEventListener("visibilitychange", () => {
+  if (document.hidden) return;
+  if (Date.now() - lastLoad > 5 * 60 * 1000) refresh(false); else showPendingNotices();
+});
 window.addEventListener("storage", (e) => { if (e.key === STORE_KEY) location.reload(); });
 if (!NATIVE && /^https?:$/.test(location.protocol)) {
   const link = document.createElement("link"); link.rel = "manifest"; link.href = "manifest.webmanifest"; document.head.append(link);

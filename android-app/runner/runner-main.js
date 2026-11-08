@@ -35,6 +35,16 @@ addEventListener("syncState", function (resolve, reject, args) {
   }
 });
 
+// Botón «Probar notificación» de Ajustes: comprueba permisos y canal.
+addEventListener("testNotification", function (resolve, reject) {
+  try {
+    CapacitorNotifications.schedule([{ id: 1, title: "Plazos Osakidetza", body: "Las notificaciones funcionan. Toca aquí para abrir la app.", scheduleAt: new Date(Date.now() + 1000), autoCancel: true }]);
+    resolve();
+  } catch (e) {
+    reject(e);
+  }
+});
+
 addEventListener("checkPlazos", async function (resolve, reject) {
   try {
     var sync = kvGet(KEY_SYNC) || {};

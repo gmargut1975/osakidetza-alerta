@@ -2,7 +2,9 @@
   "appId": "eus.plazos.osakidetza",
   "appName": "Plazos Osakidetza",
   "webDir": "www",
-  "android": { "allowMixedContent": false },
+  "android": {
+    "allowMixedContent": false
+  },
   "plugins": {
     "BackgroundRunner": {
       "label": "eus.plazos.osakidetza.check",
@@ -11,6 +13,9 @@
       "repeat": true,
       "interval": 60,
       "autoStart": true
+    },
+    "LocalNotifications": {
+      "smallIcon": "ic_stat_plazos"
     }
   }
 }
