@@ -56,7 +56,7 @@ test("BOPV: primera ejecución recorre el año anterior y continúa en el actual
   const r = await checkBopv({ key: "bopv", url: "https://www.euskadi.eus/web01-bopv/es/bopv2/datos/Ultimo.shtml" }, makeGetter(fetchImpl), {}, "2026-10-15");
   assert.deepEqual(r.items.map((i) => i.published), ["2025-10-16", "2026-01-02"]);
   assert.equal(r.items[0].end, "2025-11-20");
-  assert.deepEqual(r.bopv, { yy: "26", lastNumber: 1, lastDate: "2026-01-02" });
+  assert.deepEqual(r.bopv, { yy: "26", lastNumber: 1, lastDate: "2026-01-02", filter: 2 });
   const again = await checkBopv({ key: "bopv", url: "https://www.euskadi.eus/web01-bopv/es/bopv2/datos/Ultimo.shtml" }, makeGetter(fetchImpl), r.bopv, "2026-10-15");
   assert.equal(again.items.length, 0, "no repite boletines ya procesados");
 });

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "note": "Fuentes oficiales que vigila scripts/check-sources.mjs. type: links (listas de documentos con plazo), announcements (páginas de avisos fechados), lanpoltsa (API pública de avisos de Listas de contratación temporal), bopv (sección Osakidetza de cada boletín), watch (solo detección de cambios).",
+  "note": "Fuentes oficiales que vigila scripts/check-sources.mjs. type: links (listas de documentos con plazo), announcements (páginas de avisos fechados), lanpoltsa (API pública de avisos de Listas de contratación temporal), bopv (sección Osakidetza de cada boletín), ivap (calendarios de perfiles lingüísticos del IVAP), habe (calendarios de exámenes B1-C2 de HABE), ctap (avisos de la aplicación de traslados), watch (solo detección de cambios).",
   "sources": [
     { "key": "comisiones2026", "type": "links", "process": "Comisiones de servicios", "label": "Comisiones de servicios 2026", "url": "https://www.osakidetza.euskadi.eus/comisiones-servicios-2026/webosk00-procon/es/" },
     { "key": "comisiones2025", "type": "links", "process": "Comisiones de servicios", "label": "Comisiones de servicios 2025", "url": "https://www.osakidetza.euskadi.eus/comisiones-servicios-2025/webosk00-procon/es/" },
@@ -16,6 +16,8 @@
     { "key": "opeDificil", "type": "announcements", "process": "OPE Difícil Cobertura Primaria", "label": "OPE difícil cobertura en Atención Primaria", "url": "https://www.osakidetza.euskadi.eus/ope-dificil-cobertura-primaria/webosk00-procon/es/" },
     { "key": "desarrollo", "type": "announcements", "process": "Desarrollo profesional", "label": "Desarrollo profesional", "url": "https://www.osakidetza.euskadi.eus/desarrollo-profesional-convocatoria-ordinaria-2025-reapertura-2022-2023-2024/webosk00-procon/es/" },
     { "key": "convocatoriaPuestos", "type": "announcements", "process": "Convocatoria de puestos", "label": "Convocatoria de puestos", "url": "https://www.osakidetza.euskadi.eus/convocatoria-de-puestos/webosk00-oskcon/es/" },
+    { "key": "ivap", "type": "ivap", "process": "Euskera · Perfiles lingüísticos", "label": "IVAP · Acreditación de perfiles lingüísticos (calendario de cada convocatoria)", "url": "https://www.ivap.euskadi.eus/perfiles/", "backfill": ["2025-2"] },
+    { "key": "habe", "type": "habe", "process": "Euskera · Niveles B1-C2 (HABE)", "label": "HABE · Exámenes de euskera B1-C2 (convocatoria abierta y HOBE)", "url": "https://www.habe.euskadi.eus/convocatorias-examen/webhabe00-edukiak/es/" },
     { "key": "bopv", "type": "bopv", "process": "BOPV · Osakidetza", "label": "BOPV · sección Osakidetza de cada boletín", "url": "https://www.euskadi.eus/web01-bopv/es/bopv2/datos/Ultimo.shtml" },
     { "key": "ctap", "type": "ctap", "process": "Traslados", "label": "Aplicación del concurso de traslados (avisos públicos)", "url": "https://hh-sp.osakidetza.eus/B96/avisosProcesoPub.xhtml", "publicUrl": "https://hh-sp.osakidetza.eus/B96/home_usuario_publico.xhtml" },
     { "key": "traslados", "type": "watch", "process": "Traslados", "label": "Concurso de traslados abierto y permanente", "url": "https://www.osakidetza.euskadi.eus/el-concurso-de-traslados-abierto-y-permanente/webosk00-procon/es/" },

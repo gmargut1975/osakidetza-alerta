@@ -23,11 +23,15 @@ import {
   bopvItem, mergeItems, inlineText, stripNoise, editorRegion, addDays, ctapAnnouncements, extractCtap,
 } from "./extractors.mjs";
 import { fetchCtapHtml } from "./fetch-ctap.mjs";
+import { ivapConvocatoriaLinks, ivapUrl, extractIvap, habeLinks, extractHabe } from "./euskera.mjs";
 
 const TIMEOUT_MS = 45000;
 const RETRIES = 2;
 const KEEP_DAYS = 730;    // histórico conservado (la app muestra por defecto el último año)
 const BOPV_MAX_PER_RUN = 80;
+// Sube este número cuando cambie qué resoluciones se recogen del BOPV: el
+// robot vuelve a recorrer el último año (v2: acreditación de euskera).
+const BOPV_FILTER = 2;
 const UA = "Mozilla/5.0 (compatible; PlazosOsakidetzaMonitor/2.0; +https://github.com/gmargut1975/osakidetza-alerta)";
 
 export function decodeBody(buffer, contentType) {
@@ -73,6 +77,34 @@ async function checkSource(source, get, today, ctapFetcher = fetchCtapHtml) {
     if (!rows.length) throw new Error("La página de avisos de traslados no devolvió ningún aviso");
     return { status: 200, items: extractCtap(rows, source, today), hash: hash(JSON.stringify(rows)) };
   }
+  if (source.type === "ivap") {
+    // Calendario de cada convocatoria de perfiles lingüísticos enlazada desde
+    // la página del IVAP (más las antiguas de «backfill» para el último año).
+    const hub = await get(source.url);
+    const pages = ivapConvocatoriaLinks(hub.body, source.url);
+    (source.backfill || []).forEach((code) => { if (!pages.some((p) => p.code === code)) pages.push({ code, url: ivapUrl(code) }); });
+    if (!pages.length) throw new Error("No se encuentran convocatorias de perfiles lingüísticos");
+    const items = [];
+    const bodies = [];
+    for (const page of pages) {
+      try {
+        const { body } = await get(page.url);
+        items.push(...extractIvap(body, page.url, source.key, today));
+        bodies.push(body.slice(body.indexOf(">Calendario<"), body.indexOf("panel panel-default", body.indexOf(">Calendario<") + 20)));
+      } catch { /* una convocatoria antigua retirada no impide leer las demás */ }
+    }
+    if (!items.length) throw new Error("Los calendarios del IVAP no tienen fechas reconocibles");
+    return { status: hub.status, items, hash: hash(bodies.join("|")) };
+  }
+  if (source.type === "habe") {
+    const hub = await get(source.url);
+    const pages = habeLinks(hub.body, source.url);
+    if (!pages.length) throw new Error("No se encuentran las convocatorias de examen de HABE");
+    const items = [];
+    for (const page of pages) items.push(...extractHabe((await get(page.url)).body, page.url, source.key, today, { name: page.name }));
+    if (!items.length) throw new Error("Los calendarios de HABE no tienen fechas reconocibles");
+    return { status: hub.status, items, hash: hash(JSON.stringify(items.map((i) => [i.id, i.start, i.end]))) };
+  }
   if (source.type === "lanpoltsa") {
     const { status, body } = await get(source.url, { json: true });
     const list = Array.isArray(body) ? body : body.avisos || body.content || [];
@@ -88,6 +120,7 @@ async function checkSource(source, get, today, ctapFetcher = fetchCtapHtml) {
 // primera ejecución empieza un año atrás (la numeración se reinicia cada año)
 // y avanza como mucho BOPV_MAX_PER_RUN boletines por ejecución.
 export async function checkBopv(source, get, previous, today) {
+  if ((previous.filter || 1) < BOPV_FILTER) previous = {};
   const latest = await get(source.url);
   const m = /s(\d{2})_(\d{4})\.(?:pdf|shtml|epub)/.exec(latest.body);
   if (!m) throw new Error("No se encuentra el número del último boletín");
@@ -139,7 +172,7 @@ export async function checkBopv(source, get, previous, today) {
     }
     processed = { yy, lastNumber: n, lastDate: page.date };
   }
-  return { status: latest.status, items, hash: hash(`${curYY}-${latestNumber}`), bopv: processed };
+  return { status: latest.status, items, hash: hash(`${curYY}-${latestNumber}`), bopv: { ...processed, filter: BOPV_FILTER } };
 }
 
 export function buildFeed(items, today, generatedAt) {

@@ -9,6 +9,7 @@
 
 import { readFile, writeFile } from "node:fs/promises";
 import { extractLanpoltsa, extractCtap, mergeItems, humanDate, absoluteUrl, stableHash } from "../scripts/extractors.mjs";
+import { extractIvap, ivapUrl, extractHabe, habeLinks } from "../scripts/euskera.mjs";
 
 const here = (p) => new URL(p, import.meta.url);
 const sources = JSON.parse(await readFile(here("../data/sources.json"), "utf8")).sources;
@@ -29,7 +30,7 @@ const estLiteral = (code, literal) => {
 const bopv = (await jsonl("bopv.jsonl")).map(([id, process, kind, title, org, cats, published, start, end, est, literal, rel]) => ({
   id: `bopv-${id}`,
   src: "bopv",
-  process,
+  process: /cursos? de euskera/i.test(title) ? "Euskera · Cursos" : process,
   kind,
   title,
   org,
@@ -72,8 +73,19 @@ const lan = extractLanpoltsa(JSON.parse(await readFile(here("snapshot/lanpoltsa.
 // de https://hh-sp.osakidetza.eus/B96/avisosProcesoPub.xhtml.
 const ctap = extractCtap(JSON.parse(await readFile(here("snapshot/ctap.json"), "utf8")), byKey.ctap, today);
 
+// Calendarios de acreditación de euskera (IVAP y HABE), capturados el
+// 2026-11-08 de sus páginas oficiales (tools/snapshot/euskera).
+const fx = (name) => readFile(here(`snapshot/euskera/${name}`), "utf8");
+const ivap = [];
+for (const code of ["2026-2", "2026-1", "2025-2"]) ivap.push(...extractIvap(await fx(`ivap-${code}.html`), ivapUrl(code), "ivap", today));
+const habe = [];
+const HABE_HUB = byKey.habe.url;
+for (const link of habeLinks(await fx("habe-convocatorias.html"), HABE_HUB)) {
+  habe.push(...extractHabe(await fx(/hobe/.test(link.url) ? "habe-hobe.html" : "habe-abierta.html"), link.url, "habe", today, { name: link.name }));
+}
+
 // Orden: Osakidetza primero para que su página pública quede como enlace principal.
-const items = mergeItems([osk, lan, ctap, bopv]).map((item) => ({ ...item, summary: item.summary || "" }));
+const items = mergeItems([osk, lan, ctap, ivap, habe, bopv]).map((item) => ({ ...item, summary: item.summary || "" }));
 const ids = new Set();
 items.forEach((item) => {
   if (ids.has(item.id)) throw new Error(`Id duplicado: ${item.id}`);
@@ -86,4 +98,4 @@ items.forEach((item) => {
 
 const out = { capturedAt: process.env.SNAPSHOT_TIME || `${today}T08:30:00+02:00`, items };
 await writeFile(here("../data/snapshot.json"), `${JSON.stringify(out)}\n`);
-console.log(`snapshot: ${items.length} avisos (${osk.length} Osakidetza, ${lan.length} lan poltsa, ${ctap.length} CTAP, ${bopv.length} BOPV) · hash ${stableHash(JSON.stringify(items))}`);
+console.log(`snapshot: ${items.length} avisos (${osk.length} Osakidetza, ${lan.length} lan poltsa, ${ctap.length} CTAP, ${ivap.length} IVAP, ${habe.length} HABE, ${bopv.length} BOPV) · hash ${stableHash(JSON.stringify(items))}`);

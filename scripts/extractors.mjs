@@ -688,15 +688,28 @@ export function bopvSummaryEntries(html, pageUrl) {
       continue;
     }
     const title = inlineText(m[3]);
-    if (/osakidetza/i.test(organism) || /osakidetza/i.test(title)) {
+    if (/osakidetza/i.test(organism) || /osakidetza/i.test(title) || isEuskeraAccreditation(title, organism)) {
       entries.push({ title, url: absoluteUrl(decodeEntities(m[2]), pageUrl) });
     }
   }
   return entries;
 }
 
+// Resoluciones sobre la acreditación del euskera que interesan al personal
+// de Osakidetza: perfiles lingüísticos (IVAP u Osakidetza) y niveles B1-C2
+// de HABE. Se excluyen los perfiles del profesorado.
+export function isEuskeraAccreditation(title, organism = "") {
+  const t = fold(`${title} ${organism}`);
+  if (/ensenanza concertada|profesorado|personal docente|ensenanza no universitaria/.test(t)) return false;
+  const topic = /perfil(es)? linguistic|acreditacion[^.]{0,160}(euskera|euskara)|\bheoc\b|niveles? (b1|b2|c1|c2)[^.]{0,80}euskera|hobe\b/.test(t);
+  const who = /instituto vasco de administracion publica|\bivap\b|\bhabe\b|alfabetizacion y reeuskaldunizacion|osakidetza/.test(t);
+  return topic && who;
+}
+
 export function classifyBopv(title) {
   const t = fold(title);
+  if (/cursos? de euskera|euskara ikastaro/.test(t)) return "Euskera · Cursos";
+  if (isEuskeraAccreditation(title)) return /\bhabe\b|alfabetizacion|heoc|hobe\b/.test(t) ? "Euskera · Niveles B1-C2 (HABE)" : "Euskera · Perfiles lingüísticos";
   if (/concurso de traslados/.test(t)) return "Traslados";
   if (/desarrollo profesional/.test(t)) return "Desarrollo profesional";
   if (/listas? de contratacion|contratacion temporal/.test(t)) return "Listas de contratación temporal";
@@ -765,7 +778,7 @@ export function bopvDeadline(bodyText, published) {
     const chosen = explicit.reduce((a, b) => (b.end > a.end ? b : a));
     return { start: chosen.start || published, end: chosen.end, estimated: false, literal: chosen.sentence, kind: classifyKind(chosen.sentence) };
   }
-  const habiles = /plazo[^.]{0,80}?\bde (\d+|diez|quince|veinte|treinta|cinco|tres|siete) d[ií]as h[aá]biles[^.]{0,160}?(?:siguiente|a partir)[^.]{0,120}publicaci[oó]n/i.exec(text);
+  const habiles = /plazo[^.]{0,140}?\bde (\d+|diez|quince|veinte|treinta|cinco|tres|siete) d[ií]as h[aá]biles[^.]{0,160}?(?:siguiente|a partir)[^.]{0,120}publicaci[oó]n/i.exec(text);
   if (habiles) {
     const n = Number(habiles[1]) || NUMBER_WORDS[fold(habiles[1])];
     if (n) {
@@ -837,6 +850,9 @@ export function bopvItem(entry, published, bodyText, sourceKey) {
 }
 
 export function bopvOrg(title) {
+  const t = fold(title);
+  if (/instituto vasco de administracion publica/.test(t)) return "IVAP";
+  if (/\bhabe\b|alfabetizacion y reeuskaldunizacion/.test(t)) return "HABE";
   const m = /(Organizaci[oó]n Sanitaria Integrada [A-ZÁÉÍÓÚÑ][\wÁÉÍÓÚÑáéíóúñ-]*(?:[- ][A-ZÁÉÍÓÚÑ][\wÁÉÍÓÚÑáéíóúñ-]*)*|Red de Salud Mental de (?:Araba|Bizkaia|Gipuzkoa)|Hospital [A-ZÁÉÍÓÚÑ][\wÁÉÍÓÚÑáéíóúñ-]*)/.exec(title);
   return m ? m[1].replace(/^Organizaci[oó]n Sanitaria Integrada/, "OSI") : "";
 }

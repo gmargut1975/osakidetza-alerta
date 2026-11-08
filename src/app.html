@@ -557,7 +557,7 @@ function filtered(ignore) {
     return !f.text || matchesAll(it.hay, f.text);
   });
 }
-const SOURCE_LABELS = { bopv: "BOPV", lanpoltsa: "Lan poltsa (listas)", ctap: "Aplicación del concurso de traslados", manual: "Plazos propios" };
+const SOURCE_LABELS = { bopv: "BOPV", lanpoltsa: "Lan poltsa (listas)", ctap: "Aplicación del concurso de traslados", ivap: "IVAP · Perfiles lingüísticos", habe: "HABE · Exámenes B1-C2", manual: "Plazos propios" };
 function sourceLabel(key) {
   const s = monitor && monitor.sources ? monitor.sources.find((x) => x.key === key) : null;
   return (s && s.label) || SOURCE_LABELS[key] || key;
@@ -693,6 +693,7 @@ const PROCESS_SHORT = {
   "OPE Difícil Cobertura Primaria": "OPE Difícil cob.", "OPE (BOPV)": "OPE (BOPV)", "Traslados": "Traslados",
   "Desarrollo profesional": "Desarrollo prof.", "Recursos judiciales (emplazamientos)": "Emplazamientos",
   "Otras resoluciones de Osakidetza (BOPV)": "Otras (BOPV)", "Plazos propios": "Mis plazos",
+  "Euskera · Perfiles lingüísticos": "Euskera PL", "Euskera · Niveles B1-C2 (HABE)": "Euskera HABE", "Euskera · Cursos": "Cursos euskera",
 };
 // Colores fijos y bien diferenciados para los procesos habituales.
 const PROCESS_COLOR = {
@@ -702,6 +703,7 @@ const PROCESS_COLOR = {
   "OPE Difícil Cobertura Primaria": "#c62828", "OPE (BOPV)": "#5c6bc0", "Traslados": "#f9a825",
   "Desarrollo profesional": "#00695c", "Recursos judiciales (emplazamientos)": "#546e7a",
   "Otras resoluciones de Osakidetza (BOPV)": "#8d6e63", "Plazos propios": "#37474f",
+  "Euskera · Perfiles lingüísticos": "#d84315", "Euskera · Niveles B1-C2 (HABE)": "#4e342e", "Euskera · Cursos": "#a1887f",
 };
 const PALETTE = ["#1565c0", "#2e7d32", "#ef6c00", "#6a1b9a", "#00838f", "#ad1457", "#795548", "#9e9d24", "#c62828", "#5c6bc0", "#f9a825", "#00695c"];
 const PROCESS_ORDER = Object.keys(PROCESS_SHORT);
@@ -853,7 +855,7 @@ function openDetail(id) {
       ${it.summary ? `<dt>Extracto</dt><dd>${esc(it.summary)}</dd>` : ""}
     </dl>
     <div class="actions">
-      ${it.url ? `<a class="btn primary" href="${esc(it.url)}" target="_blank" rel="noopener">${it.src === "ctap" ? "Abrir la aplicación de traslados ↗" : "Ver documento oficial ↗"}</a>` : ""}
+      ${it.url ? `<a class="btn primary" href="${esc(it.url)}" target="_blank" rel="noopener">${it.src === "ctap" ? "Abrir la aplicación de traslados ↗" : it.src === "ivap" || it.src === "habe" ? "Ver calendario oficial ↗" : "Ver documento oficial ↗"}</a>` : ""}
       ${it.altUrl ? `<a class="btn" href="${esc(it.altUrl)}" target="_blank" rel="noopener">Ver también en ${it.altUrl.includes("bopv") ? "el BOPV" : "otra fuente"} ↗</a>` : ""}
       <button class="btn" data-follow="${esc(it.id)}" aria-pressed="${Boolean(fol)}">${fol ? "★ Siguiendo" : "☆ Seguir"}</button>
       ${it.end ? `<button class="btn" data-ics="${esc(it.id)}">Añadir a mi calendario</button>` : ""}
