@@ -700,7 +700,7 @@ export function bopvSummaryEntries(html, pageUrl) {
 // de HABE. Se excluyen los perfiles del profesorado.
 export function isEuskeraAccreditation(title, organism = "") {
   const t = fold(`${title} ${organism}`);
-  if (/ensenanza concertada|profesorado|personal docente|ensenanza no universitaria/.test(t)) return false;
+  if (/ensenanza concertada|profesorado|personal docente|ensenanza no universitaria|curriculo basico/.test(t)) return false;
   const topic = /perfil(es)? linguistic|acreditacion[^.]{0,160}(euskera|euskara)|\bheoc\b|niveles? (b1|b2|c1|c2)[^.]{0,80}euskera|hobe\b/.test(t);
   const who = /instituto vasco de administracion publica|\bivap\b|\bhabe\b|alfabetizacion y reeuskaldunizacion|osakidetza/.test(t);
   return topic && who;
