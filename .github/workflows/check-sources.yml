@@ -1,6 +1,6 @@
 name: Comprobar fuentes oficiales
 # También al cambiar las fuentes o los extractores, para ver el efecto enseguida.
-on: { schedule: [{ cron: "*/30 * * * *" }], workflow_dispatch: {}, push: { branches: [main], paths: ["scripts/**", "data/sources.json"] } }
+on: { schedule: [{ cron: "*/30 * * * *" }], workflow_dispatch: {}, push: { branches: [main], paths: ["scripts/**", "data/sources.json", ".github/workflows/check-sources.yml"] } }
 permissions: { contents: write }
 concurrency: { group: check-sources, cancel-in-progress: false }
 jobs:
