@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checkedAt": "2026-11-09T02:49:40.732Z",
+ "checkedAt": "2026-11-09T10:39:32.356Z",
  "sources": [
   {
    "key": "comisiones2026",
@@ -11,10 +11,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 149,
-   "hash": "18da4cc65db84e9d",
-   "checkedAt": "2026-11-09T02:49:40.732Z",
-   "changedAt": "2026-11-04T18:07:16.207Z"
+   "count": 150,
+   "hash": "e6ef30c237d25136",
+   "checkedAt": "2026-11-09T10:39:32.356Z",
+   "changedAt": "2026-11-09T10:39:32.356Z"
   },
   {
    "key": "comisiones2025",
@@ -27,7 +27,7 @@
    "error": "",
    "count": 132,
    "hash": "77f324c1858c86af",
-   "checkedAt": "2026-11-09T02:49:40.732Z",
+   "checkedAt": "2026-11-09T10:39:32.356Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -39,10 +39,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 496,
-   "hash": "ead113727ba878b5",
-   "checkedAt": "2026-11-09T02:49:40.732Z",
-   "changedAt": "2026-11-06T15:29:02.807Z"
+   "count": 499,
+   "hash": "f4f38dc8665b24d9",
+   "checkedAt": "2026-11-09T10:39:32.356Z",
+   "changedAt": "2026-11-09T10:39:32.356Z"
   },
   {
    "key": "jefaturas2025",
@@ -55,7 +55,7 @@
    "error": "",
    "count": 479,
    "hash": "66143b22347640ab",
-   "checkedAt": "2026-11-09T02:49:40.732Z",
+   "checkedAt": "2026-11-09T10:39:32.356Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -69,7 +69,7 @@
    "error": "",
    "count": 30,
    "hash": "eb07d21ecb1d9061",
-   "checkedAt": "2026-11-09T02:49:40.732Z",
+   "checkedAt": "2026-11-09T10:39:32.356Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -83,7 +83,7 @@
    "error": "",
    "count": 54,
    "hash": "a304df315c59aa2c",
-   "checkedAt": "2026-11-09T02:49:40.732Z",
+   "checkedAt": "2026-11-09T10:39:32.356Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -97,7 +97,7 @@
    "error": "",
    "count": 81,
    "hash": "638d970e27193081",
-   "checkedAt": "2026-11-09T02:49:40.732Z",
+   "checkedAt": "2026-11-09T10:39:32.356Z",
    "changedAt": "2026-11-03T17:56:58.427Z"
   },
   {
@@ -111,7 +111,7 @@
    "error": "",
    "count": 261,
    "hash": "d70a29243a973c43",
-   "checkedAt": "2026-11-09T02:49:40.732Z",
+   "checkedAt": "2026-11-09T10:39:32.356Z",
    "changedAt": "2026-11-05T20:24:27.017Z"
   },
   {
@@ -125,7 +125,7 @@
    "error": "",
    "count": 16,
    "hash": "25c73cb149072fbd",
-   "checkedAt": "2026-11-09T02:49:40.732Z",
+   "checkedAt": "2026-11-09T10:39:32.356Z",
    "changedAt": "2026-11-05T12:36:16.848Z"
   },
   {
@@ -139,7 +139,7 @@
    "error": "",
    "count": 83,
    "hash": "a6baac4fb1fc60c0",
-   "checkedAt": "2026-11-09T02:49:40.732Z",
+   "checkedAt": "2026-11-09T10:39:32.356Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -153,7 +153,7 @@
    "error": "",
    "count": 164,
    "hash": "6f0586c40b65c8fe",
-   "checkedAt": "2026-11-09T02:49:40.732Z",
+   "checkedAt": "2026-11-09T10:39:32.356Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -167,7 +167,7 @@
    "error": "",
    "count": 21,
    "hash": "ff9210a812239484",
-   "checkedAt": "2026-11-09T02:49:40.732Z",
+   "checkedAt": "2026-11-09T10:39:32.356Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -181,7 +181,7 @@
    "error": "",
    "count": 3,
    "hash": "3ff1c551e57dff5d",
-   "checkedAt": "2026-11-09T02:49:40.732Z",
+   "checkedAt": "2026-11-09T10:39:32.356Z",
    "changedAt": "2026-10-28T14:42:46.786Z"
   },
   {
@@ -195,7 +195,7 @@
    "error": "",
    "count": 0,
    "hash": "c4971aba58479f1e",
-   "checkedAt": "2026-11-09T02:49:40.732Z",
+   "checkedAt": "2026-11-09T10:39:32.356Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -209,7 +209,7 @@
    "error": "",
    "count": 39,
    "hash": "2dafd4eaea124e05",
-   "checkedAt": "2026-11-09T02:49:40.732Z",
+   "checkedAt": "2026-11-09T10:39:32.356Z",
    "changedAt": "2026-11-08T09:35:21.464Z"
   },
   {
@@ -223,7 +223,7 @@
    "error": "",
    "count": 44,
    "hash": "2ea49bf0eb25d87f",
-   "checkedAt": "2026-11-09T02:49:40.732Z",
+   "checkedAt": "2026-11-09T10:39:32.356Z",
    "changedAt": "2026-11-08T09:35:21.464Z"
   },
   {
@@ -236,9 +236,9 @@
    "status": 200,
    "error": "",
    "count": 0,
-   "hash": "442f7fa1bcf80677",
-   "checkedAt": "2026-11-09T02:49:40.732Z",
-   "changedAt": "2026-11-06T07:46:51.505Z"
+   "hash": "ccf5479c1b85d79e",
+   "checkedAt": "2026-11-09T10:39:32.356Z",
+   "changedAt": "2026-11-09T10:39:32.356Z"
   },
   {
    "key": "ctap",
@@ -251,7 +251,7 @@
    "error": "",
    "count": 125,
    "hash": "44ff34f0838ee74f",
-   "checkedAt": "2026-11-09T02:49:40.732Z",
+   "checkedAt": "2026-11-09T10:39:32.356Z",
    "changedAt": "2026-11-04T10:11:32.793Z"
   },
   {
@@ -265,7 +265,7 @@
    "error": "",
    "count": 0,
    "hash": "9a327c9e5613dad4",
-   "checkedAt": "2026-11-09T02:49:40.732Z",
+   "checkedAt": "2026-11-09T10:39:32.356Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -279,7 +279,7 @@
    "error": "",
    "count": 0,
    "hash": "678bcb345b70e6ba",
-   "checkedAt": "2026-11-09T02:49:40.732Z",
+   "checkedAt": "2026-11-09T10:39:32.356Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -293,17 +293,89 @@
    "error": "",
    "count": 0,
    "hash": "974dc087b0130905",
-   "checkedAt": "2026-11-09T02:49:40.732Z",
+   "checkedAt": "2026-11-09T10:39:32.356Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   }
  ],
  "bopv": {
   "yy": "26",
-  "lastNumber": 213,
-  "lastDate": "2026-11-06",
+  "lastNumber": 214,
+  "lastDate": "2026-11-09",
   "filter": 2
  },
  "items": [
+  {
+   "id": "comisiones2026-1dou37q",
+   "src": "comisiones2026",
+   "process": "Comisiones de servicios",
+   "kind": "Alegaciones",
+   "title": "Auxiliar Administrativo/a y Atención al Usuario/a · Lista Provisional",
+   "org": "Red de Salud Mental de Araba",
+   "categories": [
+    "Auxiliar Administrativo/a y Atención al Usuario/a"
+   ],
+   "published": "2026-11-10",
+   "start": "2026-11-10",
+   "end": "2026-11-23",
+   "estimated": false,
+   "literal": "Plazo para presentar alegaciones: abierto desde el 10/11/2026 hasta el 23/11/2026, ambos inclusive.",
+   "summary": "AUXILIAR ADMINISTRATIVO/A Y ATENCIÓN AL USUARIO/A - RED DE SALUD MENTAL DE ARABA - Lista Provisional - Plazo para presentar alegaciones: abierto desde el 10/11/2026 hasta el 23/11/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/comisiones-servicios-2026/webosk00-procon/es/adjuntos/261007_C_SERV_PIT_AUX_ADTVO_ADMON_Y_GEST_RSMA_L_PROV.pdf"
+  },
+  {
+   "id": "jefaturas2026-1gi4ug8",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Solicitud / inscripción",
+   "title": "Jefe/a de Servicio Sanitario (Dirección de Asistencia Sanitaria)",
+   "org": "Dirección General",
+   "categories": [
+    "Jefe/a de Servicio Sanitario"
+   ],
+   "published": "2026-11-10",
+   "start": "2026-11-10",
+   "end": "2026-11-30",
+   "estimated": false,
+   "literal": "Plazo de presentación de solicitudes: abierto desde el 10/11/2026 hasta el 30/11/2026, ambos inclusive.",
+   "summary": "JEFE/A DE SERVICIO SANITARIO (DIRECCIÓN DE ASISTENCIA SANITARIA) - DIRECCIÓN GENERAL - Plazo de presentación de solicitudes: abierto desde el 10/11/2026 hasta el 30/11/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/261102_CONC_J_SERV_ASIST_SANIT_DIR_GRAL_BOE.pdf"
+  },
+  {
+   "id": "jefaturas2026-1n8q9t0",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Recurso de alzada",
+   "title": "Supervisor/a de Enfermería en el Hospital de Zamudio – Unidad de Subagudos 1 · Declarada Desierta",
+   "org": "Red de Salud Mental de Bizkaia",
+   "categories": [
+    "Unidad de Subagudos 1"
+   ],
+   "published": "2026-11-10",
+   "start": "2026-11-10",
+   "end": "2026-12-09",
+   "estimated": false,
+   "literal": "Plazo para presentar recursos de alzada: abierto desde el 10/11/2026 hasta el 09/12/2026, ambos inclusive.",
+   "summary": "SUPERVISOR/A DE ENFERMERÍA EN EL HOSPITAL DE ZAMUDIO - UNIDAD DE SUBAGUDOS 1 - DECLARADA DESIERTA - RED DE SALUD MENTAL DE BIZKAIA - Plazo para presentar recursos de alzada: abierto desde el 10/11/2026 hasta el 09/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/260907_L_DESIG_SUPERV_SALUD_MENT_RSMB_DESIER_DEF_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-35sj8e",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Alegaciones",
+   "title": "Jefe/a de Unidad de Salud Mental del Centro de Salud Mental de Adultos de Bombero Etxaniz · Lista Provisional",
+   "org": "Red de Salud Mental de Bizkaia",
+   "categories": [
+    "Jefe/a de Unidad de Salud Mental del Centro de Salud Mental de Adultos de Bombero Etxaniz"
+   ],
+   "published": "2026-11-10",
+   "start": "2026-11-10",
+   "end": "2026-11-23",
+   "estimated": false,
+   "literal": "Plazo para presentar alegaciones: abierto desde el 10/11/2026 hasta el 23/11/2026, ambos inclusive.",
+   "summary": "JEFE/A DE UNIDAD DE SALUD MENTAL DEL CENTRO DE SALUD MENTAL DE ADULTOS DE BOMBERO ETXANIZ - RED DE SALUD MENTAL DE BIZKAIA - Lista Provisional - Plazo para presentar alegaciones: abierto desde el 10/11/2026 hasta el 23/11/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/260925_CONC_J_UNID_SALUD_MENT_RSMB_L_PROV_a.pdf"
+  },
   {
    "id": "jefaturas2026-1wzfjh4",
    "src": "jefaturas2026",
