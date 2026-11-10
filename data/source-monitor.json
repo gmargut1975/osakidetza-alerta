@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checkedAt": "2026-11-10T12:00:17.694Z",
+ "checkedAt": "2026-11-10T19:17:01.190Z",
  "sources": [
   {
    "key": "comisiones2026",
@@ -11,10 +11,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 150,
-   "hash": "e6ef30c237d25136",
-   "checkedAt": "2026-11-10T12:00:17.694Z",
-   "changedAt": "2026-11-09T10:39:32.356Z"
+   "count": 151,
+   "hash": "017f1f72073825dd",
+   "checkedAt": "2026-11-10T19:17:01.190Z",
+   "changedAt": "2026-11-10T19:17:01.190Z"
   },
   {
    "key": "comisiones2025",
@@ -27,7 +27,7 @@
    "error": "",
    "count": 132,
    "hash": "77f324c1858c86af",
-   "checkedAt": "2026-11-10T12:00:17.694Z",
+   "checkedAt": "2026-11-10T19:17:01.190Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -41,7 +41,7 @@
    "error": "",
    "count": 501,
    "hash": "5a5a2e9468789709",
-   "checkedAt": "2026-11-10T12:00:17.694Z",
+   "checkedAt": "2026-11-10T19:17:01.190Z",
    "changedAt": "2026-11-10T12:00:17.694Z"
   },
   {
@@ -55,7 +55,7 @@
    "error": "",
    "count": 479,
    "hash": "66143b22347640ab",
-   "checkedAt": "2026-11-10T12:00:17.694Z",
+   "checkedAt": "2026-11-10T19:17:01.190Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -69,7 +69,7 @@
    "error": "",
    "count": 30,
    "hash": "eb07d21ecb1d9061",
-   "checkedAt": "2026-11-10T12:00:17.694Z",
+   "checkedAt": "2026-11-10T19:17:01.190Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -83,7 +83,7 @@
    "error": "",
    "count": 54,
    "hash": "a304df315c59aa2c",
-   "checkedAt": "2026-11-10T12:00:17.694Z",
+   "checkedAt": "2026-11-10T19:17:01.190Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -95,10 +95,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 81,
-   "hash": "638d970e27193081",
-   "checkedAt": "2026-11-10T12:00:17.694Z",
-   "changedAt": "2026-11-03T17:56:58.427Z"
+   "count": 82,
+   "hash": "bab6b7f163717620",
+   "checkedAt": "2026-11-10T19:17:01.190Z",
+   "changedAt": "2026-11-10T19:17:01.190Z"
   },
   {
    "key": "lanpoltsa",
@@ -111,7 +111,7 @@
    "error": "",
    "count": 262,
    "hash": "2b79f926e44fcc23",
-   "checkedAt": "2026-11-10T12:00:17.694Z",
+   "checkedAt": "2026-11-10T19:17:01.190Z",
    "changedAt": "2026-11-10T12:00:17.694Z"
   },
   {
@@ -125,7 +125,7 @@
    "error": "",
    "count": 16,
    "hash": "6758359f906c26be",
-   "checkedAt": "2026-11-10T12:00:17.694Z",
+   "checkedAt": "2026-11-10T19:17:01.190Z",
    "changedAt": "2026-11-09T21:12:13.797Z"
   },
   {
@@ -139,7 +139,7 @@
    "error": "",
    "count": 83,
    "hash": "a6baac4fb1fc60c0",
-   "checkedAt": "2026-11-10T12:00:17.694Z",
+   "checkedAt": "2026-11-10T19:17:01.190Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -153,7 +153,7 @@
    "error": "",
    "count": 164,
    "hash": "6f0586c40b65c8fe",
-   "checkedAt": "2026-11-10T12:00:17.694Z",
+   "checkedAt": "2026-11-10T19:17:01.190Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -167,7 +167,7 @@
    "error": "",
    "count": 21,
    "hash": "ff9210a812239484",
-   "checkedAt": "2026-11-10T12:00:17.694Z",
+   "checkedAt": "2026-11-10T19:17:01.190Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -181,7 +181,7 @@
    "error": "",
    "count": 3,
    "hash": "3ff1c551e57dff5d",
-   "checkedAt": "2026-11-10T12:00:17.694Z",
+   "checkedAt": "2026-11-10T19:17:01.190Z",
    "changedAt": "2026-10-28T14:42:46.786Z"
   },
   {
@@ -195,7 +195,7 @@
    "error": "",
    "count": 0,
    "hash": "c4971aba58479f1e",
-   "checkedAt": "2026-11-10T12:00:17.694Z",
+   "checkedAt": "2026-11-10T19:17:01.190Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -209,7 +209,7 @@
    "error": "",
    "count": 39,
    "hash": "2dafd4eaea124e05",
-   "checkedAt": "2026-11-10T12:00:17.694Z",
+   "checkedAt": "2026-11-10T19:17:01.190Z",
    "changedAt": "2026-11-08T09:35:21.464Z"
   },
   {
@@ -223,7 +223,7 @@
    "error": "",
    "count": 44,
    "hash": "2ea49bf0eb25d87f",
-   "checkedAt": "2026-11-10T12:00:17.694Z",
+   "checkedAt": "2026-11-10T19:17:01.190Z",
    "changedAt": "2026-11-08T09:35:21.464Z"
   },
   {
@@ -237,7 +237,7 @@
    "error": "",
    "count": 0,
    "hash": "0dddc190ce8d8cdb",
-   "checkedAt": "2026-11-10T12:00:17.694Z",
+   "checkedAt": "2026-11-10T19:17:01.190Z",
    "changedAt": "2026-11-10T12:00:17.694Z"
   },
   {
@@ -251,7 +251,7 @@
    "error": "",
    "count": 125,
    "hash": "44ff34f0838ee74f",
-   "checkedAt": "2026-11-10T12:00:17.694Z",
+   "checkedAt": "2026-11-10T19:17:01.190Z",
    "changedAt": "2026-11-04T10:11:32.793Z"
   },
   {
@@ -265,7 +265,7 @@
    "error": "",
    "count": 0,
    "hash": "9a327c9e5613dad4",
-   "checkedAt": "2026-11-10T12:00:17.694Z",
+   "checkedAt": "2026-11-10T19:17:01.190Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -279,7 +279,7 @@
    "error": "",
    "count": 0,
    "hash": "678bcb345b70e6ba",
-   "checkedAt": "2026-11-10T12:00:17.694Z",
+   "checkedAt": "2026-11-10T19:17:01.190Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -293,7 +293,7 @@
    "error": "",
    "count": 0,
    "hash": "974dc087b0130905",
-   "checkedAt": "2026-11-10T12:00:17.694Z",
+   "checkedAt": "2026-11-10T19:17:01.190Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   }
  ],
@@ -304,6 +304,24 @@
   "filter": 2
  },
  "items": [
+  {
+   "id": "comisiones2026-1o4dh29",
+   "src": "comisiones2026",
+   "process": "Comisiones de servicios",
+   "kind": "Recurso de alzada",
+   "title": "Varias Categorías · Lista Definitiva",
+   "org": "H. Gorliz",
+   "categories": [
+    "Varias categorías"
+   ],
+   "published": "2026-11-11",
+   "start": "2026-11-11",
+   "end": "2026-12-10",
+   "estimated": false,
+   "literal": "Plazo para presentar recursos de alzada: abierto desde el 11/11/2026 hasta el 10/12/2026, ambos inclusive.",
+   "summary": "VARIAS CATEGORÍAS - H. GORLIZ - Lista Definitiva - Plazo para presentar recursos de alzada: abierto desde el 11/11/2026 hasta el 10/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/comisiones-servicios-2026/webosk00-procon/es/adjuntos/260205_C_SERV_PIT_VARIAS_CATEG_VAR_DEST_H_GORLIZ_L_DEF.pdf"
+  },
   {
    "id": "jefaturas2026-1mpffsi",
    "src": "jefaturas2026",
@@ -427,6 +445,24 @@
    "literal": "Último día de presentación de solicitudes: 25 de noviembre de 2026 (incluido).",
    "summary": "Se ofertan tres nombramientos para la cobertura de puestos de Técnico/a Superior Informática (Técnico/a Responsable de Área Corporativa) con conocimientos específicos, utilizando el correo electrónico como forma de contacto, a las personas integrantes de las listas largas de contratación inscritas en la Dirección General – sede Araba- y en el Área de Araba. Igualmente, se remitirá esta oferta a las personas que,…",
    "url": "https://lanpoltsa.osakidetza.eus/c28/avisos-generales"
+  },
+  {
+   "id": "temporal-cox3h3",
+   "src": "temporal",
+   "process": "Listas de contratación temporal",
+   "kind": "Reclamación",
+   "title": "Publicación Listas Provisionales",
+   "org": "",
+   "categories": [
+    "Enfermero/a Pediatría"
+   ],
+   "published": "2026-11-10",
+   "start": "2026-11-10",
+   "end": "2026-11-24",
+   "estimated": false,
+   "literal": "Plazo para interponer reclamación hasta el 24 de noviembre de 2026, inclusive, debiendo utilizar la aplicación disponible en la web de Listas de contratación temporal: Mis bolsas/reclamaciones y recursos.",
+   "summary": "Hoy, 10 de noviembre de 2026, está prevista la publicación de las Listas provisionales de contratación temporal de: ENFERMERO/A PEDIATRÍA Plazo para interponer reclamación hasta el 24 de noviembre de 2026, inclusive, debiendo utilizar la aplicación disponible en la web de Listas de contratación temporal: Mis bolsas/reclamaciones y recursos.",
+   "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/#:~:text=Hoy%2C%2010%20de%20noviembre%20de%202026%2C%20est%C3%A1"
   },
   {
    "id": "ope2325-1ntx4is",
