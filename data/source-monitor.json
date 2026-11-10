@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checkedAt": "2026-11-10T03:42:21.434Z",
+ "checkedAt": "2026-11-10T12:00:17.694Z",
  "sources": [
   {
    "key": "comisiones2026",
@@ -13,7 +13,7 @@
    "error": "",
    "count": 150,
    "hash": "e6ef30c237d25136",
-   "checkedAt": "2026-11-10T03:42:21.434Z",
+   "checkedAt": "2026-11-10T12:00:17.694Z",
    "changedAt": "2026-11-09T10:39:32.356Z"
   },
   {
@@ -27,7 +27,7 @@
    "error": "",
    "count": 132,
    "hash": "77f324c1858c86af",
-   "checkedAt": "2026-11-10T03:42:21.434Z",
+   "checkedAt": "2026-11-10T12:00:17.694Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -39,10 +39,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 499,
-   "hash": "f4f38dc8665b24d9",
-   "checkedAt": "2026-11-10T03:42:21.434Z",
-   "changedAt": "2026-11-09T10:39:32.356Z"
+   "count": 501,
+   "hash": "5a5a2e9468789709",
+   "checkedAt": "2026-11-10T12:00:17.694Z",
+   "changedAt": "2026-11-10T12:00:17.694Z"
   },
   {
    "key": "jefaturas2025",
@@ -55,7 +55,7 @@
    "error": "",
    "count": 479,
    "hash": "66143b22347640ab",
-   "checkedAt": "2026-11-10T03:42:21.434Z",
+   "checkedAt": "2026-11-10T12:00:17.694Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -69,7 +69,7 @@
    "error": "",
    "count": 30,
    "hash": "eb07d21ecb1d9061",
-   "checkedAt": "2026-11-10T03:42:21.434Z",
+   "checkedAt": "2026-11-10T12:00:17.694Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -83,7 +83,7 @@
    "error": "",
    "count": 54,
    "hash": "a304df315c59aa2c",
-   "checkedAt": "2026-11-10T03:42:21.434Z",
+   "checkedAt": "2026-11-10T12:00:17.694Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -97,7 +97,7 @@
    "error": "",
    "count": 81,
    "hash": "638d970e27193081",
-   "checkedAt": "2026-11-10T03:42:21.434Z",
+   "checkedAt": "2026-11-10T12:00:17.694Z",
    "changedAt": "2026-11-03T17:56:58.427Z"
   },
   {
@@ -109,10 +109,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 261,
-   "hash": "d70a29243a973c43",
-   "checkedAt": "2026-11-10T03:42:21.434Z",
-   "changedAt": "2026-11-05T20:24:27.017Z"
+   "count": 262,
+   "hash": "2b79f926e44fcc23",
+   "checkedAt": "2026-11-10T12:00:17.694Z",
+   "changedAt": "2026-11-10T12:00:17.694Z"
   },
   {
    "key": "ope2325",
@@ -125,7 +125,7 @@
    "error": "",
    "count": 16,
    "hash": "6758359f906c26be",
-   "checkedAt": "2026-11-10T03:42:21.434Z",
+   "checkedAt": "2026-11-10T12:00:17.694Z",
    "changedAt": "2026-11-09T21:12:13.797Z"
   },
   {
@@ -139,7 +139,7 @@
    "error": "",
    "count": 83,
    "hash": "a6baac4fb1fc60c0",
-   "checkedAt": "2026-11-10T03:42:21.434Z",
+   "checkedAt": "2026-11-10T12:00:17.694Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -153,7 +153,7 @@
    "error": "",
    "count": 164,
    "hash": "6f0586c40b65c8fe",
-   "checkedAt": "2026-11-10T03:42:21.434Z",
+   "checkedAt": "2026-11-10T12:00:17.694Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -167,7 +167,7 @@
    "error": "",
    "count": 21,
    "hash": "ff9210a812239484",
-   "checkedAt": "2026-11-10T03:42:21.434Z",
+   "checkedAt": "2026-11-10T12:00:17.694Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -181,7 +181,7 @@
    "error": "",
    "count": 3,
    "hash": "3ff1c551e57dff5d",
-   "checkedAt": "2026-11-10T03:42:21.434Z",
+   "checkedAt": "2026-11-10T12:00:17.694Z",
    "changedAt": "2026-10-28T14:42:46.786Z"
   },
   {
@@ -195,7 +195,7 @@
    "error": "",
    "count": 0,
    "hash": "c4971aba58479f1e",
-   "checkedAt": "2026-11-10T03:42:21.434Z",
+   "checkedAt": "2026-11-10T12:00:17.694Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -209,7 +209,7 @@
    "error": "",
    "count": 39,
    "hash": "2dafd4eaea124e05",
-   "checkedAt": "2026-11-10T03:42:21.434Z",
+   "checkedAt": "2026-11-10T12:00:17.694Z",
    "changedAt": "2026-11-08T09:35:21.464Z"
   },
   {
@@ -223,7 +223,7 @@
    "error": "",
    "count": 44,
    "hash": "2ea49bf0eb25d87f",
-   "checkedAt": "2026-11-10T03:42:21.434Z",
+   "checkedAt": "2026-11-10T12:00:17.694Z",
    "changedAt": "2026-11-08T09:35:21.464Z"
   },
   {
@@ -236,9 +236,9 @@
    "status": 200,
    "error": "",
    "count": 0,
-   "hash": "ccf5479c1b85d79e",
-   "checkedAt": "2026-11-10T03:42:21.434Z",
-   "changedAt": "2026-11-09T10:39:32.356Z"
+   "hash": "0dddc190ce8d8cdb",
+   "checkedAt": "2026-11-10T12:00:17.694Z",
+   "changedAt": "2026-11-10T12:00:17.694Z"
   },
   {
    "key": "ctap",
@@ -251,7 +251,7 @@
    "error": "",
    "count": 125,
    "hash": "44ff34f0838ee74f",
-   "checkedAt": "2026-11-10T03:42:21.434Z",
+   "checkedAt": "2026-11-10T12:00:17.694Z",
    "changedAt": "2026-11-04T10:11:32.793Z"
   },
   {
@@ -265,7 +265,7 @@
    "error": "",
    "count": 0,
    "hash": "9a327c9e5613dad4",
-   "checkedAt": "2026-11-10T03:42:21.434Z",
+   "checkedAt": "2026-11-10T12:00:17.694Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -279,7 +279,7 @@
    "error": "",
    "count": 0,
    "hash": "678bcb345b70e6ba",
-   "checkedAt": "2026-11-10T03:42:21.434Z",
+   "checkedAt": "2026-11-10T12:00:17.694Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -293,17 +293,53 @@
    "error": "",
    "count": 0,
    "hash": "974dc087b0130905",
-   "checkedAt": "2026-11-10T03:42:21.434Z",
+   "checkedAt": "2026-11-10T12:00:17.694Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   }
  ],
  "bopv": {
   "yy": "26",
-  "lastNumber": 214,
-  "lastDate": "2026-11-09",
+  "lastNumber": 215,
+  "lastDate": "2026-11-10",
   "filter": 2
  },
  "items": [
+  {
+   "id": "jefaturas2026-1mpffsi",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Alegaciones",
+   "title": "Jefe/a de Sección Sanitaria de Medicina Física y Rehabilitación · Lista Provisional",
+   "org": "OSI Barrualde-Galdakao",
+   "categories": [
+    "Jefe/a de Sección Sanitaria de Medicina Física y Rehabilitación"
+   ],
+   "published": "2026-11-11",
+   "start": "2026-11-11",
+   "end": "2026-11-24",
+   "estimated": false,
+   "literal": "Plazo para presentar alegaciones: abierto desde el 11/11/2026 hasta el 24/11/2026, ambos inclusive.",
+   "summary": "JEFE/A DE SECCIÓN SANITARIA DE MEDICINA FÍSICA Y REHABILITACIÓN - OSI BARRUALDE-GALDAKAO - Lista Provisional - Plazo para presentar alegaciones: abierto desde el 11/11/2026 hasta el 24/11/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/261008_CONC_J_SEC_RHB_OSI_BARRUALDE_GALDAKAO_L_PROV_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-6prkya",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Alegaciones",
+   "title": "Jefe/a de Servicio Sanitario de Hematología y Hemoterapia · Lista Provisional",
+   "org": "OSI Barrualde-Galdakao",
+   "categories": [
+    "Jefe/a de Servicio Sanitario de Hematología y Hemoterapia"
+   ],
+   "published": "2026-11-11",
+   "start": "2026-11-11",
+   "end": "2026-11-24",
+   "estimated": false,
+   "literal": "Plazo para presentar alegaciones: abierto desde el 11/11/2026 hasta el 24/11/2026, ambos inclusive.",
+   "summary": "JEFE/A DE SERVICIO SANITARIO DE HEMATOLOGÍA Y HEMOTERAPIA - OSI BARRUALDE-GALDAKAO - Lista Provisional - Plazo para presentar alegaciones: abierto desde el 11/11/2026 hasta el 24/11/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/261008_CONC_J_SERV_HEMAT_Y_HEMOT_OSI_BARRUALDE_GALDAKAO_L_PROV_a.pdf"
+  },
   {
    "id": "comisiones2026-1dou37q",
    "src": "comisiones2026",
@@ -375,6 +411,22 @@
    "literal": "Plazo para presentar alegaciones: abierto desde el 10/11/2026 hasta el 23/11/2026, ambos inclusive.",
    "summary": "JEFE/A DE UNIDAD DE SALUD MENTAL DEL CENTRO DE SALUD MENTAL DE ADULTOS DE BOMBERO ETXANIZ - RED DE SALUD MENTAL DE BIZKAIA - Lista Provisional - Plazo para presentar alegaciones: abierto desde el 10/11/2026 hasta el 23/11/2026, ambos inclusive.",
    "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/260925_CONC_J_UNID_SALUD_MENT_RSMB_L_PROV_a.pdf"
+  },
+  {
+   "id": "lanpoltsa-4518",
+   "src": "lanpoltsa",
+   "process": "Interinidades y ofertas de nombramiento",
+   "kind": "Solicitud / inscripción",
+   "title": "OFERTA. TÉC. SUP. INFORMÁTICA. Conocimientos específicos",
+   "org": "",
+   "categories": [],
+   "published": "2026-11-10",
+   "start": "2026-11-10",
+   "end": "2026-11-25",
+   "estimated": false,
+   "literal": "Último día de presentación de solicitudes: 25 de noviembre de 2026 (incluido).",
+   "summary": "Se ofertan tres nombramientos para la cobertura de puestos de Técnico/a Superior Informática (Técnico/a Responsable de Área Corporativa) con conocimientos específicos, utilizando el correo electrónico como forma de contacto, a las personas integrantes de las listas largas de contratación inscritas en la Dirección General – sede Araba- y en el Área de Araba. Igualmente, se remitirá esta oferta a las personas que,…",
+   "url": "https://lanpoltsa.osakidetza.eus/c28/avisos-generales"
   },
   {
    "id": "ope2325-1ntx4is",
