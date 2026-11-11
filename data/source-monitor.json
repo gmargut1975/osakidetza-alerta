@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checkedAt": "2026-11-11T06:51:49.420Z",
+ "checkedAt": "2026-11-11T14:59:41.154Z",
  "sources": [
   {
    "key": "comisiones2026",
@@ -11,10 +11,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 151,
-   "hash": "017f1f72073825dd",
-   "checkedAt": "2026-11-11T06:51:49.420Z",
-   "changedAt": "2026-11-10T19:17:01.190Z"
+   "count": 157,
+   "hash": "82a0211656627420",
+   "checkedAt": "2026-11-11T14:59:41.154Z",
+   "changedAt": "2026-11-11T14:59:41.154Z"
   },
   {
    "key": "comisiones2025",
@@ -27,7 +27,7 @@
    "error": "",
    "count": 132,
    "hash": "77f324c1858c86af",
-   "checkedAt": "2026-11-11T06:51:49.420Z",
+   "checkedAt": "2026-11-11T14:59:41.154Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -39,10 +39,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 501,
-   "hash": "5a5a2e9468789709",
-   "checkedAt": "2026-11-11T06:51:49.420Z",
-   "changedAt": "2026-11-10T12:00:17.694Z"
+   "count": 502,
+   "hash": "b077f1b37cc913ca",
+   "checkedAt": "2026-11-11T14:59:41.154Z",
+   "changedAt": "2026-11-11T14:59:41.154Z"
   },
   {
    "key": "jefaturas2025",
@@ -55,7 +55,7 @@
    "error": "",
    "count": 479,
    "hash": "66143b22347640ab",
-   "checkedAt": "2026-11-11T06:51:49.420Z",
+   "checkedAt": "2026-11-11T14:59:41.154Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -69,7 +69,7 @@
    "error": "",
    "count": 30,
    "hash": "eb07d21ecb1d9061",
-   "checkedAt": "2026-11-11T06:51:49.420Z",
+   "checkedAt": "2026-11-11T14:59:41.154Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -83,7 +83,7 @@
    "error": "",
    "count": 54,
    "hash": "a304df315c59aa2c",
-   "checkedAt": "2026-11-11T06:51:49.420Z",
+   "checkedAt": "2026-11-11T14:59:41.154Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -97,7 +97,7 @@
    "error": "",
    "count": 82,
    "hash": "bab6b7f163717620",
-   "checkedAt": "2026-11-11T06:51:49.420Z",
+   "checkedAt": "2026-11-11T14:59:41.154Z",
    "changedAt": "2026-11-10T19:17:01.190Z"
   },
   {
@@ -110,9 +110,9 @@
    "status": 200,
    "error": "",
    "count": 263,
-   "hash": "a9236070731da10f",
-   "checkedAt": "2026-11-11T06:51:49.420Z",
-   "changedAt": "2026-11-11T00:07:37.091Z"
+   "hash": "757eee37838cfb12",
+   "checkedAt": "2026-11-11T14:59:41.154Z",
+   "changedAt": "2026-11-11T14:59:41.154Z"
   },
   {
    "key": "ope2325",
@@ -125,7 +125,7 @@
    "error": "",
    "count": 16,
    "hash": "6758359f906c26be",
-   "checkedAt": "2026-11-11T06:51:49.420Z",
+   "checkedAt": "2026-11-11T14:59:41.154Z",
    "changedAt": "2026-11-09T21:12:13.797Z"
   },
   {
@@ -139,7 +139,7 @@
    "error": "",
    "count": 83,
    "hash": "a6baac4fb1fc60c0",
-   "checkedAt": "2026-11-11T06:51:49.420Z",
+   "checkedAt": "2026-11-11T14:59:41.154Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -153,7 +153,7 @@
    "error": "",
    "count": 164,
    "hash": "6f0586c40b65c8fe",
-   "checkedAt": "2026-11-11T06:51:49.420Z",
+   "checkedAt": "2026-11-11T14:59:41.154Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -167,7 +167,7 @@
    "error": "",
    "count": 21,
    "hash": "ff9210a812239484",
-   "checkedAt": "2026-11-11T06:51:49.420Z",
+   "checkedAt": "2026-11-11T14:59:41.154Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -181,7 +181,7 @@
    "error": "",
    "count": 3,
    "hash": "3ff1c551e57dff5d",
-   "checkedAt": "2026-11-11T06:51:49.420Z",
+   "checkedAt": "2026-11-11T14:59:41.154Z",
    "changedAt": "2026-10-28T14:42:46.786Z"
   },
   {
@@ -195,7 +195,7 @@
    "error": "",
    "count": 0,
    "hash": "c4971aba58479f1e",
-   "checkedAt": "2026-11-11T06:51:49.420Z",
+   "checkedAt": "2026-11-11T14:59:41.154Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -209,7 +209,7 @@
    "error": "",
    "count": 39,
    "hash": "2dafd4eaea124e05",
-   "checkedAt": "2026-11-11T06:51:49.420Z",
+   "checkedAt": "2026-11-11T14:59:41.154Z",
    "changedAt": "2026-11-08T09:35:21.464Z"
   },
   {
@@ -223,7 +223,7 @@
    "error": "",
    "count": 44,
    "hash": "2ea49bf0eb25d87f",
-   "checkedAt": "2026-11-11T06:51:49.420Z",
+   "checkedAt": "2026-11-11T14:59:41.154Z",
    "changedAt": "2026-11-08T09:35:21.464Z"
   },
   {
@@ -236,9 +236,9 @@
    "status": 200,
    "error": "",
    "count": 0,
-   "hash": "0dddc190ce8d8cdb",
-   "checkedAt": "2026-11-11T06:51:49.420Z",
-   "changedAt": "2026-11-10T12:00:17.694Z"
+   "hash": "42cbf7118a23f703",
+   "checkedAt": "2026-11-11T14:59:41.154Z",
+   "changedAt": "2026-11-11T14:59:41.154Z"
   },
   {
    "key": "ctap",
@@ -251,7 +251,7 @@
    "error": "",
    "count": 125,
    "hash": "44ff34f0838ee74f",
-   "checkedAt": "2026-11-11T06:51:49.420Z",
+   "checkedAt": "2026-11-11T14:59:41.154Z",
    "changedAt": "2026-11-04T10:11:32.793Z"
   },
   {
@@ -265,7 +265,7 @@
    "error": "",
    "count": 0,
    "hash": "9a327c9e5613dad4",
-   "checkedAt": "2026-11-11T06:51:49.420Z",
+   "checkedAt": "2026-11-11T14:59:41.154Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -279,7 +279,7 @@
    "error": "",
    "count": 0,
    "hash": "678bcb345b70e6ba",
-   "checkedAt": "2026-11-11T06:51:49.420Z",
+   "checkedAt": "2026-11-11T14:59:41.154Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -293,17 +293,143 @@
    "error": "",
    "count": 0,
    "hash": "974dc087b0130905",
-   "checkedAt": "2026-11-11T06:51:49.420Z",
+   "checkedAt": "2026-11-11T14:59:41.154Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   }
  ],
  "bopv": {
   "yy": "26",
-  "lastNumber": 215,
-  "lastDate": "2026-11-10",
+  "lastNumber": 216,
+  "lastDate": "2026-11-11",
   "filter": 2
  },
  "items": [
+  {
+   "id": "comisiones2026-1da999r",
+   "src": "comisiones2026",
+   "process": "Comisiones de servicios",
+   "kind": "Recurso de alzada",
+   "title": "Técnico/a Responsable de Área Corporativa – Técnico/a Superior Económico/a · Declarada Desierta",
+   "org": "Dirección General",
+   "categories": [
+    "Técnico/a Superior Económico/a"
+   ],
+   "published": "2026-11-12",
+   "start": "2026-11-12",
+   "end": "2026-12-11",
+   "estimated": false,
+   "literal": "Plazo para presentar recursos de alzada: abierto desde el 12/11/2026 hasta el 11/12/2026, ambos inclusive.",
+   "summary": "TÉCNICO/A RESPONSABLE DE ÁREA CORPORATIVA - TÉCNICO/A SUPERIOR ECONÓMICO/A - DECLARADA DESIERTA - DIRECCIÓN GENERAL - Plazo para presentar recursos de alzada: abierto desde el 12/11/2026 hasta el 11/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/comisiones-servicios-2026/webosk00-procon/es/adjuntos/261008_C_SERV_PIT_MID_TCO_RES_COMPRAS_1626_DIR_RRHH_DESIER_DEF_a.pdf"
+  },
+  {
+   "id": "comisiones2026-1hxbzzd",
+   "src": "comisiones2026",
+   "process": "Comisiones de servicios",
+   "kind": "Recurso de alzada",
+   "title": "Técnico/a Responsable de Área Corporativa – Técnico/a Superior Económico/a · Declarada Desierta",
+   "org": "Dirección General",
+   "categories": [
+    "Técnico/a Superior Económico/a"
+   ],
+   "published": "2026-11-12",
+   "start": "2026-11-12",
+   "end": "2026-12-11",
+   "estimated": false,
+   "literal": "Plazo para presentar recursos de alzada: abierto desde el 12/11/2026 hasta el 11/12/2026, ambos inclusive.",
+   "summary": "TÉCNICO/A RESPONSABLE DE ÁREA CORPORATIVA - TÉCNICO/A SUPERIOR ECONÓMICO/A - DECLARADA DESIERTA - DIRECCIÓN GENERAL - Plazo para presentar recursos de alzada: abierto desde el 12/11/2026 hasta el 11/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/comisiones-servicios-2026/webosk00-procon/es/adjuntos/261008_C_SERV_PIT_MID_TCO_RES_COMPRAS_1624_DIR_RRHH_DESIER_DEF_a.pdf"
+  },
+  {
+   "id": "comisiones2026-av4ygh",
+   "src": "comisiones2026",
+   "process": "Comisiones de servicios",
+   "kind": "Solicitud / inscripción",
+   "title": "Enfermero/a (Coordinación de Programas de Salud Pública y Seguridad del Paciente)",
+   "org": "Dirección General",
+   "categories": [
+    "Enfermero/a"
+   ],
+   "published": "2026-11-12",
+   "start": "2026-11-12",
+   "end": "2026-11-25",
+   "estimated": false,
+   "literal": "Plazo de presentación de solicitudes: abierto desde el 12/11/2026 hasta el 25/11/2026, ambos inclusive.",
+   "summary": "ENFERMERO/A (COORDINACIÓN DE PROGRAMAS DE SALUD PÚBLICA Y SEGURIDAD DEL PACIENTE) - DIRECCIÓN GENERAL - Plazo de presentación de solicitudes: abierto desde el 12/11/2026 hasta el 25/11/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/comisiones-servicios-2026/webosk00-procon/es/adjuntos/261111_C_SERV_PIT_MID_ENF_SEG_PAC_DIR_RRHH_a.pdf"
+  },
+  {
+   "id": "comisiones2026-kkif63",
+   "src": "comisiones2026",
+   "process": "Comisiones de servicios",
+   "kind": "Recurso de alzada",
+   "title": "Técnico/a Responsable de Área Corporativa – Técnico/a Superior Informático/a · Declarada Desierta",
+   "org": "Dirección General",
+   "categories": [
+    "Técnico/a Superior Informático/a"
+   ],
+   "published": "2026-11-12",
+   "start": "2026-11-12",
+   "end": "2026-12-11",
+   "estimated": false,
+   "literal": "Plazo para presentar recursos de alzada: abierto desde el 12/11/2026 hasta el 11/12/2026, ambos inclusive.",
+   "summary": "TÉCNICO/A RESPONSABLE DE ÁREA CORPORATIVA - TÉCNICO/A SUPERIOR INFORMÁTICO/A - DECLARADA DESIERTA - DIRECCIÓN GENERAL - Plazo para presentar recursos de alzada: abierto desde el 12/11/2026 hasta el 11/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/comisiones-servicios-2026/webosk00-procon/es/adjuntos/261009_C_SERV_PIT_TCO_RES_GOBERNA_DIR_RRHH_DESIER_DEF_a.pdf"
+  },
+  {
+   "id": "comisiones2026-sgj1rx",
+   "src": "comisiones2026",
+   "process": "Comisiones de servicios",
+   "kind": "Recurso de alzada",
+   "title": "Técnico/a Responsable de Área Corporativa – Técnico/a Superior de Administración y Gestión (Servicios Estratégicos) · Declarada Desierta",
+   "org": "Dirección General",
+   "categories": [
+    "Técnico/a Superior de Administración y Gestión"
+   ],
+   "published": "2026-11-12",
+   "start": "2026-11-12",
+   "end": "2026-12-11",
+   "estimated": false,
+   "literal": "Plazo para presentar recursos de alzada: abierto desde el 12/11/2026 hasta el 11/12/2026, ambos inclusive.",
+   "summary": "TÉCNICO/A RESPONSABLE DE ÁREA CORPORATIVA - TÉCNICO/A SUPERIOR DE ADMINISTRACIÓN Y GESTIÓN (SERVICIOS ESTRATÉGICOS) - DECLARADA DESIERTA - DIRECCIÓN GENERAL - Plazo para presentar recursos de alzada: abierto desde el 12/11/2026 hasta el 11/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/comisiones-servicios-2026/webosk00-procon/es/adjuntos/260907_C_SERV_PIT_TCO_RES_COMUNIC_1451_DIR_RRHH_DESIER_DEF_a.pdf"
+  },
+  {
+   "id": "comisiones2026-u80l0k",
+   "src": "comisiones2026",
+   "process": "Comisiones de servicios",
+   "kind": "Recurso de alzada",
+   "title": "Técnico/a Responsable de Área Corporativa – Técnico/a Superior Económico/a · Declarada Desierta",
+   "org": "Dirección General",
+   "categories": [
+    "Técnico/a Superior Económico/a"
+   ],
+   "published": "2026-11-12",
+   "start": "2026-11-12",
+   "end": "2026-12-11",
+   "estimated": false,
+   "literal": "Plazo para presentar recursos de alzada: abierto desde el 12/11/2026 hasta el 11/12/2026, ambos inclusive.",
+   "summary": "TÉCNICO/A RESPONSABLE DE ÁREA CORPORATIVA - TÉCNICO/A SUPERIOR ECONÓMICO/A - DECLARADA DESIERTA - DIRECCIÓN GENERAL - Plazo para presentar recursos de alzada: abierto desde el 12/11/2026 hasta el 11/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/comisiones-servicios-2026/webosk00-procon/es/adjuntos/261008_C_SERV_PIT_MID_TCO_RES_COMPRAS_1625_DIR_RRHH_DESIER_DEF_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-13qydpa",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Recurso de alzada",
+   "title": "Subdirector/a Médico/a de Investigación · Nombramiento",
+   "org": "OSI Ezkerraldea-Enkarterri-Cruces",
+   "categories": [
+    "Subdirector/a Médico/a de Investigación"
+   ],
+   "published": "2026-11-12",
+   "start": "2026-11-12",
+   "end": "2026-12-11",
+   "estimated": false,
+   "literal": "Plazo para presentar recursos de alzada: abierto desde el 12/11/2026 hasta el 11/12/2026, ambos inclusive.",
+   "summary": "SUBDIRECTOR/A MÉDICO/A DE INVESTIGACIÓN - NOMBRAMIENTO - OSI EZKERRALDEA-ENKARTERRI-CRUCES - Plazo para presentar recursos de alzada: abierto desde el 12/11/2026 hasta el 11/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/260810_L_DESIG_SUBDIREC_MED_INVEST_OSI_EZ_EN_CRUCES_NOMBR_a.pdf"
+  },
   {
    "id": "comisiones2026-1o4dh29",
    "src": "comisiones2026",
