@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checkedAt": "2026-11-16T01:30:21.013Z",
+ "checkedAt": "2026-11-16T08:25:32.747Z",
  "sources": [
   {
    "key": "comisiones2026",
@@ -13,7 +13,7 @@
    "error": "",
    "count": 157,
    "hash": "82a0211656627420",
-   "checkedAt": "2026-11-16T01:30:21.013Z",
+   "checkedAt": "2026-11-16T08:25:32.747Z",
    "changedAt": "2026-11-11T14:59:41.154Z"
   },
   {
@@ -27,7 +27,7 @@
    "error": "",
    "count": 132,
    "hash": "77f324c1858c86af",
-   "checkedAt": "2026-11-16T01:30:21.013Z",
+   "checkedAt": "2026-11-16T08:25:32.747Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -39,10 +39,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 502,
-   "hash": "b077f1b37cc913ca",
-   "checkedAt": "2026-11-16T01:30:21.013Z",
-   "changedAt": "2026-11-11T14:59:41.154Z"
+   "count": 511,
+   "hash": "ce8099dba824684b",
+   "checkedAt": "2026-11-16T08:25:32.747Z",
+   "changedAt": "2026-11-16T08:25:32.747Z"
   },
   {
    "key": "jefaturas2025",
@@ -55,7 +55,7 @@
    "error": "",
    "count": 479,
    "hash": "66143b22347640ab",
-   "checkedAt": "2026-11-16T01:30:21.013Z",
+   "checkedAt": "2026-11-16T08:25:32.747Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -69,7 +69,7 @@
    "error": "",
    "count": 30,
    "hash": "eb07d21ecb1d9061",
-   "checkedAt": "2026-11-16T01:30:21.013Z",
+   "checkedAt": "2026-11-16T08:25:32.747Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -83,7 +83,7 @@
    "error": "",
    "count": 54,
    "hash": "a304df315c59aa2c",
-   "checkedAt": "2026-11-16T01:30:21.013Z",
+   "checkedAt": "2026-11-16T08:25:32.747Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -97,7 +97,7 @@
    "error": "",
    "count": 82,
    "hash": "bab6b7f163717620",
-   "checkedAt": "2026-11-16T01:30:21.013Z",
+   "checkedAt": "2026-11-16T08:25:32.747Z",
    "changedAt": "2026-11-10T19:17:01.190Z"
   },
   {
@@ -111,7 +111,7 @@
    "error": "",
    "count": 265,
    "hash": "71d0a7f2d7ab350a",
-   "checkedAt": "2026-11-16T01:30:21.013Z",
+   "checkedAt": "2026-11-16T08:25:32.747Z",
    "changedAt": "2026-11-13T12:26:43.865Z"
   },
   {
@@ -125,7 +125,7 @@
    "error": "",
    "count": 17,
    "hash": "939fc87f958a1a8d",
-   "checkedAt": "2026-11-16T01:30:21.013Z",
+   "checkedAt": "2026-11-16T08:25:32.747Z",
    "changedAt": "2026-11-13T12:26:43.865Z"
   },
   {
@@ -139,7 +139,7 @@
    "error": "",
    "count": 83,
    "hash": "a6baac4fb1fc60c0",
-   "checkedAt": "2026-11-16T01:30:21.013Z",
+   "checkedAt": "2026-11-16T08:25:32.747Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -153,7 +153,7 @@
    "error": "",
    "count": 164,
    "hash": "6f0586c40b65c8fe",
-   "checkedAt": "2026-11-16T01:30:21.013Z",
+   "checkedAt": "2026-11-16T08:25:32.747Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -167,7 +167,7 @@
    "error": "",
    "count": 21,
    "hash": "ff9210a812239484",
-   "checkedAt": "2026-11-16T01:30:21.013Z",
+   "checkedAt": "2026-11-16T08:25:32.747Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -181,7 +181,7 @@
    "error": "",
    "count": 3,
    "hash": "3ff1c551e57dff5d",
-   "checkedAt": "2026-11-16T01:30:21.013Z",
+   "checkedAt": "2026-11-16T08:25:32.747Z",
    "changedAt": "2026-10-28T14:42:46.786Z"
   },
   {
@@ -195,7 +195,7 @@
    "error": "",
    "count": 0,
    "hash": "c4971aba58479f1e",
-   "checkedAt": "2026-11-16T01:30:21.013Z",
+   "checkedAt": "2026-11-16T08:25:32.747Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -209,7 +209,7 @@
    "error": "",
    "count": 39,
    "hash": "2dafd4eaea124e05",
-   "checkedAt": "2026-11-16T01:30:21.013Z",
+   "checkedAt": "2026-11-16T08:25:32.747Z",
    "changedAt": "2026-11-08T09:35:21.464Z"
   },
   {
@@ -223,7 +223,7 @@
    "error": "",
    "count": 44,
    "hash": "2ea49bf0eb25d87f",
-   "checkedAt": "2026-11-16T01:30:21.013Z",
+   "checkedAt": "2026-11-16T08:25:32.747Z",
    "changedAt": "2026-11-08T09:35:21.464Z"
   },
   {
@@ -235,10 +235,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 0,
-   "hash": "3a0c0646766b992e",
-   "checkedAt": "2026-11-16T01:30:21.013Z",
-   "changedAt": "2026-11-13T12:26:43.865Z"
+   "count": 1,
+   "hash": "f647fbad061d248b",
+   "checkedAt": "2026-11-16T08:25:32.747Z",
+   "changedAt": "2026-11-16T08:25:32.747Z"
   },
   {
    "key": "ctap",
@@ -251,7 +251,7 @@
    "error": "",
    "count": 125,
    "hash": "44ff34f0838ee74f",
-   "checkedAt": "2026-11-16T01:30:21.013Z",
+   "checkedAt": "2026-11-16T08:25:32.747Z",
    "changedAt": "2026-11-15T02:54:24.839Z"
   },
   {
@@ -265,7 +265,7 @@
    "error": "",
    "count": 0,
    "hash": "9a327c9e5613dad4",
-   "checkedAt": "2026-11-16T01:30:21.013Z",
+   "checkedAt": "2026-11-16T08:25:32.747Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -279,7 +279,7 @@
    "error": "",
    "count": 0,
    "hash": "678bcb345b70e6ba",
-   "checkedAt": "2026-11-16T01:30:21.013Z",
+   "checkedAt": "2026-11-16T08:25:32.747Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -293,14 +293,14 @@
    "error": "",
    "count": 0,
    "hash": "974dc087b0130905",
-   "checkedAt": "2026-11-16T01:30:21.013Z",
+   "checkedAt": "2026-11-16T08:25:32.747Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   }
  ],
  "bopv": {
   "yy": "26",
-  "lastNumber": 218,
-  "lastDate": "2026-11-13",
+  "lastNumber": 219,
+  "lastDate": "2026-11-16",
   "filter": 2
  },
  "items": [
@@ -319,6 +319,184 @@
    "literal": "NOTA INFORMATIVA: Resultados pruebas fin de semana del 6 al 8 de noviembre - OPE 23-24-25",
    "summary": "Se informa a las personas aspirantes inscritas en el proceso selectivo de la OPE 2023-2024-2025 que, tras detectar diversos errores en los documentos iniciales, se ha publicado una nueva versión corregida de las baterías de preguntas para las siguientes categorías profesionales: Cirugía Oral y Maxilofacial Cirugía Torácica Cirugía General y Aparato Digestivo Enfermedades Infecciosas Los nuevos archivos ya se…",
    "url": "https://www.osakidetza.euskadi.eus/ope-2023-2024-2025/webosk00-procon/es/#:~:text=Se%20informa%20a%20las%20personas%20aspirantes%20inscritas"
+  },
+  {
+   "id": "bopv-1228h7p",
+   "src": "bopv",
+   "process": "Recursos judiciales (emplazamientos)",
+   "kind": "Emplazamiento",
+   "title": "Emplazamiento a interesados en un recurso contencioso-administrativo",
+   "org": "",
+   "categories": [],
+   "published": "2026-11-16",
+   "start": "2026-11-17",
+   "end": "2026-11-27",
+   "estimated": true,
+   "literal": "En cumplimiento de lo dispuesto en el artículo 49 de la Ley 29/1998, de 13 de julio, reguladora de la Jurisdicción Contencioso-administrativa, se le emplaza como posible tercero interesado, haciéndole saber que puede comparecer y personarse en el procedimiento judicial citado en el plazo de nueve días contados a partir del día siguiente al recibo de la presente notificación. (fecha final calculada: nueve días hábiles desde el día siguiente a la publicación; compruébala en la resolución).",
+   "summary": "ANUNCIO por el que se emplaza a posibles interesados en el recurso contencioso-administrativo (procedimiento de protección de derechos fundamentales n.º 358/2026), tramitado ante la Sección de lo Contencioso-Administrativo del Tribunal de Instancia de Donostia / San Sebastián. Plaza n.º 3.",
+   "url": "https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2026/11/2604891a.shtml"
+  },
+  {
+   "id": "jefaturas2026-1c024vc",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Solicitud / inscripción",
+   "title": "Supervisor/a de Cuidados",
+   "org": "OSI Bilbao-Basurto",
+   "categories": [
+    "Supervisor/a de Cuidados"
+   ],
+   "published": "2026-11-16",
+   "start": "2026-11-16",
+   "end": "2026-12-04",
+   "estimated": false,
+   "literal": "Plazo de presentación de solicitudes: abierto desde el 16/11/2026 hasta el 04/12/2026, ambos inclusive.",
+   "summary": "SUPERVISOR/A DE CUIDADOS - OSI BILBAO-BASURTO - Plazo de presentación de solicitudes: abierto desde el 16/11/2026 hasta el 04/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/261113_L_DESIG_SUPERV_CUIDADOS_ESP_OSI_BILBAO_BASURTO_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-1fbkdg1",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Solicitud / inscripción",
+   "title": "Supervisor/a de Enfermería de la Unidad Asistencial Revilla 3 (Hospitalización Respiratorio y Enfermedades Infecciosas)",
+   "org": "OSI Bilbao-Basurto",
+   "categories": [
+    "Supervisor/a de Enfermería de la Unidad Asistencial Revilla 3"
+   ],
+   "published": "2026-11-16",
+   "start": "2026-11-16",
+   "end": "2026-12-04",
+   "estimated": false,
+   "literal": "Plazo de presentación de solicitudes: abierto desde el 16/11/2026 hasta el 04/12/2026, ambos inclusive.",
+   "summary": "SUPERVISOR/A DE ENFERMERÍA DE LA UNIDAD ASISTENCIAL REVILLA 3 (HOSPITALIZACIÓN RESPIRATORIO Y ENFERMEDADES INFECCIOSAS) - OSI BILBAO-BASURTO - Plazo de presentación de solicitudes: abierto desde el 16/11/2026 hasta el 04/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/261113_L_DESIG_SUPERV_ENF_OSI_BILBAO_BASURTO_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-1l86z1",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Solicitud / inscripción",
+   "title": "Supervisor/a de Guardia",
+   "org": "OSI Bilbao-Basurto",
+   "categories": [
+    "Supervisor/a de Guardia"
+   ],
+   "published": "2026-11-16",
+   "start": "2026-11-16",
+   "end": "2026-12-04",
+   "estimated": false,
+   "literal": "Plazo de presentación de solicitudes: abierto desde el 16/11/2026 hasta el 04/12/2026, ambos inclusive.",
+   "summary": "SUPERVISOR/A DE GUARDIA - OSI BILBAO-BASURTO - Plazo de presentación de solicitudes: abierto desde el 16/11/2026 hasta el 04/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/261113_L_DESIG_SUPERV_GUARD_ENFERM_OSI_BILBAO_BASURTO_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-1wm4mvs",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Solicitud / inscripción",
+   "title": "Jefe/a de Servicio Sanitario (Dirección de Asistencia Sanitaria)",
+   "org": "Dirección General",
+   "categories": [
+    "Jefe/a de Servicio Sanitario"
+   ],
+   "published": "2026-11-16",
+   "start": "2026-11-16",
+   "end": "2026-12-04",
+   "estimated": false,
+   "literal": "Plazo de presentación de solicitudes: abierto desde el 16/11/2026 hasta el 04/12/2026, ambos inclusive.",
+   "summary": "JEFE/A DE SERVICIO SANITARIO (DIRECCIÓN DE ASISTENCIA SANITARIA) - DIRECCIÓN GENERAL - Plazo de presentación de solicitudes: abierto desde el 16/11/2026 hasta el 04/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/261104_CONC_J_SERV_ASIST_SANIT_DIR_GRAL_BOE.pdf"
+  },
+  {
+   "id": "jefaturas2026-rdjd2d",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Solicitud / inscripción",
+   "title": "Jefe/a de Sección Sanitaria (Dirección de Asistencia Sanitaria)",
+   "org": "Dirección General",
+   "categories": [
+    "Jefe/a de Sección Sanitaria"
+   ],
+   "published": "2026-11-16",
+   "start": "2026-11-16",
+   "end": "2026-12-04",
+   "estimated": false,
+   "literal": "Plazo de presentación de solicitudes: abierto desde el 16/11/2026 hasta el 04/12/2026, ambos inclusive.",
+   "summary": "JEFE/A DE SECCIÓN SANITARIA (DIRECCIÓN DE ASISTENCIA SANITARIA) - DIRECCIÓN GENERAL - Plazo de presentación de solicitudes: abierto desde el 16/11/2026 hasta el 04/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/261104_CONC_J_SEC_ASIST_SANIT_DIR_GRAL_BOE.pdf"
+  },
+  {
+   "id": "jefaturas2026-slbty5",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Solicitud / inscripción",
+   "title": "Supervisor/a de Enfermería del Hospital de Día Quirúrgico (Ucsi-Urpa)",
+   "org": "OSI Bilbao-Basurto",
+   "categories": [
+    "Supervisor/a de Enfermería del Hospital de Día Quirúrgico"
+   ],
+   "published": "2026-11-16",
+   "start": "2026-11-16",
+   "end": "2026-12-04",
+   "estimated": false,
+   "literal": "Plazo de presentación de solicitudes: abierto desde el 16/11/2026 hasta el 04/12/2026, ambos inclusive.",
+   "summary": "SUPERVISOR/A DE ENFERMERÍA DEL HOSPITAL DE DÍA QUIRÚRGICO (UCSI-URPA) - OSI BILBAO-BASURTO - Plazo de presentación de solicitudes: abierto desde el 16/11/2026 hasta el 04/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/261113_L_DESIG_SUPERV_HOSP_DIA_OSI_BILBAO_BASURTO_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-6pg31o",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Recurso de alzada",
+   "title": "Subdirector/a Médico · Cese",
+   "org": "OSI Bilbao-Basurto",
+   "categories": [
+    "Subdirector/a Médico"
+   ],
+   "published": "2026-11-14",
+   "start": "2026-11-14",
+   "end": "2026-12-14",
+   "estimated": false,
+   "literal": "Plazo para presentar recursos de alzada: abierto desde el 14/11/2026 hasta el 14/12/2026, ambos inclusive.",
+   "summary": "SUBDIRECTOR/A MÉDICO - OSI BILBAO-BASURTO - CESE - Plazo para presentar recursos de alzada: abierto desde el 14/11/2026 hasta el 14/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/210806_L_DESIG_SUBDIREC_MED_SUBDIREC_OSI_BILBAO_BASURTO_CESE_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-buz5ty",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Recurso de alzada",
+   "title": "Jefe/a de Grupo Administración (UGS) 2 Puestos · Nombramiento",
+   "org": "OSI Bilbao-Basurto",
+   "categories": [
+    "Jefe/a de Grupo Administración 2 Puestos"
+   ],
+   "published": "2026-11-14",
+   "start": "2026-11-14",
+   "end": "2026-12-14",
+   "estimated": false,
+   "literal": "Plazo para presentar recursos de alzada: abierto desde el 14/11/2026 hasta el 14/12/2026, ambos inclusive.",
+   "summary": "JEFE/A DE GRUPO ADMINISTRACIÓN (UGS) 2 PUESTOS - NOMBRAMIENTO - OSI BILBAO-BASURTO - Plazo para presentar recursos de alzada: abierto desde el 14/11/2026 hasta el 14/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/260409_L_DESIG_J_GR_UGS_OSI_BILBAO_BASURTO_NOMBR_4369_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-ve777h",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Recurso de alzada",
+   "title": "Jefe/a de Grupo Administración (UGS) · Nombramiento",
+   "org": "OSI Bilbao-Basurto",
+   "categories": [
+    "Jefe/a de Grupo Administración"
+   ],
+   "published": "2026-11-14",
+   "start": "2026-11-14",
+   "end": "2026-12-14",
+   "estimated": false,
+   "literal": "Plazo para presentar recursos de alzada: abierto desde el 14/11/2026 hasta el 14/12/2026, ambos inclusive.",
+   "summary": "JEFE/A DE GRUPO ADMINISTRACIÓN (UGS) - NOMBRAMIENTO - OSI BILBAO-BASURTO - Plazo para presentar recursos de alzada: abierto desde el 14/11/2026 hasta el 14/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/260409_L_DESIG_J_GR_UGS_OSI_BILBAO_BASURTO_NOMBR_4370_a.pdf"
   },
   {
    "id": "lanpoltsa-4525",
