@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checkedAt": "2026-11-18T09:29:47.515Z",
+ "checkedAt": "2026-11-18T18:18:43.579Z",
  "sources": [
   {
    "key": "comisiones2026",
@@ -11,10 +11,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 160,
-   "hash": "535c832c154f3af1",
-   "checkedAt": "2026-11-18T09:29:47.515Z",
-   "changedAt": "2026-11-17T10:54:53.649Z"
+   "count": 161,
+   "hash": "161ab1e7533ed33c",
+   "checkedAt": "2026-11-18T18:18:43.579Z",
+   "changedAt": "2026-11-18T18:18:43.579Z"
   },
   {
    "key": "comisiones2025",
@@ -27,7 +27,7 @@
    "error": "",
    "count": 132,
    "hash": "77f324c1858c86af",
-   "checkedAt": "2026-11-18T09:29:47.515Z",
+   "checkedAt": "2026-11-18T18:18:43.579Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -41,7 +41,7 @@
    "error": "",
    "count": 521,
    "hash": "e7fc9b8accecf21f",
-   "checkedAt": "2026-11-18T09:29:47.515Z",
+   "checkedAt": "2026-11-18T18:18:43.579Z",
    "changedAt": "2026-11-18T09:29:47.515Z"
   },
   {
@@ -55,7 +55,7 @@
    "error": "",
    "count": 479,
    "hash": "66143b22347640ab",
-   "checkedAt": "2026-11-18T09:29:47.515Z",
+   "checkedAt": "2026-11-18T18:18:43.579Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -69,7 +69,7 @@
    "error": "",
    "count": 30,
    "hash": "eb07d21ecb1d9061",
-   "checkedAt": "2026-11-18T09:29:47.515Z",
+   "checkedAt": "2026-11-18T18:18:43.579Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -83,7 +83,7 @@
    "error": "",
    "count": 54,
    "hash": "a304df315c59aa2c",
-   "checkedAt": "2026-11-18T09:29:47.515Z",
+   "checkedAt": "2026-11-18T18:18:43.579Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -95,10 +95,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 83,
-   "hash": "ace991db013bafc5",
-   "checkedAt": "2026-11-18T09:29:47.515Z",
-   "changedAt": "2026-11-17T10:54:53.649Z"
+   "count": 84,
+   "hash": "ff6fb2e7c86498fb",
+   "checkedAt": "2026-11-18T18:18:43.579Z",
+   "changedAt": "2026-11-18T18:18:43.579Z"
   },
   {
    "key": "lanpoltsa",
@@ -109,10 +109,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 266,
-   "hash": "3776bea3898b7784",
-   "checkedAt": "2026-11-18T09:29:47.515Z",
-   "changedAt": "2026-11-17T10:54:53.649Z"
+   "count": 268,
+   "hash": "625fbee75fd04e54",
+   "checkedAt": "2026-11-18T18:18:43.579Z",
+   "changedAt": "2026-11-18T18:18:43.579Z"
   },
   {
    "key": "ope2325",
@@ -123,10 +123,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 18,
-   "hash": "2abe6bd6ddd4e181",
-   "checkedAt": "2026-11-18T09:29:47.515Z",
-   "changedAt": "2026-11-17T19:29:14.892Z"
+   "count": 19,
+   "hash": "83b1d90a28790640",
+   "checkedAt": "2026-11-18T18:18:43.579Z",
+   "changedAt": "2026-11-18T18:18:43.579Z"
   },
   {
    "key": "ope2022",
@@ -139,7 +139,7 @@
    "error": "",
    "count": 83,
    "hash": "a6baac4fb1fc60c0",
-   "checkedAt": "2026-11-18T09:29:47.515Z",
+   "checkedAt": "2026-11-18T18:18:43.579Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -153,7 +153,7 @@
    "error": "",
    "count": 164,
    "hash": "6f0586c40b65c8fe",
-   "checkedAt": "2026-11-18T09:29:47.515Z",
+   "checkedAt": "2026-11-18T18:18:43.579Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -167,7 +167,7 @@
    "error": "",
    "count": 21,
    "hash": "ff9210a812239484",
-   "checkedAt": "2026-11-18T09:29:47.515Z",
+   "checkedAt": "2026-11-18T18:18:43.579Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -181,7 +181,7 @@
    "error": "",
    "count": 3,
    "hash": "3ff1c551e57dff5d",
-   "checkedAt": "2026-11-18T09:29:47.515Z",
+   "checkedAt": "2026-11-18T18:18:43.579Z",
    "changedAt": "2026-10-28T14:42:46.786Z"
   },
   {
@@ -195,7 +195,7 @@
    "error": "",
    "count": 0,
    "hash": "c4971aba58479f1e",
-   "checkedAt": "2026-11-18T09:29:47.515Z",
+   "checkedAt": "2026-11-18T18:18:43.579Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -209,7 +209,7 @@
    "error": "",
    "count": 39,
    "hash": "2dafd4eaea124e05",
-   "checkedAt": "2026-11-18T09:29:47.515Z",
+   "checkedAt": "2026-11-18T18:18:43.579Z",
    "changedAt": "2026-11-08T09:35:21.464Z"
   },
   {
@@ -223,7 +223,7 @@
    "error": "",
    "count": 44,
    "hash": "2ea49bf0eb25d87f",
-   "checkedAt": "2026-11-18T09:29:47.515Z",
+   "checkedAt": "2026-11-18T18:18:43.579Z",
    "changedAt": "2026-11-08T09:35:21.464Z"
   },
   {
@@ -237,7 +237,7 @@
    "error": "",
    "count": 0,
    "hash": "f8b2508133d56e22",
-   "checkedAt": "2026-11-18T09:29:47.515Z",
+   "checkedAt": "2026-11-18T18:18:43.579Z",
    "changedAt": "2026-11-18T09:29:47.515Z"
   },
   {
@@ -251,7 +251,7 @@
    "error": "",
    "count": 125,
    "hash": "44ff34f0838ee74f",
-   "checkedAt": "2026-11-18T09:29:47.515Z",
+   "checkedAt": "2026-11-18T18:18:43.579Z",
    "changedAt": "2026-11-18T09:29:47.515Z"
   },
   {
@@ -265,7 +265,7 @@
    "error": "",
    "count": 0,
    "hash": "9a327c9e5613dad4",
-   "checkedAt": "2026-11-18T09:29:47.515Z",
+   "checkedAt": "2026-11-18T18:18:43.579Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -279,7 +279,7 @@
    "error": "",
    "count": 0,
    "hash": "678bcb345b70e6ba",
-   "checkedAt": "2026-11-18T09:29:47.515Z",
+   "checkedAt": "2026-11-18T18:18:43.579Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -293,7 +293,7 @@
    "error": "",
    "count": 0,
    "hash": "974dc087b0130905",
-   "checkedAt": "2026-11-18T09:29:47.515Z",
+   "checkedAt": "2026-11-18T18:18:43.579Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   }
  ],
@@ -319,6 +319,25 @@
    "literal": "NOTA INFORMATIVA: Resultados pruebas fin de semana del 6 al 8 de noviembre - OPE 23-24-25",
    "summary": "Se informa a las personas aspirantes inscritas en el proceso selectivo de la OPE 2023-2024-2025 que, tras detectar diversos errores en los documentos iniciales, se ha publicado una nueva versión corregida de las baterías de preguntas para las siguientes categorías profesionales: Cirugía Oral y Maxilofacial Cirugía Torácica Cirugía General y Aparato Digestivo Enfermedades Infecciosas Los nuevos archivos ya se…",
    "url": "https://www.osakidetza.euskadi.eus/ope-2023-2024-2025/webosk00-procon/es/#:~:text=Se%20informa%20a%20las%20personas%20aspirantes%20inscritas"
+  },
+  {
+   "id": "comisiones2026-3sait6",
+   "src": "comisiones2026",
+   "process": "Comisiones de servicios",
+   "kind": "Recurso de alzada",
+   "title": "Dejar sin Efectos – Técnico/a de Prevención, Ergonomía y Psicosociología",
+   "org": "OSI Araba",
+   "categories": [
+    "Técnico/a de Prevención",
+    "Ergonomía y Psicosociología"
+   ],
+   "published": "2026-11-19",
+   "start": "2026-11-19",
+   "end": "2026-12-18",
+   "estimated": false,
+   "literal": "Plazo para presentar recursos de alzada: abierto desde el 19/11/2026 hasta el 18/12/2026, ambos inclusive.",
+   "summary": "DEJAR SIN EFECTOS - TÉCNICO/A DE PREVENCIÓN, ERGONOMÍA Y PSICOSOCIOLOGÍA - OSI ARABA - Plazo para presentar recursos de alzada: abierto desde el 19/11/2026 hasta el 18/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/comisiones-servicios-2026/webosk00-procon/es/adjuntos/260716_C_SERV_PIT_TCO_PREVEN_OSI_ARABA_ANUL.pdf"
   },
   {
    "id": "jefaturas2026-au6pxx",
@@ -391,6 +410,81 @@
    "literal": "Plazo para presentar alegaciones: abierto desde el 18/11/2026 hasta el 01/12/2026, ambos inclusive.",
    "summary": "JEFE/A DE SERVICIO SANITARIO DE LA UNIDAD DE GESTIÓN SANITARIA - RED DE SALUD MENTAL DE BIZKAIA - Lista Provisional - Plazo para presentar alegaciones: abierto desde el 18/11/2026 hasta el 01/12/2026, ambos inclusive.",
    "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/261007_CONC_J_SERV_RSMB_L_PROV_a.pdf"
+  },
+  {
+   "id": "lanpoltsa-4533",
+   "src": "lanpoltsa",
+   "process": "Listas de contratación temporal",
+   "kind": "Publicación",
+   "title": "Profesor/a de la Escuela Universitaria de Enfermería. Nombramiento de la Composición de la Comisión de Valoración",
+   "org": "",
+   "categories": [],
+   "published": "2026-11-18",
+   "start": "",
+   "end": "",
+   "estimated": false,
+   "literal": "",
+   "summary": "RESOLUCIÓN 1746/2026, DE 5 DE NOVIEMBRE, DE LA DIRECTORA DE PERSONAS Y TALENTO DE OSAKIDETZA-SERVICIO VASCO DE SALUD, POR LA QUE SE NOMBRA LA COMPOSICIÓN DE LA COMISIÓN DE VALORACIÓN PARA LA CONTRATACIÓN ESPECÍFICA DE PROFESOR/A DE LA ESCUELA UNIVERSITARIA DE ENFERMERÍA EN VITORIA-GASTEIZ Más información en el área privada.",
+   "url": "https://lanpoltsa.osakidetza.eus/c28/avisos-generales"
+  },
+  {
+   "id": "ope2325-u7zl19",
+   "src": "ope2325",
+   "process": "OPE 2023-2024-2025",
+   "kind": "Reclamación",
+   "title": "OPE 2023-2024-2025: Publicación Relación Aprobados",
+   "org": "",
+   "categories": [
+    "F.E. Técnico/a Psicólogo/a Clínico/a",
+    "F. Técnico/a Farmacéutico/a",
+    "F. Técnico/a Odontólogo/a",
+    "Técnico/a Superior Informática",
+    "Técnico/a Superior Normalización de Euskera",
+    "Técnico/a Superior Prevención, Ergonomía y Psicosociología",
+    "Técnico/a Superior Prevención, Seguridad e Higiene",
+    "Diplomado/a Óptica y Optometría",
+    "Enfermero/a Salud Laboral",
+    "Técnico/a Especialista Anatomía Patológica y Citología",
+    "Técnico/a Especialista Audioprótesis",
+    "Técnico/a Especialista Documentación Sanitaria",
+    "Cocinero/a",
+    "Técnico/a Especialista Informática",
+    "Técnico/a Especialista Instalaciones Electromedicina",
+    "Auxiliar de Farmacia",
+    "Conductor/a Transporte Sanitario",
+    "Oficial/a Costura",
+    "Oficial/a Mantenimiento Instalaciones"
+   ],
+   "published": "2026-11-18",
+   "start": "2026-11-19",
+   "end": "2026-12-02",
+   "estimated": false,
+   "literal": "El plazo para la presentación de reclamaciones contra las referidas resoluciones se extenderá desde el día 19 de noviembre hasta el 2 de diciembre de 2026, ambos incluidos, debiendo utilizar la aplicación disponible en la web de OPE 2023-2024-2025.",
+   "summary": "Hoy, día 18 de noviembre de 2026, está prevista la publicación en la web OPE 2023-2024-2025 las Resoluciones que contienen la Relación de aprobados correspondientes a las siguientes categorías: · F.E. TÉCNICO/A PSICÓLOGO/A CLÍNICO/A · F. TÉCNICO/A FARMACÉUTICO/A · F. TÉCNICO/A ODONTÓLOGO/A · TÉCNICO/A SUPERIOR INFORMÁTICA · TÉCNICO/A SUPERIOR NORMALIZACIÓN DE EUSKERA · TÉCNICO/A SUPERIOR PREVENCIÓN, ERGONOMÍA Y…",
+   "url": "https://www.osakidetza.euskadi.eus/ope-2023-2024-2025/webosk00-procon/es/#:~:text=Hoy%2C%20d%C3%ADa%2018%20de%20noviembre%20de%202026"
+  },
+  {
+   "id": "temporal-1hgm2ea",
+   "src": "temporal",
+   "process": "Listas de contratación temporal",
+   "kind": "Recurso de alzada",
+   "title": "Publicación Listas Definitivas",
+   "org": "",
+   "categories": [
+    "Técnico/a Especialista Instalaciones Climatización",
+    "Técnico/a Especialista Instalaciones Eléctricas"
+   ],
+   "published": "2026-11-18",
+   "start": "2026-11-18",
+   "end": "2026-12-18",
+   "estimated": false,
+   "literal": "Plazo para interponer recurso de alzada hasta el 18 de diciembre de 2026, inclusive.",
+   "summary": "Hoy, 18 de noviembre de 2026, está prevista la publicación de las Listas definitivas de contratación temporal de las siguientes categorías/puestos funcionales: TÉCNICO/A ESPECIALISTA INSTALACIONES CLIMATIZACIÓN TÉCNICO/A ESPECIALISTA INSTALACIONES ELÉCTRICAS Plazo para interponer recurso de alzada hasta el 18 de diciembre de 2026, inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/#:~:text=Hoy%2C%2018%20de%20noviembre%20de%202026%2C%20est%C3%A1",
+   "altUrl": "https://lanpoltsa.osakidetza.eus/c28/avisos-generales",
+   "aliases": [
+    "lanpoltsa-4535"
+   ]
   },
   {
    "id": "comisiones2026-1ejtcfn",
@@ -553,6 +647,25 @@
    "literal": "Plazo para presentar recursos de alzada: abierto desde el 17/11/2026 hasta el 16/12/2026, ambos inclusive.",
    "summary": "JEFE/A DE SERVICIO DE ADMINISTRACIÓN Y GESTIÓN (SERVICIO DE INNOVACIÓN Y CALIDAD) - NOMBRAMIENTO - OSI EZKERRALDEA-ENKARTERRI-CRUCES - Plazo para presentar recursos de alzada: abierto desde el 17/11/2026 hasta el 16/12/2026, ambos inclusive.",
    "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/260727_L_DESIG_J_SERV_ADMON_Y_GEST_OSI_EZ_EN_CRUCES_NOMBR_a.pdf"
+  },
+  {
+   "id": "ope2325-17s56fw",
+   "src": "ope2325",
+   "process": "OPE 2023-2024-2025",
+   "kind": "Publicación",
+   "title": "Hoy 17 de noviembre está prevista la publicación en la aplicación web de la OPE las RESOLUCIONES de corrección de errores de las categorías que se…",
+   "org": "",
+   "categories": [
+    "Tec. Sup. Informática",
+    "Tec. Esp. Documentación Sanitaria"
+   ],
+   "published": "2026-11-17",
+   "start": "",
+   "end": "",
+   "estimated": false,
+   "literal": "",
+   "summary": "Hoy 17 de noviembre está prevista la publicación en la aplicación web de la OPE las RESOLUCIONES de corrección de errores de las categorías que se indican a continuación: · TEC. SUP. INFORMÁTICA · TEC. ESP. DOCUMENTACIÓN SANITARIA Las personas aspirantes interesadas dispondrán de un plazo de 10 días hábiles para formular reclamaciones contados a partir del siguiente al de la publicación de la resolución de…",
+   "url": "https://www.osakidetza.euskadi.eus/ope-2023-2024-2025/webosk00-procon/es/#:~:text=Hoy%2017%20de%20noviembre%20est%C3%A1%20prevista%20la"
   },
   {
    "id": "ope2325-684oc5",
