@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checkedAt": "2026-11-19T08:15:03.378Z",
+ "checkedAt": "2026-11-19T17:29:49.077Z",
  "sources": [
   {
    "key": "comisiones2026",
@@ -11,10 +11,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 161,
-   "hash": "161ab1e7533ed33c",
-   "checkedAt": "2026-11-19T08:15:03.378Z",
-   "changedAt": "2026-11-18T18:18:43.579Z"
+   "count": 165,
+   "hash": "ea52c15c275589e4",
+   "checkedAt": "2026-11-19T17:29:49.077Z",
+   "changedAt": "2026-11-19T17:29:49.077Z"
   },
   {
    "key": "comisiones2025",
@@ -27,7 +27,7 @@
    "error": "",
    "count": 132,
    "hash": "77f324c1858c86af",
-   "checkedAt": "2026-11-19T08:15:03.378Z",
+   "checkedAt": "2026-11-19T17:29:49.077Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -39,10 +39,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 521,
-   "hash": "e7fc9b8accecf21f",
-   "checkedAt": "2026-11-19T08:15:03.378Z",
-   "changedAt": "2026-11-18T09:29:47.515Z"
+   "count": 527,
+   "hash": "e3b515600f264ca9",
+   "checkedAt": "2026-11-19T17:29:49.077Z",
+   "changedAt": "2026-11-19T17:29:49.077Z"
   },
   {
    "key": "jefaturas2025",
@@ -55,7 +55,7 @@
    "error": "",
    "count": 479,
    "hash": "66143b22347640ab",
-   "checkedAt": "2026-11-19T08:15:03.378Z",
+   "checkedAt": "2026-11-19T17:29:49.077Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -69,7 +69,7 @@
    "error": "",
    "count": 30,
    "hash": "eb07d21ecb1d9061",
-   "checkedAt": "2026-11-19T08:15:03.378Z",
+   "checkedAt": "2026-11-19T17:29:49.077Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -83,7 +83,7 @@
    "error": "",
    "count": 54,
    "hash": "a304df315c59aa2c",
-   "checkedAt": "2026-11-19T08:15:03.378Z",
+   "checkedAt": "2026-11-19T17:29:49.077Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -97,7 +97,7 @@
    "error": "",
    "count": 84,
    "hash": "ff6fb2e7c86498fb",
-   "checkedAt": "2026-11-19T08:15:03.378Z",
+   "checkedAt": "2026-11-19T17:29:49.077Z",
    "changedAt": "2026-11-18T18:18:43.579Z"
   },
   {
@@ -111,7 +111,7 @@
    "error": "",
    "count": 268,
    "hash": "625fbee75fd04e54",
-   "checkedAt": "2026-11-19T08:15:03.378Z",
+   "checkedAt": "2026-11-19T17:29:49.077Z",
    "changedAt": "2026-11-18T18:18:43.579Z"
   },
   {
@@ -125,7 +125,7 @@
    "error": "",
    "count": 19,
    "hash": "83b1d90a28790640",
-   "checkedAt": "2026-11-19T08:15:03.378Z",
+   "checkedAt": "2026-11-19T17:29:49.077Z",
    "changedAt": "2026-11-18T18:18:43.579Z"
   },
   {
@@ -139,7 +139,7 @@
    "error": "",
    "count": 83,
    "hash": "a6baac4fb1fc60c0",
-   "checkedAt": "2026-11-19T08:15:03.378Z",
+   "checkedAt": "2026-11-19T17:29:49.077Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -153,7 +153,7 @@
    "error": "",
    "count": 164,
    "hash": "6f0586c40b65c8fe",
-   "checkedAt": "2026-11-19T08:15:03.378Z",
+   "checkedAt": "2026-11-19T17:29:49.077Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -167,7 +167,7 @@
    "error": "",
    "count": 21,
    "hash": "ff9210a812239484",
-   "checkedAt": "2026-11-19T08:15:03.378Z",
+   "checkedAt": "2026-11-19T17:29:49.077Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -181,7 +181,7 @@
    "error": "",
    "count": 3,
    "hash": "3ff1c551e57dff5d",
-   "checkedAt": "2026-11-19T08:15:03.378Z",
+   "checkedAt": "2026-11-19T17:29:49.077Z",
    "changedAt": "2026-10-28T14:42:46.786Z"
   },
   {
@@ -195,7 +195,7 @@
    "error": "",
    "count": 0,
    "hash": "c4971aba58479f1e",
-   "checkedAt": "2026-11-19T08:15:03.378Z",
+   "checkedAt": "2026-11-19T17:29:49.077Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -209,7 +209,7 @@
    "error": "",
    "count": 39,
    "hash": "2dafd4eaea124e05",
-   "checkedAt": "2026-11-19T08:15:03.378Z",
+   "checkedAt": "2026-11-19T17:29:49.077Z",
    "changedAt": "2026-11-08T09:35:21.464Z"
   },
   {
@@ -223,7 +223,7 @@
    "error": "",
    "count": 44,
    "hash": "2ea49bf0eb25d87f",
-   "checkedAt": "2026-11-19T08:15:03.378Z",
+   "checkedAt": "2026-11-19T17:29:49.077Z",
    "changedAt": "2026-11-08T09:35:21.464Z"
   },
   {
@@ -237,7 +237,7 @@
    "error": "",
    "count": 0,
    "hash": "35c1468cdeee447f",
-   "checkedAt": "2026-11-19T08:15:03.378Z",
+   "checkedAt": "2026-11-19T17:29:49.077Z",
    "changedAt": "2026-11-19T08:15:03.378Z"
   },
   {
@@ -251,7 +251,7 @@
    "error": "",
    "count": 125,
    "hash": "44ff34f0838ee74f",
-   "checkedAt": "2026-11-19T08:15:03.378Z",
+   "checkedAt": "2026-11-19T17:29:49.077Z",
    "changedAt": "2026-11-18T09:29:47.515Z"
   },
   {
@@ -265,7 +265,7 @@
    "error": "",
    "count": 0,
    "hash": "9a327c9e5613dad4",
-   "checkedAt": "2026-11-19T08:15:03.378Z",
+   "checkedAt": "2026-11-19T17:29:49.077Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -278,9 +278,9 @@
    "status": 200,
    "error": "",
    "count": 0,
-   "hash": "678bcb345b70e6ba",
-   "checkedAt": "2026-11-19T08:15:03.378Z",
-   "changedAt": "2026-10-23T10:17:45.441Z"
+   "hash": "8aac5b3e3a472142",
+   "checkedAt": "2026-11-19T17:29:49.077Z",
+   "changedAt": "2026-11-19T17:29:49.077Z"
   },
   {
    "key": "noticiasProfesionales",
@@ -292,9 +292,9 @@
    "status": 200,
    "error": "",
    "count": 0,
-   "hash": "974dc087b0130905",
-   "checkedAt": "2026-11-19T08:15:03.378Z",
-   "changedAt": "2026-10-23T10:17:45.441Z"
+   "hash": "75743885a04c5592",
+   "checkedAt": "2026-11-19T17:29:49.077Z",
+   "changedAt": "2026-11-19T17:29:49.077Z"
   }
  ],
  "bopv": {
@@ -319,6 +319,186 @@
    "literal": "NOTA INFORMATIVA: Resultados pruebas fin de semana del 6 al 8 de noviembre - OPE 23-24-25",
    "summary": "Se informa a las personas aspirantes inscritas en el proceso selectivo de la OPE 2023-2024-2025 que, tras detectar diversos errores en los documentos iniciales, se ha publicado una nueva versión corregida de las baterías de preguntas para las siguientes categorías profesionales: Cirugía Oral y Maxilofacial Cirugía Torácica Cirugía General y Aparato Digestivo Enfermedades Infecciosas Los nuevos archivos ya se…",
    "url": "https://www.osakidetza.euskadi.eus/ope-2023-2024-2025/webosk00-procon/es/#:~:text=Se%20informa%20a%20las%20personas%20aspirantes%20inscritas"
+  },
+  {
+   "id": "comisiones2026-1en4gsu",
+   "src": "comisiones2026",
+   "process": "Comisiones de servicios",
+   "kind": "Solicitud / inscripción",
+   "title": "Técnico/a Responsable de Área Corporativa – Técnico Superior de Administración y Gestión (Administración y Registro de Personal)",
+   "org": "Dirección General",
+   "categories": [
+    "Técnico Superior de Administración y Gestión"
+   ],
+   "published": "2026-11-20",
+   "start": "2026-11-20",
+   "end": "2026-12-03",
+   "estimated": false,
+   "literal": "Plazo de presentación de solicitudes: abierto desde el 20/11/2026 hasta el 03/12/2026, ambos inclusive.",
+   "summary": "TÉCNICO/A RESPONSABLE DE ÁREA CORPORATIVA - TÉCNICO SUPERIOR DE ADMINISTRACIÓN Y GESTIÓN (ADMINISTRACIÓN Y REGISTRO DE PERSONAL) - DIRECCIÓN GENERAL - Plazo de presentación de solicitudes: abierto desde el 20/11/2026 hasta el 03/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/comisiones-servicios-2026/webosk00-procon/es/adjuntos/261119_C_SERV_PIT_TCO_RES_PERS_DIR_RRHH_a.pdf"
+  },
+  {
+   "id": "comisiones2026-1g2tcyv",
+   "src": "comisiones2026",
+   "process": "Comisiones de servicios",
+   "kind": "Recurso de alzada",
+   "title": "Varias Categorías · Corrección de Errores · Lista Definitiva",
+   "org": "H. Gorliz",
+   "categories": [
+    "Varias categorías"
+   ],
+   "published": "2026-11-20",
+   "start": "2026-11-20",
+   "end": "2026-12-21",
+   "estimated": false,
+   "literal": "Plazo para presentar recursos de alzada: abierto desde el 20/11/2026 hasta el 21/12/2026, ambos inclusive.",
+   "summary": "CORRECCIÓN DE ERRORES : VARIAS CATEGORÍAS - H. GORLIZ - Lista Definitiva - Plazo para presentar recursos de alzada: abierto desde el 20/11/2026 hasta el 21/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/comisiones-servicios-2026/webosk00-procon/es/adjuntos/261119_C_SERV_PIT_VARIAS_CATEG_VAR_DEST_H_GORLIZ_L_DEF_CORREC.pdf"
+  },
+  {
+   "id": "comisiones2026-kxk61x",
+   "src": "comisiones2026",
+   "process": "Comisiones de servicios",
+   "kind": "Solicitud / inscripción",
+   "title": "Enfermero/a (Coordinación de Programas de Salud Pública y Seguridad del Paciente) · Corrección de Errores",
+   "org": "Dirección General",
+   "categories": [
+    "Enfermero/a"
+   ],
+   "published": "2026-11-20",
+   "start": "2026-11-20",
+   "end": "2026-12-03",
+   "estimated": false,
+   "literal": "Plazo de presentación de solicitudes: abierto desde el 20/11/2026 hasta el 03/12/2026, ambos inclusive.",
+   "summary": "CORRECCIÓN DE ERRORES : ENFERMERO/A (COORDINACIÓN DE PROGRAMAS DE SALUD PÚBLICA Y SEGURIDAD DEL PACIENTE) - DIRECCIÓN GENERAL - Plazo de presentación de solicitudes: abierto desde el 20/11/2026 hasta el 03/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/comisiones-servicios-2026/webosk00-procon/es/adjuntos/261119_C_SERV_PIT_MID_ENF_COORD_DIR_RRHH_CORREC_a.pdf"
+  },
+  {
+   "id": "comisiones2026-v8le98",
+   "src": "comisiones2026",
+   "process": "Comisiones de servicios",
+   "kind": "Solicitud / inscripción",
+   "title": "Facultativo/a Especialista Médico/a UGS (Coordinación de Programas de Salud Pública y Seguridad del Paciente)",
+   "org": "Dirección General",
+   "categories": [
+    "Facultativo/a Especialista Médico/a UGS"
+   ],
+   "published": "2026-11-20",
+   "start": "2026-11-20",
+   "end": "2026-12-03",
+   "estimated": false,
+   "literal": "Plazo de presentación de solicitudes: abierto desde el 20/11/2026 hasta el 03/12/2026, ambos inclusive.",
+   "summary": "FACULTATIVO/A ESPECIALISTA MÉDICO/A UGS (COORDINACIÓN DE PROGRAMAS DE SALUD PÚBLICA Y SEGURIDAD DEL PACIENTE) - DIRECCIÓN GENERAL - Plazo de presentación de solicitudes: abierto desde el 20/11/2026 hasta el 03/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/comisiones-servicios-2026/webosk00-procon/es/adjuntos/261119_C_SERV_PIT_MID_FEM_SEG_PAC_DIR_RRHH_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-1laei1c",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Solicitud / inscripción",
+   "title": "Jefe/a de Servicio Corporativo de Formación",
+   "org": "Dirección General",
+   "categories": [
+    "Jefe/a de Servicio Corporativo de Formación"
+   ],
+   "published": "2026-11-20",
+   "start": "2026-11-20",
+   "end": "2026-12-03",
+   "estimated": false,
+   "literal": "Plazo de presentación de solicitudes: abierto desde el 20/11/2026 hasta el 03/12/2026, ambos inclusive.",
+   "summary": "JEFE/A DE SERVICIO CORPORATIVO DE FORMACIÓN - DIRECCIÓN GENERAL - Plazo de presentación de solicitudes: abierto desde el 20/11/2026 hasta el 03/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/261119_L_DESIG_J_SERV_FORM_DIR_RRHH_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-1o1lsx6",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Recurso de alzada",
+   "title": "Jefe/a de Equipo de Facturación a Terceros · Nombramiento",
+   "org": "OSI Ezkerraldea-Enkarterri-Cruces",
+   "categories": [
+    "Jefe/a de Equipo de Facturación a Terceros"
+   ],
+   "published": "2026-11-20",
+   "start": "2026-11-20",
+   "end": "2026-12-21",
+   "estimated": false,
+   "literal": "Plazo para presentar recursos de alzada: abierto desde el 20/11/2026 hasta el 21/12/2026, ambos inclusive.",
+   "summary": "JEFE/A DE EQUIPO DE FACTURACIÓN A TERCEROS - NOMBRAMIENTO - OSI EZKERRALDEA-ENKARTERRI-CRUCES - Plazo para presentar recursos de alzada: abierto desde el 20/11/2026 hasta el 21/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/260813_L_DESIG_J_EQ_FACT_OSI_EZ_EN_CRUCES_NOMBR_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-1ozafeh",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Solicitud / inscripción",
+   "title": "Adjunto/a de Enfermería",
+   "org": "Emergencias",
+   "categories": [
+    "Adjunto/a de Enfermería"
+   ],
+   "published": "2026-11-20",
+   "start": "2026-11-20",
+   "end": "2026-12-11",
+   "estimated": false,
+   "literal": "Plazo de presentación de solicitudes: abierto desde el 20/11/2026 hasta el 11/12/2026, ambos inclusive.",
+   "summary": "ADJUNTO/A DE ENFERMERÍA - EMERGENCIAS - Plazo de presentación de solicitudes: abierto desde el 20/11/2026 hasta el 11/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/261119_L_DESIG_ADJ_ENF_EMERGENCIAS_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-dlc3vc",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Recurso de alzada",
+   "title": "Encargado/a de Equipo de Servicios Generales (Preferentemente Servicio de Limpieza y Lencería) · Nombramiento",
+   "org": "Red de Salud Mental de Araba",
+   "categories": [
+    "Encargado/a de Equipo de Servicios Generales"
+   ],
+   "published": "2026-11-20",
+   "start": "2026-11-20",
+   "end": "2026-12-21",
+   "estimated": false,
+   "literal": "Plazo para presentar recursos de alzada: abierto desde el 20/11/2026 hasta el 21/12/2026, ambos inclusive.",
+   "summary": "ENCARGADO/A DE EQUIPO DE SERVICIOS GENERALES (PREFERENTEMENTE SERVICIO DE LIMPIEZA Y LENCERÍA) - NOMBRAMIENTO - RED DE SALUD MENTAL DE ARABA - Plazo para presentar recursos de alzada: abierto desde el 20/11/2026 hasta el 21/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/260930_L_DESIG_ENC_EQ_SVCIOS_GRALES_RSMA_NOMBR_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-dp2rwq",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Recurso de alzada",
+   "title": "Supervisor/a de Enfermería (Unidad de Atención Primaria) · Nombramiento",
+   "org": "OSI Rioja Alavesa",
+   "categories": [
+    "Supervisor/a de Enfermería"
+   ],
+   "published": "2026-11-20",
+   "start": "2026-11-20",
+   "end": "2026-12-21",
+   "estimated": false,
+   "literal": "Plazo para presentar recursos de alzada: abierto desde el 20/11/2026 hasta el 21/12/2026, ambos inclusive.",
+   "summary": "SUPERVISOR/A DE ENFERMERÍA (UNIDAD DE ATENCIÓN PRIMARIA) - NOMBRAMIENTO - OSI RIOJA ALAVESA - Plazo para presentar recursos de alzada: abierto desde el 20/11/2026 hasta el 21/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/260918_L_DESIG_SUPERV_AT_PRIM_OSI_RIOJA_ALAVESA_NOMBR_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-e3nkl6",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Recurso de alzada",
+   "title": "Jefe/a de Servicio Sanitario de Neumología · Nombramiento",
+   "org": "OSI Barrualde-Galdakao",
+   "categories": [
+    "Jefe/a de Servicio Sanitario de Neumología"
+   ],
+   "published": "2026-11-20",
+   "start": "2026-11-20",
+   "end": "2026-12-21",
+   "estimated": false,
+   "literal": "Plazo para presentar recursos de alzada: abierto desde el 20/11/2026 hasta el 21/12/2026, ambos inclusive.",
+   "summary": "JEFE/A DE SERVICIO SANITARIO DE NEUMOLOGÍA - NOMBRAMIENTO - OSI BARRUALDE-GALDAKAO - Plazo para presentar recursos de alzada: abierto desde el 20/11/2026 hasta el 21/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/260514_CONC_J_SERV_NEUMO_OSI_BARRUALDE_GALDAKAO_NOMBR_a.pdf"
   },
   {
    "id": "comisiones2026-3sait6",
