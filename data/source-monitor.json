@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checkedAt": "2026-11-19T23:43:26.304Z",
+ "checkedAt": "2026-11-20T13:47:03.997Z",
  "sources": [
   {
    "key": "comisiones2026",
@@ -11,10 +11,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 165,
-   "hash": "ea52c15c275589e4",
-   "checkedAt": "2026-11-19T23:43:26.304Z",
-   "changedAt": "2026-11-19T17:29:49.077Z"
+   "count": 170,
+   "hash": "50fba6bd66f952f2",
+   "checkedAt": "2026-11-20T13:47:03.997Z",
+   "changedAt": "2026-11-20T13:47:03.997Z"
   },
   {
    "key": "comisiones2025",
@@ -27,7 +27,7 @@
    "error": "",
    "count": 132,
    "hash": "77f324c1858c86af",
-   "checkedAt": "2026-11-19T23:43:26.304Z",
+   "checkedAt": "2026-11-20T13:47:03.997Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -39,10 +39,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 527,
-   "hash": "e3b515600f264ca9",
-   "checkedAt": "2026-11-19T23:43:26.304Z",
-   "changedAt": "2026-11-19T17:29:49.077Z"
+   "count": 529,
+   "hash": "aefcc9492cac139c",
+   "checkedAt": "2026-11-20T13:47:03.997Z",
+   "changedAt": "2026-11-20T13:47:03.997Z"
   },
   {
    "key": "jefaturas2025",
@@ -55,7 +55,7 @@
    "error": "",
    "count": 479,
    "hash": "66143b22347640ab",
-   "checkedAt": "2026-11-19T23:43:26.304Z",
+   "checkedAt": "2026-11-20T13:47:03.997Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -69,7 +69,7 @@
    "error": "",
    "count": 30,
    "hash": "eb07d21ecb1d9061",
-   "checkedAt": "2026-11-19T23:43:26.304Z",
+   "checkedAt": "2026-11-20T13:47:03.997Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -83,7 +83,7 @@
    "error": "",
    "count": 54,
    "hash": "a304df315c59aa2c",
-   "checkedAt": "2026-11-19T23:43:26.304Z",
+   "checkedAt": "2026-11-20T13:47:03.997Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -97,7 +97,7 @@
    "error": "",
    "count": 84,
    "hash": "ff6fb2e7c86498fb",
-   "checkedAt": "2026-11-19T23:43:26.304Z",
+   "checkedAt": "2026-11-20T13:47:03.997Z",
    "changedAt": "2026-11-18T18:18:43.579Z"
   },
   {
@@ -111,7 +111,7 @@
    "error": "",
    "count": 268,
    "hash": "625fbee75fd04e54",
-   "checkedAt": "2026-11-19T23:43:26.304Z",
+   "checkedAt": "2026-11-20T13:47:03.997Z",
    "changedAt": "2026-11-18T18:18:43.579Z"
   },
   {
@@ -123,10 +123,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 19,
-   "hash": "83b1d90a28790640",
-   "checkedAt": "2026-11-19T23:43:26.304Z",
-   "changedAt": "2026-11-18T18:18:43.579Z"
+   "count": 20,
+   "hash": "dccb24ed8b7dde32",
+   "checkedAt": "2026-11-20T13:47:03.997Z",
+   "changedAt": "2026-11-20T13:47:03.997Z"
   },
   {
    "key": "ope2022",
@@ -139,7 +139,7 @@
    "error": "",
    "count": 83,
    "hash": "a6baac4fb1fc60c0",
-   "checkedAt": "2026-11-19T23:43:26.304Z",
+   "checkedAt": "2026-11-20T13:47:03.997Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -153,7 +153,7 @@
    "error": "",
    "count": 164,
    "hash": "6f0586c40b65c8fe",
-   "checkedAt": "2026-11-19T23:43:26.304Z",
+   "checkedAt": "2026-11-20T13:47:03.997Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -167,7 +167,7 @@
    "error": "",
    "count": 21,
    "hash": "ff9210a812239484",
-   "checkedAt": "2026-11-19T23:43:26.304Z",
+   "checkedAt": "2026-11-20T13:47:03.997Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -181,7 +181,7 @@
    "error": "",
    "count": 3,
    "hash": "3ff1c551e57dff5d",
-   "checkedAt": "2026-11-19T23:43:26.304Z",
+   "checkedAt": "2026-11-20T13:47:03.997Z",
    "changedAt": "2026-10-28T14:42:46.786Z"
   },
   {
@@ -195,7 +195,7 @@
    "error": "",
    "count": 0,
    "hash": "c4971aba58479f1e",
-   "checkedAt": "2026-11-19T23:43:26.304Z",
+   "checkedAt": "2026-11-20T13:47:03.997Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -209,7 +209,7 @@
    "error": "",
    "count": 39,
    "hash": "2dafd4eaea124e05",
-   "checkedAt": "2026-11-19T23:43:26.304Z",
+   "checkedAt": "2026-11-20T13:47:03.997Z",
    "changedAt": "2026-11-08T09:35:21.464Z"
   },
   {
@@ -223,7 +223,7 @@
    "error": "",
    "count": 44,
    "hash": "2ea49bf0eb25d87f",
-   "checkedAt": "2026-11-19T23:43:26.304Z",
+   "checkedAt": "2026-11-20T13:47:03.997Z",
    "changedAt": "2026-11-08T09:35:21.464Z"
   },
   {
@@ -235,10 +235,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 0,
-   "hash": "35c1468cdeee447f",
-   "checkedAt": "2026-11-19T23:43:26.304Z",
-   "changedAt": "2026-11-19T08:15:03.378Z"
+   "count": 1,
+   "hash": "572c06bb3dabf218",
+   "checkedAt": "2026-11-20T13:47:03.997Z",
+   "changedAt": "2026-11-20T13:47:03.997Z"
   },
   {
    "key": "ctap",
@@ -251,7 +251,7 @@
    "error": "",
    "count": 125,
    "hash": "44ff34f0838ee74f",
-   "checkedAt": "2026-11-19T23:43:26.304Z",
+   "checkedAt": "2026-11-20T13:47:03.997Z",
    "changedAt": "2026-11-18T09:29:47.515Z"
   },
   {
@@ -265,7 +265,7 @@
    "error": "",
    "count": 0,
    "hash": "9a327c9e5613dad4",
-   "checkedAt": "2026-11-19T23:43:26.304Z",
+   "checkedAt": "2026-11-20T13:47:03.997Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -279,7 +279,7 @@
    "error": "",
    "count": 0,
    "hash": "8aac5b3e3a472142",
-   "checkedAt": "2026-11-19T23:43:26.304Z",
+   "checkedAt": "2026-11-20T13:47:03.997Z",
    "changedAt": "2026-11-19T17:29:49.077Z"
   },
   {
@@ -293,14 +293,14 @@
    "error": "",
    "count": 0,
    "hash": "75743885a04c5592",
-   "checkedAt": "2026-11-19T23:43:26.304Z",
+   "checkedAt": "2026-11-20T13:47:03.997Z",
    "changedAt": "2026-11-19T17:29:49.077Z"
   }
  ],
  "bopv": {
   "yy": "26",
-  "lastNumber": 222,
-  "lastDate": "2026-11-19",
+  "lastNumber": 223,
+  "lastDate": "2026-11-20",
   "filter": 2
  },
  "items": [
@@ -319,6 +319,164 @@
    "literal": "NOTA INFORMATIVA: Resultados pruebas fin de semana del 6 al 8 de noviembre - OPE 23-24-25",
    "summary": "Se informa a las personas aspirantes inscritas en el proceso selectivo de la OPE 2023-2024-2025 que, tras detectar diversos errores en los documentos iniciales, se ha publicado una nueva versión corregida de las baterías de preguntas para las siguientes categorías profesionales: Cirugía Oral y Maxilofacial Cirugía Torácica Cirugía General y Aparato Digestivo Enfermedades Infecciosas Los nuevos archivos ya se…",
    "url": "https://www.osakidetza.euskadi.eus/ope-2023-2024-2025/webosk00-procon/es/#:~:text=Se%20informa%20a%20las%20personas%20aspirantes%20inscritas"
+  },
+  {
+   "id": "comisiones2026-103ymsp",
+   "src": "comisiones2026",
+   "process": "Comisiones de servicios",
+   "kind": "Solicitud / inscripción",
+   "title": "Técnico/a de Informática (Servicio de Administración y Registro de Personal)",
+   "org": "Dirección General",
+   "categories": [
+    "Técnico/a de Informática"
+   ],
+   "published": "2026-11-23",
+   "start": "2026-11-23",
+   "end": "2026-12-04",
+   "estimated": false,
+   "literal": "Plazo de presentación de solicitudes: abierto desde el 23/11/2026 hasta el 04/12/2026, ambos inclusive.",
+   "summary": "TÉCNICO/A DE INFORMÁTICA (SERVICIO DE ADMINISTRACIÓN Y REGISTRO DE PERSONAL) - DIRECCIÓN GENERAL - Plazo de presentación de solicitudes: abierto desde el 23/11/2026 hasta el 04/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/comisiones-servicios-2026/webosk00-procon/es/adjuntos/261120_C_SERV_PIT_TCO_INF_PERS_DIR_RRHH_a.pdf"
+  },
+  {
+   "id": "comisiones2026-1qrdg1l",
+   "src": "comisiones2026",
+   "process": "Comisiones de servicios",
+   "kind": "Solicitud / inscripción",
+   "title": "Técnico/a Responsable de Área Corporativa – Técnico/a Superior de Organización (Administración y Registro de Personal)",
+   "org": "Dirección General",
+   "categories": [
+    "Técnico/a Superior de Organización"
+   ],
+   "published": "2026-11-23",
+   "start": "2026-11-23",
+   "end": "2026-12-04",
+   "estimated": false,
+   "literal": "Plazo de presentación de solicitudes: abierto desde el 23/11/2026 hasta el 04/12/2026, ambos inclusive.",
+   "summary": "TÉCNICO/A RESPONSABLE DE ÁREA CORPORATIVA - TÉCNICO/A SUPERIOR DE ORGANIZACIÓN (ADMINISTRACIÓN Y REGISTRO DE PERSONAL) - DIRECCIÓN GENERAL - Plazo de presentación de solicitudes: abierto desde el 23/11/2026 hasta el 04/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/comisiones-servicios-2026/webosk00-procon/es/adjuntos/261120_C_SERV_PIT_TCO_RES_RRHH_DIR_RRHH_a.pdf"
+  },
+  {
+   "id": "comisiones2026-1tyxi0l",
+   "src": "comisiones2026",
+   "process": "Comisiones de servicios",
+   "kind": "Solicitud / inscripción",
+   "title": "Técnico/a Responsable de Área Corporativa – Técnico/a Superior de Administración y Gestión (Servicio de Administración y Registro de Personal)",
+   "org": "Dirección General",
+   "categories": [
+    "Técnico/a Superior de Administración y Gestión"
+   ],
+   "published": "2026-11-23",
+   "start": "2026-11-23",
+   "end": "2026-12-04",
+   "estimated": false,
+   "literal": "Plazo de presentación de solicitudes: abierto desde el 23/11/2026 hasta el 04/12/2026, ambos inclusive.",
+   "summary": "TÉCNICO/A RESPONSABLE DE ÁREA CORPORATIVA - TÉCNICO/A SUPERIOR DE ADMINISTRACIÓN Y GESTIÓN (SERVICIO DE ADMINISTRACIÓN Y REGISTRO DE PERSONAL) - DIRECCIÓN GENERAL - Plazo de presentación de solicitudes: abierto desde el 23/11/2026 hasta el 04/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/comisiones-servicios-2026/webosk00-procon/es/adjuntos/261120_C_SERV_PIT_TCO_RES_PERS_DIR_RRHH_a.pdf"
+  },
+  {
+   "id": "ope2325-fyqxtl",
+   "src": "ope2325",
+   "process": "OPE 2023-2024-2025",
+   "kind": "Méritos y requisitos",
+   "title": "Nota Informativa: Validación Presencial de Documentación Acreditativa de Requisitos y Méritos Previamente Alegados (en Cumplimiento de la Base 14.4)",
+   "org": "",
+   "categories": [],
+   "published": "2026-11-23",
+   "start": "2026-11-23",
+   "end": "2027-01-29",
+   "estimated": false,
+   "literal": "A tal efecto, se establecerá un plazo desde el 23 de noviembre de 2026 hasta el 29 de enero de 2027, para llevar a cabo la compulsa y validación presencial de aquellos requisitos de acceso y méritos que fueron debidamente registrados y digitalizados por las personas aspirantes en la aplicación de CV hasta el 29 de septiembre de 2026, y que no resulten…",
+   "summary": "La Base 14.4 de la Resolución 120/2026, de 28 de enero, reguladora del proceso selectivo 2023-2024-2025 establece lo siguiente: \"Respecto de los requisitos y méritos que no constasen previamente en la información registrada en los sistemas de información de Osakidetza-Servicio vasco de salud, y que, por tanto, hubiesen sido subidos a la aplicación de currículum vitae acompañada de la documentación acreditativa…",
+   "url": "https://www.osakidetza.euskadi.eus/ope-2023-2024-2025/webosk00-procon/es/#:~:text=La%20Base%2014.4%20de%20la%20Resoluci%C3%B3n%20120%2F2026"
+  },
+  {
+   "id": "comisiones2026-18wppv4",
+   "src": "comisiones2026",
+   "process": "Comisiones de servicios",
+   "kind": "Recurso de alzada",
+   "title": "Varias Categorías · Lista Definitiva",
+   "org": "CVTTH",
+   "categories": [
+    "Varias categorías"
+   ],
+   "published": "2026-11-21",
+   "start": "2026-11-21",
+   "end": "2026-12-21",
+   "estimated": false,
+   "literal": "Plazo para presentar recursos de alzada: abierto desde el 21/11/2026 hasta el 21/12/2026, ambos inclusive.",
+   "summary": "VARIAS CATEGORÍAS - CVTTH - Lista Definitiva - Plazo para presentar recursos de alzada: abierto desde el 21/11/2026 hasta el 21/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/comisiones-servicios-2026/webosk00-procon/es/adjuntos/260921_C_SERV_PIT_VARIAS_CATEG_VAR_DEST_CVTTH_L_DEF.pdf"
+  },
+  {
+   "id": "comisiones2026-lb1s6q",
+   "src": "comisiones2026",
+   "process": "Comisiones de servicios",
+   "kind": "Recurso de alzada",
+   "title": "Fac. Esp. Médico de Familia EAP – Centro de Usansolo · Lista Definitiva",
+   "org": "CVTTH",
+   "categories": [
+    "Centro de Usansolo"
+   ],
+   "published": "2026-11-21",
+   "start": "2026-11-21",
+   "end": "2026-12-21",
+   "estimated": false,
+   "literal": "Plazo para presentar recursos de alzada: abierto desde el 21/11/2026 hasta el 21/12/2026, ambos inclusive.",
+   "summary": "FAC. ESP. MÉDICO DE FAMILIA EAP - CENTRO DE USANSOLO - CVTTH - Lista Definitiva - Plazo para presentar recursos de alzada: abierto desde el 21/11/2026 hasta el 21/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/comisiones-servicios-2026/webosk00-procon/es/adjuntos/261007_C_SERV_PIT_FEM_MEDICO_CVTTH_L_DEF.pdf"
+  },
+  {
+   "id": "jefaturas2026-138thm7",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Recurso de alzada",
+   "title": "Jefe/a de Servicio Sanitario de Otorrinolaringología · Lista Definitiva/Comisión de valoración",
+   "org": "OSI Barrualde-Galdakao",
+   "categories": [
+    "Jefe/a de Servicio Sanitario de Otorrinolaringología"
+   ],
+   "published": "2026-11-21",
+   "start": "2026-11-21",
+   "end": "2026-12-21",
+   "estimated": false,
+   "literal": "Plazo para presentar recursos de alzada: abierto desde el 21/11/2026 hasta el 21/12/2026, ambos inclusive.",
+   "summary": "JEFE/A DE SERVICIO SANITARIO DE OTORRINOLARINGOLOGÍA - OSI BARRUALDE-GALDAKAO - Lista Definitiva/Comisión de valoración - Plazo para presentar recursos de alzada: abierto desde el 21/11/2026 hasta el 21/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/260825_CONC_J_SERV_ORL_OSI_BARRUALDE_GALDAKAO_CORREC_L_DEF_COM_VALOR_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-k73tti",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Recurso de alzada",
+   "title": "Jefe/a de Unidad de Salud Mental de los Centros de Salud Mental de Adultos de Basauri y de Galdakao · Lista Definitiva/Comisión de valoración",
+   "org": "Red de Salud Mental de Bizkaia",
+   "categories": [
+    "Jefe/a de Unidad de Salud Mental de los Centros de Salud Mental de Adultos de Basauri y de Galdakao"
+   ],
+   "published": "2026-11-21",
+   "start": "2026-11-21",
+   "end": "2026-12-21",
+   "estimated": false,
+   "literal": "Plazo para presentar recursos de alzada: abierto desde el 21/11/2026 hasta el 21/12/2026, ambos inclusive.",
+   "summary": "JEFE/A DE UNIDAD DE SALUD MENTAL DE LOS CENTROS DE SALUD MENTAL DE ADULTOS DE BASAURI Y DE GALDAKAO - RED DE SALUD MENTAL DE BIZKAIA - Lista Definitiva/Comisión de valoración - Plazo para presentar recursos de alzada: abierto desde el 21/11/2026 hasta el 21/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/260911_CONC_J_UNID_SALUD_MENT_RSMB_L_DEF_COM_VALOR_a.pdf"
+  },
+  {
+   "id": "bopv-o3d4ib",
+   "src": "bopv",
+   "process": "OPE 2023-2024-2025",
+   "kind": "Reclamación",
+   "title": "Se aprueban las bases que han de regir el proceso selectivo para la adquisición del vínculo estatutario fijo en Osakidetza-Servicio vasco de salud, por personas con…",
+   "org": "",
+   "categories": [],
+   "published": "2026-11-20",
+   "start": "2026-11-21",
+   "end": "2026-12-04",
+   "estimated": true,
+   "literal": "Las personas aspirantes interesadas dispondrán de un plazo de 10 días hábiles contados a partir del siguiente al de la publicación para formular las reclamaciones que consideren oportunas, en escrito dirigido a la directora de Personas y Talento, las cuales se resolverán previo informe preceptivo del tribunal calificador. (fecha final calculada: 10 días hábiles desde el día siguiente a la publicación; compruébala en la resolución).",
+   "summary": "RESOLUCIÓN 1851/2026, de 10 de noviembre, de la directora general de Osakidetza-Servicio vasco de salud, por la que se aprueban las bases que han de regir el proceso selectivo para la adquisición del vínculo estatutario fijo en Osakidetza-Servicio vasco de salud, por personas con discapacidad intelectual, convocado en los años 2023-2024-2025.",
+   "url": "https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2026/11/2604970a.shtml"
   },
   {
    "id": "comisiones2026-1en4gsu",
