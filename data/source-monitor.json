@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checkedAt": "2026-11-23T04:51:06.088Z",
+ "checkedAt": "2026-11-23T15:32:28.661Z",
  "sources": [
   {
    "key": "comisiones2026",
@@ -13,7 +13,7 @@
    "error": "",
    "count": 170,
    "hash": "50fba6bd66f952f2",
-   "checkedAt": "2026-11-23T04:51:06.088Z",
+   "checkedAt": "2026-11-23T15:32:28.661Z",
    "changedAt": "2026-11-20T13:47:03.997Z"
   },
   {
@@ -27,7 +27,7 @@
    "error": "",
    "count": 132,
    "hash": "77f324c1858c86af",
-   "checkedAt": "2026-11-23T04:51:06.088Z",
+   "checkedAt": "2026-11-23T15:32:28.661Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -39,10 +39,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 529,
-   "hash": "aefcc9492cac139c",
-   "checkedAt": "2026-11-23T04:51:06.088Z",
-   "changedAt": "2026-11-20T13:47:03.997Z"
+   "count": 532,
+   "hash": "08295eafc49f719f",
+   "checkedAt": "2026-11-23T15:32:28.661Z",
+   "changedAt": "2026-11-23T15:32:28.661Z"
   },
   {
    "key": "jefaturas2025",
@@ -55,7 +55,7 @@
    "error": "",
    "count": 479,
    "hash": "66143b22347640ab",
-   "checkedAt": "2026-11-23T04:51:06.088Z",
+   "checkedAt": "2026-11-23T15:32:28.661Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -69,7 +69,7 @@
    "error": "",
    "count": 30,
    "hash": "eb07d21ecb1d9061",
-   "checkedAt": "2026-11-23T04:51:06.088Z",
+   "checkedAt": "2026-11-23T15:32:28.661Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -83,7 +83,7 @@
    "error": "",
    "count": 54,
    "hash": "a304df315c59aa2c",
-   "checkedAt": "2026-11-23T04:51:06.088Z",
+   "checkedAt": "2026-11-23T15:32:28.661Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -97,7 +97,7 @@
    "error": "",
    "count": 84,
    "hash": "ff6fb2e7c86498fb",
-   "checkedAt": "2026-11-23T04:51:06.088Z",
+   "checkedAt": "2026-11-23T15:32:28.661Z",
    "changedAt": "2026-11-18T18:18:43.579Z"
   },
   {
@@ -111,7 +111,7 @@
    "error": "",
    "count": 268,
    "hash": "625fbee75fd04e54",
-   "checkedAt": "2026-11-23T04:51:06.088Z",
+   "checkedAt": "2026-11-23T15:32:28.661Z",
    "changedAt": "2026-11-18T18:18:43.579Z"
   },
   {
@@ -124,9 +124,9 @@
    "status": 200,
    "error": "",
    "count": 20,
-   "hash": "dccb24ed8b7dde32",
-   "checkedAt": "2026-11-23T04:51:06.088Z",
-   "changedAt": "2026-11-20T13:47:03.997Z"
+   "hash": "55b03c773672a820",
+   "checkedAt": "2026-11-23T15:32:28.661Z",
+   "changedAt": "2026-11-23T15:32:28.661Z"
   },
   {
    "key": "ope2022",
@@ -139,7 +139,7 @@
    "error": "",
    "count": 83,
    "hash": "a6baac4fb1fc60c0",
-   "checkedAt": "2026-11-23T04:51:06.088Z",
+   "checkedAt": "2026-11-23T15:32:28.661Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -153,7 +153,7 @@
    "error": "",
    "count": 164,
    "hash": "6f0586c40b65c8fe",
-   "checkedAt": "2026-11-23T04:51:06.088Z",
+   "checkedAt": "2026-11-23T15:32:28.661Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -167,7 +167,7 @@
    "error": "",
    "count": 21,
    "hash": "ff9210a812239484",
-   "checkedAt": "2026-11-23T04:51:06.088Z",
+   "checkedAt": "2026-11-23T15:32:28.661Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -181,7 +181,7 @@
    "error": "",
    "count": 3,
    "hash": "3ff1c551e57dff5d",
-   "checkedAt": "2026-11-23T04:51:06.088Z",
+   "checkedAt": "2026-11-23T15:32:28.661Z",
    "changedAt": "2026-10-28T14:42:46.786Z"
   },
   {
@@ -195,7 +195,7 @@
    "error": "",
    "count": 0,
    "hash": "c4971aba58479f1e",
-   "checkedAt": "2026-11-23T04:51:06.088Z",
+   "checkedAt": "2026-11-23T15:32:28.661Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -209,7 +209,7 @@
    "error": "",
    "count": 39,
    "hash": "2dafd4eaea124e05",
-   "checkedAt": "2026-11-23T04:51:06.088Z",
+   "checkedAt": "2026-11-23T15:32:28.661Z",
    "changedAt": "2026-11-08T09:35:21.464Z"
   },
   {
@@ -223,7 +223,7 @@
    "error": "",
    "count": 44,
    "hash": "2ea49bf0eb25d87f",
-   "checkedAt": "2026-11-23T04:51:06.088Z",
+   "checkedAt": "2026-11-23T15:32:28.661Z",
    "changedAt": "2026-11-08T09:35:21.464Z"
   },
   {
@@ -236,9 +236,9 @@
    "status": 200,
    "error": "",
    "count": 0,
-   "hash": "572c06bb3dabf218",
-   "checkedAt": "2026-11-23T04:51:06.088Z",
-   "changedAt": "2026-11-20T13:47:03.997Z"
+   "hash": "03763cce65184572",
+   "checkedAt": "2026-11-23T15:32:28.661Z",
+   "changedAt": "2026-11-23T15:32:28.661Z"
   },
   {
    "key": "ctap",
@@ -251,7 +251,7 @@
    "error": "",
    "count": 125,
    "hash": "44ff34f0838ee74f",
-   "checkedAt": "2026-11-23T04:51:06.088Z",
+   "checkedAt": "2026-11-23T15:32:28.661Z",
    "changedAt": "2026-11-18T09:29:47.515Z"
   },
   {
@@ -265,7 +265,7 @@
    "error": "",
    "count": 0,
    "hash": "9a327c9e5613dad4",
-   "checkedAt": "2026-11-23T04:51:06.088Z",
+   "checkedAt": "2026-11-23T15:32:28.661Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -278,9 +278,9 @@
    "status": 200,
    "error": "",
    "count": 0,
-   "hash": "c4625a34deca3688",
-   "checkedAt": "2026-11-23T04:51:06.088Z",
-   "changedAt": "2026-11-20T21:37:52.062Z"
+   "hash": "626613e1de16f34b",
+   "checkedAt": "2026-11-23T15:32:28.661Z",
+   "changedAt": "2026-11-23T15:32:28.661Z"
   },
   {
    "key": "noticiasProfesionales",
@@ -293,14 +293,14 @@
    "error": "",
    "count": 0,
    "hash": "4fc1e1b31acb3425",
-   "checkedAt": "2026-11-23T04:51:06.088Z",
+   "checkedAt": "2026-11-23T15:32:28.661Z",
    "changedAt": "2026-11-22T18:09:02.822Z"
   }
  ],
  "bopv": {
   "yy": "26",
-  "lastNumber": 223,
-  "lastDate": "2026-11-20",
+  "lastNumber": 224,
+  "lastDate": "2026-11-23",
   "filter": 2
  },
  "items": [
@@ -319,6 +319,60 @@
    "literal": "NOTA INFORMATIVA: Resultados pruebas fin de semana del 6 al 8 de noviembre - OPE 23-24-25",
    "summary": "Se informa a las personas aspirantes inscritas en el proceso selectivo de la OPE 2023-2024-2025 que, tras detectar diversos errores en los documentos iniciales, se ha publicado una nueva versión corregida de las baterías de preguntas para las siguientes categorías profesionales: Cirugía Oral y Maxilofacial Cirugía Torácica Cirugía General y Aparato Digestivo Enfermedades Infecciosas Los nuevos archivos ya se…",
    "url": "https://www.osakidetza.euskadi.eus/ope-2023-2024-2025/webosk00-procon/es/#:~:text=Se%20informa%20a%20las%20personas%20aspirantes%20inscritas"
+  },
+  {
+   "id": "jefaturas2026-1dmvrmo",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Solicitud / inscripción",
+   "title": "Jefe/a de Unidad de Salud Mental del Centro de Salud Mental de Arrasate",
+   "org": "Red de Salud Mental Gipuzkoa",
+   "categories": [
+    "Jefe/a de Unidad de Salud Mental del Centro de Salud Mental de Arrasate"
+   ],
+   "published": "2026-11-24",
+   "start": "2026-11-24",
+   "end": "2026-12-15",
+   "estimated": false,
+   "literal": "Plazo de presentación de solicitudes: abierto desde el 24/11/2026 hasta el 15/12/2026, ambos inclusive.",
+   "summary": "JEFE/A DE UNIDAD DE SALUD MENTAL DEL CENTRO DE SALUD MENTAL DE ARRASATE - RED DE SALUD MENTAL GIPUZKOA - Plazo de presentación de solicitudes: abierto desde el 24/11/2026 hasta el 15/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/261116_CONC_J_UNID_SALUD_MENT_RSMG_BOE.pdf"
+  },
+  {
+   "id": "jefaturas2026-2fvauu",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Recurso de alzada",
+   "title": "Supervisor/a de Pediatría (Sede Txagorritxu) · Cese",
+   "org": "OSI Araba",
+   "categories": [
+    "Supervisor/a de Pediatría"
+   ],
+   "published": "2026-11-24",
+   "start": "2026-11-24",
+   "end": "2026-12-23",
+   "estimated": false,
+   "literal": "Plazo para presentar recursos de alzada: abierto desde el 24/11/2026 hasta el 23/12/2026, ambos inclusive.",
+   "summary": "SUPERVISOR/A DE PEDIATRÍA (SEDE TXAGORRITXU) - OSI ARABA - CESE - Plazo para presentar recursos de alzada: abierto desde el 24/11/2026 hasta el 23/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/211008_L_DESIG_SUPERV_PEDIATRIA_OSI_ARABA_CESE_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-vgl81x",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Recurso de alzada",
+   "title": "Jefe/a de Servicio Sanitario de Cardiología · Lista Definitiva/Comisión de valoración",
+   "org": "OSI Ezkerraldea-Enkarterri-Cruces",
+   "categories": [
+    "Jefe/a de Servicio Sanitario de Cardiología"
+   ],
+   "published": "2026-11-24",
+   "start": "2026-11-24",
+   "end": "2026-12-23",
+   "estimated": false,
+   "literal": "Plazo para presentar recursos de alzada: abierto desde el 24/11/2026 hasta el 23/12/2026, ambos inclusive.",
+   "summary": "JEFE/A DE SERVICIO SANITARIO DE CARDIOLOGÍA - OSI EZKERRALDEA-ENKARTERRI-CRUCES - Lista Definitiva/Comisión de valoración - Plazo para presentar recursos de alzada: abierto desde el 24/11/2026 hasta el 23/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/260907_CONC_J_SERV_CARDIO_OSI_EZ_EN_CRUCES_L_DEF_COM_VALOR_a.pdf"
   },
   {
    "id": "comisiones2026-103ymsp",
@@ -389,6 +443,22 @@
    "literal": "A tal efecto, se establecerá un plazo desde el 23 de noviembre de 2026 hasta el 29 de enero de 2027, para llevar a cabo la compulsa y validación presencial de aquellos requisitos de acceso y méritos que fueron debidamente registrados y digitalizados por las personas aspirantes en la aplicación de CV hasta el 29 de septiembre de 2026, y que no resulten…",
    "summary": "La Base 14.4 de la Resolución 120/2026, de 28 de enero, reguladora del proceso selectivo 2023-2024-2025 establece lo siguiente: \"Respecto de los requisitos y méritos que no constasen previamente en la información registrada en los sistemas de información de Osakidetza-Servicio vasco de salud, y que, por tanto, hubiesen sido subidos a la aplicación de currículum vitae acompañada de la documentación acreditativa…",
    "url": "https://www.osakidetza.euskadi.eus/ope-2023-2024-2025/webosk00-procon/es/#:~:text=La%20Base%2014.4%20de%20la%20Resoluci%C3%B3n%20120%2F2026"
+  },
+  {
+   "id": "ope2325-t2ahsi",
+   "src": "ope2325",
+   "process": "OPE 2023-2024-2025",
+   "kind": "Méritos y requisitos",
+   "title": "NOTA INFORMATIVA: Resultados pruebas fin de semana del 21 y 22 de noviembre - OPE 23-24-25",
+   "org": "",
+   "categories": [],
+   "published": "2026-11-23",
+   "start": "2026-11-23",
+   "end": "2027-01-29",
+   "estimated": false,
+   "literal": "A tal efecto, se establecerá un plazo desde el 23 de noviembre de 2026 hasta el 29 de enero de 2027, para llevar a cabo la compulsa y validación presencial de aquellos requisitos de acceso y méritos que fueron debidamente registrados y digitalizados por las personas aspirantes en la aplicación de CV hasta el 29 de septiembre de 2026, y que no resulten…",
+   "summary": "Hoy 23 de noviembre está prevista la publicación en la aplicación web de la OPE las RESOLUCIONES que contienen los resultados de las pruebas selectivas celebradas los días 21 y 22 de noviembre de 2026 en el Aulario Las Nieves de Vitoria-Gasteiz. Las personas aspirantes interesadas dispondrán de un plazo de 10 días hábiles para formular reclamaciones contados a partir del siguiente al de la publicación de la…",
+   "url": "https://www.osakidetza.euskadi.eus/ope-2023-2024-2025/webosk00-procon/es/#:~:text=Hoy%2023%20de%20noviembre%20est%C3%A1%20prevista%20la"
   },
   {
    "id": "comisiones2026-18wppv4",
