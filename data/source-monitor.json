@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checkedAt": "2026-11-24T02:41:54.592Z",
+ "checkedAt": "2026-11-24T13:06:15.252Z",
  "sources": [
   {
    "key": "comisiones2026",
@@ -13,7 +13,7 @@
    "error": "",
    "count": 170,
    "hash": "50fba6bd66f952f2",
-   "checkedAt": "2026-11-24T02:41:54.592Z",
+   "checkedAt": "2026-11-24T13:06:15.252Z",
    "changedAt": "2026-11-20T13:47:03.997Z"
   },
   {
@@ -27,7 +27,7 @@
    "error": "",
    "count": 132,
    "hash": "77f324c1858c86af",
-   "checkedAt": "2026-11-24T02:41:54.592Z",
+   "checkedAt": "2026-11-24T13:06:15.252Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -39,10 +39,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 532,
-   "hash": "08295eafc49f719f",
-   "checkedAt": "2026-11-24T02:41:54.592Z",
-   "changedAt": "2026-11-23T15:32:28.661Z"
+   "count": 542,
+   "hash": "02bfcbf6db197411",
+   "checkedAt": "2026-11-24T13:06:15.252Z",
+   "changedAt": "2026-11-24T13:06:15.252Z"
   },
   {
    "key": "jefaturas2025",
@@ -55,7 +55,7 @@
    "error": "",
    "count": 479,
    "hash": "66143b22347640ab",
-   "checkedAt": "2026-11-24T02:41:54.592Z",
+   "checkedAt": "2026-11-24T13:06:15.252Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -69,7 +69,7 @@
    "error": "",
    "count": 30,
    "hash": "eb07d21ecb1d9061",
-   "checkedAt": "2026-11-24T02:41:54.592Z",
+   "checkedAt": "2026-11-24T13:06:15.252Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -83,7 +83,7 @@
    "error": "",
    "count": 54,
    "hash": "a304df315c59aa2c",
-   "checkedAt": "2026-11-24T02:41:54.592Z",
+   "checkedAt": "2026-11-24T13:06:15.252Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -95,10 +95,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 84,
-   "hash": "ff6fb2e7c86498fb",
-   "checkedAt": "2026-11-24T02:41:54.592Z",
-   "changedAt": "2026-11-18T18:18:43.579Z"
+   "count": 85,
+   "hash": "93aa3d98e8c87c5f",
+   "checkedAt": "2026-11-24T13:06:15.252Z",
+   "changedAt": "2026-11-24T13:06:15.252Z"
   },
   {
    "key": "lanpoltsa",
@@ -109,10 +109,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 268,
-   "hash": "625fbee75fd04e54",
-   "checkedAt": "2026-11-24T02:41:54.592Z",
-   "changedAt": "2026-11-18T18:18:43.579Z"
+   "count": 269,
+   "hash": "1dd6bc4d333186ec",
+   "checkedAt": "2026-11-24T13:06:15.252Z",
+   "changedAt": "2026-11-24T13:06:15.252Z"
   },
   {
    "key": "ope2325",
@@ -125,7 +125,7 @@
    "error": "",
    "count": 20,
    "hash": "55b03c773672a820",
-   "checkedAt": "2026-11-24T02:41:54.592Z",
+   "checkedAt": "2026-11-24T13:06:15.252Z",
    "changedAt": "2026-11-23T15:32:28.661Z"
   },
   {
@@ -139,7 +139,7 @@
    "error": "",
    "count": 83,
    "hash": "a6baac4fb1fc60c0",
-   "checkedAt": "2026-11-24T02:41:54.592Z",
+   "checkedAt": "2026-11-24T13:06:15.252Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -153,7 +153,7 @@
    "error": "",
    "count": 164,
    "hash": "6f0586c40b65c8fe",
-   "checkedAt": "2026-11-24T02:41:54.592Z",
+   "checkedAt": "2026-11-24T13:06:15.252Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -167,7 +167,7 @@
    "error": "",
    "count": 21,
    "hash": "ff9210a812239484",
-   "checkedAt": "2026-11-24T02:41:54.592Z",
+   "checkedAt": "2026-11-24T13:06:15.252Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -181,7 +181,7 @@
    "error": "",
    "count": 3,
    "hash": "3ff1c551e57dff5d",
-   "checkedAt": "2026-11-24T02:41:54.592Z",
+   "checkedAt": "2026-11-24T13:06:15.252Z",
    "changedAt": "2026-10-28T14:42:46.786Z"
   },
   {
@@ -195,7 +195,7 @@
    "error": "",
    "count": 0,
    "hash": "c4971aba58479f1e",
-   "checkedAt": "2026-11-24T02:41:54.592Z",
+   "checkedAt": "2026-11-24T13:06:15.252Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -209,7 +209,7 @@
    "error": "",
    "count": 39,
    "hash": "2dafd4eaea124e05",
-   "checkedAt": "2026-11-24T02:41:54.592Z",
+   "checkedAt": "2026-11-24T13:06:15.252Z",
    "changedAt": "2026-11-08T09:35:21.464Z"
   },
   {
@@ -223,7 +223,7 @@
    "error": "",
    "count": 44,
    "hash": "2ea49bf0eb25d87f",
-   "checkedAt": "2026-11-24T02:41:54.592Z",
+   "checkedAt": "2026-11-24T13:06:15.252Z",
    "changedAt": "2026-11-08T09:35:21.464Z"
   },
   {
@@ -236,9 +236,9 @@
    "status": 200,
    "error": "",
    "count": 0,
-   "hash": "03763cce65184572",
-   "checkedAt": "2026-11-24T02:41:54.592Z",
-   "changedAt": "2026-11-23T15:32:28.661Z"
+   "hash": "9094991ca9c7bf5f",
+   "checkedAt": "2026-11-24T13:06:15.252Z",
+   "changedAt": "2026-11-24T13:06:15.252Z"
   },
   {
    "key": "ctap",
@@ -251,7 +251,7 @@
    "error": "",
    "count": 125,
    "hash": "44ff34f0838ee74f",
-   "checkedAt": "2026-11-24T02:41:54.592Z",
+   "checkedAt": "2026-11-24T13:06:15.252Z",
    "changedAt": "2026-11-18T09:29:47.515Z"
   },
   {
@@ -265,7 +265,7 @@
    "error": "",
    "count": 0,
    "hash": "9a327c9e5613dad4",
-   "checkedAt": "2026-11-24T02:41:54.592Z",
+   "checkedAt": "2026-11-24T13:06:15.252Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -279,7 +279,7 @@
    "error": "",
    "count": 0,
    "hash": "626613e1de16f34b",
-   "checkedAt": "2026-11-24T02:41:54.592Z",
+   "checkedAt": "2026-11-24T13:06:15.252Z",
    "changedAt": "2026-11-23T15:32:28.661Z"
   },
   {
@@ -293,14 +293,14 @@
    "error": "",
    "count": 0,
    "hash": "4fc1e1b31acb3425",
-   "checkedAt": "2026-11-24T02:41:54.592Z",
+   "checkedAt": "2026-11-24T13:06:15.252Z",
    "changedAt": "2026-11-22T18:09:02.822Z"
   }
  ],
  "bopv": {
   "yy": "26",
-  "lastNumber": 224,
-  "lastDate": "2026-11-23",
+  "lastNumber": 225,
+  "lastDate": "2026-11-24",
   "filter": 2
  },
  "items": [
@@ -319,6 +319,187 @@
    "literal": "NOTA INFORMATIVA: Resultados pruebas fin de semana del 6 al 8 de noviembre - OPE 23-24-25",
    "summary": "Se informa a las personas aspirantes inscritas en el proceso selectivo de la OPE 2023-2024-2025 que, tras detectar diversos errores en los documentos iniciales, se ha publicado una nueva versión corregida de las baterías de preguntas para las siguientes categorías profesionales: Cirugía Oral y Maxilofacial Cirugía Torácica Cirugía General y Aparato Digestivo Enfermedades Infecciosas Los nuevos archivos ya se…",
    "url": "https://www.osakidetza.euskadi.eus/ope-2023-2024-2025/webosk00-procon/es/#:~:text=Se%20informa%20a%20las%20personas%20aspirantes%20inscritas"
+  },
+  {
+   "id": "jefaturas2026-13o0tmq",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Recurso de alzada",
+   "title": "Supervisor/a de Docencia, Formación Continuada y Calidad Asistencial · Declarada Desierta",
+   "org": "OSI Debabarrena",
+   "categories": [
+    "Supervisor/a de Docencia",
+    "Formación Continuada y Calidad Asistencial"
+   ],
+   "published": "2026-11-25",
+   "start": "2026-11-25",
+   "end": "2026-12-24",
+   "estimated": false,
+   "literal": "Plazo para presentar recursos de alzada: abierto desde el 25/11/2026 hasta el 24/12/2026, ambos inclusive.",
+   "summary": "SUPERVISOR/A DE DOCENCIA, FORMACIÓN CONTINUADA Y CALIDAD ASISTENCIAL - DECLARADA DESIERTA - OSI DEBABARRENA - Plazo para presentar recursos de alzada: abierto desde el 25/11/2026 hasta el 24/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/260828_L_DESIG_SUPERV_DOCENCIA_OSI_BAJO_DEBA_DESIER_DEF_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-1bkbzom",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Recurso de alzada",
+   "title": "Supervisor/a de la Unidad de Rehabilitación (Hospital de Leza) · Nombramiento",
+   "org": "OSI Rioja Alavesa",
+   "categories": [
+    "Supervisor/a de la Unidad de Rehabilitación"
+   ],
+   "published": "2026-11-25",
+   "start": "2026-11-25",
+   "end": "2026-12-24",
+   "estimated": false,
+   "literal": "Plazo para presentar recursos de alzada: abierto desde el 25/11/2026 hasta el 24/12/2026, ambos inclusive.",
+   "summary": "SUPERVISOR/A DE LA UNIDAD DE REHABILITACIÓN (HOSPITAL DE LEZA) - NOMBRAMIENTO - OSI RIOJA ALAVESA - Plazo para presentar recursos de alzada: abierto desde el 25/11/2026 hasta el 24/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/260918_L_DESIG_SUPERV_RHB_OSI_RIOJA_ALAVESA_NOMBR_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-1ejd5ua",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Recurso de alzada",
+   "title": "Adjunto/a de Enfermería para el Bloque Quirúrgico y Servicios Generales · Cese",
+   "org": "OSI Donostialdea",
+   "categories": [
+    "Adjunto/a de Enfermería para el Bloque Quirúrgico y Servicios Generales"
+   ],
+   "published": "2026-11-25",
+   "start": "2026-11-25",
+   "end": "2026-12-24",
+   "estimated": false,
+   "literal": "Plazo para presentar recursos de alzada: abierto desde el 25/11/2026 hasta el 24/12/2026, ambos inclusive.",
+   "summary": "ADJUNTO/A DE ENFERMERÍA PARA EL BLOQUE QUIRÚRGICO Y SERVICIOS GENERALES - OSI DONOSTIALDEA - CESE - Plazo para presentar recursos de alzada: abierto desde el 25/11/2026 hasta el 24/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/220124_L_DESIG_ADJ_ENF_OSI_DONOSTIALDEA_CESE_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-1pyuf29",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Solicitud / inscripción",
+   "title": "Secretario/a de Dirección (Dirección Gerencia)",
+   "org": "CVTTH",
+   "categories": [
+    "Secretario/a de Dirección"
+   ],
+   "published": "2026-11-25",
+   "start": "2026-11-25",
+   "end": "2026-12-16",
+   "estimated": false,
+   "literal": "Plazo de presentación de solicitudes: abierto desde el 25/11/2026 hasta el 16/12/2026, ambos inclusive.",
+   "summary": "SECRETARIO/A DE DIRECCIÓN (DIRECCIÓN GERENCIA) - CVTTH - Plazo de presentación de solicitudes: abierto desde el 25/11/2026 hasta el 16/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/261124_L_DESIG_SECRET_DIREC_CVTTH_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-30su17",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Recurso de alzada",
+   "title": "Jefe/a de Servicio de Administración y Gestión (Área de Mantenimiento) · Nombramiento",
+   "org": "OSI Barrualde-Galdakao",
+   "categories": [
+    "Jefe/a de Servicio de Administración y Gestión"
+   ],
+   "published": "2026-11-25",
+   "start": "2026-11-25",
+   "end": "2026-12-24",
+   "estimated": false,
+   "literal": "Plazo para presentar recursos de alzada: abierto desde el 25/11/2026 hasta el 24/12/2026, ambos inclusive.",
+   "summary": "JEFE/A DE SERVICIO DE ADMINISTRACIÓN Y GESTIÓN (ÁREA DE MANTENIMIENTO) - NOMBRAMIENTO - OSI BARRUALDE-GALDAKAO - Plazo para presentar recursos de alzada: abierto desde el 25/11/2026 hasta el 24/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/260911_L_DESIG_J_SERV_MANTENI_OSI_BARRUALDE_GALDAKAO_NOMBR_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-4jsyp1",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Alegaciones",
+   "title": "Jefe/a de Servicio de Medicina Nuclear · Lista Provisional",
+   "org": "OSI Donostialdea",
+   "categories": [
+    "Jefe/a de Servicio de Medicina Nuclear"
+   ],
+   "published": "2026-11-25",
+   "start": "2026-11-25",
+   "end": "2026-12-09",
+   "estimated": false,
+   "literal": "Plazo para presentar alegaciones: abierto desde el 25/11/2026 hasta el 09/12/2026, ambos inclusive.",
+   "summary": "JEFE/A DE SERVICIO DE MEDICINA NUCLEAR - OSI DONOSTIALDEA - Lista Provisional - Plazo para presentar alegaciones: abierto desde el 25/11/2026 hasta el 09/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/261022_CONC_J_SERV_MED_NUCL_OSI_DONOSTIALDEA_L_PROV_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-cni0vg",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Recurso de alzada",
+   "title": "Subdirector/a Médico Quirúrgico · Cese",
+   "org": "OSI Donostialdea",
+   "categories": [
+    "Subdirector/a Médico Quirúrgico"
+   ],
+   "published": "2026-11-25",
+   "start": "2026-11-25",
+   "end": "2026-12-24",
+   "estimated": false,
+   "literal": "Plazo para presentar recursos de alzada: abierto desde el 25/11/2026 hasta el 24/12/2026, ambos inclusive.",
+   "summary": "SUBDIRECTOR/A MÉDICO QUIRÚRGICO - OSI DONOSTIALDEA - CESE - Plazo para presentar recursos de alzada: abierto desde el 25/11/2026 hasta el 24/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/240130_L_DESIG_SUBDIREC_MED_MEDICO_OSI_DONOSTIALDEA_CESE_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-cojxqn",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Recurso de alzada",
+   "title": "Jefe/a de Servicio de Urología · Nombramiento",
+   "org": "OSI Donostialdea",
+   "categories": [
+    "Jefe/a de Servicio de Urología"
+   ],
+   "published": "2026-11-25",
+   "start": "2026-11-25",
+   "end": "2026-12-24",
+   "estimated": false,
+   "literal": "Plazo para presentar recursos de alzada: abierto desde el 25/11/2026 hasta el 24/12/2026, ambos inclusive.",
+   "summary": "JEFE/A DE SERVICIO DE UROLOGÍA - NOMBRAMIENTO - OSI DONOSTIALDEA - Plazo para presentar recursos de alzada: abierto desde el 25/11/2026 hasta el 24/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/260423_CONC_J_SERV_URO_OSI_DONOSTIALDEA_NOMBR_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-la0m9k",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Alegaciones",
+   "title": "Jefe/a de Servicio de Anatomía Patológica · Lista Provisional",
+   "org": "OSI Donostialdea",
+   "categories": [
+    "Jefe/a de Servicio de Anatomía Patológica"
+   ],
+   "published": "2026-11-25",
+   "start": "2026-11-25",
+   "end": "2026-12-09",
+   "estimated": false,
+   "literal": "Plazo para presentar alegaciones: abierto desde el 25/11/2026 hasta el 09/12/2026, ambos inclusive.",
+   "summary": "JEFE/A DE SERVICIO DE ANATOMÍA PATOLÓGICA - OSI DONOSTIALDEA - Lista Provisional - Plazo para presentar alegaciones: abierto desde el 25/11/2026 hasta el 09/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/261022_CONC_J_SERV_ANAT_PATOL_OSI_DONOSTIALDEA_L_PROV_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-wk7m0h",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Recurso de alzada",
+   "title": "Jefe/a de Servicio Sanitario de Medicina Nuclear · Nombramiento",
+   "org": "OSI Ezkerraldea-Enkarterri-Cruces",
+   "categories": [
+    "Jefe/a de Servicio Sanitario de Medicina Nuclear"
+   ],
+   "published": "2026-11-25",
+   "start": "2026-11-25",
+   "end": "2026-12-24",
+   "estimated": false,
+   "literal": "Plazo para presentar recursos de alzada: abierto desde el 25/11/2026 hasta el 24/12/2026, ambos inclusive.",
+   "summary": "JEFE/A DE SERVICIO SANITARIO DE MEDICINA NUCLEAR - NOMBRAMIENTO - OSI EZKERRALDEA-ENKARTERRI-CRUCES - Plazo para presentar recursos de alzada: abierto desde el 25/11/2026 hasta el 24/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/260624_CONC_J_SERV_MED_NUCL_OSI_EZ_EN_CRUCES_NOMBR_a.pdf"
   },
   {
    "id": "jefaturas2026-1dmvrmo",
@@ -373,6 +554,28 @@
    "literal": "Plazo para presentar recursos de alzada: abierto desde el 24/11/2026 hasta el 23/12/2026, ambos inclusive.",
    "summary": "JEFE/A DE SERVICIO SANITARIO DE CARDIOLOGÍA - OSI EZKERRALDEA-ENKARTERRI-CRUCES - Lista Definitiva/Comisión de valoración - Plazo para presentar recursos de alzada: abierto desde el 24/11/2026 hasta el 23/12/2026, ambos inclusive.",
    "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/260907_CONC_J_SERV_CARDIO_OSI_EZ_EN_CRUCES_L_DEF_COM_VALOR_a.pdf"
+  },
+  {
+   "id": "temporal-btzvbu",
+   "src": "temporal",
+   "process": "Listas de contratación temporal",
+   "kind": "Recurso de alzada",
+   "title": "Publicación Listas Definitivas",
+   "org": "",
+   "categories": [
+    "FEM Farmacología Clínica"
+   ],
+   "published": "2026-11-24",
+   "start": "2026-11-24",
+   "end": "2026-12-24",
+   "estimated": false,
+   "literal": "Plazo para interponer recurso de alzada hasta el 24 de diciembre de 2026, inclusive.",
+   "summary": "Hoy, 24 de noviembre de 2026, está prevista la publicación de las Listas definitivas de contratación temporal de la siguiente categoría/puesto funcional: FEM FARMACOLOGÍA CLÍNICA Plazo para interponer recurso de alzada hasta el 24 de diciembre de 2026, inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/contratacion-temporal/webosk00-procon/es/#:~:text=Hoy%2C%2024%20de%20noviembre%20de%202026%2C%20est%C3%A1",
+   "altUrl": "https://lanpoltsa.osakidetza.eus/c28/avisos-generales",
+   "aliases": [
+    "lanpoltsa-4539"
+   ]
   },
   {
    "id": "comisiones2026-103ymsp",
