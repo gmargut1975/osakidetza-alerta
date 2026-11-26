@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checkedAt": "2026-11-26T00:35:28.372Z",
+ "checkedAt": "2026-11-26T09:01:55.571Z",
  "sources": [
   {
    "key": "comisiones2026",
@@ -13,7 +13,7 @@
    "error": "",
    "count": 171,
    "hash": "c4166b9b98c3346a",
-   "checkedAt": "2026-11-26T00:35:28.372Z",
+   "checkedAt": "2026-11-26T09:01:55.571Z",
    "changedAt": "2026-11-24T23:09:24.733Z"
   },
   {
@@ -27,7 +27,7 @@
    "error": "",
    "count": 132,
    "hash": "77f324c1858c86af",
-   "checkedAt": "2026-11-26T00:35:28.372Z",
+   "checkedAt": "2026-11-26T09:01:55.571Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -41,7 +41,7 @@
    "error": "",
    "count": 543,
    "hash": "e3e0498b5cdc40b4",
-   "checkedAt": "2026-11-26T00:35:28.372Z",
+   "checkedAt": "2026-11-26T09:01:55.571Z",
    "changedAt": "2026-11-25T16:29:54.640Z"
   },
   {
@@ -55,7 +55,7 @@
    "error": "",
    "count": 479,
    "hash": "66143b22347640ab",
-   "checkedAt": "2026-11-26T00:35:28.372Z",
+   "checkedAt": "2026-11-26T09:01:55.571Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -69,7 +69,7 @@
    "error": "",
    "count": 30,
    "hash": "eb07d21ecb1d9061",
-   "checkedAt": "2026-11-26T00:35:28.372Z",
+   "checkedAt": "2026-11-26T09:01:55.571Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -83,7 +83,7 @@
    "error": "",
    "count": 54,
    "hash": "a304df315c59aa2c",
-   "checkedAt": "2026-11-26T00:35:28.372Z",
+   "checkedAt": "2026-11-26T09:01:55.571Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -97,7 +97,7 @@
    "error": "",
    "count": 85,
    "hash": "93aa3d98e8c87c5f",
-   "checkedAt": "2026-11-26T00:35:28.372Z",
+   "checkedAt": "2026-11-26T09:01:55.571Z",
    "changedAt": "2026-11-24T13:06:15.252Z"
   },
   {
@@ -111,7 +111,7 @@
    "error": "",
    "count": 269,
    "hash": "1dd6bc4d333186ec",
-   "checkedAt": "2026-11-26T00:35:28.372Z",
+   "checkedAt": "2026-11-26T09:01:55.571Z",
    "changedAt": "2026-11-24T13:06:15.252Z"
   },
   {
@@ -125,7 +125,7 @@
    "error": "",
    "count": 20,
    "hash": "55b03c773672a820",
-   "checkedAt": "2026-11-26T00:35:28.372Z",
+   "checkedAt": "2026-11-26T09:01:55.571Z",
    "changedAt": "2026-11-23T15:32:28.661Z"
   },
   {
@@ -139,7 +139,7 @@
    "error": "",
    "count": 83,
    "hash": "a6baac4fb1fc60c0",
-   "checkedAt": "2026-11-26T00:35:28.372Z",
+   "checkedAt": "2026-11-26T09:01:55.571Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -153,7 +153,7 @@
    "error": "",
    "count": 164,
    "hash": "6f0586c40b65c8fe",
-   "checkedAt": "2026-11-26T00:35:28.372Z",
+   "checkedAt": "2026-11-26T09:01:55.571Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -167,7 +167,7 @@
    "error": "",
    "count": 21,
    "hash": "ff9210a812239484",
-   "checkedAt": "2026-11-26T00:35:28.372Z",
+   "checkedAt": "2026-11-26T09:01:55.571Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -181,7 +181,7 @@
    "error": "",
    "count": 3,
    "hash": "3ff1c551e57dff5d",
-   "checkedAt": "2026-11-26T00:35:28.372Z",
+   "checkedAt": "2026-11-26T09:01:55.571Z",
    "changedAt": "2026-10-28T14:42:46.786Z"
   },
   {
@@ -195,7 +195,7 @@
    "error": "",
    "count": 0,
    "hash": "c4971aba58479f1e",
-   "checkedAt": "2026-11-26T00:35:28.372Z",
+   "checkedAt": "2026-11-26T09:01:55.571Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -208,9 +208,9 @@
    "status": 200,
    "error": "",
    "count": 39,
-   "hash": "2dafd4eaea124e05",
-   "checkedAt": "2026-11-26T00:35:28.372Z",
-   "changedAt": "2026-11-08T09:35:21.464Z"
+   "hash": "c6e060ded05ace00",
+   "checkedAt": "2026-11-26T09:01:55.571Z",
+   "changedAt": "2026-11-26T09:01:55.571Z"
   },
   {
    "key": "habe",
@@ -223,7 +223,7 @@
    "error": "",
    "count": 44,
    "hash": "2ea49bf0eb25d87f",
-   "checkedAt": "2026-11-26T00:35:28.372Z",
+   "checkedAt": "2026-11-26T09:01:55.571Z",
    "changedAt": "2026-11-08T09:35:21.464Z"
   },
   {
@@ -235,10 +235,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 0,
-   "hash": "779e9c635c45d467",
-   "checkedAt": "2026-11-26T00:35:28.372Z",
-   "changedAt": "2026-11-25T16:29:54.640Z"
+   "count": 1,
+   "hash": "07d6a9f9f2fc5057",
+   "checkedAt": "2026-11-26T09:01:55.571Z",
+   "changedAt": "2026-11-26T09:01:55.571Z"
   },
   {
    "key": "ctap",
@@ -251,7 +251,7 @@
    "error": "",
    "count": 125,
    "hash": "44ff34f0838ee74f",
-   "checkedAt": "2026-11-26T00:35:28.372Z",
+   "checkedAt": "2026-11-26T09:01:55.571Z",
    "changedAt": "2026-11-18T09:29:47.515Z"
   },
   {
@@ -265,7 +265,7 @@
    "error": "",
    "count": 0,
    "hash": "9a327c9e5613dad4",
-   "checkedAt": "2026-11-26T00:35:28.372Z",
+   "checkedAt": "2026-11-26T09:01:55.571Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -279,7 +279,7 @@
    "error": "",
    "count": 0,
    "hash": "626613e1de16f34b",
-   "checkedAt": "2026-11-26T00:35:28.372Z",
+   "checkedAt": "2026-11-26T09:01:55.571Z",
    "changedAt": "2026-11-23T15:32:28.661Z"
   },
   {
@@ -293,14 +293,14 @@
    "error": "",
    "count": 0,
    "hash": "4fc1e1b31acb3425",
-   "checkedAt": "2026-11-26T00:35:28.372Z",
+   "checkedAt": "2026-11-26T09:01:55.571Z",
    "changedAt": "2026-11-22T18:09:02.822Z"
   }
  ],
  "bopv": {
   "yy": "26",
-  "lastNumber": 226,
-  "lastDate": "2026-11-25",
+  "lastNumber": 227,
+  "lastDate": "2026-11-26",
   "filter": 2
  },
  "items": [
@@ -319,6 +319,24 @@
    "literal": "NOTA INFORMATIVA: Resultados pruebas fin de semana del 6 al 8 de noviembre - OPE 23-24-25",
    "summary": "Se informa a las personas aspirantes inscritas en el proceso selectivo de la OPE 2023-2024-2025 que, tras detectar diversos errores en los documentos iniciales, se ha publicado una nueva versión corregida de las baterías de preguntas para las siguientes categorías profesionales: Cirugía Oral y Maxilofacial Cirugía Torácica Cirugía General y Aparato Digestivo Enfermedades Infecciosas Los nuevos archivos ya se…",
    "url": "https://www.osakidetza.euskadi.eus/ope-2023-2024-2025/webosk00-procon/es/#:~:text=Se%20informa%20a%20las%20personas%20aspirantes%20inscritas"
+  },
+  {
+   "id": "bopv-1gt05we",
+   "src": "bopv",
+   "process": "OPE (BOPV)",
+   "kind": "Publicación",
+   "title": "Nombramiento como personal estatutario fijo (Resolución 1877/2026)",
+   "org": "",
+   "categories": [
+    "Conductor/a vehículos emergencias"
+   ],
+   "published": "2026-11-26",
+   "start": "",
+   "end": "",
+   "estimated": false,
+   "literal": "",
+   "summary": "RESOLUCIÓN 1877/2026, de 16 de noviembre, de la directora general de Osakidetza-Servicio vasco de salud, por la que se procede a la publicación del nombramiento como personal estatutario fijo en la categoría de oficial/a (puesto funcional de conductor/a vehículos emergencias) con destino en las organizaciones de servicios de Osakidetza-Servicio vasco de salud.",
+   "url": "https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2026/11/2605055a.shtml"
   },
   {
    "id": "jefaturas2026-1mtiruq",
@@ -7564,7 +7582,7 @@
    "start": "2026-11-26",
    "end": "2026-11-26",
    "estimated": false,
-   "literal": "Prueba oral · Fechas, lugares y horarios: Estarán visibles en Azternet desde el 26 de noviembre",
+   "literal": "Prueba oral · Fechas, lugares y horarios: Están visibles en Azternet desde el 26 de noviembre",
    "summary": "Convocatoria 2026-2 de acreditación de perfiles lingüísticos del IVAP (personal del sector público vasco, incluido Osakidetza). Inscripción y resultados en Azternet.",
    "url": "https://www.ivap.euskadi.eus/convocatoria-2026-2/webivap00-a3hedei/es/"
   },
@@ -7583,7 +7601,7 @@
    "start": "2026-11-26",
    "end": "2026-11-26",
    "estimated": false,
-   "literal": "Prueba oral · Convocatoria a examen oral: Estará visible en Azternet desde el 26 de noviembre",
+   "literal": "Prueba oral · Convocatoria a examen oral: Está visible en Azternet desde el 26 de noviembre",
    "summary": "Convocatoria 2026-2 de acreditación de perfiles lingüísticos del IVAP (personal del sector público vasco, incluido Osakidetza). Inscripción y resultados en Azternet.",
    "url": "https://www.ivap.euskadi.eus/convocatoria-2026-2/webivap00-a3hedei/es/"
   },
@@ -7678,7 +7696,7 @@
    "start": "2026-11-26",
    "end": "2026-11-26",
    "estimated": false,
-   "literal": "Prueba escrita · Resultados prueba escrita: Estarán visibles en Azternet desde el 26 de noviembre",
+   "literal": "Prueba escrita · Resultados prueba escrita: Están visibles en Azternet desde el 26 de noviembre",
    "summary": "Convocatoria 2026-2 de acreditación de perfiles lingüísticos del IVAP (personal del sector público vasco, incluido Osakidetza). Inscripción y resultados en Azternet.",
    "url": "https://www.ivap.euskadi.eus/convocatoria-2026-2/webivap00-a3hedei/es/"
   },
@@ -7732,10 +7750,10 @@
     "Perfil lingüístico"
    ],
    "published": "2026-09-04",
-   "start": "2026-12-09",
+   "start": "2026-12-10",
    "end": "2026-12-11",
    "estimated": false,
-   "literal": "Prueba oral · Se realizará en los tres territorios, los días 9, 10 y 11 de diciembre (*)",
+   "literal": "Prueba oral · Se realizará en los tres territorios, los días 10 y 11 de diciembre",
    "summary": "Convocatoria 2026-2 de acreditación de perfiles lingüísticos del IVAP (personal del sector público vasco, incluido Osakidetza). Inscripción y resultados en Azternet.",
    "url": "https://www.ivap.euskadi.eus/convocatoria-2026-2/webivap00-a3hedei/es/"
   },
