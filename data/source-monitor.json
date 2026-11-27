@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checkedAt": "2026-11-27T02:19:33.719Z",
+ "checkedAt": "2026-11-27T11:05:23.558Z",
  "sources": [
   {
    "key": "comisiones2026",
@@ -13,7 +13,7 @@
    "error": "",
    "count": 172,
    "hash": "c68c05bdec6925ef",
-   "checkedAt": "2026-11-27T02:19:33.719Z",
+   "checkedAt": "2026-11-27T11:05:23.558Z",
    "changedAt": "2026-11-26T19:11:08.403Z"
   },
   {
@@ -27,7 +27,7 @@
    "error": "",
    "count": 132,
    "hash": "77f324c1858c86af",
-   "checkedAt": "2026-11-27T02:19:33.719Z",
+   "checkedAt": "2026-11-27T11:05:23.558Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -39,10 +39,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 544,
-   "hash": "f7b64e2b71fd16b6",
-   "checkedAt": "2026-11-27T02:19:33.719Z",
-   "changedAt": "2026-11-26T19:11:08.403Z"
+   "count": 549,
+   "hash": "cee8f00b0d40483f",
+   "checkedAt": "2026-11-27T11:05:23.558Z",
+   "changedAt": "2026-11-27T11:05:23.558Z"
   },
   {
    "key": "jefaturas2025",
@@ -55,7 +55,7 @@
    "error": "",
    "count": 479,
    "hash": "66143b22347640ab",
-   "checkedAt": "2026-11-27T02:19:33.719Z",
+   "checkedAt": "2026-11-27T11:05:23.558Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -69,7 +69,7 @@
    "error": "",
    "count": 30,
    "hash": "eb07d21ecb1d9061",
-   "checkedAt": "2026-11-27T02:19:33.719Z",
+   "checkedAt": "2026-11-27T11:05:23.558Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -83,7 +83,7 @@
    "error": "",
    "count": 54,
    "hash": "a304df315c59aa2c",
-   "checkedAt": "2026-11-27T02:19:33.719Z",
+   "checkedAt": "2026-11-27T11:05:23.558Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -97,7 +97,7 @@
    "error": "",
    "count": 85,
    "hash": "93aa3d98e8c87c5f",
-   "checkedAt": "2026-11-27T02:19:33.719Z",
+   "checkedAt": "2026-11-27T11:05:23.558Z",
    "changedAt": "2026-11-24T13:06:15.252Z"
   },
   {
@@ -111,7 +111,7 @@
    "error": "",
    "count": 269,
    "hash": "1dd6bc4d333186ec",
-   "checkedAt": "2026-11-27T02:19:33.719Z",
+   "checkedAt": "2026-11-27T11:05:23.558Z",
    "changedAt": "2026-11-24T13:06:15.252Z"
   },
   {
@@ -125,7 +125,7 @@
    "error": "",
    "count": 20,
    "hash": "55b03c773672a820",
-   "checkedAt": "2026-11-27T02:19:33.719Z",
+   "checkedAt": "2026-11-27T11:05:23.558Z",
    "changedAt": "2026-11-23T15:32:28.661Z"
   },
   {
@@ -139,7 +139,7 @@
    "error": "",
    "count": 83,
    "hash": "a6baac4fb1fc60c0",
-   "checkedAt": "2026-11-27T02:19:33.719Z",
+   "checkedAt": "2026-11-27T11:05:23.558Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -153,7 +153,7 @@
    "error": "",
    "count": 164,
    "hash": "6f0586c40b65c8fe",
-   "checkedAt": "2026-11-27T02:19:33.719Z",
+   "checkedAt": "2026-11-27T11:05:23.558Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -167,7 +167,7 @@
    "error": "",
    "count": 21,
    "hash": "ff9210a812239484",
-   "checkedAt": "2026-11-27T02:19:33.719Z",
+   "checkedAt": "2026-11-27T11:05:23.558Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -181,7 +181,7 @@
    "error": "",
    "count": 3,
    "hash": "3ff1c551e57dff5d",
-   "checkedAt": "2026-11-27T02:19:33.719Z",
+   "checkedAt": "2026-11-27T11:05:23.558Z",
    "changedAt": "2026-10-28T14:42:46.786Z"
   },
   {
@@ -195,7 +195,7 @@
    "error": "",
    "count": 0,
    "hash": "c4971aba58479f1e",
-   "checkedAt": "2026-11-27T02:19:33.719Z",
+   "checkedAt": "2026-11-27T11:05:23.558Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -209,7 +209,7 @@
    "error": "",
    "count": 39,
    "hash": "c6e060ded05ace00",
-   "checkedAt": "2026-11-27T02:19:33.719Z",
+   "checkedAt": "2026-11-27T11:05:23.558Z",
    "changedAt": "2026-11-26T09:01:55.571Z"
   },
   {
@@ -223,7 +223,7 @@
    "error": "",
    "count": 44,
    "hash": "2ea49bf0eb25d87f",
-   "checkedAt": "2026-11-27T02:19:33.719Z",
+   "checkedAt": "2026-11-27T11:05:23.558Z",
    "changedAt": "2026-11-08T09:35:21.464Z"
   },
   {
@@ -235,10 +235,10 @@
    "ok": true,
    "status": 200,
    "error": "",
-   "count": 0,
-   "hash": "07d6a9f9f2fc5057",
-   "checkedAt": "2026-11-27T02:19:33.719Z",
-   "changedAt": "2026-11-26T09:01:55.571Z"
+   "count": 1,
+   "hash": "f73be33c74ec4887",
+   "checkedAt": "2026-11-27T11:05:23.558Z",
+   "changedAt": "2026-11-27T11:05:23.558Z"
   },
   {
    "key": "ctap",
@@ -251,7 +251,7 @@
    "error": "",
    "count": 125,
    "hash": "44ff34f0838ee74f",
-   "checkedAt": "2026-11-27T02:19:33.719Z",
+   "checkedAt": "2026-11-27T11:05:23.558Z",
    "changedAt": "2026-11-18T09:29:47.515Z"
   },
   {
@@ -265,7 +265,7 @@
    "error": "",
    "count": 0,
    "hash": "9a327c9e5613dad4",
-   "checkedAt": "2026-11-27T02:19:33.719Z",
+   "checkedAt": "2026-11-27T11:05:23.558Z",
    "changedAt": "2026-10-23T10:17:45.441Z"
   },
   {
@@ -279,7 +279,7 @@
    "error": "",
    "count": 0,
    "hash": "626613e1de16f34b",
-   "checkedAt": "2026-11-27T02:19:33.719Z",
+   "checkedAt": "2026-11-27T11:05:23.558Z",
    "changedAt": "2026-11-23T15:32:28.661Z"
   },
   {
@@ -293,14 +293,14 @@
    "error": "",
    "count": 0,
    "hash": "4fc1e1b31acb3425",
-   "checkedAt": "2026-11-27T02:19:33.719Z",
+   "checkedAt": "2026-11-27T11:05:23.558Z",
    "changedAt": "2026-11-22T18:09:02.822Z"
   }
  ],
  "bopv": {
   "yy": "26",
-  "lastNumber": 227,
-  "lastDate": "2026-11-26",
+  "lastNumber": 228,
+  "lastDate": "2026-11-27",
   "filter": 2
  },
  "items": [
@@ -319,6 +319,114 @@
    "literal": "NOTA INFORMATIVA: Resultados pruebas fin de semana del 6 al 8 de noviembre - OPE 23-24-25",
    "summary": "Se informa a las personas aspirantes inscritas en el proceso selectivo de la OPE 2023-2024-2025 que, tras detectar diversos errores en los documentos iniciales, se ha publicado una nueva versión corregida de las baterías de preguntas para las siguientes categorías profesionales: Cirugía Oral y Maxilofacial Cirugía Torácica Cirugía General y Aparato Digestivo Enfermedades Infecciosas Los nuevos archivos ya se…",
    "url": "https://www.osakidetza.euskadi.eus/ope-2023-2024-2025/webosk00-procon/es/#:~:text=Se%20informa%20a%20las%20personas%20aspirantes%20inscritas"
+  },
+  {
+   "id": "jefaturas2026-fj37oh",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Alegaciones",
+   "title": "Jefe/a de Servicio Sanitario de Oftalmología · Lista Provisional",
+   "org": "OSI Ezkerraldea-Enkarterri-Cruces",
+   "categories": [
+    "Jefe/a de Servicio Sanitario de Oftalmología"
+   ],
+   "published": "2026-11-30",
+   "start": "2026-11-30",
+   "end": "2026-12-14",
+   "estimated": false,
+   "literal": "Plazo para presentar alegaciones: abierto desde el 30/11/2026 hasta el 14/12/2026, ambos inclusive.",
+   "summary": "JEFE/A DE SERVICIO SANITARIO DE OFTALMOLOGÍA - OSI EZKERRALDEA-ENKARTERRI-CRUCES - Lista Provisional - Plazo para presentar alegaciones: abierto desde el 30/11/2026 hasta el 14/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/261019_CONC_J_SERV_OFL_OSI_EZ_EN_CRUCES_L_PROV_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-1suv7qc",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Recurso de alzada",
+   "title": "Encargado/a de Celadores/as (General) · Nombramiento",
+   "org": "OSI Barrualde-Galdakao",
+   "categories": [
+    "Encargado/a de Celadores/as"
+   ],
+   "published": "2026-11-28",
+   "start": "2026-11-28",
+   "end": "2026-12-28",
+   "estimated": false,
+   "literal": "Plazo para presentar recursos de alzada: abierto desde el 28/11/2026 hasta el 28/12/2026, ambos inclusive.",
+   "summary": "ENCARGADO/A DE CELADORES/AS (GENERAL) - NOMBRAMIENTO - OSI BARRUALDE-GALDAKAO - Plazo para presentar recursos de alzada: abierto desde el 28/11/2026 hasta el 28/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/261019_L_DESIG_ENC_CELADORES_OSI_BARRUALDE_GALDAKAO_NOMBR_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-1vmmnyo",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Recurso de alzada",
+   "title": "Subdirector/a de Enfermería Hospital (Escuela Universitaria de Enfermería - Vitoria-Gasteiz) · Nombramiento",
+   "org": "Dirección General",
+   "categories": [
+    "Subdirector/a de Enfermería Hospital"
+   ],
+   "published": "2026-11-28",
+   "start": "2026-11-28",
+   "end": "2026-12-28",
+   "estimated": false,
+   "literal": "Plazo para presentar recursos de alzada: abierto desde el 28/11/2026 hasta el 28/12/2026, ambos inclusive.",
+   "summary": "SUBDIRECTOR/A DE ENFERMERÍA HOSPITAL (ESCUELA UNIVERSITARIA DE ENFERMERÍA - VITORIA-GASTEIZ) - NOMBRAMIENTO - DIRECCIÓN GENERAL - Plazo para presentar recursos de alzada: abierto desde el 28/11/2026 hasta el 28/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/260924_L_DESIG_SUBDIREC_ENF_EUE_DIR_RRHH_NOMBR_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-igmdwm",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Recurso de alzada",
+   "title": "Jefe/a de Unidad de Salud Mental del Centro de Salud Mental de Adultos de Bombero Etxaniz · Lista Definitiva/Comisión de valoración",
+   "org": "Red de Salud Mental de Bizkaia",
+   "categories": [
+    "Jefe/a de Unidad de Salud Mental del Centro de Salud Mental de Adultos de Bombero Etxaniz"
+   ],
+   "published": "2026-11-28",
+   "start": "2026-11-28",
+   "end": "2026-12-28",
+   "estimated": false,
+   "literal": "Plazo para presentar recursos de alzada: abierto desde el 28/11/2026 hasta el 28/12/2026, ambos inclusive.",
+   "summary": "JEFE/A DE UNIDAD DE SALUD MENTAL DEL CENTRO DE SALUD MENTAL DE ADULTOS DE BOMBERO ETXANIZ - RED DE SALUD MENTAL DE BIZKAIA - Lista Definitiva/Comisión de valoración - Plazo para presentar recursos de alzada: abierto desde el 28/11/2026 hasta el 28/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/260925_CONC_J_UNID_SALUD_MENT_RSMB_L_DEF_COM_VALOR_a.pdf"
+  },
+  {
+   "id": "jefaturas2026-k2b1n3",
+   "src": "jefaturas2026",
+   "process": "Jefaturas (concurso de méritos)",
+   "kind": "Recurso de alzada",
+   "title": "Secretario/a Académico/a (Escuela Universitaria de Enfermería - Vitoria-Gasteiz) · Nombramiento",
+   "org": "Dirección General",
+   "categories": [
+    "Secretario/a Académico/a"
+   ],
+   "published": "2026-11-28",
+   "start": "2026-11-28",
+   "end": "2026-12-28",
+   "estimated": false,
+   "literal": "Plazo para presentar recursos de alzada: abierto desde el 28/11/2026 hasta el 28/12/2026, ambos inclusive.",
+   "summary": "SECRETARIO/A ACADÉMICO/A (ESCUELA UNIVERSITARIA DE ENFERMERÍA - VITORIA-GASTEIZ) - NOMBRAMIENTO - DIRECCIÓN GENERAL - Plazo para presentar recursos de alzada: abierto desde el 28/11/2026 hasta el 28/12/2026, ambos inclusive.",
+   "url": "https://www.osakidetza.euskadi.eus/convocatorias-jefaturas-2026/webosk00-procon/es/adjuntos/260924_L_DESIG_SECRET_EUE_DIR_RRHH_NOMBR_a.pdf"
+  },
+  {
+   "id": "bopv-8ck5z0",
+   "src": "bopv",
+   "process": "OPE 2023-2024-2025",
+   "kind": "Publicación",
+   "title": "Nombramiento del tribunal calificador (Resolución 1900/2026)",
+   "org": "",
+   "categories": [
+    "Matrón/a"
+   ],
+   "published": "2026-11-27",
+   "start": "",
+   "end": "",
+   "estimated": false,
+   "literal": "",
+   "summary": "RESOLUCIÓN 1900/2026, de 18 de noviembre, de la directora general de Osakidetza-Servicio vasco de salud, de habilitación temporal en funciones de presidente/a del tribunal calificador de las pruebas selectivas para el acceso a la condición de personal estatutario en la categoría de matrón/a del grupo profesional de diplomados/as sanitarios/as con destino en las organizaciones de servicios sanitarios de…",
+   "url": "https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2026/11/2605084a.shtml"
   },
   {
    "id": "comisiones2026-nyqqfs",
